@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "POLS0113: Judicial Politics"
+  sidebar:
+    style: "floating"
+    search: true
+    contents: auto
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
