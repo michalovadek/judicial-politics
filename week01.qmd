@@ -1,0 +1,23 @@
+---
+title: "1: Reasons for Courts"
+---
+
+What are courts and what is their purpose in society and politics? Mohr defines courts as
+
+> a family of passive governmental institutions one of whose prominent functions is the settlement of disputes, distinguished from other governmental institutions by a commitment to decide impartially, after presentation of proofs and arguments by contending parties, and to be able to justify decisions according to pre-existing rule.[^1]
+
+[^1]: Mohr, Lawrence B. "Organizations, decisions, and courts." *Law & Society Review* 10, no. 4 (1976): 621-642, p. 623.
+
+In this session we reflect on the intended functions of courts in societies, common typologies of courts and why they are relevant for the study of politics.
+
+## Mandatory readings
+
+...
+
+## Optional readings
+
+Epstein, Lee, Olga Shvetsova, and Jack Knight. "The role of constitutional courts in the establishment and maintenance of democratic systems of government." *Law & Society Review* 35, no. 1 (2001): 117-163.
+
+Mohr, Lawrence B. "Organizations, decisions, and courts." *Law & Society Review* 10, no. 4 (1976): 621-642.
+
+Frank, Jerome. "What Courts Do in Fact." *Illinois Law Review* 26, no. 6 (1931): 645-666.

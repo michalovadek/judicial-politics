@@ -1,19 +1,33 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
 
 website:
   title: "POLS0113: Judicial Politics"
+  page-navigation: true
+  page-footer: 
+    border: true
+    right: "Website by Michal Ovádek, built with Quarto"
   sidebar:
     style: "floating"
     search: true
-    contents: auto
+    contents:
+      - text: "Overview"
+        href: index.qmd
+      - "assessment.qmd"
+      - section: Weeks
+        contents: 
+          auto: "week*.qmd"
+
+execute:
+  echo: false
 
 format:
   html:
-    theme: cosmo
+    theme: superhero
     css: styles.css
     toc: true
 
-editor: visual
-
+editor: source

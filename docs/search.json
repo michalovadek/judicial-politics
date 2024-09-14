@@ -4,13 +4,324 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Website for the upcoming UCL module POLS0113: Judicial Politics"
+    "text": "Website for the upcoming UCL module POLS0113: Judicial Politics\nGlobal var:",
+    "crumbs": [
+      "About"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "web",
+    "title": "POLS0113: Judicial Politics",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a website for the module POLS0113: Judicial Politics convened at the Department of Political Science, University College London by Dr Michal Ovádek.",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "index.html#module-overview",
+    "href": "index.html#module-overview",
+    "title": "POLS0113: Judicial Politics",
+    "section": "Module Overview",
+    "text": "Module Overview\ndescription"
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "POLS0113: Judicial Politics",
+    "section": "Schedule",
+    "text": "Schedule"
+  },
+  {
+    "objectID": "week9.html",
+    "href": "week9.html",
+    "title": "9: Courts and Media",
+    "section": "",
+    "text": "Week 1 contents",
+    "crumbs": [
+      "9: Courts and Media"
+    ]
+  },
+  {
+    "objectID": "week8.html",
+    "href": "week8.html",
+    "title": "8: Courts and Public Support",
+    "section": "",
+    "text": "Week 1 contents",
+    "crumbs": [
+      "8: Courts and Public Support"
+    ]
+  },
+  {
+    "objectID": "week6.html",
+    "href": "week6.html",
+    "title": "6: Courts, Executives and Legislatures",
+    "section": "",
+    "text": "Week 1 contents",
+    "crumbs": [
+      "6: Courts, Executives and Legislatures"
+    ]
+  },
+  {
+    "objectID": "week4.html",
+    "href": "week4.html",
+    "title": "4: Judicial Power and Independence",
+    "section": "",
+    "text": "Week 1 contents",
+    "crumbs": [
+      "4: Judicial Power and Independence"
+    ]
+  },
+  {
+    "objectID": "week2.html",
+    "href": "week2.html",
+    "title": "2: Theories of Judicial Behaviour",
+    "section": "",
+    "text": "Week 1 contents",
+    "crumbs": [
+      "2: Theories of Judicial Behaviour"
+    ]
+  },
+  {
+    "objectID": "week1.html",
+    "href": "week1.html",
+    "title": "1: Reasons for Courts",
+    "section": "",
+    "text": "Week 1 contents",
+    "crumbs": [
+      "1: Reasons for Courts"
+    ]
+  },
+  {
+    "objectID": "week10.html",
+    "href": "week10.html",
+    "title": "10: Backlash and Legitimacy",
+    "section": "",
+    "text": "Week 1 contents",
+    "crumbs": [
+      "10: Backlash and Legitimacy"
+    ]
+  },
+  {
+    "objectID": "week3.html",
+    "href": "week3.html",
+    "title": "3: Judicialization and Politicization",
+    "section": "",
+    "text": "Week 1 contents",
+    "crumbs": [
+      "3: Judicialization and Politicization"
+    ]
+  },
+  {
+    "objectID": "week5.html",
+    "href": "week5.html",
+    "title": "5: Appointing and Monitoring Judges",
+    "section": "",
+    "text": "Week 1 contents",
+    "crumbs": [
+      "5: Appointing and Monitoring Judges"
+    ]
+  },
+  {
+    "objectID": "week7.html",
+    "href": "week7.html",
+    "title": "7: Compliance and Impact",
+    "section": "",
+    "text": "Week 1 contents",
+    "crumbs": [
+      "7: Compliance and Impact"
+    ]
+  },
+  {
+    "objectID": "week09.html",
+    "href": "week09.html",
+    "title": "9: Legal Mobilization and Access to Justice",
+    "section": "",
+    "text": "Week 1 contents",
+    "crumbs": [
+      "Weeks",
+      "9: Legal Mobilization and Access to Justice"
+    ]
+  },
+  {
+    "objectID": "week08.html",
+    "href": "week08.html",
+    "title": "8: Courts and Public Support",
+    "section": "",
+    "text": "should include media coverage",
+    "crumbs": [
+      "Weeks",
+      "8: Courts and Public Support"
+    ]
+  },
+  {
+    "objectID": "week06.html",
+    "href": "week06.html",
+    "title": "6: Courts, Executives and Legislatures",
+    "section": "",
+    "text": "Week 1 contents",
+    "crumbs": [
+      "Weeks",
+      "6: Courts, Executives and Legislatures"
+    ]
+  },
+  {
+    "objectID": "week04.html",
+    "href": "week04.html",
+    "title": "4: Judicial Power and Independence",
+    "section": "",
+    "text": "Week 1 contents",
+    "crumbs": [
+      "Weeks",
+      "4: Judicial Power and Independence"
+    ]
+  },
+  {
+    "objectID": "week02.html",
+    "href": "week02.html",
+    "title": "2: Theories of Judicial Behaviour",
+    "section": "",
+    "text": "Court rulings have an impact on individuals, economies and political systems. In principle, judgments are based in legal rules. But how do judges make decisions in practice? This week we review the most influential theories of judicial behaviour, the conditions under which they apply and the evidence produced in their support.",
+    "crumbs": [
+      "Weeks",
+      "2: Theories of Judicial Behaviour"
+    ]
+  },
+  {
+    "objectID": "week01.html",
+    "href": "week01.html",
+    "title": "1: Reasons for Courts",
+    "section": "",
+    "text": "What are courts and what is their purpose in society and politics? Mohr defines courts as\nIn this session we reflect on the intended functions of courts in societies, common typologies of courts and why they are relevant for the study of politics.",
+    "crumbs": [
+      "Weeks",
+      "1: Reasons for Courts"
+    ]
+  },
+  {
+    "objectID": "week03.html",
+    "href": "week03.html",
+    "title": "3: Judicialization and Politicization",
+    "section": "",
+    "text": "Week 1 contents",
+    "crumbs": [
+      "Weeks",
+      "3: Judicialization and Politicization"
+    ]
+  },
+  {
+    "objectID": "week05.html",
+    "href": "week05.html",
+    "title": "5: Appointing and Monitoring Judges",
+    "section": "",
+    "text": "Week 1 contents",
+    "crumbs": [
+      "Weeks",
+      "5: Appointing and Monitoring Judges"
+    ]
+  },
+  {
+    "objectID": "week07.html",
+    "href": "week07.html",
+    "title": "7: Compliance and Impact",
+    "section": "",
+    "text": "Week 1 contents",
+    "crumbs": [
+      "Weeks",
+      "7: Compliance and Impact"
+    ]
+  },
+  {
+    "objectID": "index.html#timetable",
+    "href": "index.html#timetable",
+    "title": "POLS0113: Judicial Politics",
+    "section": "Timetable",
+    "text": "Timetable\nThe first lecture takes place on 13 January 2024. The last lecture is on 24 March 2024. There are no classes during the reading week.\n\n\n\n\n\n\n\n\n\nWeeks\nWhat\nWhen\nWhere\n\n\n\n\n21–25, 27–31\nLecture\nMonday, 15:00–16:00\nRoom 114, Foster Court\n\n\n21–25, 27–31\nSeminar\nMonday, 16:00–17:00\nG04 (Council Room), 29 Tavistock Square\n\n\n\nStudent support and feedback hours take place after the seminar in Room 202, 36 Gordon Square.",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "POLS0113: Judicial Politics",
+    "section": "Overview",
+    "text": "Overview\ndescription"
+  },
+  {
+    "objectID": "index.html#description",
+    "href": "index.html#description",
+    "title": "POLS0113: Judicial Politics",
+    "section": "Description",
+    "text": "Description\nThis course provides a detailed exploration of judicial politics across a variety of political systems. As predominantly non-majoritarian institutions, both domestic and international courts have become increasingly contested in recent years. We will seek to understand the importance and behaviour of courts from different angles: judiciaries’ place in democratic theory, the design of judicial institutions, and judges’ interactions with other political actors and society more broadly. Among others, we will be delving into why and how politicians balance delegating decision-making to courts with constraining their room for manoeuvre through appointment procedures and threat of override. We will also compare the institutional features of judiciaries across different political contexts, from democracies to autocracies and from presidential to parliamentary systems. The aim is to equip students with a clear understanding of courts as both subjects and objects of their political environment.\n\n\n\n\n\n\n\nModule Name\nJudicial Politics\n\n\nModule Code\nPOLS0113\n\n\nFaculty\nSocial and Historical Sciences\n\n\nDepartment\nPolitical Science\n\n\nConvener\nDr Michal Ovádek\n\n\nCredits\n15\n\n\nAssessment\n3000-word research paper (100%)",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "week01.html#mandatory-readings",
+    "href": "week01.html#mandatory-readings",
+    "title": "1: Reasons for Courts",
+    "section": "Mandatory readings",
+    "text": "Mandatory readings\n…",
+    "crumbs": [
+      "Weeks",
+      "1: Reasons for Courts"
+    ]
+  },
+  {
+    "objectID": "week01.html#optional-readings",
+    "href": "week01.html#optional-readings",
+    "title": "1: Reasons for Courts",
+    "section": "Optional readings",
+    "text": "Optional readings\nEpstein, Lee, Olga Shvetsova, and Jack Knight. “The role of constitutional courts in the establishment and maintenance of democratic systems of government.” Law & Society Review 35, no. 1 (2001): 117-163.\nMohr, Lawrence B. “Organizations, decisions, and courts.” Law & Society Review 10, no. 4 (1976): 621-642.\nFrank, Jerome. “What Courts Do in Fact.” Illinois Law Review 26, no. 6 (1931): 645-666.",
+    "crumbs": [
+      "Weeks",
+      "1: Reasons for Courts"
+    ]
+  },
+  {
+    "objectID": "week01.html#footnotes",
+    "href": "week01.html#footnotes",
+    "title": "1: Reasons for Courts",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nMohr, Lawrence B. “Organizations, decisions, and courts.” Law & Society Review 10, no. 4 (1976): 621-642, p. 623.↩︎",
+    "crumbs": [
+      "Weeks",
+      "1: Reasons for Courts"
+    ]
+  },
+  {
+    "objectID": "assessment.html",
+    "href": "assessment.html",
+    "title": "Assessment",
+    "section": "",
+    "text": "The module is assessed by one compulsory research paper of 3000 words worth 100% of the final mark. The deadline and submission instructions for the assessment can be found on the module’s Moodle page.\nThe research paper must be empirical in nature. This means the research must rely evidence to answer a question about an aspect of judicial politics. The research design devised to answer the research question can be quantitative, qualitative or mixed.\nEach research paper must include one section discussing theory and one section discussing research design. The theory section sets out the researcher’s expectations about the studied phenomenon on the basis of existing academic literature and typically ends with a testable hypothesis. The research design section describes how the research question is going to be answered and must include a discussion of the information (data) and the method used to produce evidence in support of a hypothesis.\nYou are expected to use an author-date (in-text) citation system. Choose a commonly used style such as APA, Chicago or Harvard for formatting your references. The list of references at the end of the document are not counted towards the word limit (but the in-text citations are). Any footnotes or endnotes count towards the word limit. Compliance with university plagiarism policies is a must.\n\nGeneral assessment criteria\nThe markers will consider the following criteria when assessing your essay:\n\nStructure and organisation\nExtent of research work completed\nUse of evidence\nDevelopment and consistency of arguments\nEvidence of critical analysis\nOverall insight and originality\nAdequacy and presentation of bibliographic information\nAccuracy and appropriateness of referencing\nOverall presentation\n\nAn excellent essay will be strong on each criterion.\n\n\nUse of artificial intelligence tools\nNo part of the work submitted for assessment is allowed to have been generated or otherwise produced by artificial intelligence tools. Failure to abide by this requirement will be treated as academic misconduct and trigger the relevant procedures and penalties. Standard academic misconduct regulations apply at all times.",
+    "crumbs": [
+      "Assessment"
+    ]
+  },
+  {
+    "objectID": "week02.html#mandatory-readings",
+    "href": "week02.html#mandatory-readings",
+    "title": "2: Theories of Judicial Behaviour",
+    "section": "Mandatory readings",
+    "text": "Mandatory readings\n…",
+    "crumbs": [
+      "Weeks",
+      "2: Theories of Judicial Behaviour"
+    ]
+  },
+  {
+    "objectID": "week02.html#optional-readings",
+    "href": "week02.html#optional-readings",
+    "title": "2: Theories of Judicial Behaviour",
+    "section": "Optional readings",
+    "text": "Optional readings\nDyevre, Arthur. “Unifying the field of comparative judicial politics: towards a general theory of judicial behaviour.” European Political Science Review 2, no. 2 (2010): 297-327.",
+    "crumbs": [
+      "Weeks",
+      "2: Theories of Judicial Behaviour"
+    ]
   }
 ]
