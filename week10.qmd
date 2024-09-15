@@ -1,5 +1,43 @@
 ---
-title: "10: Backlash and Legitimacy"
+title: "10: Backlash, Public Support and Legitimacy"
 ---
 
-Week 1 contents
+...
+
+## Mandatory readings
+
+...
+
+## Optional readings
+
+Bartels, Brandon L., and Christopher D. Johnston. "On the ideological foundations of Supreme Court legitimacy in the American public." *American Journal of Political Science* 57, no. 1 (2013): 184-199.
+
+Cheruvu, Sivaram, Jay N. Krehbiel, and Samantha Mussell. "Partisanship, pragmatism, or idealism? Evaluating public support for backlashes against international courts in backsliding democracies." *Journal of European Public Policy* (2024): 1-31.
+
+Clark, Tom S. "The separation of powers, court curbing, and judicial legitimacy." *American Journal of Political Science* 53, no. 4 (2009): 971-989.
+
+Madsen, Mikael Rask, Pola Cebulak, and Micha Wiebusch. "Backlash against international courts: explaining the forms and patterns of resistance to international courts." *International Journal of Law in Context* 14, no. 2 (2018): 197-220.
+
+Ura, Joseph Daniel. "Backlash and legitimation: Macro political responses to Supreme Court decisions." *American Journal of Political Science* 58, no. 1 (2014): 110-126.
+
+Stiansen, Øyvind, and Erik Voeten. "Backlash and judicial restraint: Evidence from the European Court of Human Rights." *International Studies Quarterly* 64, no. 4 (2020): 770-784.
+
+Alter, Karen J., James T. Gathii, and Laurence R. Helfer. "Backlash against international courts in west, east and southern Africa: causes and consequences." *European Journal of International Law* 27, no. 2 (2016): 293-328.
+
+Soley, Ximena, and Silvia Steininger. "Parting ways or lashing back? Withdrawals, backlash and the Inter-American Court of Human Rights." *International Journal of Law in Context* 14, no. 2 (2018): 237-257.
+
+Madsen, Mikael Rask. "Two-level politics and the backlash against international courts: Evidence from the politicisation of the European court of human rights." *The British Journal of Politics and International Relations* 22, no. 4 (2020): 728-738.
+
+Voeten, Erik. "Populism and backlashes against international courts." *Perspectives on Politics* 18, no. 2 (2020): 407-422.
+
+Madsen, Mikael Rask, Juan A. Mayoral, Anton Strezhnev, and Erik Voeten. "Sovereignty, substance, and public support for European courts’ human rights rulings." *American Political Science Review* 116, no. 2 (2022): 419-438.
+
+Bartels, Brandon L., and Eric Kramon. "Does public support for judicial power depend on who is in political power? Testing a theory of partisan alignment in Africa." *American Political Science Review* 114, no. 1 (2020): 144-163.
+
+Mondak, Jeffery J., and Shannon Ishiyama Smithey. "The dynamics of public support for the Supreme Court." *The Journal of Politics* 59, no. 4 (1997): 1114-1142.
+
+Durr, Robert H., Andrew D. Martin, and Christina Wolbrecht. "Ideological divergence and public support for the Supreme Court." *American Journal of Political Science* (2000): 768-776.
+
+Gibson, James L., Gregory A. Caldeira, and Vanessa A. Baird. "On the legitimacy of national high courts." *American Political Science Review* 92, no. 2 (1998): 343-358.
+
+Caldeira, Gregory A. "Neither the purse nor the sword: Dynamics of public confidence in the Supreme Court." *American Political Science Review* 80, no. 4 (1986): 1209-1226.

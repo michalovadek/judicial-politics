@@ -2,13 +2,13 @@
 title: "Assessment"
 ---
 
-The module is assessed by one compulsory research paper of 3000 words worth 100% of the final mark. The deadline and submission instructions for the assessment can be found on the module's Moodle page.
+The module is assessed by one compulsory **research paper of 3000 words** worth 100% of the final mark. The deadline and submission instructions for the assessment can be found on the module's Moodle page.
 
-The research paper must be **empirical** in nature. This means the research must rely evidence to answer a question about an aspect of judicial politics. The research design devised to answer the research question can be quantitative, qualitative or mixed.
+The research paper must be **empirical** in nature. This means the research has to rely on observable evidence to answer a question about an aspect of judicial politics. The research design devised to answer the research question can be quantitative, qualitative or mixed.
 
-Each research paper must include one section discussing **theory** and one section discussing **research design**. The theory section sets out the researcher's expectations about the studied phenomenon on the basis of existing academic literature and typically ends with a testable hypothesis. The research design section describes how the research question is going to be answered and must include a discussion of the information (data) and the method used to produce evidence in support of a hypothesis.
+Each research paper must include one section discussing **theory** and one section discussing **research design**. The theory section sets out the researcher's expectations about the studied phenomenon on the basis of existing academic literature and typically ends with a testable hypothesis. The research design section describes how the research question will be answered and must include a discussion of the information (data) and the method (e.g. process tracing or regression analysis) used to produce evidence in support of a hypothesis. Other sections are optional but "introduction" and "findings" (or equivalent) are encouraged to also feature in the paper.
 
-You are expected to use an author-date (in-text) citation system. Choose a commonly used style such as APA, Chicago or Harvard for formatting your references. The list of references at the end of the document are not counted towards the word limit (but the in-text citations are). Any footnotes or endnotes count towards the word limit. Compliance with university plagiarism policies is a must.
+Papers are expected to use an author-year (in-text) citation system. Citation and reference formatting should follow the Chicago or Harvard style. The list of references at the end of the document are not counted towards the word limit (but the in-text citations are). Any footnotes or endnotes count towards the word limit. Compliance with university plagiarism policies is a must.
 
 ### General assessment criteria
 

@@ -3,6 +3,7 @@ title: "POLS0113: Judicial Politics"
 author: "Dr Michal Ovádek"
 date-modified: today
 date-format: "D MMMM YYYY"
+copyright: "Michal Ovádek"
 ---
 
 This is a website for the module `{{< meta title >}}` convened at the [Department of Political Science](https://www.ucl.ac.uk/political-science/), University College London by [{{< meta author >}}](https://michalovadek.github.io/).
@@ -25,9 +26,9 @@ This course provides a detailed exploration of judicial politics across a variet
 |-------------|---------------------------------|
 | Module Name | Judicial Politics               |
 | Module Code | POLS0113                        |
+| Convener    | Dr Michal Ovádek                |
 | Faculty     | Social and Historical Sciences  |
 | Department  | Political Science               |
-| Convener    | {{< meta author>}}              |
 | Credits     | 15                              |
 | Assessment  | 3000-word research paper (100%) |
 

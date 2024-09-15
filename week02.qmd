@@ -2,12 +2,22 @@
 title: "2: Theories of Judicial Behaviour"
 ---
 
-Court rulings have an impact on individuals, economies and political systems. In principle, judgments are based in legal rules. But how do judges make decisions in practice? This week we review the most influential theories of judicial behaviour, the conditions under which they apply and the evidence produced in their support.
+Court rulings have an impact on individuals, economies and political systems. In principle, judgments follow from legal rules. But how do judges make decisions in practice? This week we review the most influential theories of judicial behaviour, the conditions under which they apply and the evidence produced in their support.
 
 ## Mandatory readings
 
-...
+Harris, Allison P., and Maya Sen. "Bias and judging." *Annual Review of Political Science* 22, no. 1 (2019): 241-259.
 
 ## Optional readings
 
 Dyevre, Arthur. "Unifying the field of comparative judicial politics: towards a general theory of judicial behaviour." *European Political Science Review* 2, no. 2 (2010): 297-327.
+
+Choi, Donghyun Danny, J. Andrew Harris, and Fiona Shen-Bayh. "Ethnic bias in judicial decision making: Evidence from criminal appeals in Kenya." *American Political Science Review* 116, no. 3 (2022): 1067-1080.
+
+Glynn, Adam N., and Maya Sen. "Identifying judicial empathy: Does having daughters cause judges to rule for women's issues?." *American Journal of Political Science* 59, no. 1 (2015): 37-54.
+
+Voeten, Erik. "Gender and judging: evidence from the European Court of Human Rights." *Journal of European Public Policy* 28, no. 9 (2021): 1453-1473.
+
+Boyd, Christina L., Lee Epstein, and Andrew D. Martin. "Untangling the causal effects of sex on judging." *American journal of political science* 54, no. 2 (2010): 389-411.
+
+Edelman, Lauren B., Linda H. Krieger, Scott R. Eliason, Catherine R. Albiston, and Virginia Mellema. "When organizations rule: Judicial deference to institutionalized employment structures." *American journal of sociology* 117, no. 3 (2011): 888-954.
