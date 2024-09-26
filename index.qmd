@@ -3,7 +3,8 @@ title: "POLS0113: Judicial Politics"
 author: "Dr Michal Ovádek"
 date-modified: today
 date-format: "D MMMM YYYY"
-copyright: "Michal Ovádek"
+author-title: "Module Convenor"
+published-title: "Last Modified"
 ---
 
 This is a website for the module `{{< meta title >}}` convened at the [Department of Political Science](https://www.ucl.ac.uk/political-science/), University College London by [{{< meta author >}}](https://michalovadek.github.io/).
@@ -22,23 +23,23 @@ last_lecture <- "24 March"
 
 This course provides a detailed exploration of judicial politics across a variety of political systems. As predominantly non-majoritarian institutions, both domestic and international courts have become increasingly contested in recent years. We will seek to understand the importance and behaviour of courts from different angles: judiciaries’ place in democratic theory, the design of judicial institutions, and judges’ interactions with other political actors and society more broadly. Among others, we will be delving into why and how politicians balance delegating decision-making to courts with constraining their room for manoeuvre through appointment procedures and threat of override. We will also compare the institutional features of judiciaries across different political contexts, from democracies to autocracies and from presidential to parliamentary systems. The aim is to equip students with a clear understanding of courts as both subjects and objects of their political environment.
 
-|             |                                 |
-|-------------|---------------------------------|
-| Module Name | Judicial Politics               |
-| Module Code | POLS0113                        |
-| Convener    | Dr Michal Ovádek                |
-| Faculty     | Social and Historical Sciences  |
-| Department  | Political Science               |
-| Credits     | 15                              |
-| Assessment  | 3000-word research paper (100%) |
+|                 |                                 |
+|-----------------|---------------------------------|
+| Module Name     | Judicial Politics               |
+| Module Code     | POLS0113                        |
+| Module Convenor | Dr Michal Ovádek                |
+| Faculty         | Social and Historical Sciences  |
+| Department      | Political Science               |
+| Credits         | 15                              |
+| Assessment      | 3000-word research paper (100%) |
 
 ## Timetable
 
 The first lecture takes place on `r paste(first_lecture, now_year)`. The last lecture is on `r paste(last_lecture, now_year)`. There are no classes during the reading week.
 
 | Weeks | What | When | Where |
-|-------------|---------|-------------------|--------------------------------|
-| 21--25, 27--31 | Lecture | Monday, 15:00--16:00 | Room 114, Foster Court |
+|---------------|------------|--------------------|--------------------------------------|
+| 21--25, 27--31 | Lecture | Monday, 15:00--16:00 | Room 114, Foster Court, Gower Street |
 | 21--25, 27--31 | Seminar | Monday, 16:00--17:00 | G04 (Council Room), 29 Tavistock Square |
 
 Student support and feedback hours take place after the seminar in Room 202, 36 Gordon Square.

@@ -2,15 +2,19 @@
 title: "6: Courts, Executives and Legislatures"
 ---
 
-...
+What is the relationship between courts, legislatures and executives? The first thing that often comes to mind is that courts are independent from the other branches, an assumption that is tested in many authoritarian regimes. This week we look at how inter-branch relations work in practice across different contexts, with an emphasis on the role of anticipatory behaviours.
 
 ## Mandatory readings
 
-Vanberg, Georg. "Legislative-judicial relations: A game-theoretic approach to constitutional review." *American journal of political science* (2001): 346-361.
+Pavone, Tommaso, and Øyvind Stiansen. "The shadow effect of courts: Judicial review and the politics of preemptive reform." *American Political Science Review* 116, no. 1 (2022): 322-336.
 
 ## Optional readings
 
+Vanberg, Georg. "Legislative-judicial relations: A game-theoretic approach to constitutional review." *American Journal of Political Science* (2001): 346-361.
+
 Helmke, Gretchen. "The logic of strategic defection: Court–executive relations in Argentina under dictatorship and democracy." *American Political Science Review* 96, no. 2 (2002): 291-303.
+
+Helmke, Gretchen, and Frances Rosenbluth. "Regimes and the rule of law: Judicial independence in comparative perspective." *Annual Review of Political Science* 12, no. 1 (2009): 345-366.
 
 Larsson, Olof, and Daniel Naurin. "Judicial independence and political uncertainty: how the risk of override affects the Court of Justice of the EU." *International Organization* 70, no. 2 (2016): 377-408.
 

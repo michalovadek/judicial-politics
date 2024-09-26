@@ -2,11 +2,11 @@
 title: "9: Legal Mobilization and Judicial Impact"
 ---
 
-...
+Under what conditions do interest groups resort to litigation and what makes their success likely? As "passive" institutions, courts rely on legal mobilization for influence. This week we explore the dynamics of legal mobilization and how the size and structure of the judicial docket conditions courts' policy impact.
 
 ## Mandatory readings
 
-...
+Vanhala, Lisa. "Is legal mobilization for the birds? Legal opportunity structures and environmental nongovernmental organizations in the United Kingdom, France, Finland, and Italy." *Comparative Political Studies* 51, no. 3 (2018): 380-412.
 
 ## Optional readings
 
@@ -21,3 +21,5 @@ Gallagher, Janice. "The last mile problem: Activists, advocates, and the struggl
 Helfer, Laurence R., and Erik Voeten. "International courts as agents of legal change: Evidence from LGBT rights in Europe." *International Organization* 68, no. 1 (2014): 77-110.
 
 Gauri, Varun, Jeffrey K. Staton, and Jorge Vargas Cullell. "The Costa Rican supreme court’s compliance monitoring system." *The Journal of Politics* 77, no. 3 (2015): 774-786.
+
+Pavone, Tommaso. "From Marx to market: Lawyers, European Law, and the contentious transformation of the Port of Genoa." *Law & Society Review* 53, no. 3 (2019): 851-888.

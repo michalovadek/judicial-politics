@@ -2,7 +2,7 @@
 title: "7: Judicial Hierarchy and Organization"
 ---
 
-...
+Judicial systems typically resemble pyramids: courts at each layer of the hierarchy are subject to oversight by courts in the layer above, except for the courts at the apex of the pyramid. This week we discuss the differences between higher and lower courts and the impact of judicial hierarchy on decision-making.
 
 ## Mandatory readings
 
@@ -29,3 +29,5 @@ Masood, Ali S., Benjamin J. Kassow, and Donald R. Songer. "Supreme Court precede
 Songer, D. R., Segal, J. A., & Cameron, C. M. (1994). The hierarchy of justice: Testing a principal-agent model of Supreme Court-circuit court interactions. *American Journal of Political Science*, 673-696.
 
 Lax, Jeffrey R. "Political constraints on legal doctrine: How hierarchy shapes the law." *The Journal of Politics* 74, no. 3 (2012): 765-781.
+
+Pavone, Tommaso. "Revisiting judicial empowerment in the European Union: Limits of empowerment, logics of resistance." *Journal of Law and Courts* 6, no. 2 (2018): 303-331.

@@ -2,7 +2,7 @@
 title: "4: Judicial Power and Independence"
 ---
 
-...
+Why does anyone pay attention to what courts have to say? In other words, what are the sources of judicial power? This week we consider different conceptions of judicial independence, their relation to attributes that make courts appear conventionally "powerful" and why international courts are frequently thought of as less powerful than domestic courts.
 
 ## Mandatory readings
 
@@ -18,4 +18,4 @@ Shoaib Ghias, 2010. “Miscarriage of Chief Justice: Judicial Power and the Lega
 
 Popova, Maria. "Political competition as an obstacle to judicial independence: Evidence from Russia and Ukraine." *Comparative Political Studies* 43, no. 10 (2010): 1202-1229.
 
-Pavone, Tommaso, and Øyvind Stiansen. "The shadow effect of courts: Judicial review and the politics of preemptive reform." *American Political Science Review* 116, no. 1 (2022): 322-336.
+Melton, James, and Tom Ginsburg. "Does de jure judicial independence really matter?: A reevaluation of explanations for judicial independence." *Journal of Law and Courts* 2, no. 2 (2014): 187-217.
