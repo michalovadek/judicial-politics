@@ -17,6 +17,9 @@ website:
       - text: "Overview"
         href: index.qmd
       - "assessment.qmd"
+      - "seminars.qmd"
+      - text: "FAQ"
+        href: faq.qmd
       - section: Weeks
         contents: 
           auto: "week*.qmd"
