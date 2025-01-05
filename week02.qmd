@@ -21,3 +21,5 @@ Voeten, Erik. "Gender and judging: evidence from the European Court of Human Rig
 Boyd, Christina L., Lee Epstein, and Andrew D. Martin. "Untangling the causal effects of sex on judging." *American journal of political science* 54, no. 2 (2010): 389-411.
 
 Edelman, Lauren B., Linda H. Krieger, Scott R. Eliason, Catherine R. Albiston, and Virginia Mellema. "When organizations rule: Judicial deference to institutionalized employment structures." *American journal of sociology* 117, no. 3 (2011): 888-954.
+
+Ash, Elliott, Daniel L. Chen, and Arianna Ornaghi. "Gender attitudes in the judiciary: Evidence from US circuit courts." *American Economic Journal: Applied Economics* 16, no. 1 (2024): 314-350.

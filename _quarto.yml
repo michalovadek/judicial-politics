@@ -20,6 +20,8 @@ website:
       - "seminars.qmd"
       - text: "FAQ"
         href: faq.qmd
+      - text: "Data resources"
+        href: data-res.qmd  
       - section: Weeks
         contents: 
           auto: "week*.qmd"

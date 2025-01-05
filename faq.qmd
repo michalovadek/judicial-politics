@@ -4,8 +4,11 @@ title: "Frequently Asked Questions"
 
 Before reaching out over email please make sure your question is not already answered below or elsewhere on this website.
 
-**Can my final paper re-use some of the research done for the presentation?\
+**Can my final paper reuse some of the research done for the presentation?\
 **Yes.
+
+**Can my final paper reuse some of the research done for other coursework at UCL?\
+**Only to an extent. The final paper for this module needs to be substantially different from any previously submitted work. If you are planning on reusing previous work, you must flag this to the instructor.
 
 **Is class attendance compulsory?**\
 Seminar attendance is mandatory and monitored by the Department of Political Science.
@@ -14,7 +17,10 @@ Seminar attendance is mandatory and monitored by the Department of Political Sci
 Yes, during office hours.
 
 **Is there a +-10% tolerance around the word count for the final paper?**\
-No. The paper can be no longer than 3000 words, excluding the bibliography but including in-text citations and footnotes.
+No. The paper can be no longer than 3000 words, excluding the bibliography but including in-text citations.
 
 **Do I have to use quantitative methods in the final paper?**\
 No. Qualitative methods are equally admissible.
+
+**Can I submit the final paper with an appendix?\
+**Yes. Supplementary analyses – such as robustness checks – or evidence which would take up too much space in the paper – such as a long excerpt from a document – can be submitted in an appendix and referred to in the main text. The appendix does not count towards the 3000-word limit. All essential information must be included in the paper, however.
