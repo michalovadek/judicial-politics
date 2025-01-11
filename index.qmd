@@ -38,7 +38,7 @@ This course provides a detailed exploration of judicial politics across a variet
 The first lecture takes place on `r paste(first_lecture, now_year)`. The last lecture is on `r paste(last_lecture, now_year)`. There are no classes during the reading week.
 
 | Weeks | What | When | Where |
-|---------------|---------------|---------------|----------------------------|
+|----|----|----|----|
 | 21--25, 27--31 | Lecture | Monday, 15:00--16:00 | Room 114, Foster Court, Gower Street |
 | 21--25, 27--31 | Seminar 1 | Monday, 16:00--17:00 | G04 (Council Room), 29 Tavistock Square |
 | 21--25, 27--31 | Seminar 2 | Monday, 17:00--18:00 | G04 (Council Room), 29 Tavistock Square |
