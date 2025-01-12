@@ -8,6 +8,9 @@ format:
     footer: "POLS0113: Judicial Politics"
     slide-number: c/t
     show-slide-number: all
+    center: true
+    margin-left: "0.1"
+    margin-right: "0.1"
 ---
 
 ## What are courts?
@@ -38,7 +41,7 @@ Let's distil the main elements from this definition:
 
 ## What are courts?
 
--   "governmental"
+-   "**governmental**"
 
     -   could exclude international courts if understood strictly
 
@@ -48,13 +51,47 @@ Let's distil the main elements from this definition:
 
 ## What are courts?
 
--   a court is an organization
+-   a court is an **organization**
 
     -   a single individual is not a court
 
     -   can there be 'judges' without courts? E.g. travelling judges in far-away Roman and Byzantine provinces
 
     -   organizations have some degree of permanency, physical resources (buildings, staff, etc.), rules of procedure, informal practices
+
+## What are courts?
+
+-   a court settles **disputes** between parties
+
+    -   including private and public entities
+
+    -   different judicial remedies for different types of disputes
+
+-   arbitrators and mediators also resolve disputes, in less rigid settings
+
+## What are courts?
+
+-   courts need to be **impartial** to maintain legitimacy
+
+    -   normative requirement to decide impartially
+
+    -   practical requirement to also *appear* impartial
+
+## What are courts?
+
+-   court procedure is principally **adversarial**
+
+    -   the parties are presenting evidence and arguing their side of the case
+
+    -   the court is there to make a decision on the case as it is presented to it
+
+## What are courts?
+
+-   decisions are motivated with reference to pre-existing rules
+
+    -   laws and precedents should make rulings predictable
+
+    -   need to justify decisions in this way should limit judicial power (discretion)
 
 ## Alternative definition
 
@@ -154,6 +191,8 @@ Mostly drawing on Wolff (1946) who makes the point that Greek courts were merely
 
 ::: notes
 This is a great source: https://www.unpredictableblog.com/blog/Athens Also: https://acoup.blog/2023/04/07/collections-how-to-polis-101-part-iic-the-courts/
+
+Greek jurors were very independent from the "government", but the government itself was mostly weak because direct democracy with elected officials for everything every year
 :::
 
 ## "Supreme Court" of Ancient Athens {.smaller}
@@ -254,7 +293,7 @@ the ordeal was gamed by priests, so that many of those taking it would pass. The
 
 -   this "common" law gradually replaced divergent local laws and customs throughout the kingdom
 
-## Emergence of common law in England
+## Emergence of common law in England  {.smaller}
 
 -   the common law system originally served by far the most the interests of the king
 
@@ -262,7 +301,7 @@ the ordeal was gamed by priests, so that many of those taking it would pass. The
 
 -   the rule of binding precedent solidified the sense of judges' belonging to a **distinct and autonomous professional class** (though guarantees of judicial independence were lacking until 1701)
 
--   by the time the Parliament built its legislative authority and Roman law was rediscovered in the 13th century, common law was sufficiently well developed to remain the primary source of law for centuries
+-   by the time the Parliament built up its legislative authority and Roman law was rediscovered in the 13th century, common law was sufficiently developed to remain the primary source of law for centuries
 
 ## Civil law systems
 
@@ -272,7 +311,7 @@ the ordeal was gamed by priests, so that many of those taking it would pass. The
 
 -   no binding precedent and judge-made principles – the judge as "the mouthpiece of the law" (Montesquieu)
 
-## Modern courts
+## Modern courts  {.smaller}
 
 -   considerable convergence between civil and common law traditions over the last two centuries
 
@@ -284,15 +323,64 @@ the ordeal was gamed by priests, so that many of those taking it would pass. The
 
 -   variation in the prevalence of juries and **judicial review**
 
-## Judicial review
+## Modern courts  {.smaller}
 
--   Written constitutions
+-   the court system in democratic regimes is seen as central to upholding **the rule of law**
 
-    -   but the idea of distinguishing a higher law (historically often tied to religious beliefs) and lower, man-made law dates back to at least ancient Greece; natural law vs positive law
+-   oversee to varying degrees both vertical and horizontal disputes
 
-    -   the constitutional innovation lies in the "positivization" of what could have been considered natural law before
+    -   vertical: disputes between the state and individuals (e.g. administrative law)
 
--   Marbury vs Madison
+    -   horizontal: disputes between individuals (e.g. contract law)
+
+-   should ensure respect for the **constitution**, whatever form the latter might take, as well as individual's **fundamental rights**
+
+## Rise of constitutions
+
+```{r compconst, echo=FALSE, warning=FALSE, error=FALSE}
+source("utils/globals.R")
+
+# CCP file too big to keep
+# ccp_raw <- read_csv("lectures/data/ccpcnc_v4_small.csv")
+
+# creates summary
+# ccp_year <- ccp_raw |> 
+#  distinct(country, year, .keep_all = T) |> 
+#  select(country, year, c_inforce) |> 
+#  count(year, c_inforce) |> 
+#  mutate(n_countries = sum(n), .by = year) |> 
+#  rename(n_const = n) |> 
+#  filter(c_inforce == 1) |> 
+#  mutate(prop_const = n_const / n_countries)
+#save(ccp_year, file = "lectures/data/ccp_year_summary.RData")
+
+# load
+load(file = "data/ccp_year_summary.RData")
+
+# plot
+ccp_year |> 
+  ggplot(aes(x = year)) +
+  geom_line(aes(y = prop_const)) +
+  geom_col(aes(y = n_countries/2000)) +
+  theme_minimal() +
+  theme(axis.text = element_text(face = "bold")) +
+  labs(x = NULL, y = NULL, 
+       title = "Proportion of countries with a constitution",
+       subtitle = "Histogram of the number of countries at the bottom",
+       caption = "Source: Comparative Constitutions Project v4.0")
+```
+
+## Judicial review  {.smaller}
+
+-   the proliferation of constitutions and rights was accompanied by an expansion in (peak) courts' power through **judicial review**
+
+    -   the idea of distinguishing "higher" rules – historically often tied to religion (natural law) – and "lower" rules dates back to at least ancient Greece
+
+    -   constitutions made natural law into (interpretable, enforceable) positive law
+
+-   this is a core source of political tension under constitutionalism: how can anyone (i.e. a court) but the Hobbesian sovereign decide what is permitted?
+
+-   simply pointing to the law does not suffice – language is full of ambiguities, someone needs to interpret and apply it
 
 ::: notes
 French judges pre-revolution were big supporters of the ancien regime, which made them particularly disliked by the Enlightened thinkers
@@ -300,15 +388,42 @@ French judges pre-revolution were big supporters of the ancien regime, which mad
 In contrast, in England judges were seen as relatively anti-monarchy and many of them would view judge-made common law as more important than statutes and decrees, which was a political problem for the King and the Parliament
 :::
 
-## Notes
+## *Marbury vs Madison* (1803)  {.smaller}
 
--   what many early versions of courts (pre-Greece) had in common was overlap with or supervision by governmental authority. Aka no judicial independence: this is the key struggle
+-   outgoing president John Adams appointed judges days before his term was over
 
--   Greek jurors were very independent from the "government", but the government itself was mostly weak because direct democracy with elected officials for everything every year
+-   the appointment documents were failed to be delivered to half of the judges before the arrival of Thomas Jefferson to the presidency
 
--   there was very little in the way of using judicial precedents in Greece and only limited practice in Rome
+-   the new Secretary of State, James Madison, was told by Jefferson to not deliver them
 
--   trials fulfilled important social functions:
+-   one of the refused judges, William Marbury, filed a lawsuit in late 1801
 
-    -   social control: the subjugation of disputes to community laws and justice, they could be shameful for the parties as well, which induced settlements
-    -   immersing citizens (especially in Greece) in the exercise of justice (responsibilizing citizens)
+-   the Supreme Court established it had the power to invalidate statutes deemed unconstitutional (but also found to have had no jurisdiction to force the government to deliver)
+
+::: notes
+The person failing to deliver the commissions in time was John Marshall in the role of Secretary of State. He subsequently became the Chief Justice of the Supreme Court before the end of Adams' term, which enabled him to rule on the case. Unanimous 4-0 decision.
+:::
+
+## *Marbury vs Madison* (1803) 
+
+> It is emphatically the province and duty of the judicial department to say what the law is.[^6]
+
+[^6]: *Marbury*, 5 U.S. at 177.
+
+## *Marbury vs Madison* (1803) 
+
+![Portrait of Chief Justice John Marshall (1832)](img/john-marshall.jpg){width="323"}
+
+## *Marbury vs Madison* (1803)  {.smaller}
+
+-   judicial politics on many fronts
+
+    -   born out of a court packing effort
+
+    -   questionable impartiality of the opinion writer
+
+    -   case re-framed as a question of statutory constitutionality
+
+    -   navigating political conflict (between the Federalists and the Democratic-Republicans) and likelihood of compliance
+
+    -   seeking to strengthen the Court's authority

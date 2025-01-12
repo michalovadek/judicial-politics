@@ -1,318 +1,379 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-<meta name="author" content="Dr Michal Ovádek">
-
-<title>Reasons for Courts – POLS0113: Judicial Politics</title>
-<style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
-}
-</style>
-
-
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<html lang="en"><head>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
-<script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.5.57">
+
+  <meta name="author" content="Dr Michal Ovádek">
+  <title>POLS0113: Judicial Politics – Reasons for Courts</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
   }
-}</script>
 
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
 
-<link rel="stylesheet" href="../styles.css">
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-titled.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-titled) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-titled .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-titled .callout-title  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-titled.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-titled.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-title {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-title {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-title {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .callout.callout-titled .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-titled) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-title {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-title {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-title {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-title {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-title {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
 </head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
 
-<body class="nav-sidebar floating">
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Reasons for Courts</h1>
+  <p class="subtitle">Week 1</p>
 
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      POLS0113: Judicial Politics
-      </li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="../">POLS0113: Judicial Politics</a> 
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../assessment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Assessment</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../seminars.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Seminars</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../faq.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">FAQ</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../data-res.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data resources</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Weeks</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week01.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1: Reasons for Courts</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week02.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2: Theories of Judicial Behaviour</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week03.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">3: Judicial Preferences and Decisions</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week04.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4: Judicial Power and Independence</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week05.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5: Appointing and Monitoring Judges</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week06.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6: Courts, Executives and Legislatures</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week07.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7: Judicial Hierarchy and Organization</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week08.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8: Judicialization and Politicization</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week09.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">9: Legal Mobilization and Judicial Impact</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">10: Legitimacy, Public Support and Backlash</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#what-are-courts" id="toc-what-are-courts" class="nav-link active" data-scroll-target="#what-are-courts">What are courts?</a></li>
-  <li><a href="#what-are-courts-1" id="toc-what-are-courts-1" class="nav-link" data-scroll-target="#what-are-courts-1">What are courts?</a></li>
-  <li><a href="#what-are-courts-2" id="toc-what-are-courts-2" class="nav-link" data-scroll-target="#what-are-courts-2">What are courts?</a></li>
-  <li><a href="#what-are-courts-3" id="toc-what-are-courts-3" class="nav-link" data-scroll-target="#what-are-courts-3">What are courts?</a></li>
-  <li><a href="#alternative-definition" id="toc-alternative-definition" class="nav-link" data-scroll-target="#alternative-definition">Alternative definition</a></li>
-  <li><a href="#alternative-definition-1" id="toc-alternative-definition-1" class="nav-link" data-scroll-target="#alternative-definition-1">Alternative definition</a></li>
-  <li><a href="#brief-history-of-courts" id="toc-brief-history-of-courts" class="nav-link" data-scroll-target="#brief-history-of-courts">Brief history of courts</a></li>
-  <li><a href="#brief-history-of-courts-1" id="toc-brief-history-of-courts-1" class="nav-link" data-scroll-target="#brief-history-of-courts-1">Brief history of courts</a></li>
-  <li><a href="#brief-history-of-courts-2" id="toc-brief-history-of-courts-2" class="nav-link" data-scroll-target="#brief-history-of-courts-2">Brief history of courts</a></li>
-  <li><a href="#lawsuit-in-19th-century-bce" id="toc-lawsuit-in-19th-century-bce" class="nav-link" data-scroll-target="#lawsuit-in-19th-century-bce">Lawsuit in 19th century BCE</a></li>
-  <li><a href="#lawsuit-in-19th-century-bce-1" id="toc-lawsuit-in-19th-century-bce-1" class="nav-link" data-scroll-target="#lawsuit-in-19th-century-bce-1">Lawsuit in 19th century BCE</a></li>
-  <li><a href="#ancient-greece" id="toc-ancient-greece" class="nav-link" data-scroll-target="#ancient-greece">Ancient Greece</a></li>
-  <li><a href="#ancient-greece-1" id="toc-ancient-greece-1" class="nav-link" data-scroll-target="#ancient-greece-1">Ancient Greece</a></li>
-  <li><a href="#supreme-court-of-ancient-athens" id="toc-supreme-court-of-ancient-athens" class="nav-link" data-scroll-target="#supreme-court-of-ancient-athens">“Supreme Court” of Ancient Athens</a></li>
-  <li><a href="#the-trial-of-socrates-399-bce" id="toc-the-trial-of-socrates-399-bce" class="nav-link" data-scroll-target="#the-trial-of-socrates-399-bce">The Trial of Socrates (399 BCE)</a></li>
-  <li><a href="#ancient-rome" id="toc-ancient-rome" class="nav-link" data-scroll-target="#ancient-rome">Ancient Rome</a></li>
-  <li><a href="#quick-overview" id="toc-quick-overview" class="nav-link" data-scroll-target="#quick-overview">Quick overview</a></li>
-  <li><a href="#pre-modern-trials" id="toc-pre-modern-trials" class="nav-link" data-scroll-target="#pre-modern-trials">Pre-modern “trials”</a></li>
-  <li><a href="#trial-by-ordeal" id="toc-trial-by-ordeal" class="nav-link" data-scroll-target="#trial-by-ordeal">Trial by ordeal</a></li>
-  <li><a href="#trial-by-boiling-water" id="toc-trial-by-boiling-water" class="nav-link" data-scroll-target="#trial-by-boiling-water">Trial by boiling water</a></li>
-  <li><a href="#emergence-of-common-law-in-england" id="toc-emergence-of-common-law-in-england" class="nav-link" data-scroll-target="#emergence-of-common-law-in-england">Emergence of common law in England</a></li>
-  <li><a href="#emergence-of-common-law-in-england-1" id="toc-emergence-of-common-law-in-england-1" class="nav-link" data-scroll-target="#emergence-of-common-law-in-england-1">Emergence of common law in England</a></li>
-  <li><a href="#civil-law-systems" id="toc-civil-law-systems" class="nav-link" data-scroll-target="#civil-law-systems">Civil law systems</a></li>
-  <li><a href="#modern-courts" id="toc-modern-courts" class="nav-link" data-scroll-target="#modern-courts">Modern courts</a></li>
-  <li><a href="#judicial-review" id="toc-judicial-review" class="nav-link" data-scroll-target="#judicial-review">Judicial review</a></li>
-  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes</a></li>
-  </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="01-reasons-courts.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
-    </div>
-<!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Reasons for Courts</h1>
-<p class="subtitle lead">Week 1</p>
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Dr Michal Ovádek 
+</div>
+</div>
 </div>
 
-
-
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Dr Michal Ovádek </p>
-          </div>
-  </div>
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="what-are-courts" class="level2">
-<h2 class="anchored" data-anchor-id="what-are-courts">What are courts?</h2>
-<p>Mohr defines courts as</p>
-<blockquote class="blockquote">
-<p>a family of passive governmental institutions one of whose prominent functions is the settlement of disputes, distinguished from other governmental institutions by a commitment to decide impartially, after presentation of proofs and arguments by contending parties, and to be able to justify decisions according to pre-existing rule.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
-</blockquote>
 </section>
-<section id="what-are-courts-1" class="level2">
-<h2 class="anchored" data-anchor-id="what-are-courts-1">What are courts?</h2>
+<section id="what-are-courts" class="slide level2 center">
+<h2>What are courts?</h2>
+<p>Mohr defines courts as</p>
+<blockquote>
+<p>a family of passive governmental institutions one of whose prominent functions is the settlement of disputes, distinguished from other governmental institutions by a commitment to decide impartially, after presentation of proofs and arguments by contending parties, and to be able to justify decisions according to pre-existing rule.<sup>1</sup></p>
+</blockquote>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>Mohr, Lawrence B. “Organizations, decisions, and courts.” <em>Law &amp; Society Review</em> 10, no. 4 (1976): 621-642, p.&nbsp;623.</p></li></ol></aside></section>
+<section id="what-are-courts-1" class="slide level2 center">
+<h2>What are courts?</h2>
 <p>Let’s distil the main elements from this definition:</p>
-<div class="incremental">
-<ul class="incremental">
-<li><p>“governmental”</p></li>
-<li><p>“institutions” (= organizations)</p></li>
-<li><p>core function = dispute settlement</p></li>
-<li><p>impartiality</p></li>
-<li><p>arbiter between parties</p></li>
-<li><p>justify decisions with pre-existing rules</p></li>
+<div>
+<ul>
+<li class="fragment"><p>“governmental”</p></li>
+<li class="fragment"><p>“institutions” (= organizations)</p></li>
+<li class="fragment"><p>core function = dispute settlement</p></li>
+<li class="fragment"><p>impartiality</p></li>
+<li class="fragment"><p>arbiter between parties</p></li>
+<li class="fragment"><p>justify decisions with pre-existing rules</p></li>
 </ul>
 </div>
 </section>
-<section id="what-are-courts-2" class="level2">
-<h2 class="anchored" data-anchor-id="what-are-courts-2">What are courts?</h2>
+<section id="what-are-courts-2" class="slide level2 center">
+<h2>What are courts?</h2>
 <ul>
-<li><p>“governmental”</p>
+<li><p>“<strong>governmental</strong>”</p>
 <ul>
 <li><p>could exclude international courts if understood strictly</p></li>
 <li><p>seemingly excludes private adjudication and mediation, even if a strong public interest function exists (e.g.&nbsp;Meta Oversight Board)</p></li>
 </ul></li>
 </ul>
-<p><img src="img/oversight-board.png" class="img-fluid" width="301"></p>
-</section>
-<section id="what-are-courts-3" class="level2">
-<h2 class="anchored" data-anchor-id="what-are-courts-3">What are courts?</h2>
+
+<img data-src="img/oversight-board.png" width="301" class="r-stretch"></section>
+<section id="what-are-courts-3" class="slide level2 center">
+<h2>What are courts?</h2>
 <ul>
-<li><p>a court is an organization</p>
+<li><p>a court is an <strong>organization</strong></p>
 <ul>
 <li><p>a single individual is not a court</p></li>
 <li><p>can there be ‘judges’ without courts? E.g. travelling judges in far-away Roman and Byzantine provinces</p></li>
@@ -320,15 +381,56 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 </section>
-<section id="alternative-definition" class="level2">
-<h2 class="anchored" data-anchor-id="alternative-definition">Alternative definition</h2>
-<p>The Court of Justice of the European Union has developed its own definition of a ‘court or tribunal’:</p>
-<blockquote class="blockquote">
-<p>[…] in order to determine whether a body making a reference is a ‘court or tribunal’ […] the Court takes account of a number of factors, such as, inter alia, whether the body is established by law, whether it is permanent, whether its jurisdiction is compulsory, whether its procedure is inter partes, whether it applies rules of law and whether it is independent […]<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
-</blockquote>
+<section id="what-are-courts-4" class="slide level2 center">
+<h2>What are courts?</h2>
+<ul>
+<li><p>a court settles <strong>disputes</strong> between parties</p>
+<ul>
+<li><p>including private and public entities</p></li>
+<li><p>different judicial remedies for different types of disputes</p></li>
+</ul></li>
+<li><p>arbitrators and mediators also resolve disputes, in less rigid settings</p></li>
+</ul>
 </section>
-<section id="alternative-definition-1" class="level2">
-<h2 class="anchored" data-anchor-id="alternative-definition-1">Alternative definition</h2>
+<section id="what-are-courts-5" class="slide level2 center">
+<h2>What are courts?</h2>
+<ul>
+<li><p>courts need to be <strong>impartial</strong> to maintain legitimacy</p>
+<ul>
+<li><p>normative requirement to decide impartially</p></li>
+<li><p>practical requirement to also <em>appear</em> impartial</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="what-are-courts-6" class="slide level2 center">
+<h2>What are courts?</h2>
+<ul>
+<li><p>court procedure is principally <strong>adversarial</strong></p>
+<ul>
+<li><p>the parties are presenting evidence and arguing their side of the case</p></li>
+<li><p>the court is there to make a decision on the case as it is presented to it</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="what-are-courts-7" class="slide level2 center">
+<h2>What are courts?</h2>
+<ul>
+<li><p>decisions are motivated with reference to pre-existing rules</p>
+<ul>
+<li><p>laws and precedents should make rulings predictable</p></li>
+<li><p>need to justify decisions in this way should limit judicial power (discretion)</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="alternative-definition" class="slide level2 center">
+<h2>Alternative definition</h2>
+<p>The Court of Justice of the European Union has developed its own definition of a ‘court or tribunal’:</p>
+<blockquote>
+<p>[…] in order to determine whether a body making a reference is a ‘court or tribunal’ […] the Court takes account of a number of factors, such as, inter alia, whether the body is established by law, whether it is permanent, whether its jurisdiction is compulsory, whether its procedure is inter partes, whether it applies rules of law and whether it is independent […]<sup>1</sup></p>
+</blockquote>
+<aside><ol class="aside-footnotes"><li id="fn2"><p>Case C-132/20 <em>Getin Noble Bank</em> [2022] ECLI:EU:C:2022:235, para 66.</p></li></ol></aside></section>
+<section id="alternative-definition-1" class="slide level2 center">
+<h2>Alternative definition</h2>
 <p>Some similarities, some differences:</p>
 <ul>
 <li><p>established by law</p></li>
@@ -339,18 +441,18 @@ ul.task-list li input[type="checkbox"] {
 <li><p>independent</p></li>
 </ul>
 </section>
-<section id="brief-history-of-courts" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="brief-history-of-courts">Brief history of courts</h2>
+<section id="brief-history-of-courts" class="slide level2 smaller center">
+<h2>Brief history of courts</h2>
 <ul>
-<li><p>the behaviour of a third-party arbiter mediating disputes long pre-dates the invention of syntactic language (~ 70 000 BCE) and has been also observed among non-human primates<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p></li>
+<li><p>the behaviour of a third-party arbiter mediating disputes long pre-dates the invention of syntactic language (~ 70 000 BCE) and has been also observed among non-human primates<sup>1</sup></p></li>
 <li><p>it is a type of pro-social behaviour which can arise from a concern for the community or as a non-violent avenue to power</p></li>
 <li><p>the development of religious practices and the role of priests were among the earliest forms of ‘law’ (at first purely oral/physical) and ‘judges’, possibly as early as 50 000 BCE</p></li>
 </ul>
-</section>
-<section id="brief-history-of-courts-1" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="brief-history-of-courts-1">Brief history of courts</h2>
+<aside><ol class="aside-footnotes"><li id="fn3"><p>Von Rohr, Claudia Rudolf, Sonja E. Koski, Judith M. Burkart, Clare Caws, Orlaith N. Fraser, Angela Ziltener, and Carel P. Van Schaik. “Impartial third-party interventions in captive chimpanzees: a reflection of community concern.” PloS one 7, no. 3 (2012): e32494.</p></li></ol></aside></section>
+<section id="brief-history-of-courts-1" class="slide level2 smaller center">
+<h2>Brief history of courts</h2>
 <ul>
-<li><p>in early societies a key concern was the regulation of retaliation<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<li><p>in early societies a key concern was the regulation of retaliation<sup>1</sup></p>
 <ul>
 <li><p>submission to arbitration or a community “judge” requires coordination</p></li>
 <li><p>risk of blood-feud spirals at family level</p></li>
@@ -361,9 +463,9 @@ ul.task-list li input[type="checkbox"] {
 <li>most famously in the Babylonian Code of Hammurabi (“eye for an eye”)</li>
 </ul></li>
 </ul>
-</section>
-<section id="brief-history-of-courts-2" class="level2">
-<h2 class="anchored" data-anchor-id="brief-history-of-courts-2">Brief history of courts</h2>
+<aside><ol class="aside-footnotes"><li id="fn4"><p>Wolff, Hans Julius. “The origin of judicial litigation among the Greeks.” Traditio (1946): 31-87.</p></li></ol></aside></section>
+<section id="brief-history-of-courts-2" class="slide level2 center">
+<h2>Brief history of courts</h2>
 <ul>
 <li><p>the creation of codified laws meant that sophisticated judicial institutions were in place in Mesopotamia at least as early as 2100 BCE</p>
 <ul>
@@ -373,24 +475,19 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 </section>
-<section id="lawsuit-in-19th-century-bce" class="level2">
-<h2 class="anchored" data-anchor-id="lawsuit-in-19th-century-bce">Lawsuit in 19th century BCE</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/meso-tablet.jpg" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption>Record of a lawsuit on a cuneiform tablet</figcaption>
-</figure>
-</div>
-</section>
-<section id="lawsuit-in-19th-century-bce-1" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="lawsuit-in-19th-century-bce-1">Lawsuit in 19th century BCE</h2>
+<section id="lawsuit-in-19th-century-bce" class="slide level2 center">
+<h2>Lawsuit in 19th century BCE</h2>
+
+<img data-src="img/meso-tablet.jpg" style="width:80.0%" class="r-stretch quarto-figure-center"><p class="caption">Record of a lawsuit on a cuneiform tablet</p></section>
+<section id="lawsuit-in-19th-century-bce-1" class="slide level2 smaller center">
+<h2>Lawsuit in 19th century BCE</h2>
 <p>From the website of the Met Museum:</p>
-<blockquote class="blockquote">
+<blockquote>
 <p>This tablet, the longest extant Old Assyrian legal text, represents one such document and records court testimony describing a dispute between two merchants. This testimony was delivered before witnesses representing the authority of the merchant government in Kanesh as well as the dagger of the god Ashur. In the text, Suen-nada and Ennum-Ashur accuse each other of stealing the valuable contents of a private archive which they both claim to own. Items within the archive include cylinder seals, tablets belonging to various named merchants, and tablets belonging to strangers that were deposited there for safe keeping. As undisturbed tablet storerooms are extremely rare, this text is important for reconstructing the contents of a sealed archive. Ennum-Assur calls for the case to be moved to Ashur to be tried in front of the city assembly and king, but unfortunately the verdict of the court is unknown.</p>
 </blockquote>
 </section>
-<section id="ancient-greece" class="level2">
-<h2 class="anchored" data-anchor-id="ancient-greece">Ancient Greece</h2>
+<section id="ancient-greece" class="slide level2 center">
+<h2>Ancient Greece</h2>
 <ul>
 <li><p>coexistence of voluntary private arbitration and emergence of compulsory <em>polis</em> jurisdiction</p></li>
 <li><p>court jurisdiction was to some extent separate from enforcement (public justice, private enforcement)</p>
@@ -399,12 +496,22 @@ ul.task-list li input[type="checkbox"] {
 <li><p>judgments were frequently difficult to enforce as a result, but NB the social function of trials</p></li>
 </ul></li>
 </ul>
-<div class="notes">
+<aside class="notes">
 <p>Mostly drawing on Wolff (1946) who makes the point that Greek courts were merely settling disputes but not ordering litigants to do anything. Litigants would request the court to certify their private enforcement action (self-help).</p>
-</div>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="ancient-greece-1" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="ancient-greece-1">Ancient Greece</h2>
+<section id="ancient-greece-1" class="slide level2 smaller center">
+<h2>Ancient Greece</h2>
 <ul>
 <li><p>the most important disputes were litigated as public trials before a significant number (100s to 1000s) of jurors, but geographical and temporal variation</p></li>
 <li><p>written laws were generally sparser and more vague than in the Roman world</p></li>
@@ -414,34 +521,50 @@ ul.task-list li input[type="checkbox"] {
 <li><p>rhetorical skills were nonetheless a central element of the trial</p></li>
 </ul></li>
 </ul>
-<div class="notes">
+<aside class="notes">
 <p>This is a great source: https://www.unpredictableblog.com/blog/Athens Also: https://acoup.blog/2023/04/07/collections-how-to-polis-101-part-iic-the-courts/</p>
-</div>
+<p>Greek jurors were very independent from the “government”, but the government itself was mostly weak because direct democracy with elected officials for everything every year</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="supreme-court-of-ancient-athens" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="supreme-court-of-ancient-athens">“Supreme Court” of Ancient Athens</h2>
+<section id="supreme-court-of-ancient-athens" class="slide level2 smaller center">
+<h2>“Supreme Court” of Ancient Athens</h2>
 <ul>
 <li><p>Heliaia, founded in the middle of the 500s BCE</p></li>
 <li><p>at its largest consisted of 6001 members chosen annually by lot from men over 30</p></li>
 <li><p>public, transparent gatherings where oral arguments were presented and informally discussed</p></li>
-<li><p>at the end of the trial, jurors<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> cast their ballot regarding the decision which was by majority</p></li>
+<li><p>at the end of the trial, jurors<sup>1</sup> cast their ballot regarding the decision which was by majority</p></li>
 <li><p>magistrates handled the administration of the procedure (e.g.&nbsp;court calendar), but also decided minor (and homicide) cases in smaller courts</p></li>
 </ul>
-<div class="notes">
+<aside class="notes">
 <p>Most of our knowledge of ancient Greek judiciary comes from Athens starting in about 600 BCE. From the time of Pericles (5th century BCE), jurors were paid for service.</p>
-</div>
-</section>
-<section id="the-trial-of-socrates-399-bce" class="level2">
-<h2 class="anchored" data-anchor-id="the-trial-of-socrates-399-bce">The Trial of Socrates (399 BCE)</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/socrates-death.jpg" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption>The Death of Socrates by Jacques-Louis David (1787)</figcaption>
-</figure>
-</div>
-</section>
-<section id="ancient-rome" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="ancient-rome">Ancient Rome</h2>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><ol class="aside-footnotes"><li id="fn5"><p><em>The Wasps</em> by Aristophanes is a Greek play about an old man who is addicted to jury service.</p></li></ol></aside></section>
+<section id="the-trial-of-socrates-399-bce" class="slide level2 center">
+<h2>The Trial of Socrates (399 BCE)</h2>
+
+<img data-src="img/socrates-death.jpg" style="width:80.0%" class="r-stretch quarto-figure-center"><p class="caption">The Death of Socrates by Jacques-Louis David (1787)</p></section>
+<section id="ancient-rome" class="slide level2 smaller center">
+<h2>Ancient Rome</h2>
 <ul>
 <li><p>during the Roman Kingdom era (753-509 BCE), the king had absolute power and was thus the ultimate judge</p></li>
 <li><p>proliferation of Roman law (public and private) from about 300 BCE in response to territorial and economic growth</p></li>
@@ -456,9 +579,9 @@ ul.task-list li input[type="checkbox"] {
 <li><p>a powerful class of <em>jurists</em> – law experts – advised on what (they argued) the law was and <em>advocates</em> who argued on behalf of their clients</p></li>
 </ul>
 </section>
-<section id="quick-overview" class="level2">
-<h2 class="anchored" data-anchor-id="quick-overview">Quick overview</h2>
-<table class="caption-top table">
+<section id="quick-overview" class="slide level2 center">
+<h2>Quick overview</h2>
+<table class="caption-top">
 <thead>
 <tr class="header">
 <th></th>
@@ -513,8 +636,8 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="pre-modern-trials" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="pre-modern-trials">Pre-modern “trials”</h2>
+<section id="pre-modern-trials" class="slide level2 smaller center">
+<h2>Pre-modern “trials”</h2>
 <ul>
 <li><p>there were decidedly pre-modern types of “trial” in the Middle Ages and before, typically mixing law, courts and religious beliefs</p>
 <ul>
@@ -524,14 +647,24 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><p><a href="https://aeon.co/ideas/why-the-trial-by-ordeal-was-actually-an-effective-test-of-guilt">Peter Leeson makes the argument</a> that ordeals were actually effective judicial tools</p></li>
 </ul>
-<div class="notes">
+<aside class="notes">
 <p>the guilty knew they would not pass the ordeal -&gt; admitted guilt</p>
 <p>the innocent expected God to intervene (eg not be burned by boiling water) -&gt; took the ordeal</p>
 <p>the ordeal was gamed by priests, so that many of those taking it would pass. The issue with the argument is that the priest was the de facto judge by choosing whether to make water hot or cold and subsequently evaluating the injury</p>
-</div>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="trial-by-ordeal" class="level2">
-<h2 class="anchored" data-anchor-id="trial-by-ordeal">Trial by ordeal</h2>
+<section id="trial-by-ordeal" class="slide level2 center">
+<h2>Trial by ordeal</h2>
 <ul>
 <li><p>most common types were trial by fire and trial by water, with many different variations on both</p>
 <ul>
@@ -541,17 +674,12 @@ ul.task-list li input[type="checkbox"] {
 <li><p>if the wound was festering a few days later, this was usually taken as evidence of guilt</p></li>
 </ul>
 </section>
-<section id="trial-by-boiling-water" class="level2">
-<h2 class="anchored" data-anchor-id="trial-by-boiling-water">Trial by boiling water</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/trial-by-water.png" class="img-fluid figure-img"></p>
-<figcaption>Trial by boiling water, Sachsenspiegel law book (between 1220 and 1235)</figcaption>
-</figure>
-</div>
-</section>
-<section id="emergence-of-common-law-in-england" class="level2">
-<h2 class="anchored" data-anchor-id="emergence-of-common-law-in-england">Emergence of common law in England</h2>
+<section id="trial-by-boiling-water" class="slide level2 center">
+<h2>Trial by boiling water</h2>
+
+<img data-src="img/trial-by-water.png" class="r-stretch quarto-figure-center"><p class="caption">Trial by boiling water, Sachsenspiegel law book (between 1220 and 1235)</p></section>
+<section id="emergence-of-common-law-in-england" class="slide level2 center">
+<h2>Emergence of common law in England</h2>
 <ul>
 <li><p>body of law developed by judges through precedent (case law)</p></li>
 <li><p>in the 1150s, Henry II (King of England) began sending judges from the royal court in London to the rest of the country to decide disputes</p></li>
@@ -559,25 +687,25 @@ ul.task-list li input[type="checkbox"] {
 <li><p>this “common” law gradually replaced divergent local laws and customs throughout the kingdom</p></li>
 </ul>
 </section>
-<section id="emergence-of-common-law-in-england-1" class="level2">
-<h2 class="anchored" data-anchor-id="emergence-of-common-law-in-england-1">Emergence of common law in England</h2>
+<section id="emergence-of-common-law-in-england-1" class="slide level2 smaller center">
+<h2>Emergence of common law in England</h2>
 <ul>
 <li><p>the common law system originally served by far the most the interests of the king</p></li>
 <li><p>it <strong>empowered judges</strong>, who could invoke the king’s authority, to an unprecedented degree</p></li>
 <li><p>the rule of binding precedent solidified the sense of judges’ belonging to a <strong>distinct and autonomous professional class</strong> (though guarantees of judicial independence were lacking until 1701)</p></li>
-<li><p>by the time the Parliament built its legislative authority and Roman law was rediscovered in the 13th century, common law was sufficiently well developed to remain the primary source of law for centuries</p></li>
+<li><p>by the time the Parliament built up its legislative authority and Roman law was rediscovered in the 13th century, common law was sufficiently developed to remain the primary source of law for centuries</p></li>
 </ul>
 </section>
-<section id="civil-law-systems" class="level2">
-<h2 class="anchored" data-anchor-id="civil-law-systems">Civil law systems</h2>
+<section id="civil-law-systems" class="slide level2 center">
+<h2>Civil law systems</h2>
 <ul>
 <li><p>legal systems emerging from the idea of the primacy of codified written rules, notably the civil code</p></li>
 <li><p>much of European (and beyond) law has its roots in the <em>Corpus Juris Civilis</em>&nbsp;(534 CE, aka Code of Justinian) and in the related <em>Napoleonic Code</em> (1804)</p></li>
 <li><p>no binding precedent and judge-made principles – the judge as “the mouthpiece of the law” (Montesquieu)</p></li>
 </ul>
 </section>
-<section id="modern-courts" class="level2">
-<h2 class="anchored" data-anchor-id="modern-courts">Modern courts</h2>
+<section id="modern-courts" class="slide level2 smaller center">
+<h2>Modern courts</h2>
 <ul>
 <li><p>considerable convergence between civil and common law traditions over the last two centuries</p>
 <ul>
@@ -588,484 +716,575 @@ ul.task-list li input[type="checkbox"] {
 <li><p>variation in the prevalence of juries and <strong>judicial review</strong></p></li>
 </ul>
 </section>
-<section id="judicial-review" class="level2">
-<h2 class="anchored" data-anchor-id="judicial-review">Judicial review</h2>
+<section id="modern-courts-1" class="slide level2 smaller center">
+<h2>Modern courts</h2>
 <ul>
-<li><p>Written constitutions</p>
+<li><p>the court system in democratic regimes is seen as central to upholding <strong>the rule of law</strong></p></li>
+<li><p>oversee to varying degrees both vertical and horizontal disputes</p>
 <ul>
-<li><p>but the idea of distinguishing a higher law (historically often tied to religious beliefs) and lower, man-made law dates back to at least ancient Greece; natural law vs positive law</p></li>
-<li><p>the constitutional innovation lies in the “positivization” of what could have been considered natural law before</p></li>
+<li><p>vertical: disputes between the state and individuals (e.g.&nbsp;administrative law)</p></li>
+<li><p>horizontal: disputes between individuals (e.g.&nbsp;contract law)</p></li>
 </ul></li>
-<li><p>Marbury vs Madison</p></li>
+<li><p>should ensure respect for the <strong>constitution</strong>, whatever form the latter might take, as well as individual’s <strong>fundamental rights</strong></p></li>
 </ul>
-<div class="notes">
+</section>
+<section id="rise-of-constitutions" class="slide level2 center">
+<h2>Rise of constitutions</h2>
+
+<img data-src="01-reasons-courts_files/figure-revealjs/compconst-1.png" width="960" class="r-stretch"></section>
+<section id="judicial-review" class="slide level2 smaller center">
+<h2>Judicial review</h2>
+<ul>
+<li><p>the proliferation of constitutions and rights was accompanied by an expansion in (peak) courts’ power through <strong>judicial review</strong></p>
+<ul>
+<li><p>the idea of distinguishing “higher” rules – historically often tied to religion (natural law) – and “lower” rules dates back to at least ancient Greece</p></li>
+<li><p>constitutions made natural law into (interpretable, enforceable) positive law</p></li>
+</ul></li>
+<li><p>this is a core source of political tension under constitutionalism: how can anyone (i.e.&nbsp;a court) but the Hobbesian sovereign decide what is permitted?</p></li>
+<li><p>simply pointing to the law does not suffice – language is full of ambiguities, someone needs to interpret and apply it</p></li>
+</ul>
+<aside class="notes">
 <p>French judges pre-revolution were big supporters of the ancien regime, which made them particularly disliked by the Enlightened thinkers</p>
 <p>In contrast, in England judges were seen as relatively anti-monarchy and many of them would view judge-made common law as more important than statutes and decrees, which was a political problem for the King and the Parliament</p>
-</div>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="notes" class="level2">
-<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<section id="marbury-vs-madison-1803" class="slide level2 smaller center">
+<h2><em>Marbury vs Madison</em> (1803)</h2>
 <ul>
-<li><p>what many early versions of courts (pre-Greece) had in common was overlap with or supervision by governmental authority. Aka no judicial independence: this is the key struggle</p></li>
-<li><p>Greek jurors were very independent from the “government”, but the government itself was mostly weak because direct democracy with elected officials for everything every year</p></li>
-<li><p>there was very little in the way of using judicial precedents in Greece and only limited practice in Rome</p></li>
-<li><p>trials fulfilled important social functions:</p>
+<li><p>outgoing president John Adams appointed judges days before his term was over</p></li>
+<li><p>the appointment documents were failed to be delivered to half of the judges before the arrival of Thomas Jefferson to the presidency</p></li>
+<li><p>the new Secretary of State, James Madison, was told by Jefferson to not deliver them</p></li>
+<li><p>one of the refused judges, William Marbury, filed a lawsuit in late 1801</p></li>
+<li><p>the Supreme Court established it had the power to invalidate statutes deemed unconstitutional (but also found to have had no jurisdiction to force the government to deliver)</p></li>
+</ul>
+<aside class="notes">
+<p>The person failing to deliver the commissions in time was John Marshall in the role of Secretary of State. He subsequently became the Chief Justice of the Supreme Court before the end of Adams’ term, which enabled him to rule on the case. Unanimous 4-0 decision.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="marbury-vs-madison-1803-1" class="slide level2 center">
+<h2><em>Marbury vs Madison</em> (1803)</h2>
+<blockquote>
+<p>It is emphatically the province and duty of the judicial department to say what the law is.<sup>1</sup></p>
+</blockquote>
+<aside><ol class="aside-footnotes"><li id="fn6"><p><em>Marbury</em>, 5 U.S. at 177.</p></li></ol></aside></section>
+<section id="marbury-vs-madison-1803-2" class="slide level2 center">
+<h2><em>Marbury vs Madison</em> (1803)</h2>
+
+<img data-src="img/john-marshall.jpg" width="323" class="r-stretch quarto-figure-center"><p class="caption">Portrait of Chief Justice John Marshall (1832)</p></section>
+<section id="marbury-vs-madison-1803-3" class="slide level2 smaller center">
+<h2><em>Marbury vs Madison</em> (1803)</h2>
 <ul>
-<li>social control: the subjugation of disputes to community laws and justice, they could be shameful for the parties as well, which induced settlements</li>
-<li>immersing citizens (especially in Greece) in the exercise of justice (responsibilizing citizens)</li>
+<li><p>judicial politics on many fronts</p>
+<ul>
+<li><p>born out of a court packing effort</p></li>
+<li><p>questionable impartiality of the opinion writer</p></li>
+<li><p>case re-framed as a question of statutory constitutionality</p></li>
+<li><p>navigating political conflict (between the Federalists and the Democratic-Republicans) and likelihood of compliance</p></li>
+<li><p>seeking to strengthen the Court’s authority</p></li>
 </ul></li>
 </ul>
 
-
+<div class="quarto-auto-generated-content">
+<p><img src="img/ucl-logo.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>POLS0113: Judicial Politics</p>
+</div>
+</div>
 </section>
 
+    </div>
+  </div>
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
 
-<ol>
-<li id="fn1"><p>Mohr, Lawrence B. “Organizations, decisions, and courts.” <em>Law &amp; Society Review</em> 10, no. 4 (1976): 621-642, p.&nbsp;623.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Case C-132/20 <em>Getin Noble Bank</em> [2022] ECLI:EU:C:2022:235, para 66.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>Von Rohr, Claudia Rudolf, Sonja E. Koski, Judith M. Burkart, Clare Caws, Orlaith N. Fraser, Angela Ziltener, and Carel P. Van Schaik. “Impartial third-party interventions in captive chimpanzees: a reflection of community concern.” PloS one 7, no. 3 (2012): e32494.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>Wolff, Hans Julius. “The origin of judicial litigation among the Greeks.” Traditio (1946): 31-87.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p><em>The Wasps</em> by Aristophanes is a Greek play about an old man who is addicted to jury service.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+
+    <script>
+
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
+      // slide changes (different for each slide format).
+
+      (function () {
+
+        // dispatch for htmlwidgets
+
+        function fireSlideEnter() {
+
+          const event = window.document.createEvent("Event");
+
+          event.initEvent("slideenter", true, true);
+
+          window.document.dispatchEvent(event);
+
+        }
+
+    
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          fireSlideEnter();
+
+    
+
+          // dispatch for shiny
+
+          if (window.jQuery) {
+
+            if (previousSlide) {
+
+              window.jQuery(previousSlide).trigger("hidden");
+
+            }
+
+            if (currentSlide) {
+
+              window.jQuery(currentSlide).trigger("shown");
+
+            }
+
+          }
+
+        }
+
+    
+
+        // hookup for slidy
+
+        if (window.w3c_slidy) {
+
+          window.w3c_slidy.add_observer(function (slide_num) {
+
+            // slide_num starts at position 1
+
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
+          });
+
+        }
+
+    
+
+      })();
+
+    </script>
+
+    
+
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
         }
       }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
         }
       }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
         }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }
-        return note.innerHTML;
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
       }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
+        });
       }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
       }
-    }, function(instance) {
     });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
-      });
-    }
-  }
-});
-</script>
-</div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
-      &nbsp;
-    </div>
-    <div class="nav-footer-right">
-<p>Website by Michal Ovádek, built with Quarto</p>
-</div>
-  </div>
-</footer>
-
-
-
+    </script>
+    
 
 </body></html>

@@ -27,3 +27,7 @@ Fleck, Robert K. and Hanssen, F. Andrew. "On the Benefits and Costs of Legal Exp
 Kapiszewski, Diana, and Matthew M. Taylor. "Doing courts justice? Studying judicial politics in Latin America." *Perspectives on politics* 6, no. 4 (2008): 741-767.
 
 Dahl, Robert A. "Decision-making in a democracy: The Supreme Court as a national policy-maker." *Journal of Public Law* 6, no. 2 (1957): 279.
+
+## Lecture slides
+
+[Week 1](lectures/01-reasons-courts.html)
