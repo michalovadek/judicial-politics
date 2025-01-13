@@ -43,7 +43,7 @@ The groups and weeks are assigned in the seminar of week 1 on a first-come-first
 | 3             | Grant, Alexa              | CJEU, SA SC           |
 | 4             | Jack, Sofia               | UK SC, ICC            |
 | 5             | Charles, Matthieu         | FR CC, ECtHR          |
-| 6             | Rebecca, Ariane, Sophie   | IT SC, BR SC,         |
+| 6             | Rebecca, Ariane, Sophia   | IT SC, BR SC, NG SC   |
 | 7             | Iva, Vishal               | CA SC, PL SC          |
 | 8             | Manya, Young Seo, Crystal | IN SC, IACtHR , JP SC |
 | 9             | Max, Ben, Kohen           | MX SC, , KR SC        |
