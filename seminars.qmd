@@ -34,36 +34,34 @@ In the final part of the presentation, the presenting group should reflect on wh
 
 The groups and weeks are assigned in the seminar of week 1 on a first-come-first-serve basis. Any absent students are randomly assigned to groups and weeks to fill the remaining spots.
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ### Seminar 1
 
-| Teaching week | Presenters | Courts |
-|---------------|------------|--------|
-| 2             |            |        |
-| 3             |            |        |
-| 4             |            |        |
-| 5             |            |        |
-| 6             |            |        |
-| 7             |            |        |
-| 8             |            |        |
-| 9             |            |        |
-| 10            |            |        |
+| Teaching week | Presenters                | Courts                |
+|---------------|---------------------------|-----------------------|
+| 2             | No presentation           |                       |
+| 3             | Grant, Alexa              | CJEU, SA SC           |
+| 4             | Jack, Sofia               | UK SC, ICC            |
+| 5             | Charles, Matthieu         | FR CC, ECtHR          |
+| 6             | Rebecca, Ariane, Sophie   | IT SC, BR SC,         |
+| 7             | Iva, Vishal               | CA SC, PL SC          |
+| 8             | Manya, Young Seo, Crystal | IN SC, IACtHR , JP SC |
+| 9             | Max, Ben, Kohen           | MX SC, , KR SC        |
+| 10            | Joss, Maude               | ,                     |
 
 ### Seminar 2
 
-| Teaching week | Presenters | Courts |
-|---------------|------------|--------|
-| 2             |            |        |
-| 3             |            |        |
-| 4             |            |        |
-| 5             |            |        |
-| 6             |            |        |
-| 7             |            |        |
-| 8             |            |        |
-| 9             |            |        |
-| 10            |            |        |
-
+| Teaching week | Presenters      | Courts           |
+|---------------|-----------------|------------------|
+| 2             | No presentation |                  |
+| 3             | David, Chiharu  | DE SC, JP SC     |
+| 4             | Kamile, Liz     | US SC, ICJ       |
+| 5             | Zoya, Gabriele  | ,                |
+| 6             | Natania, Corey  | , SA CC          |
+| 7             | Tiegan, Sam     | , CA SC          |
+| 8             | Joey, Sophie    | KR SC, AU SC     |
+| 9             | Carla, Chloe    | , Cour d'assises |
+| 10            | Sacha,          | FR CC,           |
 :::
 
 Each court can only be covered **once** in a presentation. Students can 'reserve' courts for their presentation by signalling their preference to the instructor. The choice of a court must be signalled in any case at least a week before the presentation is due (to enable other students to select their courts). There can be no repeat presentations of the same court in the same seminar group.

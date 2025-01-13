@@ -177,7 +177,7 @@ From the website of the Met Museum:
 Mostly drawing on Wolff (1946) who makes the point that Greek courts were merely settling disputes but not ordering litigants to do anything. Litigants would request the court to certify their private enforcement action (self-help).
 :::
 
-## Ancient Greece  {.smaller}
+## Ancient Greece {.smaller}
 
 -   the most important disputes were litigated as public trials before a significant number (100s to 1000s) of jurors, but geographical and temporal variation
 
@@ -293,7 +293,7 @@ the ordeal was gamed by priests, so that many of those taking it would pass. The
 
 -   this "common" law gradually replaced divergent local laws and customs throughout the kingdom
 
-## Emergence of common law in England  {.smaller}
+## Emergence of common law in England {.smaller}
 
 -   the common law system originally served by far the most the interests of the king
 
@@ -311,7 +311,7 @@ the ordeal was gamed by priests, so that many of those taking it would pass. The
 
 -   no binding precedent and judge-made principles – the judge as "the mouthpiece of the law" (Montesquieu)
 
-## Modern courts  {.smaller}
+## Modern courts {.smaller}
 
 -   considerable convergence between civil and common law traditions over the last two centuries
 
@@ -323,7 +323,7 @@ the ordeal was gamed by priests, so that many of those taking it would pass. The
 
 -   variation in the prevalence of juries and **judicial review**
 
-## Modern courts  {.smaller}
+## Modern courts {.smaller}
 
 -   the court system in democratic regimes is seen as central to upholding **the rule of law**
 
@@ -370,7 +370,7 @@ ccp_year |>
        caption = "Source: Comparative Constitutions Project v4.0")
 ```
 
-## Judicial review  {.smaller}
+## Judicial review {.smaller}
 
 -   the proliferation of constitutions and rights was accompanied by an expansion in (peak) courts' power through **judicial review**
 
@@ -388,7 +388,7 @@ French judges pre-revolution were big supporters of the ancien regime, which mad
 In contrast, in England judges were seen as relatively anti-monarchy and many of them would view judge-made common law as more important than statutes and decrees, which was a political problem for the King and the Parliament
 :::
 
-## *Marbury vs Madison* (1803)  {.smaller}
+## *Marbury vs Madison* (1803) {.smaller}
 
 -   outgoing president John Adams appointed judges days before his term was over
 
@@ -404,17 +404,17 @@ In contrast, in England judges were seen as relatively anti-monarchy and many of
 The person failing to deliver the commissions in time was John Marshall in the role of Secretary of State. He subsequently became the Chief Justice of the Supreme Court before the end of Adams' term, which enabled him to rule on the case. Unanimous 4-0 decision.
 :::
 
-## *Marbury vs Madison* (1803) 
+## *Marbury vs Madison* (1803)
 
 > It is emphatically the province and duty of the judicial department to say what the law is.[^6]
 
 [^6]: *Marbury*, 5 U.S. at 177.
 
-## *Marbury vs Madison* (1803) 
+## *Marbury vs Madison* (1803)
 
 ![Portrait of Chief Justice John Marshall (1832)](img/john-marshall.jpg){width="323"}
 
-## *Marbury vs Madison* (1803)  {.smaller}
+## *Marbury vs Madison* (1803) {.smaller}
 
 -   judicial politics on many fronts
 
