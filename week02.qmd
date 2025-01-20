@@ -24,6 +24,12 @@ Edelman, Lauren B., Linda H. Krieger, Scott R. Eliason, Catherine R. Albiston, a
 
 Ash, Elliott, Daniel L. Chen, and Arianna Ornaghi. "Gender attitudes in the judiciary: Evidence from US circuit courts." *American Economic Journal: Applied Economics* 16, no. 1 (2024): 314-350.
 
+Clark, Tom S., Benjamin G. Engst, and Jeffrey K. Staton. "Estimating the effect of leisure on judicial performance." *The Journal of Legal Studies* 47, no. 2 (2018): 349-390.
+
+Posner, Richard A. "What do judges and justices maximize? (The same thing everybody else does)." *Supreme Court Economic Review* 3, no. 1 (1993): 1-41.
+
+Engel, Christoph, and Keren Weinshall. "Manna from Heaven for Judges: Judges’ Reaction to a Quasi‐Random Reduction in Caseload." Journal of Empirical Legal Studies 17, no. 4 (2020): 722-751.
+
 ## Lecture slides
 
-[Week 2](lectures/01-reasons-courts.html)
+[Week 2](lectures/02-theories-judging.html)

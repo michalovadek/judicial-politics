@@ -1,0 +1,376 @@
+---
+title: "Theories of Judicial Behaviour"
+subtitle: "Week 2"
+author: "Dr Michal Ovádek"
+format:
+  revealjs:
+    logo: img/ucl-logo.png
+    footer: "POLS0113: Judicial Politics"
+    slide-number: c/t
+    show-slide-number: all
+    center: true
+    margin-left: "0.1"
+    margin-right: "0.1"
+bibliography: references.bib
+---
+
+## How do judges make decisions?
+
+-   modern judges are meant to apply legal rules to establish facts and decide disputes about the law
+-   in the process of doing so, they are frequently the ultimate authority deciding what the law "is" (and isn't)
+-   in this module we will be more concerned with how judges make decisions rather than how they *should* make decisions
+
+## How do judges make decisions?
+
+-   the **legalist** perspective
+
+    $$
+        decision = facts \times law
+    $$
+
+    -   judges consistently apply legal rules to decide disputes
+
+    -   decisions are only guided by facts and the law
+
+    -   judges assess both facts and the law objectively
+
+    -   the ruling is an honest representation of the judge's views
+
+## Legalism
+
+-   *assumptions* behind the **legalist** perspective
+
+    -   there is one or "best" answer to any legal dispute
+
+    -   legal rules are determinate and contain solutions to problems
+
+    -   judges are capable of identifying the best legal answer to a problem
+
+## Legalism
+
+-   *issues* with the **legalist** perspective
+
+    -   judges have preferences and unconscious biases
+
+    -   there are often many overlapping rules
+
+    -   there are often many possible ways to decide a despite (discretion)
+
+## Complexity of rules {.smaller}
+
+Let's consider the following simplistic case.
+
+**Law:**
+
+Rule 1: The government can force foreign companies to sell their assets if they threaten national security.
+
+**Facts**:
+
+A company based in a rival country wields a lot of influence in the Country. Its service facilitates the freedom of expression of millions of people. It collects data about its users. It does not share the data with the rival government. The Government invokes Rule 1 and orders a sale of the company's assets. The company disputes the legality of the order.
+
+## Complexity of rules {.smaller}
+
+**Law:**
+
+Rule 1: The government can force foreign companies to sell their assets if they threaten national security.
+
+[Rule 2: Companies are free to operate a business in the country.]{style="color:red;"}
+
+**Facts**:
+
+A company based in a rival country wields a lot of influence in the Country. Its service facilitates the freedom of expression of millions of people. It collects data about its users. It does not share the data with the rival government. The Government invokes Rule 1 and orders a sale of the company's assets. The company disputes the legality of the order.
+
+## Complexity of rules {.smaller}
+
+**Law:**
+
+Rule 1: The government can force foreign companies to sell their assets if they threaten national security.
+
+Rule 2: Companies are free to operate a business in the country.
+
+[Rule 3: Individuals have a right to express themselves freely.]{style="color:red;"}
+
+**Facts**:
+
+A company based in a rival country wields a lot of influence in the Country. Its service facilitates the freedom of expression of millions of people. It collects data about its users. It does not share the data with the rival government. The Government invokes Rule 1 and orders a sale of the company's assets. The company disputes the legality of the order.
+
+## Complexity of rules
+
+-   in a real legal system, there are millions of rules
+
+    -   which subset of them should be applied in a case?
+
+-   the interpretation of both facts and the law entails discretion
+
+## Ambiguity and disputes
+
+```{r ambigsigmoid}
+source("utils/globals.R")
+
+# sigmoidal function
+scurve <- function(x){
+  y <- exp(x) / (1 + exp(x))
+  return(y)
+}
+
+# plot
+ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
+  stat_function(fun = scurve, n = 100, linewidth = 0.8) +
+  theme_minimal() +
+  theme(
+    axis.text = element_blank(),
+    axis.title = element_text(hjust = 1),
+    axis.line = element_line(arrow = arrow(length = unit(0.1, "in")))
+  ) +
+  labs(x = "Legal ambiguity", y = "Probability of court involvement",
+       title = "Selection effects",
+       subtitle = "More ambiguous issues are more likely to make it before courts")
+```
+
+## Ambiguity and disputes
+
+```{r withsquare}
+
+# plot
+ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
+  geom_rect(xmin = 0, xmax = 4.1, ymin = 0.5, ymax = 1, color = "grey80", fill = "#e3c1d3") +
+  stat_function(fun = scurve, n = 100, linewidth = 0.8) +
+  theme_arrows() +
+  labs(x = "Legal ambiguity", y = "Probability of court involvement",
+       title = "Selection effects",
+       subtitle = "More ambiguous issues are more likely to make it before courts")
+```
+
+## Ambiguity and disputes
+
+-   where the law is perceived as unambiguous, it is less likely that a plaintiff would sue
+
+    -   there will be exceptions, e.g. criminal trials (but settlements)
+
+-   the more ambiguity, the more discretion a judge has in deciding
+
+## Ambiguity and disputes
+
+![Dyevre, Arthur. “Unifying the field of comparative judicial politics: towards a general theory of judicial behaviour.” European Political Science Review 2, no. 2 (2010): p. 313](img/dyevre-indeterminacy.png){width="400"}
+
+## Theories of judicial behaviour
+
+-   attitudinal
+
+-   economic
+
+-   cognitive
+
+## Attitudinal explanations
+
+## Attitudinal explanations
+
+-   the law alone does not determine case outcomes; judges' attitudinal preferences matter more
+
+-   originally motivated by the study of the US Supreme Court (SCOTUS)
+
+-   judges have political preferences which can be ideological or even partisan
+
+-   judges might seek desired policy outcomes consciously or subconsciously
+
+## Attitudinal explanations
+
+```{r scotusnews}
+
+# data from Epstein et al
+usjustices <- read_csv("data/justicesdata2022.csv")
+
+# plot
+usjustices |> 
+  filter(!str_detect(ideo, "^8")) |> 
+  distinct(name, .keep_all = T) |> 
+  mutate(ideo = as.numeric(ideo),
+         name = str_extract(name, ".*?(?=,)")) |> 
+  filter(ideo < 1.01) |> 
+  ggplot(aes(y = ideo, x = yrnom)) +
+  geom_text(aes(label = name), alpha = 0.8,
+            position = position_jitter(width = 5, height = 0.03)) +
+  geom_smooth(fill = "grey80") +
+  scale_x_continuous(n.breaks = 10) +
+  theme_minimal() +
+  theme(
+    axis.title.x = element_text(face = "bold"),
+  ) +
+  labs(x = "Year of nomination", y = "Conservative - Liberal",
+       title = "Ideology scores for SCOTUS justices",
+       subtitle = "Segal & Cover score of nominee's ideology based on newspaper editorials",
+       caption = "Data source: The U.S. Supreme Court Justices Database")
+```
+
+## Attitudinal explanations
+
+```{r mquinn}
+
+# data
+scotus_mq <- read_csv("data/justices_mquinn.csv")
+
+# plot
+scotus_mq |> 
+  mutate(justice = as.character(justice)) |> 
+  summarise(mean = mean(post_mn, na.rm = T), .by = c(justiceName, justice)) |> 
+  left_join(usjustices, by = c("justice"="spaethid")) |> 
+  mutate(ideo = as.numeric(ideo)) |> 
+  filter(ideo < 1.01) |> 
+  ggplot(aes(y = mean, x = 1-ideo)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  #scale_y_continuous(limits = c(-0.1,1)) +
+  theme_minimal() +
+  theme(
+    
+  ) +
+  labs(y = "Martin-Quinn Score", x = "Segal-Cover Score (reversed)",
+       title = "Ideology and voting on SCOTUS",
+       subtitle = "The correlation between estimated ideology and voting is ~0.6")
+```
+
+## Attitudinal explanations
+
+-   SCOTUS votes can be predicted from newspaper descriptions of the nominees [@segal1989; @cameron2009]
+
+-   with some exceptions [@weinshall-margel2011], partisan identification predicts how judges decide
+
+-   many judicial attitudes can be mapped onto a left-right dimension of political conflict
+
+-   variation in attitudes stems from a number of sources, including judges' background characteristics
+
+## Attitudinal explanations  {.smaller}
+
+> "judges’ decisions are a function of what they prefer to do, tempered by what they think they ought to do, but constrained by what they perceive is feasible to do" [@gibson1983, p. 9]
+
+-   attitudinal explanations are most relevant in "policy" cases, i.e. when matters of public policy play a role in the dispute
+
+-   judicial preferences and decision-making are multidimensional – the identity of the median justice might vary by issue area [@lauderdale2012]
+
+    -   the power of the unidimensional explanation tends to be lower outside the US context
+
+## Economic explanations
+
+## Economic explanations
+
+-   judges are **self-interested** agents who want to maximize their utility
+
+-   on the one hand, judges care about reputation, salary, career progress and personal satisfaction
+
+-   on the other hand, judges care about having free time
+
+## Economic explanations
+
+```{r utility1}
+
+# Define utility functions
+utility_linear <- function(U, quality) U - quality
+utility_cobb_douglas <- function(U, quality) U / sqrt(quality)
+utility_perfect_complements <- function(U, quality) pmax(0, U - quality)
+
+# Generate data for utility functions
+generate_utility_data <- function(U_levels, quality_vals, utility_func, name) {
+  data_list <- lapply(U_levels, function(U) {
+    leisure_vals <- utility_func(U, quality_vals)
+    data.frame(
+      QualityOfWork = quality_vals[leisure_vals >= 0 & !is.infinite(leisure_vals)],
+      Leisure = leisure_vals[leisure_vals >= 0 & !is.infinite(leisure_vals)],
+      Utility = sprintf("%s (U = %d)", name, U)
+    )
+  })
+  do.call(rbind, data_list)
+}
+
+# Parameters
+quality_vals <- seq(0, 10, by = 0.1)
+U_levels <- c(5, 10, 15)
+
+# Create data for each utility function
+data_linear <- generate_utility_data(U_levels, quality_vals, utility_linear, "Linear")
+data_cobb <- generate_utility_data(U_levels, quality_vals, utility_cobb_douglas, "Cobb-Douglas")
+data_complements <- generate_utility_data(U_levels, quality_vals, utility_perfect_complements, "Perfect Complements")
+
+# Combine all data
+data <- rbind(data_cobb, data_linear)
+
+# Plot the utility functions
+data |> 
+  filter(str_detect(Utility, "Cobb")) |> 
+  ggplot(aes(x = QualityOfWork, y = Leisure, color = Utility)) +
+  geom_line(size = 1, show.legend = FALSE) +
+  labs(
+    title = "Utility functions with diminishing returns",
+    subtitle = "Judges with different levels of productivity",
+    x = "Quality of Work",
+    y = "Leisure Time",
+    color = "Utility Function"
+  ) +
+  scale_color_brewer(palette = "Set2") +
+  theme_arrows()
+```
+
+::: notes
+Judges are willing to substitute quality for leisure time and vice versa. Each curve offers a fixed amount of utility – sliding along the curve is just changing the trade-off. Curve further from the origin means more total utility (= higher productivity). Some judges are more productive than others (as shown in the graph). In reality, some judges value leisure, relative to quality, more than others as well (but this is not very much captured here).
+:::
+
+## Economic explanations
+
+-   (peak-court) judges prefer writing better researched rulings over producing more of them [@ash2015; @engel2020], which is also why they like docket control [@skiple2021]
+
+-   judges have strong intrinsic motivation to perform well, which reduces the effectiveness of extrinsic measures [@ash2015; @engel2017]
+
+-   making leisure time more attractive (e.g. basketball tournament) makes judges do less and worse work [@clark2018]
+
+## Economic explanations
+
+-   promotion prospects motivate judges to avoid having their decisions overturned on appeal [@salzberger1999]
+
+-   judges might choose to be deferential towards the government or politically popular causes for the same reason [@sisk1998; @ramseyer2001]
+
+## Cognitive explanations
+
+## Cognitive explanations
+
+-   less fully formed theories of decision-making and more studies of various types of cognitive 'biases'
+
+-   people are only boundedly rational and instead of conducting strictly rational calculations rely on (biased) heuristics
+
+-   there are a number of common cognitive heuristics, e.g. anchoring, framing, hindsight bias, which have been shown to affect judges [@guthrie2001; @guthrie2002]
+
+## Cognitive explanations
+
+Anchoring: an initial value influences one's perception of a reasonable estimate of a value.
+
+-   @guthrie2001 ask judges to award damages in a personal injury case – those exposed to an irrelevant low number awarded 30% less in damages on average
+
+-   "municipal court judges fined a nightclub three times as much when its name (after its street address) was Club 11,866 rather than Club 58" [@rachlinski2017]
+
+## Cognitive explanations
+
+Framing: categorization of decision options as more or less positive. Most people are risk-averse when looking at potential gains and risk-seeking when choosing between options representing losses.
+
+-   when framing a (sure) settlement as a gain, judges were more likely to endorse it than when framed as a loss [@guthrie2001]
+
+-   bankruptcy reorganization plans with certain outcomes were more likely to be approved by judges when framed in terms of gains than losses [@rachlinski2006]
+
+## Cognitive explanations
+
+-   decision-making bias is often driven by in-group favoritism [@kantorowicz-reznichenko2022]
+
+    -   including ethnic [@grossman2016] and place-based (e.g. Minnesota) in-groups [@wistrich2014]
+
+-   judges give away their preferences through emotional arousal in oral hearings [@dietrich2019]
+
+-   legal training rarely attenuates bias in legal decision-making [@braman2007]
+
+## Cognitive explanations
+
+Legally irrelevant information influences how judges decide [@wistrich2005].
+
+-   sympathetic defendants are treated better, while precedents exert limited impact [@spamann2016]
+
+-   defendant with an extramarital affair with a corrupt official was judged more harshly [@liu2019]
+
+-   the legally irrelevant information which influences a decision is almost never acknowledged [@spamann2016; @liu2019; @kahan2015]
+
+## References

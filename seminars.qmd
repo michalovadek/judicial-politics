@@ -42,8 +42,8 @@ The groups and weeks are assigned in the seminar of week 1 on a first-come-first
 | 2             | No presentation           |                       |
 | 3             | Grant, Alexa              | CJEU, SA SC           |
 | 4             | Jack, Sofia               | UK SC, ICC            |
-| 5             | Charles, Matthieu         | FR CC, ECtHR          |
-| 6             | Rebecca, Ariane, Sophia   | IT SC, BR SC, NG SC   |
+| 5             | Charles, Matthieu, Alizeh | FR CC, ECtHR,         |
+| 6             | Rebecca, Ariane           | IT SC, BR SC          |
 | 7             | Iva, Vishal               | CA SC, PL SC          |
 | 8             | Manya, Young Seo, Crystal | IN SC, IACtHR , JP SC |
 | 9             | Max, Ben, Kohen           | MX SC, , KR SC        |
@@ -57,7 +57,7 @@ The groups and weeks are assigned in the seminar of week 1 on a first-come-first
 | 3             | David, Chiharu  | DE CC, JP SC                |
 | 4             | Kamile, Liz     | US SC, ICJ                  |
 | 5             | Zoya, Gabriele  | ,                           |
-| 6             | Natania, Corey  | , SA CC                     |
+| 6             | Natania, Corey  | IN SC, SA CC                |
 | 7             | Tiegan, Sam     | DE SC, CA SC                |
 | 8             | Joey, Sophie    | KR SC, AU SC                |
 | 9             | Carla, Chloe    | , FR Cour d'assises         |

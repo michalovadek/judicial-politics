@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.5.57">
+
+  <meta name="author" content="Dr Michal Ovádek">
+  <title>POLS0113: Judicial Politics – Theories of Judicial Behaviour</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
+
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-titled.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-titled) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-titled .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-titled .callout-title  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-titled.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-titled.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-title {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-title {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-title {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .callout.callout-titled .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-titled) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-title {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-title {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-title {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-title {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-title {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Theories of Judicial Behaviour</h1>
+  <p class="subtitle">Week 2</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Dr Michal Ovádek 
+</div>
+</div>
+</div>
+
+</section>
+<section id="how-do-judges-make-decisions" class="slide level2 center">
+<h2>How do judges make decisions?</h2>
+<ul>
+<li>modern judges are meant to apply legal rules to establish facts and decide disputes about the law</li>
+<li>in the process of doing so, they are frequently the ultimate authority deciding what the law “is” (and isn’t)</li>
+<li>in this module we will be more concerned with how judges make decisions rather than how they <em>should</em> make decisions</li>
+</ul>
+</section>
+<section id="how-do-judges-make-decisions-1" class="slide level2 center">
+<h2>How do judges make decisions?</h2>
+<ul>
+<li><p>the <strong>legalist</strong> perspective</p>
+<p><span class="math display">\[
+    decision = facts \times law
+\]</span></p>
+<ul>
+<li><p>judges consistently apply legal rules to decide disputes</p></li>
+<li><p>decisions are only guided by facts and the law</p></li>
+<li><p>judges assess both facts and the law objectively</p></li>
+<li><p>the ruling is an honest representation of the judge’s views</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="legalism" class="slide level2 center">
+<h2>Legalism</h2>
+<ul>
+<li><p><em>assumptions</em> behind the <strong>legalist</strong> perspective</p>
+<ul>
+<li><p>there is one or “best” answer to any legal dispute</p></li>
+<li><p>legal rules are determinate and contain solutions to problems</p></li>
+<li><p>judges are capable of identifying the best legal answer to a problem</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="legalism-1" class="slide level2 center">
+<h2>Legalism</h2>
+<ul>
+<li><p><em>issues</em> with the <strong>legalist</strong> perspective</p>
+<ul>
+<li><p>judges have preferences and unconscious biases</p></li>
+<li><p>there are often many overlapping rules</p></li>
+<li><p>there are often many possible ways to decide a despite (discretion)</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="complexity-of-rules" class="slide level2 smaller center">
+<h2>Complexity of rules</h2>
+<p>Let’s consider the following simplistic case.</p>
+<p><strong>Law:</strong></p>
+<p>Rule 1: The government can force foreign companies to sell their assets if they threaten national security.</p>
+<p><strong>Facts</strong>:</p>
+<p>A company based in a rival country wields a lot of influence in the Country. Its service facilitates the freedom of expression of millions of people. It collects data about its users. It does not share the data with the rival government. The Government invokes Rule 1 and orders a sale of the company’s assets. The company disputes the legality of the order.</p>
+</section>
+<section id="complexity-of-rules-1" class="slide level2 smaller center">
+<h2>Complexity of rules</h2>
+<p><strong>Law:</strong></p>
+<p>Rule 1: The government can force foreign companies to sell their assets if they threaten national security.</p>
+<p><span style="color:red;">Rule 2: Companies are free to operate a business in the country.</span></p>
+<p><strong>Facts</strong>:</p>
+<p>A company based in a rival country wields a lot of influence in the Country. Its service facilitates the freedom of expression of millions of people. It collects data about its users. It does not share the data with the rival government. The Government invokes Rule 1 and orders a sale of the company’s assets. The company disputes the legality of the order.</p>
+</section>
+<section id="complexity-of-rules-2" class="slide level2 smaller center">
+<h2>Complexity of rules</h2>
+<p><strong>Law:</strong></p>
+<p>Rule 1: The government can force foreign companies to sell their assets if they threaten national security.</p>
+<p>Rule 2: Companies are free to operate a business in the country.</p>
+<p><span style="color:red;">Rule 3: Individuals have a right to express themselves freely.</span></p>
+<p><strong>Facts</strong>:</p>
+<p>A company based in a rival country wields a lot of influence in the Country. Its service facilitates the freedom of expression of millions of people. It collects data about its users. It does not share the data with the rival government. The Government invokes Rule 1 and orders a sale of the company’s assets. The company disputes the legality of the order.</p>
+</section>
+<section id="complexity-of-rules-3" class="slide level2 center">
+<h2>Complexity of rules</h2>
+<ul>
+<li><p>in a real legal system, there are millions of rules</p>
+<ul>
+<li>which subset of them should be applied in a case?</li>
+</ul></li>
+<li><p>the interpretation of both facts and the law entails discretion</p></li>
+</ul>
+</section>
+<section id="ambiguity-and-disputes" class="slide level2 center">
+<h2>Ambiguity and disputes</h2>
+
+<img data-src="02-theories-judging_files/figure-revealjs/ambigsigmoid-1.png" width="960" class="r-stretch"></section>
+<section id="ambiguity-and-disputes-1" class="slide level2 center">
+<h2>Ambiguity and disputes</h2>
+
+<img data-src="02-theories-judging_files/figure-revealjs/withsquare-1.png" width="960" class="r-stretch"></section>
+<section id="ambiguity-and-disputes-2" class="slide level2 center">
+<h2>Ambiguity and disputes</h2>
+<ul>
+<li><p>where the law is perceived as unambiguous, it is less likely that a plaintiff would sue</p>
+<ul>
+<li>there will be exceptions, e.g.&nbsp;criminal trials (but settlements)</li>
+</ul></li>
+<li><p>the more ambiguity, the more discretion a judge has in deciding</p></li>
+</ul>
+</section>
+<section id="ambiguity-and-disputes-3" class="slide level2 center">
+<h2>Ambiguity and disputes</h2>
+
+<img data-src="img/dyevre-indeterminacy.png" width="400" class="r-stretch quarto-figure-center"><p class="caption">Dyevre, Arthur. “Unifying the field of comparative judicial politics: towards a general theory of judicial behaviour.” European Political Science Review 2, no. 2 (2010): p.&nbsp;313</p></section>
+<section id="theories-of-judicial-behaviour" class="slide level2 center">
+<h2>Theories of judicial behaviour</h2>
+<ul>
+<li><p>attitudinal</p></li>
+<li><p>economic</p></li>
+<li><p>cognitive</p></li>
+</ul>
+</section>
+<section id="attitudinal-explanations" class="slide level2 center">
+<h2>Attitudinal explanations</h2>
+</section>
+<section id="attitudinal-explanations-1" class="slide level2 center">
+<h2>Attitudinal explanations</h2>
+<ul>
+<li><p>the law alone does not determine case outcomes; judges’ attitudinal preferences matter more</p></li>
+<li><p>originally motivated by the study of the US Supreme Court (SCOTUS)</p></li>
+<li><p>judges have political preferences which can be ideological or even partisan</p></li>
+<li><p>judges might seek desired policy outcomes consciously or subconsciously</p></li>
+</ul>
+</section>
+<section id="attitudinal-explanations-2" class="slide level2 center">
+<h2>Attitudinal explanations</h2>
+
+<img data-src="02-theories-judging_files/figure-revealjs/scotusnews-1.png" width="960" class="r-stretch"></section>
+<section id="attitudinal-explanations-3" class="slide level2 center">
+<h2>Attitudinal explanations</h2>
+
+<img data-src="02-theories-judging_files/figure-revealjs/mquinn-1.png" width="960" class="r-stretch"></section>
+<section id="attitudinal-explanations-4" class="slide level2 center">
+<h2>Attitudinal explanations</h2>
+<ul>
+<li><p>SCOTUS votes can be predicted from newspaper descriptions of the nominees <span class="citation" data-cites="segal1989 cameron2009">(<a href="#/references" role="doc-biblioref" onclick="">Segal and Cover 1989</a>; <a href="#/references" role="doc-biblioref" onclick="">Cameron and Park 2009</a>)</span></p></li>
+<li><p>with some exceptions <span class="citation" data-cites="weinshall-margel2011">(<a href="#/references" role="doc-biblioref" onclick="">Weinshall-Margel 2011</a>)</span>, partisan identification predicts how judges decide</p></li>
+<li><p>many judicial attitudes can be mapped onto a left-right dimension of political conflict</p></li>
+<li><p>variation in attitudes stems from a number of sources, including judges’ background characteristics</p></li>
+</ul>
+</section>
+<section id="attitudinal-explanations-5" class="slide level2 smaller center">
+<h2>Attitudinal explanations</h2>
+<blockquote>
+<p>“judges’ decisions are a function of what they prefer to do, tempered by what they think they ought to do, but constrained by what they perceive is feasible to do” <span class="citation" data-cites="gibson1983">(<a href="#/references" role="doc-biblioref" onclick="">Gibson 1983, 9</a>)</span></p>
+</blockquote>
+<ul>
+<li><p>attitudinal explanations are most relevant in “policy” cases, i.e.&nbsp;when matters of public policy play a role in the dispute</p></li>
+<li><p>judicial preferences and decision-making are multidimensional – the identity of the median justice might vary by issue area <span class="citation" data-cites="lauderdale2012">(<a href="#/references" role="doc-biblioref" onclick="">Lauderdale and Clark 2012</a>)</span></p>
+<ul>
+<li>the power of the unidimensional explanation tends to be lower outside the US context</li>
+</ul></li>
+</ul>
+</section>
+<section id="economic-explanations" class="slide level2 center">
+<h2>Economic explanations</h2>
+</section>
+<section id="economic-explanations-1" class="slide level2 center">
+<h2>Economic explanations</h2>
+<ul>
+<li><p>judges are <strong>self-interested</strong> agents who want to maximize their utility</p></li>
+<li><p>on the one hand, judges care about reputation, salary, career progress and personal satisfaction</p></li>
+<li><p>on the other hand, judges care about having free time</p></li>
+</ul>
+</section>
+<section id="economic-explanations-2" class="slide level2 center">
+<h2>Economic explanations</h2>
+
+<img data-src="02-theories-judging_files/figure-revealjs/utility1-1.png" width="960" class="r-stretch"><aside class="notes">
+<p>Judges are willing to substitute quality for leisure time and vice versa. Each curve offers a fixed amount of utility – sliding along the curve is just changing the trade-off. Curve further from the origin means more total utility (= higher productivity). Some judges are more productive than others (as shown in the graph). In reality, some judges value leisure, relative to quality, more than others as well (but this is not very much captured here).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="economic-explanations-3" class="slide level2 center">
+<h2>Economic explanations</h2>
+<ul>
+<li><p>(peak-court) judges prefer writing better researched rulings over producing more of them <span class="citation" data-cites="ash2015 engel2020">(<a href="#/references" role="doc-biblioref" onclick="">Ash and MacLeod 2015</a>; <a href="#/references" role="doc-biblioref" onclick="">Engel and Weinshall 2020</a>)</span>, which is also why they like docket control <span class="citation" data-cites="skiple2021">(<a href="#/references" role="doc-biblioref" onclick="">Skiple, Bentsen, and McKenzie 2021</a>)</span></p></li>
+<li><p>judges have strong intrinsic motivation to perform well, which reduces the effectiveness of extrinsic measures <span class="citation" data-cites="ash2015 engel2017">(<a href="#/references" role="doc-biblioref" onclick="">Ash and MacLeod 2015</a>; <a href="#/references" role="doc-biblioref" onclick="">Engel and Zhurakhovska 2017</a>)</span></p></li>
+<li><p>making leisure time more attractive (e.g.&nbsp;basketball tournament) makes judges do less and worse work <span class="citation" data-cites="clark2018">(<a href="#/references" role="doc-biblioref" onclick="">Clark, Engst, and Staton 2018</a>)</span></p></li>
+</ul>
+</section>
+<section id="economic-explanations-4" class="slide level2 center">
+<h2>Economic explanations</h2>
+<ul>
+<li><p>promotion prospects motivate judges to avoid having their decisions overturned on appeal <span class="citation" data-cites="salzberger1999">(<a href="#/references" role="doc-biblioref" onclick="">Salzberger and Fenn 1999</a>)</span></p></li>
+<li><p>judges might choose to be deferential towards the government or politically popular causes for the same reason <span class="citation" data-cites="sisk1998 ramseyer2001">(<a href="#/references" role="doc-biblioref" onclick="">Sisk, Heise, and Morriss 1998</a>; <a href="#/references" role="doc-biblioref" onclick="">Ramseyer 2001</a>)</span></p></li>
+</ul>
+</section>
+<section id="cognitive-explanations" class="slide level2 center">
+<h2>Cognitive explanations</h2>
+</section>
+<section id="cognitive-explanations-1" class="slide level2 center">
+<h2>Cognitive explanations</h2>
+<ul>
+<li><p>less fully formed theories of decision-making and more studies of various types of cognitive ‘biases’</p></li>
+<li><p>people are only boundedly rational and instead of conducting strictly rational calculations rely on (biased) heuristics</p></li>
+<li><p>there are a number of common cognitive heuristics, e.g.&nbsp;anchoring, framing, hindsight bias, which have been shown to affect judges <span class="citation" data-cites="guthrie2001 guthrie2002">(<a href="#/references" role="doc-biblioref" onclick="">Guthrie, Rachlinski, and Wistrich 2001</a>; <a href="#/references" role="doc-biblioref" onclick="">Guthrie, Rachlinski, and Wistrich 2002</a>)</span></p></li>
+</ul>
+</section>
+<section id="cognitive-explanations-2" class="slide level2 center">
+<h2>Cognitive explanations</h2>
+<p>Anchoring: an initial value influences one’s perception of a reasonable estimate of a value.</p>
+<ul>
+<li><p><span class="citation" data-cites="guthrie2001">Guthrie, Rachlinski, and Wistrich (<a href="#/references" role="doc-biblioref" onclick="">2001</a>)</span> ask judges to award damages in a personal injury case – those exposed to an irrelevant low number awarded 30% less in damages on average</p></li>
+<li><p>“municipal court judges fined a nightclub three times as much when its name (after its street address) was Club 11,866 rather than Club 58” <span class="citation" data-cites="rachlinski2017">(<a href="#/references" role="doc-biblioref" onclick="">Jeffrey J. Rachlinski and Wistrich 2017</a>)</span></p></li>
+</ul>
+</section>
+<section id="cognitive-explanations-3" class="slide level2 center">
+<h2>Cognitive explanations</h2>
+<p>Framing: categorization of decision options as more or less positive. Most people are risk-averse when looking at potential gains and risk-seeking when choosing between options representing losses.</p>
+<ul>
+<li><p>when framing a (sure) settlement as a gain, judges were more likely to endorse it than when framed as a loss <span class="citation" data-cites="guthrie2001">(<a href="#/references" role="doc-biblioref" onclick="">Guthrie, Rachlinski, and Wistrich 2001</a>)</span></p></li>
+<li><p>bankruptcy reorganization plans with certain outcomes were more likely to be approved by judges when framed in terms of gains than losses <span class="citation" data-cites="rachlinski2006">(<a href="#/references" role="doc-biblioref" onclick="">Jeffrey J. Rachlinski, Guthrie, and Wistrich 2006</a>)</span></p></li>
+</ul>
+</section>
+<section id="cognitive-explanations-4" class="slide level2 center">
+<h2>Cognitive explanations</h2>
+<ul>
+<li><p>decision-making bias is often driven by in-group favoritism <span class="citation" data-cites="kantorowicz-reznichenko2022">(<a href="#/references" role="doc-biblioref" onclick="">Kantorowicz-Reznichenko, Kantorowicz, and Weinshall 2022</a>)</span></p>
+<ul>
+<li>including ethnic <span class="citation" data-cites="grossman2016">(<a href="#/references" role="doc-biblioref" onclick="">Grossman et al. 2016</a>)</span> and place-based (e.g.&nbsp;Minnesota) in-groups <span class="citation" data-cites="wistrich2014">(<a href="#/references" role="doc-biblioref" onclick="">Wistrich, Rachlinski, and Guthrie 2014</a>)</span></li>
+</ul></li>
+<li><p>judges give away their preferences through emotional arousal in oral hearings <span class="citation" data-cites="dietrich2019">(<a href="#/references" role="doc-biblioref" onclick="">Dietrich, Enos, and Sen 2019</a>)</span></p></li>
+<li><p>legal training rarely attenuates bias in legal decision-making <span class="citation" data-cites="braman2007">(<a href="#/references" role="doc-biblioref" onclick="">Braman and Nelson 2007</a>)</span></p></li>
+</ul>
+</section>
+<section id="cognitive-explanations-5" class="slide level2 center">
+<h2>Cognitive explanations</h2>
+<p>Legally irrelevant information influences how judges decide <span class="citation" data-cites="wistrich2005">(<a href="#/references" role="doc-biblioref" onclick="">Wistrich, Guthrie, and Rachlinski 2005</a>)</span>.</p>
+<ul>
+<li><p>sympathetic defendants are treated better, while precedents exert limited impact <span class="citation" data-cites="spamann2016">(<a href="#/references" role="doc-biblioref" onclick="">Spamann and Klöhn 2016</a>)</span></p></li>
+<li><p>defendant with an extramarital affair with a corrupt official was judged more harshly <span class="citation" data-cites="liu2019">(<a href="#/references" role="doc-biblioref" onclick="">Liu and Li 2019</a>)</span></p></li>
+<li><p>the legally irrelevant information which influences a decision is almost never acknowledged <span class="citation" data-cites="spamann2016 liu2019 kahan2015">(<a href="#/references" role="doc-biblioref" onclick="">Spamann and Klöhn 2016</a>; <a href="#/references" role="doc-biblioref" onclick="">Liu and Li 2019</a>; <a href="#/references" role="doc-biblioref" onclick="">Kahan et al. 2015</a>)</span></p></li>
+</ul>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+
+<div class="quarto-auto-generated-content">
+<p><img src="img/ucl-logo.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>POLS0113: Judicial Politics</p>
+</div>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-ash2015" class="csl-entry" role="listitem">
+Ash, Elliott, and W. Bentley MacLeod. 2015. <span>“Intrinsic Motivation in Public Service: Theory and Evidence from State Supreme Courts.”</span> <em>The Journal of Law and Economics</em> 58 (4): 863913. <a href="http://www.journals.uchicago.edu/doi/abs/10.1086/684293">http://www.journals.uchicago.edu/doi/abs/10.1086/684293</a>.
+</div>
+<div id="ref-braman2007" class="csl-entry" role="listitem">
+Braman, Eileen, and Thomas E. Nelson. 2007. <span>“Mechanism of Motivated Reasoning? Analogical Perception in Discrimination Disputes.”</span> <em>American Journal of Political Science</em> 51 (4): 940–56. <a href="https://doi.org/10.1111/j.1540-5907.2007.00290.x">https://doi.org/10.1111/j.1540-5907.2007.00290.x</a>.
+</div>
+<div id="ref-cameron2009" class="csl-entry" role="listitem">
+Cameron, Charles M., and Jee-Kwang Park. 2009. <span>“How Will They Vote? Predicting the Future Behavior of Supreme Court Nominees, 1937<span></span>2006.”</span> <em>Journal of Empirical Legal Studies</em> 6 (3): 485–511. <a href="https://doi.org/10.1111/j.1740-1461.2009.01151.x">https://doi.org/10.1111/j.1740-1461.2009.01151.x</a>.
+</div>
+<div id="ref-clark2018" class="csl-entry" role="listitem">
+Clark, Tom S., Benjamin G. Engst, and Jeffrey K. Staton. 2018. <span>“Estimating the Effect of Leisure on Judicial Performance.”</span> <em>The Journal of Legal Studies</em> 47 (2): 349–90. <a href="https://doi.org/10.1086/699150">https://doi.org/10.1086/699150</a>.
+</div>
+<div id="ref-dietrich2019" class="csl-entry" role="listitem">
+Dietrich, Bryce J., Ryan D. Enos, and Maya Sen. 2019. <span>“Emotional Arousal Predicts Voting on the U.S. Supreme Court.”</span> <em>Political Analysis</em> 27 (2): 237–43. <a href="https://doi.org/10.1017/pan.2018.47">https://doi.org/10.1017/pan.2018.47</a>.
+</div>
+<div id="ref-engel2020" class="csl-entry" role="listitem">
+Engel, Christoph, and Keren Weinshall. 2020. <span>“Manna from Heaven for Judges: Judges<span>’</span> Reaction to a Quasi-Random Reduction in Caseload.”</span> <em>Journal of Empirical Legal Studies</em> 17 (4): 722–51. <a href="https://doi.org/10.1111/jels.12265">https://doi.org/10.1111/jels.12265</a>.
+</div>
+<div id="ref-engel2017" class="csl-entry" role="listitem">
+Engel, Christoph, and Lilia Zhurakhovska. 2017. <span>“You Are in Charge: Experimentally Testing the Motivating Power of Holding a Judicial Office.”</span> <em>The Journal of Legal Studies</em> 46 (1): 1–50. <a href="https://doi.org/10.1086/691630">https://doi.org/10.1086/691630</a>.
+</div>
+<div id="ref-gibson1983" class="csl-entry" role="listitem">
+Gibson, James L. 1983. <span>“From Simplicity to Complexity: The Development of Theory in the Study of Judicial Behavior.”</span> <em>Political Behavior</em> 5 (1): 7–49. <a href="https://doi.org/10.1007/BF00989985">https://doi.org/10.1007/BF00989985</a>.
+</div>
+<div id="ref-grossman2016" class="csl-entry" role="listitem">
+Grossman, Guy, Oren Gazal-Ayal, Samuel D. Pimentel, and Jeremy M. Weinstein. 2016. <span>“Descriptive Representation and Judicial Outcomes in Multiethnic Societies.”</span> <em>American Journal of Political Science</em> 60 (1): 44–69. <a href="https://doi.org/10.1111/ajps.12187">https://doi.org/10.1111/ajps.12187</a>.
+</div>
+<div id="ref-guthrie2001" class="csl-entry" role="listitem">
+Guthrie, Chris, Jeffrey J. Rachlinski, and Andrew J. Wistrich. 2001. <span>“Inside the Judicial Mind.”</span> <em>Cornell Law Review</em> 86: 777830.
+</div>
+<div id="ref-guthrie2002" class="csl-entry" role="listitem">
+Guthrie, Chris, Jeffrey J Rachlinski, and Andrew J Wistrich. 2002. <span>“Judging by Heuristic-Cognitive Illusions in Judicial Decision Making.”</span> <em>Judicature</em> 86: 44.
+</div>
+<div id="ref-kahan2015" class="csl-entry" role="listitem">
+Kahan, Dan M., David Hoffman, Danieli Evans, Neal Devins, Eugene Lucci, and Katherine Cheng. 2015. <span>“Ideology or Situation Sense: An Experimental Investigation of Motivated Reasoning and Professional Judgment.”</span> <em>University of Pennsylvania Law Review</em> 164 (2): 349–440. <a href="https://heinonline.org/HOL/P?h=hein.journals/pnlr164&amp;i=361">https://heinonline.org/HOL/P?h=hein.journals/pnlr164&amp;i=361</a>.
+</div>
+<div id="ref-kantorowicz-reznichenko2022" class="csl-entry" role="listitem">
+Kantorowicz-Reznichenko, Elena, Jarosław Kantorowicz, and Keren Weinshall. 2022. <span>“Ideological Bias in Constitutional Judgments: Experimental Analysis and Potential Solutions.”</span> <em>Journal of Empirical Legal Studies</em> 19 (3): 716–57. <a href="https://doi.org/10.1111/jels.12323">https://doi.org/10.1111/jels.12323</a>.
+</div>
+<div id="ref-lauderdale2012" class="csl-entry" role="listitem">
+Lauderdale, Benjamin E., and Tom S. Clark. 2012. <span>“The Supreme Court’s Many Median Justices.”</span> <em>American Political Science Review</em> 106 (4): 847–66. <a href="https://doi.org/10.1017/S0003055412000469">https://doi.org/10.1017/S0003055412000469</a>.
+</div>
+<div id="ref-liu2019" class="csl-entry" role="listitem">
+Liu, John Zhuang, and Xueyao Li. 2019. <span>“Legal Techniques for Rationalizing Biased Judicial Decisions: Evidence from Experiments with Real Judges.”</span> <em>Journal of Empirical Legal Studies</em> 16 (3): 630–70. <a href="https://doi.org/10.1111/jels.12229">https://doi.org/10.1111/jels.12229</a>.
+</div>
+<div id="ref-rachlinski2006" class="csl-entry" role="listitem">
+Rachlinski, Jeffrey J., Chris Guthrie, and Andrew J. Wistrich. 2006. <span>“Inside the Bankruptcy Judge’s Mind Symposium: The Role of the Judge in the Twenty-First Century.”</span> <em>Boston University Law Review</em> 86 (5): 1227–66. <a href="https://heinonline.org/HOL/P?h=hein.journals/bulr86&amp;i=1239">https://heinonline.org/HOL/P?h=hein.journals/bulr86&amp;i=1239</a>.
+</div>
+<div id="ref-rachlinski2017" class="csl-entry" role="listitem">
+Rachlinski, Jeffrey J, and Andrew J Wistrich. 2017. <span>“Judging the Judiciary by the Numbers: Empirical Research on Judges.”</span> <em>Annual Review of Law and Social Science</em> 13: 203229.
+</div>
+<div id="ref-ramseyer2001" class="csl-entry" role="listitem">
+Ramseyer, J. Mark. 2001. <span>“Why Are Japanese Judges So Conservative in Politically Charged Cases?”</span> <em>American Political Science Review</em> 95 (2): 331–44. <a href="https://doi.org/10.1017/S0003055401002040">https://doi.org/10.1017/S0003055401002040</a>.
+</div>
+<div id="ref-salzberger1999" class="csl-entry" role="listitem">
+Salzberger, Eli, and Paul Fenn. 1999. <span>“Judicial Independence: Some Evidence from the English Court of Appeal.”</span> <em>The Journal of Law and Economics</em> 42 (2): 831–47. <a href="https://doi.org/10.1086/467444">https://doi.org/10.1086/467444</a>.
+</div>
+<div id="ref-segal1989" class="csl-entry" role="listitem">
+Segal, Jeffrey A., and Albert D. Cover. 1989. <span>“Ideological Values and the Votes of u.s. Supreme Court Justices.”</span> <em>American Political Science Review</em> 83 (2): 557565. <a href="https://doi.org/10.2307/1962405">https://doi.org/10.2307/1962405</a>.
+</div>
+<div id="ref-sisk1998" class="csl-entry" role="listitem">
+Sisk, Gregory C., Michael Heise, and Andrew P. Morriss. 1998. <span>“Charting the Influences on the Judicial Mind: An Empirical Study of Judicial Reasoning.”</span> <em>New York University Law Review</em> 73 (5): 1377–1500. <a href="https://heinonline.org/HOL/P?h=hein.journals/nylr73&amp;i=1393">https://heinonline.org/HOL/P?h=hein.journals/nylr73&amp;i=1393</a>.
+</div>
+<div id="ref-skiple2021" class="csl-entry" role="listitem">
+Skiple, Jon Kåre, Henrik Litleré Bentsen, and Mark Jonathan McKenzie. 2021. <span>“How Docket Control Shapes Judicial Behavior: A Comparative Analysis of the Norwegian and Danish Supreme Courts.”</span> <em>Journal of Law and Courts</em> 9 (1): 111–36. <a href="https://doi.org/10.1086/712654">https://doi.org/10.1086/712654</a>.
+</div>
+<div id="ref-spamann2016" class="csl-entry" role="listitem">
+Spamann, Holger, and Lars Klöhn. 2016. <span>“Justice Is Less Blind, and Less Legalistic, Than We Thought: Evidence from an Experiment with Real Judges.”</span> <em>The Journal of Legal Studies</em> 45 (2): 255–80. <a href="https://doi.org/10.1086/688861">https://doi.org/10.1086/688861</a>.
+</div>
+<div id="ref-weinshall-margel2011" class="csl-entry" role="listitem">
+Weinshall-Margel, Keren. 2011. <span>“Attitudinal and Neo-Institutional Models of Supreme Court Decision Making: An Empirical and Comparative Perspective from Israel.”</span> <em>Journal of Empirical Legal Studies</em> 8 (3): 556–86. <a href="https://doi.org/10.1111/j.1740-1461.2011.01220.x">https://doi.org/10.1111/j.1740-1461.2011.01220.x</a>.
+</div>
+<div id="ref-wistrich2005" class="csl-entry" role="listitem">
+Wistrich, Andrew J., Chris Guthrie, and Jeffrey J. Rachlinski. 2005. <span>“Can Judges Ignore Inadmissible Information? The Difficulty of Deliberately Disregarding.”</span> <em>University of Pennsylvania Law Review</em> 153: 12511345.
+</div>
+<div id="ref-wistrich2014" class="csl-entry" role="listitem">
+Wistrich, Andrew J., Jeffrey J. Rachlinski, and Chris Guthrie. 2014. <span>“Heart versus Head: Do Judges Follow the Law of Follow Their Feelings.”</span> <em>Texas Law Review</em> 93: 855924.
+</div>
+</div>
+</section>
+    </div>
+  </div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+
+    <script>
+
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
+      // slide changes (different for each slide format).
+
+      (function () {
+
+        // dispatch for htmlwidgets
+
+        function fireSlideEnter() {
+
+          const event = window.document.createEvent("Event");
+
+          event.initEvent("slideenter", true, true);
+
+          window.document.dispatchEvent(event);
+
+        }
+
+    
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          fireSlideEnter();
+
+    
+
+          // dispatch for shiny
+
+          if (window.jQuery) {
+
+            if (previousSlide) {
+
+              window.jQuery(previousSlide).trigger("hidden");
+
+            }
+
+            if (currentSlide) {
+
+              window.jQuery(currentSlide).trigger("shown");
+
+            }
+
+          }
+
+        }
+
+    
+
+        // hookup for slidy
+
+        if (window.w3c_slidy) {
+
+          window.w3c_slidy.add_observer(function (slide_num) {
+
+            // slide_num starts at position 1
+
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
+          });
+
+        }
+
+    
+
+      })();
+
+    </script>
+
+    
+
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>
