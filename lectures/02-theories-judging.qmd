@@ -239,7 +239,7 @@ scotus_mq |>
 
 -   variation in attitudes stems from a number of sources, including judges' background characteristics
 
-## Attitudinal explanations  {.smaller}
+## Attitudinal explanations {.smaller}
 
 > "judges’ decisions are a function of what they prefer to do, tempered by what they think they ought to do, but constrained by what they perceive is feasible to do" [@gibson1983, p. 9]
 

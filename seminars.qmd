@@ -56,7 +56,7 @@ The groups and weeks are assigned in the seminar of week 1 on a first-come-first
 | 2             | No presentation |                             |
 | 3             | David, Chiharu  | DE CC, JP SC                |
 | 4             | Kamile, Liz     | US SC, ICJ                  |
-| 5             | Zoya, Gabriele  | ,                           |
+| 5             | Zoya, Gabriele  | , CJEU                      |
 | 6             | Natania, Corey  | IN SC, SA CC                |
 | 7             | Tiegan, Sam     | DE SC, CA SC                |
 | 8             | Joey, Sophie    | KR SC, AU SC                |

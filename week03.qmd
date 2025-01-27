@@ -31,3 +31,7 @@ Bonica, Adam, and Maya Sen. "Estimating judicial ideology." *Journal of Economic
 Yu, Tinghua, and Elliott Ash. "Political Polarization and Judicial Selection." *Journal of Political Institutions and Political Economy* 4, no. 1 (2023): 1-27.
 
 Ash, Elliott, Daniel L. Chen, and Suresh Naidu. *Ideas have consequences: The impact of law and economics on American justice*. No. w29788. National Bureau of Economic Research, 2022.
+
+## Lecture slides
+
+[Week 3](lectures/03-judicial-preferences.html)
