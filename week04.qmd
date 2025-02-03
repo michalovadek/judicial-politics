@@ -21,3 +21,7 @@ Popova, Maria. "Political competition as an obstacle to judicial independence: E
 Melton, James, and Tom Ginsburg. "Does de jure judicial independence really matter?: A reevaluation of explanations for judicial independence." *Journal of Law and Courts* 2, no. 2 (2014): 187-217.
 
 Liu, Ernest, Yi Lu, Wenwei Peng, and Shaoda Wang. *Judicial independence, local protectionism, and economic integration: Evidence from China*. No. w30432. National Bureau of Economic Research, 2022.
+
+## Lecture slides
+
+[Week 4](lectures/04-judicial-power.html)

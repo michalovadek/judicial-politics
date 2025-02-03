@@ -1,0 +1,204 @@
+---
+title: "Judicial Power and Independence"
+subtitle: "Week 4"
+author: "Dr Michal Ovádek"
+format:
+  revealjs:
+    logo: img/ucl-logo.png
+    footer: "POLS0113: Judicial Politics"
+    slide-number: c/t
+    show-slide-number: all
+    center: true
+    margin-left: "0.1"
+    margin-right: "0.1"
+bibliography: references.bib
+---
+
+```{r globals}
+source("utils/globals.R")
+```
+
+## Who cares about courts?
+
+-   it is commonly assumed that court rulings must be complied with and followed by affected actors in virtually all constitutional systems
+
+-   but what are the sources of this *judicial power*? why and when does anyone listen to courts?
+
+## Concept of judicial power
+
+-   following @staton2011, we can usefully identify two pillars of judicial power:
+
+    -   **autonomy** – or independence in a strict sense – or the extent to which judges' decisions reflect their true preferences as opposed to someone else's
+
+    -   **effectiveness** – or compliance – or the extent to which courts can compel actors to comply with adverse decisions
+
+## Concept of judicial power
+
+|                   |                        |                       |
+|-------------------|------------------------|-----------------------|
+|                   | **High Effectiveness** | **Low Effectiveness** |
+| **High Autonomy** | Powerful Court         | Ignorable Court       |
+| **Low Autonomy**  | Puppet Court           | Joke Court            |
+
+: The two dimensions of judicial power
+
+## Judicial power in comparative perspective
+
+```{r vdem}
+vdemdata::plot_indicator("v2x_jucon") +  
+  theme_minimal() +   
+  theme(legend.position = "none") +  
+  scale_x_continuous() +  
+  scale_y_continuous(limits = c(0.25,0.75)) + 
+  labs(y = "Judicial Power",    
+       title = "Judicial Power",   
+       subtitle = "V-Dem index 'judicial constraints on the executive'")
+```
+
+## Judicial power in comparative perspective
+
+```{r vdemctrs}
+vdemdata::plot_indicator("v2x_jucon",
+                         min_year = 1990,
+                         countries = c("Hungary", "United States of America", "Mexico")) +  
+  theme_minimal() +   
+  theme(legend.position = "bottom") +  
+  scale_x_continuous() +  
+  #scale_y_continuous(limits = c(0.25,0.75)) + 
+  labs(y = "Judicial Power",    
+       title = "Judicial Power",   
+       subtitle = "V-Dem index 'judicial constraints on the executive'") +
+  guides(linetype = "none")
+```
+
+## Why give courts power?
+
+-   at the most abstract level the creation and maintenance of a powerful judiciary has been argued to be about **credible commitments**
+
+-   by empowering actors (i.e. courts) outside their direct and immediate control, governments signal willingness to be bound by constitutional rules (e.g. respecting property rights) [@north1989]
+
+    -   in the international context, governments signal commitment to jointly negotiated rules (e.g. treaties)
+
+## Why empower courts in autocracies?
+
+-   authoritarian regimes want to keep low-level corruption in check
+
+-   courts can share the blame for unpopular policies [@ginsburg2008]
+
+-   independent enforcement of property rights as a credible commitment to investors
+
+-   courts are useful for controlling opposition movements
+
+-   courts can provide regime-friendly interpretations of the law, including the constitution
+
+## Insurance theory of court power
+
+-   empowering courts comes at a cost to executives and legislators
+
+-   courts are more stable than governments – empowering courts can **insure** incumbents against loss of power [@finkel2005]
+
+    -   powerful courts can make it harder to change policy direction
+
+    -   they can also help protect former leaders and their assets
+
+## 1994 judicial reform in Mexico
+
+-   after winning elections in 1994 president Ernesto Zedillo decided to make the Mexican judiciary more independent and powerful – why?
+
+-   @finkel2005 explains this counterintuitive move as a form of insurance policy
+
+    -   the ruling Institutional Revolutionary Party was losing support and anticipated loss of power
+
+    -   the reform gave the Mexican Supreme Court more power to circumscribe (federal and state) government policy
+
+## 1994 judicial reform in Mexico
+
+![Ernesto Zedillo during his presidency](img/zedillo.png){width="600"}
+
+## What makes judges autonomous?
+
+-   **judicial independence** is the single most important attribute associated with modern judiciaries
+
+-   yet there is disagreement on the precise content of this concept
+
+-   independence to do what? independence from what or whom?
+
+## Judicial independence
+
+> the degree to which judges actually decide cases in accordance with their own determinations of the evidence, the law and justice, free from the coercion, blandishments, interference, or threats from governmental authorities or private citizens. [@rosenn1987, p. 8]
+
+## What is(n't) judicial independence
+
+-   can a judge be independent when the judiciary as a whole isn't?
+
+-   does "dependence" on another judge's or court's decision undermine judicial independence?
+
+## What is(n't) judicial independence
+
+-   what about anticipatory judicial behaviour?
+
+    -   a court may self-censor if it knows the government is likely to override its decision
+
+-   free from "governmental authorities **or** private citizens"
+
+-   rulings based on "own determinations of ... the law" vs "the law"
+
+## De jure vs de facto independence
+
+-   many scholars distinguish between "paper" or institutional guarantees of independence and what happens in practice [@melton2014; @hayo2007]
+
+-   the most common *de jure* guarantees are:
+
+    -   commitment to judicial independence, life tenure, depoliticized selection procedure, constrained removal procedure, salary non-regression
+
+## De jure vs de facto independence
+
+-   there is mixed evidence on the importance of *de jure* guarantees of independence on *de facto* levels
+
+    -   @melton2014 find *de jure* independence to matter little in the aggregate
+
+    -   @hayo2007 find *de jure* independence to be the most important predictor of *de facto* independence
+
+-   @stiansen2022 shows that removing re-appointment opportunities made ECtHR judges more likely to rule against the country which nominated them
+
+## De jure vs de facto independence
+
+-   there is doubt whether judicial autonomy can be measured in isolation due to anticipation effects
+
+    -   judges' decisions are affected by the likelihood of compliance [@linzer2015]
+
+-   @harvey2022 suggests to focus on contextualizing *de facto* independence
+
+    -   e.g. ruling-party incentives to intervene can vary based on circumstances
+
+## Judicial independence in Francoist Spain
+
+-   @toharia1975 documents that in the authoritarian Spain of the 1970s, judges held diverse opinions different from the regime
+
+-   ordinary judges were by and large insulated from threat of removal or punishment by the government
+
+-   however, the regime interfered with independence in politically sensitive cases by creating and staffing a host of special tribunals
+
+## Judicial independence in Francoist Spain
+
+![General Franco ruled Spain until 1975](img/franco.jpg)
+
+## Public support as a source of judicial power
+
+-   one reason why courts' autonomy and effectiveness can be high is **public support** [@carrubba2010]
+
+-   in general, people hold courts in high regard [@vanberg2015]
+
+    -   this is helped by the fact that courts are often responsive to public preferences [@mishler1993]
+
+-   attacking courts and non-compliance is usually politically costly
+
+## How can courts increase their power?
+
+-   new courts consolidate power by not antagonizing the government for an initial period
+
+-   expand jurisdiction through broad interpretation of access rules and legal domains
+
+-   a common strategy is to first create the power-expanding principle without applying it in the initial case to mitigate costs of compliance
+
+## References
