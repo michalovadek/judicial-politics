@@ -17,3 +17,7 @@ Arrington, Nancy, Leeann Bass, Adam Glynn, Jeffrey K. Staton, Brian Delgado, and
 Kastellec, Jonathan P., Jeffrey R. Lax, and Justin H. Phillips. "Public opinion and senate confirmation of Supreme Court nominees." *The Journal of Politics* 72, no. 3 (2010): 767-784.
 
 Elsig, Manfred, and Mark A. Pollack. "Agents, trustees, and international courts: The politics of judicial appointment at the World Trade Organization." *European Journal of International Relations* 20, no. 2 (2014): 391-415.
+
+## Lecture slides
+
+<!-- [Week 5](lectures/05-appoint-monitor.html) -->

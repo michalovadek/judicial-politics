@@ -1,0 +1,55 @@
+---
+title: "Appointing and Monitoring Judges"
+subtitle: "Week 5"
+author: "Dr Michal Ovádek"
+format:
+  revealjs:
+    logo: img/ucl-logo.png
+    footer: "POLS0113: Judicial Politics"
+    slide-number: c/t
+    show-slide-number: all
+    center: true
+    margin-left: "0.1"
+    margin-right: "0.1"
+bibliography: references.bib
+---
+
+```{r globals, warning=FALSE, message=FALSE, error=FALSE}
+source("utils/globals.R")
+```
+
+## Controlling the judiciary
+
+-   how do politicians keep tabs on judges?
+
+-   how do they ensure that delegation of judicial power does not go beyond what they originally envisaged?
+
+## Ex ante and ex post checks
+
+-   ex ante: eg appointment
+
+-   ex post: ??
+
+## Appointment procedures
+
+-   list some main ones / types
+
+## Judicial councils
+
+-   discuss what they are and how they work
+
+-   impact in CEE
+
+-   counter-case of Slovakia
+
+-   divisions in the judiciary between "good" and "bad"
+
+## Judicial elections
+
+-   wholly alternative mechanism
+
+-   Mexico example
+
+## Judicial accountability
+
+-   can it coexist with judicial independence?

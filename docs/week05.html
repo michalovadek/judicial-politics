@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.7.13">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,15 +32,16 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <link href="./week06.html" rel="next">
 <link href="./week04.html" rel="prev">
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-7a0e04ec82617701cd34937292aa414e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-babba98894dde3bd5cecd2cee64b6296.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -220,6 +221,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#mandatory-readings" id="toc-mandatory-readings" class="nav-link active" data-scroll-target="#mandatory-readings">Mandatory readings</a></li>
   <li><a href="#optional-readings" id="toc-optional-readings" class="nav-link" data-scroll-target="#optional-readings">Optional readings</a></li>
+  <li><a href="#lecture-slides" id="toc-lecture-slides" class="nav-link" data-scroll-target="#lecture-slides">Lecture slides</a></li>
   </ul>
 </nav>
     </div>
@@ -256,6 +258,10 @@ ul.task-list li input[type="checkbox"] {
 <p>Arrington, Nancy, Leeann Bass, Adam Glynn, Jeffrey K. Staton, Brian Delgado, and Staffan I. Lindberg. “Constitutional reform and the gender diversification of peak courts.”&nbsp;<em>American Political Science Review</em>&nbsp;115, no. 3 (2021): 851-868.</p>
 <p>Kastellec, Jonathan P., Jeffrey R. Lax, and Justin H. Phillips. “Public opinion and senate confirmation of Supreme Court nominees.”&nbsp;<em>The Journal of Politics</em>&nbsp;72, no. 3 (2010): 767-784.</p>
 <p>Elsig, Manfred, and Mark A. Pollack. “Agents, trustees, and international courts: The politics of judicial appointment at the World Trade Organization.”&nbsp;<em>European Journal of International Relations</em>&nbsp;20, no. 2 (2014): 391-415.</p>
+</section>
+<section id="lecture-slides" class="level2">
+<h2 class="anchored" data-anchor-id="lecture-slides">Lecture slides</h2>
+<!-- [Week 5](lectures/05-appoint-monitor.html) -->
 
 
 </section>
@@ -343,8 +349,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -455,7 +459,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
