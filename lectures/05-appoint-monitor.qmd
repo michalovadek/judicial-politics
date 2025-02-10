@@ -24,32 +24,200 @@ source("utils/globals.R")
 
 -   how do they ensure that delegation of judicial power does not go beyond what they originally envisaged?
 
-## Ex ante and ex post checks
+-   how do judges govern themselves?
 
--   ex ante: eg appointment
+## *Ex ante* and *ex post* control
 
--   ex post: ??
+-   we can generally divide tools of political control in two categories [@helfer2005]
+
+    -   *ex ante*: mechanisms of control designed prior to the court's operation
+
+    -   *ex post*: mechanisms of control developed in response to the court's operation
+
+## Jurisdiction
+
+-   a key decision liable to influence how much and over what types of issues a court has power concerns **jurisdiction** (or access / standing / *locus standi*)
+
+-   jurisdiction is abour regulating access to courts
+
+    -   in general, the more actors can access a court, the greater its power
+
+## Defining jurisdiction
+
+-   there are multiple ways of defining (= constraining) a court's jurisdiction and usually more than one is used at once
+
+    -   geographical (e.g. US Courts of Appeals)
+
+    -   substantive (e.g. UK Supreme Court re Scottish criminal law)
+
+    -   personal (e.g. ECJ rules on standing)
+
+## Jurisdiction (geography)
+
+![There are differences across geographical boundaries. For example, some US Courts of Appeal are more liberal than others [@broscheid2011]](img/us-map-appeals.png)
+
+## Jurisdiction (substantive)
+
+-   it is common for higher courts to be able to rule on "points of law only"
+
+    -   they (and the litigants) are confined to dealing with the facts as established by lower courts
+
+-   many countries create specialized courts to deal with some branches of law
+
+    -   arguable boundaries invite "forum shopping"
+
+## Jurisdiction (personal)
+
+-   the CJEU has famously restrictive access rules for private litigants
+
+> Any natural or legal person may \[...\] institute proceedings against an act **addressed to that person** or which is of **direct** and **individual** **concern** to them, and against a regulatory act which is of direct concern to them and does not entail implementing measures.
 
 ## Appointment procedures
 
--   list some main ones / types
+-   the most salient *ex ante* mechanism
+
+-   the institutional designer and appointer balance their preferences for judicial independence and accountability [@dunoff2017]
+
+-   there is considerable variety in how judges are appointed around the world
+
+## Variation in appointment procedures
+
+```{r appointvar}
+
+# data from Oxf handbook
+comp <- tribble(
+  ~dominant, ~n,
+  "executive", 46,
+  "legislature", 17,
+  "courts", 1,
+  "mixed", 72,
+  "council", 76
+)
+
+# plot
+comp |> 
+  ggplot(aes(x = n, y = reorder(dominant, n))) +
+  geom_col() +
+  theme_minimal() +
+  labs(x = "Number of courts", y = "Dominant influence in selection",
+       caption = "Based on Tiede (2024)")
+```
+
+## Appointment procedures  {.smaller}
+
+-   mixed systems encourage a tendency for each appointing branch to select judges most closely aligned with its interests
+
+    -   this cleavage may supersede partisan preferences [@tiede2020; @brasheartiede2024]
+
+-   mixed systems can hinder the functioning of collegial courts
+
+    -   but greater diversity can also improve the quality of decisions
+
+-   more veto players =\> more moderate judges
 
 ## Judicial councils
 
--   discuss what they are and how they work
+-   institutional vehicle for judicial self-governance
 
--   impact in CEE
+-   in charge of appointing judges, managing budgets, promotions and discipline
 
--   counter-case of Slovakia
+-   strongly promoted by international organizations in the 2000s
 
--   divisions in the judiciary between "good" and "bad"
+-   trade-off between insulation and external accountability [@garoupa2009]
+
+::: notes
+talk about composition:
+
+-   are judges dominant? peak or ordinary?
+
+-   who else appoints members?
+:::
+
+## Tenure
+
+-   the tenure of judges can differ markedly by country and type of court
+
+    -   most ordinary judges are appointed for life, sometimes with age limits
+
+    -   judges on constitutional and international courts are often term-bound and can sometimes be reappointed
+
+::: notes
+UK Supreme Court has mandatory retirement at 75
+
+ICJ judges have 9-year tenure
+
+ECtHR judges had their tenures increased from 6 to 9 but made non-renewable
+:::
+
+## Reappointment
+
+-   the prospect of **reappointment** influences judicial behaviour [@hall2014; @stiansen2022]
+
+    -   judges who are up for reappointment are more responsive to the preferences of their principal
+
+-   non-renewable terms can however damage a court's effectiveness
+
+    -   turnover can affect retention of expertise
+
+## Transparency
+
+-   the principals' ability to monitor (and therefore punish/reward) judicial behaviour is conditional on **transparency**
+
+-   while decisions are always public, individual votes and dissents are not
+
+-   do principals have other means of obtaining information about the voting of judges?
+
+## Renewal and transparency
+
+|                            |                      |                       |
+|----------------------------|----------------------|-----------------------|
+|                            | **Low transparency** | **High transparency** |
+| *Life tenure*              | Low incentive        | Low incentive         |
+| *Renewable fixed term*     | Low incentive        | High incentive        |
+| *Non-renewable fixed term* | Low incentive        | Low incentive         |
+
+: Interaction of renewal opportunities and transparency for judges' incentives to appease principals
+
+## Judicial exits
+
+-   judges are rarely forced out of office through removal procedures
+
+    -   court curbing governments prefer lowering the mandatory retirement age (e.g. Hungary in 2012, Poland in 2017, El Salvador in 2021)
+
+-   the motivations behind a judge quitting can be more varied however
+
+## Judicial exits
+
+![Source: @pérez-liñán2024](img/jud-exits.png)
 
 ## Judicial elections
 
--   wholly alternative mechanism
+-   perceived rejection of "elite-driven" judicial selection
 
--   Mexico example
+-   tried out in revolutionary France (1790) and Central America post Spanish independence
 
-## Judicial accountability
+-   38 US states (as of 2024) elect judges to state supreme courts
 
--   can it coexist with judicial independence?
+    -   the 2023 Wisconsin Supreme Court election saw 51 million USD in campaign spending
+
+::: notes
+the Wisconsin figure is only slightly less than total party spending in the 2019 UK general election. Wisconsin has a population of less than 6 million (cf UK almost 70)
+:::
+
+## Judicial elections  {.smaller}
+
+-   @driscoll2015 show the impact of Bolivia introducing judicial elections
+
+    -   judges became much more diverse as a result (in contrast to the US)
+
+    -   confidence in the judiciary increased among government supporters but declined overall
+
+-   Mexico should hold its first judicial election in June 2025
+
+    -   pre-selected candidates by evaluation committees of each branch of government
+
+::: notes
+the judicial branch has been refusing to cooperate after a judge ruled to suspend the election
+:::
+
+## References
