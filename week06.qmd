@@ -27,3 +27,7 @@ Segal, Jeffrey A. "Separation-of-powers games in the positive theory of congress
 Segal, Jeffrey A., Chad Westerland, and Stefanie A. Lindquist. "Congress, the Supreme Court, and judicial review: Testing a constitutional separation of powers model." *American Journal of Political Science* 55, no. 1 (2011): 89-104.
 
 Solomon, Peter H. "Review of *Courts and Judges in Authoritarian Regimes*, by Lisa Hilbink, Tamir Moustafa, and Anthony W. Pereira." *World Politics* 60, no. 1 (2007): 122–45.
+
+## Lecture slides
+
+<!-- [Week 6](lectures/06-executive-legislature.html) -->
