@@ -30,4 +30,4 @@ Solomon, Peter H. "Review of *Courts and Judges in Authoritarian Regimes*, by L
 
 ## Lecture slides
 
-<!-- [Week 6](lectures/06-executive-legislature.html) -->
+[Week 6](lectures/06-executive-legislature.html)

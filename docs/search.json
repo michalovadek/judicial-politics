@@ -1603,7 +1603,7 @@
     "href": "week06.html#lecture-slides",
     "title": "6: Courts, Executives and Legislatures",
     "section": "Lecture slides",
-    "text": "Lecture slides",
+    "text": "Lecture slides\nWeek 6",
     "crumbs": [
       "Weeks",
       "6: Courts, Executives and Legislatures"
@@ -1620,14 +1620,140 @@
     "objectID": "lectures/06-executive-legislature.html#strategic-interactions",
     "href": "lectures/06-executive-legislature.html#strategic-interactions",
     "title": "Courts, Executives and Legislatures",
-    "section": "",
-    "text": "How do courts, executives and legislatures interact in the enactment and enforcement of policy?\nHow does strategic anticipation of mutual preferences affect how they behave?"
+    "section": "Strategic interactions",
+    "text": "Strategic interactions\n\nHow do courts, executives and legislatures interact in the enactment and enforcement of policy?\nHow does strategic anticipation of mutual preferences affect how they behave?"
   },
   {
     "objectID": "lectures/06-executive-legislature.html#references",
     "href": "lectures/06-executive-legislature.html#references",
     "title": "Courts, Executives and Legislatures",
     "section": "References",
-    "text": "References"
+    "text": "References\n\n\n\n\nDyevre, Arthur. 2010. “Unifying the Field of Comparative Judicial Politics: Towards a General Theory of Judicial Behaviour.” European Political Science Review 2 (2): 297327. https://doi.org/10.1017/s1755773910000044.\n\n\nGillman, Howard. 2002. “How Political Parties Can Use the Courts to Advance Their Agendas: Federal Courts in the United States, 18751891.” American Political Science Review 96 (3): 511–24. https://doi.org/10.1017/S0003055402000291.\n\n\nHall, Matthew E. K., and Joseph Daniel Ura. 2015. “Judicial Majoritarianism.” The Journal of Politics 77 (3): 818–32. https://doi.org/10.1086/681437.\n\n\nKrehbiel, Jay N. 2016. “The Politics of Judicial Procedures: The Role of Public Oral Hearings in the German Constitutional Court.” American Journal of Political Science 60 (4). https://doi.org/10.1111/ajps.12229.\n\n\nLarsson, Olof. 2021. “Political and Constitutional Overrides: The Case of the Court of Justice of European Union.” Journal of European Public Policy 28 (12): 19321949. https://doi.org/10.1080/13501763.2020.1807586.\n\n\nMeernik, James, and Joseph Ignagni. 1997. “Judicial Review and Coordinate Construction of the Constitution.” American Journal of Political Science 41 (2): 447–67. https://doi.org/10.2307/2111772.\n\n\nPavone, Tommaso, and Øyvind Stiansen. 2022. “The Shadow Effect of Courts: Judicial Review and the Politics of Preemptive Reform.” American Political Science Review 116 (1): 322–36. https://doi.org/10.1017/S0003055421000873.\n\n\nSchroeder, Philipp. 2022. “Pushing Boundaries: How Lawmakers Shape Judicial Decision-Making.” Comparative Political Studies 55 (14): 2447–79. https://doi.org/10.1177/00104140221089649.\n\n\nSegal, Jeffrey A. 1997. “Separation-of-Powers Games in the Positive Theory of Congress and Courts.” American Political Science Review, 2844.\n\n\nSegal, Jeffrey A., Chad Westerland, and Stefanie A. Lindquist. 2010. “Congress, the Supreme Court, and Judicial Review: Testing a Constitutional Separation of Powers Model.” American Journal of Political Science 55 (1): 89104. https://doi.org/10.1111/j.1540-5907.2010.00480.x.\n\n\nVanberg, G. 2001. “Legislative-Judicial Relations: A Game-Theoretic Approach to Constitutional Review.” American Journal of Political Science, 346361.\n\n\nWhittington, Keith E. 2005. ““Interpose Your Friendly Hand”: Political Supports for the Exercise of Judicial Review by the United States Supreme Court.” American Political Science Review 99 (4): 583–96. https://doi.org/10.1017/S0003055405051890."
+  },
+  {
+    "objectID": "lectures/06-executive-legislature.html#separation-of-powers",
+    "href": "lectures/06-executive-legislature.html#separation-of-powers",
+    "title": "Courts, Executives and Legislatures",
+    "section": "Separation of powers",
+    "text": "Separation of powers\n\neven in systems where judicial independence is strong, there are many points of contact between the judiciary, the legislature and the executive\n\nappointment of judges\ncompetence disputes\njudicial review of adminstrative acts\njudicial review of statutory law"
+  },
+  {
+    "objectID": "lectures/06-executive-legislature.html#judicial-review",
+    "href": "lectures/06-executive-legislature.html#judicial-review",
+    "title": "Courts, Executives and Legislatures",
+    "section": "Judicial review",
+    "text": "Judicial review\n\nconstitutional (and sometimes ordinary) courts have in many jurisdictions the power of judicial review\nthe legislating body knows its acts can be reviewed\ncourts depend on the executive branch for enforcement\n\npublic support for courts makes enforcement more likely"
+  },
+  {
+    "objectID": "lectures/06-executive-legislature.html#anticipating-judicial-review",
+    "href": "lectures/06-executive-legislature.html#anticipating-judicial-review",
+    "title": "Courts, Executives and Legislatures",
+    "section": "Anticipating judicial review",
+    "text": "Anticipating judicial review\n\nin general, legislators want to avoid having their laws struck down by judges\nwhat is the chance the act will be reviewed?\n\nshaped by rules on jurisdiction and judicial review\n\nwhat is the chance the act will be overturned?\n\nshaped by distance between legislator and court"
+  },
+  {
+    "objectID": "lectures/06-executive-legislature.html#anticipating-judicial-review-1",
+    "href": "lectures/06-executive-legislature.html#anticipating-judicial-review-1",
+    "title": "Courts, Executives and Legislatures",
+    "section": "Anticipating judicial review",
+    "text": "Anticipating judicial review\n\nthe legislature only needs to fear the courts when judicial review is likely to happen\nin some countries this is virtually guaranteed (e.g. US), while elsewhere there will be more uncertainty\n\nin the EU, if all political actors agree, there is very low chance of review\nthe possibility of judicial review can be endogenous to policy making (Pavone and Stiansen 2022)"
+  },
+  {
+    "objectID": "lectures/06-executive-legislature.html#anticipating-judicial-review-2",
+    "href": "lectures/06-executive-legislature.html#anticipating-judicial-review-2",
+    "title": "Courts, Executives and Legislatures",
+    "section": "Anticipating judicial review",
+    "text": "Anticipating judicial review\n\nthe legislature only needs to fear the courts when they prefer to overturn an act\nthe legislature will look for information on:\n\nthe court’s previous case law\njudges’ ideological distance\npublic support"
+  },
+  {
+    "objectID": "lectures/06-executive-legislature.html#compliance",
+    "href": "lectures/06-executive-legislature.html#compliance",
+    "title": "Courts, Executives and Legislatures",
+    "section": "Compliance",
+    "text": "Compliance\n\nin most cases it will be less costly for the government/legislator to evade compliance implicitly\n\ne.g. creating a parliamentary working group but never delivering (Vanberg 2001)"
+  },
+  {
+    "objectID": "lectures/06-executive-legislature.html#override",
+    "href": "lectures/06-executive-legislature.html#override",
+    "title": "Courts, Executives and Legislatures",
+    "section": "Override",
+    "text": "Override\n\nUS Override Game from Dyevre (2010)"
+  },
+  {
+    "objectID": "lectures/06-executive-legislature.html#override-1",
+    "href": "lectures/06-executive-legislature.html#override-1",
+    "title": "Courts, Executives and Legislatures",
+    "section": "Override",
+    "text": "Override\n\nEU Override Game from Dyevre (2010)"
+  },
+  {
+    "objectID": "lectures/06-executive-legislature.html#anticipating-judicial-review-3",
+    "href": "lectures/06-executive-legislature.html#anticipating-judicial-review-3",
+    "title": "Courts, Executives and Legislatures",
+    "section": "Anticipating judicial review",
+    "text": "Anticipating judicial review\n\nin reality, no actor has complete and perfect information about the judicial review game\n\nthere is uncertainty about how the courts will react\nactors sometimes behave irrationally\n\nthe legislator might water down an act or otherwise pre-empt negative judicial action"
+  },
+  {
+    "objectID": "lectures/06-executive-legislature.html#non-compliance",
+    "href": "lectures/06-executive-legislature.html#non-compliance",
+    "title": "Courts, Executives and Legislatures",
+    "section": "(Non-)Compliance",
+    "text": "(Non-)Compliance\n\ndue to courts’ enforcement-dependency, non-compliance is an attractive strategy for other actors (especially other branches of power)\n\nbut non-compliance can itself generate more litigation\n\nin most cases it is less costly for the government/legislator to evade compliance implicitly\n\ne.g. creating a parliamentary working group but never delivering (Vanberg 2001)"
+  },
+  {
+    "objectID": "lectures/06-executive-legislature.html#anticipating-judicial-review-4",
+    "href": "lectures/06-executive-legislature.html#anticipating-judicial-review-4",
+    "title": "Courts, Executives and Legislatures",
+    "section": "Anticipating judicial review",
+    "text": "Anticipating judicial review\n\nin some cases, the legislator will not shy away from judicial conflict (Schroeder 2022)\n\nwhen they have strong public support (Vanberg 2001; Krehbiel 2016)\nwhen they signal intention to not comply"
+  },
+  {
+    "objectID": "lectures/06-executive-legislature.html#anticipating-reactions",
+    "href": "lectures/06-executive-legislature.html#anticipating-reactions",
+    "title": "Courts, Executives and Legislatures",
+    "section": "Anticipating reactions",
+    "text": "Anticipating reactions\n\ncourts have also reasons to fear confrontation\n\nnon-compliance undermines their power and legitimacy\nmay trigger court curbing by the other branches\njust like legislatures do not want to be censored by courts, courts do not want to be overridden by legislatures"
+  },
+  {
+    "objectID": "lectures/06-executive-legislature.html#the-constrained-court",
+    "href": "lectures/06-executive-legislature.html#the-constrained-court",
+    "title": "Courts, Executives and Legislatures",
+    "section": "The constrained court",
+    "text": "The constrained court\n\nfear of negative repercussions leads to self-censoring by courts\ncourts are on safer ground when they support popular policies\n\nleads to the notion of “judicial majoritarianism” (Hall and Ura 2015)"
+  },
+  {
+    "objectID": "lectures/06-executive-legislature.html#threat-of-override",
+    "href": "lectures/06-executive-legislature.html#threat-of-override",
+    "title": "Courts, Executives and Legislatures",
+    "section": "Threat of override",
+    "text": "Threat of override\n\ncourts may also take into account whether their decision is likely to be overridden by the legislature (Meernik and Ignagni 1997; Larsson 2021)\n\nthough the empirical evidence of override anticipation by courts is mixed (Segal 1997; Segal, Westerland, and Lindquist 2010)\n\ncourts are looking for judgments which are as close as possible to their ideal point but not so far as to get overridden"
+  },
+  {
+    "objectID": "lectures/06-executive-legislature.html#threat-of-override-1",
+    "href": "lectures/06-executive-legislature.html#threat-of-override-1",
+    "title": "Courts, Executives and Legislatures",
+    "section": "Threat of override",
+    "text": "Threat of override\n\nUS Override Game from Dyevre (2010)"
+  },
+  {
+    "objectID": "lectures/06-executive-legislature.html#threat-of-override-2",
+    "href": "lectures/06-executive-legislature.html#threat-of-override-2",
+    "title": "Courts, Executives and Legislatures",
+    "section": "Threat of override",
+    "text": "Threat of override\n\nEU Override Game from Dyevre (2010)"
+  },
+  {
+    "objectID": "lectures/06-executive-legislature.html#court-curbing",
+    "href": "lectures/06-executive-legislature.html#court-curbing",
+    "title": "Courts, Executives and Legislatures",
+    "section": "Court curbing",
+    "text": "Court curbing\n\nthe legislator signalling intent to engage in court curbing is likely to lead to judicial self-restraint\na number of possible measures:\n\nbudget and staffing cuts\ninduced judicial exits (e.g. lowering retirement age)\ncourt expansion and packing\nlimiting jurisdiction and powers"
+  },
+  {
+    "objectID": "lectures/06-executive-legislature.html#the-friendly-court",
+    "href": "lectures/06-executive-legislature.html#the-friendly-court",
+    "title": "Courts, Executives and Legislatures",
+    "section": "The friendly court",
+    "text": "The friendly court\n\nconsistent with the idea of the majoritarian court is evidence of courts ruling against policies of previous governments (Segal, Westerland, and Lindquist 2010; Gillman 2002)\n\na “friendly” judicial intervention can be particularly valuable when it concerns constitutional interpretation that would be otherwise difficult to legislate away (e.g. Roe and Dobbs)\nalso helps explain why governments might sometimes appear to support “activist” judiciaries (Whittington 2005)"
   }
 ]
