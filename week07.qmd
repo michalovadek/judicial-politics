@@ -31,3 +31,7 @@ Songer, Donald R., Jeffrey A. Segal, and Charles M. Cameron. "The hierarchy of j
 Lax, Jeffrey R. "Political constraints on legal doctrine: How hierarchy shapes the law." *The Journal of Politics* 74, no. 3 (2012): 765-781.
 
 Pavone, Tommaso. "Revisiting judicial empowerment in the European Union: Limits of empowerment, logics of resistance." *Journal of Law and Courts* 6, no. 2 (2018): 303-331.
+
+## Lecture slides
+
+[Week 7](lectures/07-judicial-hierarchy.html)
