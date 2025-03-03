@@ -116,7 +116,7 @@ source("utils/globals.R")
 
 ## Judicial hierarchy
 
-![](images/clipboard-3787848009.png)
+![](img/france-courts.png)
 
 ## Judicial hierarchy
 
@@ -127,6 +127,12 @@ source("utils/globals.R")
     -   from the CJEU's perspective, all national courts must follow its lead
 
     -   not all national courts accept that the CJEU sits atop the EU law hierarchy
+
+## Judicial hierarchy  {.smaller}
+
+> The Court of Justice of the European Union exceeds its judicial mandate, as determined by the functions conferred upon it in Article 19(1) second sentence of the Treaty on European Union, where an interpretation of the Treaties is not comprehensible and must thus be considered arbitrary from an objective perspective. **If the Court of Justice of the European Union crosses that limit**, its decisions are no longer covered by Article 19(1) second sentence of the Treaty on European Union in conjunction with the domestic Act of Approval; at least in relation to Germany, these decisions lack the minimum of democratic legitimation necessary under Article 23(1) second sentence in conjunction with Article 20(1) and (2) and Article 79(3) of the Basic Law.
+
+German Constitutional Court, Judgment of the Second Senate of 5 May 2020, press release
 
 ## Judicial hierarchy
 
@@ -200,7 +206,7 @@ suppose the lower court is liberal and wants a liberal rule. The Supreme Court i
 
 ## The threat of reversal
 
--   appeal courts pick up on signals ("fire alarms"/whistleblowing) about whether a decision is worth reviewing
+-   appeal courts pick up on signals ("fire alarms" / whistleblowing) about whether a decision is worth reviewing
 
     -   litigants filing appeals
 
@@ -241,6 +247,8 @@ if the whistle is blown too often, the signal becomes less informative and easie
 -   in some courts (e.g. CJEU), the president chooses the opinion writer (judge-rapporteur)
 
     -   a source of power to steer decisions in a desired direction
+
+    -   at SCOTUS, the initial majority also gets the pen-holder [@lax2007]
 
 -   automatic systems of random case assignment as an anti-corruption measure [@marcondes2019]
 
