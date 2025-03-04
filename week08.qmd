@@ -23,3 +23,7 @@ Goldstein, Leslie Friedman. "From democracy to juristocracy." *Law & society re
 Hirschl, Ran. "The judicialization of mega-politics and the rise of political courts." *Annual Review of Political Science* 11, no. 1 (2008): 93-118.
 
 Domingo, Pilar. "Judicialization of politics or politicization of the judiciary? Recent trends in Latin America." *Democratization* 11, no. 1 (2004): 104-126.
+
+## Lecture slides
+
+[Week 8](lectures/08-judicialization.html)

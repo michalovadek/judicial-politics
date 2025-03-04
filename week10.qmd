@@ -41,3 +41,7 @@ Durr, Robert H., Andrew D. Martin, and Christina Wolbrecht. "Ideological diverge
 Gibson, James L., Gregory A. Caldeira, and Vanessa A. Baird. "On the legitimacy of national high courts." *American Political Science Review* 92, no. 2 (1998): 343-358.
 
 Caldeira, Gregory A. "Neither the purse nor the sword: Dynamics of public confidence in the Supreme Court." *American Political Science Review* 80, no. 4 (1986): 1209-1226.
+
+## Lecture slides
+
+[Week 10](lectures/10-legitimacy-backlash.html)

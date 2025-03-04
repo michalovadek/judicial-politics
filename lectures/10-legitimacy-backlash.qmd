@@ -1,0 +1,27 @@
+---
+title: "Legitimacy, Public Support and Backlash"
+subtitle: "Week 10"
+author: "Dr Michal Ovádek"
+format:
+  revealjs:
+    logo: img/ucl-logo.png
+    footer: "POLS0113: Judicial Politics"
+    slide-number: c/t
+    show-slide-number: all
+    center: true
+    margin-left: "0.1"
+    margin-right: "0.1"
+bibliography: references.bib
+---
+
+```{r globals}
+source("utils/globals.R")
+```
+
+## Legitimacy and public support
+
+-   to what extent are courts immune from changes in public opinion?
+
+-   is the legitimacy of judicial institutions in decline?
+
+## References

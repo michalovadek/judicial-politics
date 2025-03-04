@@ -22,6 +22,8 @@ To enable a structured comparison of courts across different jurisdictions, each
 
 -   Does the court have discretion over which cases it decides? (i.e. docket control)
 
+-   How many cases a year does the court decide on average?
+
 -   Is it possible to appeal the court's decisions?
 
 -   Are judges' votes public?
@@ -46,7 +48,7 @@ The groups and weeks are assigned in the seminar of week 1 on a first-come-first
 | 6             | Rebecca, Ariane           | IT SC, BR SC         |
 | 7             | Iva, Vishal               | CA SC, PL CC         |
 | 8             | Manya, Young Seo, Crystal | IN SC, IACtHR, JP SC |
-| 9             | Max, Ben, Kohen           | MX SC, , KR SC       |
+| 9             | Max, Ben, Kohen           | MX SC, SC HU, KR SC  |
 | 10            | Joss, Maude               | PH SC,               |
 
 ### Seminar 2

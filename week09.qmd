@@ -23,3 +23,7 @@ Helfer, Laurence R., and Erik Voeten. "International courts as agents of legal c
 Gauri, Varun, Jeffrey K. Staton, and Jorge Vargas Cullell. "The Costa Rican supreme court’s compliance monitoring system." *The Journal of Politics* 77, no. 3 (2015): 774-786.
 
 Pavone, Tommaso. "From Marx to market: Lawyers, European Law, and the contentious transformation of the Port of Genoa." *Law & Society Review* 53, no. 3 (2019): 851-888.
+
+## Lecture slides
+
+[Week 9](lectures/09-legal-mobilization.html)
