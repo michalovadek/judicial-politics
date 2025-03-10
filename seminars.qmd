@@ -49,7 +49,7 @@ The groups and weeks are assigned in the seminar of week 1 on a first-come-first
 | 7             | Iva, Vishal               | CA SC, PL CC         |
 | 8             | Manya, Young Seo, Crystal | IN SC, IACtHR, JP SC |
 | 9             | Max, Ben, Kohen           | MX SC, SC HU, KR SC  |
-| 10            | Joss, Maude               | PH SC,               |
+| 10            | Joss, Maude, Iva          | PH SC, , CA SC       |
 
 ### Seminar 2
 

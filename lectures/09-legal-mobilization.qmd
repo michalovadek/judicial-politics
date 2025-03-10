@@ -24,4 +24,10 @@ source("utils/globals.R")
 
 -   What influences the likelihood of interest group litigation and what makes their success likely?
 
+## Legal opportunity structure
+
+-   @vanhala2018
+
+## Who litigates?
+
 ## References
