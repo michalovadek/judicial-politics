@@ -24,4 +24,9 @@ source("utils/globals.R")
 
 -   is the legitimacy of judicial institutions in decline?
 
+## Court rulings and public opinion
+
+-   can court rulings shape public opinion on policy questions?
+    -   yes: France and Germany [@sternberg2022]; US ..
+
 ## References

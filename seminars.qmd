@@ -53,17 +53,17 @@ The groups and weeks are assigned in the seminar of week 1 on a first-come-first
 
 ### Seminar 2
 
-| Teaching week | Presenters      | Courts                      |
-|---------------|-----------------|-----------------------------|
-| 2             | No presentation |                             |
-| 3             | David, Chiharu  | DE CC, JP SC                |
-| 4             | Kamile, Liz     | US SC, ICJ                  |
-| 5             | Zoya, Gabriele  | PK SC, CJEU                 |
-| 6             | Natania, Corey  | IN SC, SA CC                |
-| 7             | Tiegan, Sam     | DE SC, CA SC                |
-| 8             | Joey, Sophie    | KR SC, AU SC                |
-| 9             | Carla, Chloe    | , FR Cour d'assises         |
-| 10            | Sacha, Castille | FR CC, FR Cour de Cassation |
+| Teaching week | Presenters      | Courts                          |
+|---------------|-----------------|---------------------------------|
+| 2             | No presentation |                                 |
+| 3             | David, Chiharu  | DE CC, JP SC                    |
+| 4             | Kamile, Liz     | US SC, ICJ                      |
+| 5             | Zoya, Gabriele  | PK SC, CJEU                     |
+| 6             | Natania, Corey  | IN SC, SA CC                    |
+| 7             | Tiegan, Sam     | DE SC, CA SC                    |
+| 8             | Joey, Sophie    | KR SC, AU SC                    |
+| 9             | Carla, Chloe    | Caribbean CJ, FR Cour d'assises |
+| 10            | Sacha, Castille | FR CC, FR Cour de Cassation     |
 :::
 
 Each court can only be covered **once** in a presentation. Students can 'reserve' courts for their presentation by signalling their preference to the instructor. The choice of a court must be signalled in any case at least a week before the presentation is due (to enable other students to select their courts). There can be no repeat presentations of the same court in the same seminar group.

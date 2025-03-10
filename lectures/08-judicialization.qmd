@@ -20,8 +20,163 @@ source("utils/globals.R")
 
 ## Judicialization and politicization
 
--   is politics more judicialized than in the past? Or have courts become politicized?
+-   is politics more judicialized than in the past?
+
+-   are courts becoming more politicized?
 
 -   what are the political implications of judicial empowerment?
+
+## The rise of constitutionalism
+
+-   the restraining of government through law
+
+-   modern origin in French & American revolution
+
+-   acceleration in response to World War II
+
+-   expansion of constitutional rights and judicial authority
+
+## Judicialization of politics
+
+-   the process of power shifting towards courts (and legal institutions) from other branches of government, especially the legislature
+
+-   courts become an important site for settling issues of public policy
+
+-   political actors and action become constrained by court rulings
+
+-   who should ultimately decide matters of public policy?
+
+## Judicialization
+
+-   three ways courts have become empowered vis-a-vis the legislatures [@ferejohn2002]:
+
+    1.  creation of **substantive limits** on legislative power
+    2.  **policy-making** through litigation and judicial precedent
+    3.  the regulation of **political activity** and enforcement of standards
+
+## Judicialization
+
+-   two types of effects of courts in judicialized political systems:
+
+    -   **direct**: effects caused by litigation and court rulings
+
+    -   **indirect**: effects produced by the *anticipation* and *threat* of litigation
+
+## *Ex ante* v *ex post* review
+
+-   one type of indirect effect of judicialization is legislator moral hazard [@fox2011; @ward2019]
+
+    -   knowledge that courts will correct ill-advised policies makes legislators behave more recklessly
+
+-   this type of moral hazard is more common with *ex ante* judicial review [@gabel2024]
+
+::: notes
+French Constitutional Council is the archetype of the ex ante review effect on legislative recklessness
+
+legislators promising unconstitutional policies can make it harder for voters to make good decisions
+:::
+
+## Judicialization  {.smaller}
+
+> There is **hardly any political question in the United States that sooner or later does not turn into a judicial question**. From that, the obligation that the parties find in their daily polemics to borrow ideas and language from the judicial system. Since most public men are or have formerly been jurists, they make the habits and the turn of ideas that belong to jurists pass into the handling of public affairs. The jury ends up by familiarizing all classes with them. Thus, judicial language becomes, in a way, the common language; so **the spirit of the jurist, born inside the schools and courtrooms, spreads little by little beyond their confines**; it infiltrates all of society, so to speak; it descends to the lowest ranks, and the entire people finishes by acquiring a part of the habits and tastes of the magistrate.
+>
+> Alexis de Tocqueville, *Democracy in America* (1835)
+
+## Judicialization {.smaller}
+
+-   intertwined with the "juridification" of modern social life
+
+-   the language of law, rights and adjudication seeps outside the courtroom
+
+-   informal conflict resolution is replaced by judicial or quasi-judicial processes
+
+## Judicialization and proceduralism
+
+-   rights and courts contribute to emphasis on formalism and **procedural** justice
+
+    -   widely accepted but narrow conception of justice [@pound1910]
+
+    -   modern courts are less concerned with substantive justice ("the right thing")
+
+-   the idea is that proceduralism should lead to just outcomes
+
+## Judicialization of "mega-politics"
+
+-   Ran Hirschl's main normative objection to courts is the judicialization of "mega-politics" [@hirschl2010; @hirschl2004]
+
+-   reviewing whether the procedure was observed in public tenders is much less problematic from ruling that a new economic policy is unconstitutional
+
+-   which issues are too "political" for courts?
+
+    -   drawing the boundary is a normative judgment
+
+## Types of mega-politics cases
+
+1.  **Policy**: e.g. rulings on the pessification of the Argentinian economy (2003-4)
+2.  **Electoral:** e.g. excluding a candidate or declaring an election void (Romania 2024)
+3.  **Constitutional**: e.g. SA CC demanding amendments to constitution (1996)
+4.  **Identity**: e.g. Turkish Constitutional Court crackdown on religion (1998-2003)
+
+::: notes
+the Turkish court eg banned parties which promised to undermine the secularist tradition
+
+another example of electoral is Bush v Gore (2000) where 5 judges decided to stop the recount in Florida. The recount could have overturned the result in Gore's favour
+:::
+
+## Origins of judicialization
+
+-   *functionalist*: complexity of modern governance requires more adjudication
+
+-   *institutionalist*: court design sets off the process of self-empowerment
+
+-   *court-centred*: judges are power-hungry and drive the process
+
+-   *rights-centred*: rights and litigants explain expansion of judicial power
+
+## International judicialization
+
+-   why would governments establish **international** judicial regimes that constrain them?
+
+-   @moravcsik2000 explains it as a form of "republican liberalism"
+
+    -   governments **lock in** their preferences against future political alternatives
+
+    -   newly established democracies are driving the process
+
+## Judicialization and politicization  {.smaller}
+
+-   courts expand their power through decisions on **public** policy and state institutions
+
+    -   such matters naturally invite *politicization* which can lead to decline of trust in the long-run
+
+-   as courts grow in importance, they also become more attractive to **politicians**
+
+    -   *judicialization* –\> *politicization*
+
+-   politicians do not act merely within the rules but also **with respect** to the rules (existing institutions)
+
+    -   if e.g. packing a court with loyalists helps to win power or realize political preferences, they will often do it
+
+## Politicization
+
+-   beyond court curbing measures enacted by politicians, law and courts can become **politicized** also by
+
+    -   judicial elections
+
+    -   high-profile decisions
+
+    -   political polarization
+
+    -   autocratization
+
+## Dejudicialization
+
+-   is the era of increasing judicialization over? [@abebe2019]
+
+    -   most obvious in the backlash against international courts, e.g. dejudicialization of the WTO
+
+-   but there are also signs in domestic politics
+
+    -   e.g. the near total de-legitimization of the Polish Constitutional Court in recent years
 
 ## References
