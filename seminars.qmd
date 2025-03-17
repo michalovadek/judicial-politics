@@ -34,7 +34,7 @@ To enable a structured comparison of courts across different jurisdictions, each
 
 In the final part of the presentation, the presenting group should reflect on what we can learn about judicial politics based on the similarities and differences between the courts. For example, the group might want to consider the extent to which different appointment procedures manifest in different ideological compositions of a court (or any other aspect of judicial politics).
 
-The groups and weeks are assigned in the seminar of week 1 on a first-come-first-serve basis. Any absent students are randomly assigned to groups and weeks to fill the remaining spots.
+The groups and weeks are assigned in the seminar of week 1 on a first-come-first-serve basis. Any absent students are randomly assigned to groups and weeks to fill the remaining spots. All students should establish contact with their co-presenters as soon as possible.
 
 ::: panel-tabset
 ### Seminar 1
@@ -49,7 +49,7 @@ The groups and weeks are assigned in the seminar of week 1 on a first-come-first
 | 7             | Iva, Vishal               | CA SC, PL CC         |
 | 8             | Manya, Young Seo, Crystal | IN SC, IACtHR, JP SC |
 | 9             | Max, Ben, Kohen           | MX SC, SC HU, KR SC  |
-| 10            | Joss, Maude, Iva          | PH SC, , CA SC       |
+| 10            | Joss, Maude, Iva          | PH SC, AfCHPR, CA SC |
 
 ### Seminar 2
 
@@ -70,6 +70,6 @@ Each court can only be covered **once** in a presentation. Students can 'reserve
 
 ## Readings
 
-In each teaching week there is an assigned mandatory reading which students are expected to read and be prepared to discuss in class. There is also an additional list of optional readings which represent a good starting point to the literature on the topic of the week, but do not assume they are exhaustive (i.e. there are other papers on the topic).
+In each teaching week there is an assigned mandatory reading which students are expected to read and be prepared to discuss in class. There is also an additional list of optional readings which represent a good starting point to the literature on the topic of the week, but do not assume they are exhaustive (i.e. there are other papers on the topic). Further readings are featured in lecture slides.
 
 The length of the mandatory reading list is kept modest so that students have more time to dive deeper into specific topics of interest, which is essential for the final paper in particular, as it needs to be grounded in existing academic literature. The theories and methodologies used in the mandatory and optional readings should also be approached as a source of inspiration for the final paper.

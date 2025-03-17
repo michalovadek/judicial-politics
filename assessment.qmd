@@ -6,13 +6,19 @@ The module is assessed by one compulsory **research paper of 3000 words** worth 
 
 The research paper must be **empirical** in nature. This means the research has to rely on observable evidence to answer a question about an aspect of judicial politics. The research design devised to answer the research question can be quantitative, qualitative or mixed.
 
-Each research paper must include one section discussing **theory** and one section discussing **research design**. The theory section sets out the researcher's expectations about the studied phenomenon on the basis of existing academic literature and typically ends with a testable hypothesis. The research design section describes how the research question will be answered and must include a discussion of the information (data) and the method (e.g. process tracing or regression analysis) used to produce evidence in support of (or against) a hypothesis. Other sections are optional but "introduction" and "findings" (or equivalent) are encouraged to also feature in the paper.
+The best research questions will follow from and attempt to contribute to scholarly literature on a phenomenon of broader theoretical interest. Even when the paper's empirical part focuses on just a single case study, it should be made clear what broader phenomenon the case is meant to be an instance of. The research question should result from the identification of a research gap in the literature. The answer to the research question should not be obvious or found in existing academic work.
+
+The introduction to the paper should explicitly motivate why the phenomenon of interest is important (socially, politically, economically, normatively) to study. The introduction should also explain what the key issue or puzzle which need investigating is.
+
+Each research paper must include one section discussing **theory** and one section discussing **research design**. The theory section sets out the researcher's expectations about the studied phenomenon on the basis of existing academic literature and typically ends with a testable hypothesis. The research design section describes how the research question will be answered and must include a discussion of the information (data) and the method (e.g. process tracing or regression analysis) used to produce evidence in support of (or against) a hypothesis. The theory and research design need to be selected so as to be appropriate to the research question.
+
+The findings produced by the empirical analysis should be presented in a separate section for clarity. Thereafter they should be discussed in terms of the hypothesis, the research question and finally related back to the scholarly literature to which the paper is contributing.
 
 Papers are expected to use an author-year (in-text) citation system. Citation and reference formatting should follow the Chicago or Harvard style. The list of references at the end of the document are not counted towards the word limit (but the in-text citations are). Any footnotes or endnotes count towards the word limit. Compliance with university plagiarism policies is a must.
 
 ### General assessment criteria
 
-The markers will consider the following criteria when assessing your essay:
+In addition to the above requirements, the markers will consider the following criteria when assessing the paper:
 
 -   Structure and organisation
 

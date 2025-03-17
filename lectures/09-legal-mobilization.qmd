@@ -24,10 +24,158 @@ source("utils/globals.R")
 
 -   What influences the likelihood of interest group litigation and what makes their success likely?
 
-## Legal opportunity structure
+## Legal mobilization
 
--   @vanhala2018
+-   "invoking legal norms as a form of political activity by which the citizenry uses public authority on its own behalf" [@zemans1983]
+
+-   the enforcement of the law often depends on private (non-governmental) actors
+
+    -   traditionally in the US ("adversarial legalism"), possibly also in the EU [@kelemen2012]
+
+## Adversarial vs bureaucratic legalism
+
+-   law and policy in the US are strongly shaped by means of "lawyer-dominated **litigation**" [@kagan2003adversarial]
+
+-   economic liberalization and political fragmentation in the EU has been argued to be leading Europe down the American path [@kelemen2012]
+
+-   some private enforcement but role of state **bureaucracies** in implementation (centralized, hierarchical) remains strong in Europe – resistance to the US model [@foster2024]
+
+## Legal mobilization
+
+-   competing definitions but central is the use of law [@lehoucq2020]
+
+-   "*the use of law in an explicit, self-conscious way through the invocation of a formal institutional mechanism*"
+
+    -   comprises not only litigation but also e.g. amicus curiae briefs and legal petitions
+
+    -   related to but distinct from *legal framing* and *legal consciousness*
+
+## Why mobilize the law?
+
+-   most often targeting **legal change** through courts ("strategic litigation")
+
+-   raise rights consciousness and improve **receptivity** to claims
+
+-   generate media **attention** and public support
+
+## Why not?
+
+-   fear of creating **negative precedents** entrenching unfavourable outcomes
+
+-   change through courts lacks in **democratic** legitimation
+
+-   fear of **backlash** against the pursued cause
+
+    -   but other forms of policy change can also generate backlash [@keck2009]
+
+## The drivers of legal mobilization
+
+-   LM requires capacity to navigate a complex organizational field
+
+-   actors need to have the necessary resources (financial, expertise) to take advantage of the available *legal opportunity structure* (LOS)
+
+    -   but LOS is not just exogenously given, acting on it shapes it going forward [@vanhala2012]
+
+## Legal opportunity structure (static)
+
+-   legal **stock**
+
+    -   what rights and laws are available to "hang" your case on?
+
+-   **access** to justice
+
+    -   who can access the procedure and under what conditions?
+
+-   legal **costs**
+
+    -   how expensive is it to access the procedure and is legal aid available?
+
+## Legal opportunity structure (dynamic)
+
+-   the text of a law is just the starting the point of law construction
+
+    -   rules need to be interpreted in the process of being applied
+
+-   actors attempt to mould LOS to their advantage by advancing new interpretations
+
+    -   most commonly they are targeting judges but there are other options (e.g. MPs, ombudsmen)
+
+    -   some might not see an opportunity where there is one [@vanderpas2024]
+
+## Empirical examples
+
+-   civil rights movements
+
+    -   *Brown v Board of Education of Topeka* (1954)
+
+    -   open LOS in US v closed LOS in NI [@defazio2012]
+
+## Empirical examples
+
+-   environmental movements [@vanhala2022]
+
+    -   Aarhus Convention
+
+    -   climate litigation [@setzer2019; @voeten2024]
+
+## Empirical examples
+
+-   LGBTQ+ movements [@keck2009]
+
+    -   decriminalization, recognition, same-sex marriage
+
+    -   international courts can help [@helfer2014]
+
+    -   legalization of same-sex marriage reduces anti-gay bias [@kreitzer2014; @ofosu2019]
+
+## Role of international law
+
+-   chances are the LOS is in a stable equilibrium due to well-defined and entrenched preferences of the executive, legislature and courts
+
+-   there is a huge literature on international law and courts disrupting such domestic equilibria and creating new opportunities for actors [@helfer2014; @simmons2009mobilizing; @alter2000; @pavone2019]
+
+    -   domestic political players have less control over the international LOS
+
+## Who litigates?  {.smaller}
+
+-   until the 1930s, 90% of the SCOTUS docket was formed by business and property cases [@epp1998rights]
+
+-   in the 1960s individual rights litigation at SCOTUS reached 70%
+
+    -   most cases were sponsored by NGOs such as ACLU and NAACP
+
+-   contrast with lack of success of Indian Supreme Court in the 1990s despite efforts to invite more rights cases
+
+-   disagreement about the importance of the "support structure" [@sanchezurribarri2011; @epp2011]
 
 ## Who litigates?
+
+-   the equalizing potential of the law is limited in practice by resource inequality [@galanter1974]
+
+    -   financial resources buy (repeated) access to courts and better legal expertise (lawyers)
+
+    -   repetition increases experience and therefore winning chances
+
+-   more resourceful actors litigate more [@hofmann2021]
+
+    -   but mixed evidence regarding proximity to power [@coglianese1996]
+
+## Who wins?
+
+-   those who litigate more are generally also more likely to win
+
+-   individuals are the least likely to win cases in the US, followed by interest groups (heterogeneous) and governments
+
+-   government lawyers often tend to be more successful than private lawyers
+
+    -   e.g. the US Solicitor General's *certoriari* petitions to SCOTUS have a success rate of 70% compared to 3% for others [@chandler2011; @black2011; @bailey2005]
+
+::: notes
+role of US SG somewhat similar to role of the Commission in the EU system - also wins a lot and indicates what the pro-EU position is. But maybe COM and CJEU are more ideologically aligned
+:::
+
+## Who wins?
+
+![Source: Hermansen and Pavone (forthcoming)](img/pavone-eu-litigants.png)
 
 ## References
