@@ -30,9 +30,9 @@ source("utils/globals.R")
 
 ## Legitimacy and public support
 
--   to what extent are courts immune from changes in public opinion?
+-   what are the determinants of public support of courts?
 
--   is the legitimacy of judicial institutions in decline?
+-   to what extent are courts immune from changes in public opinion?
 
 ## Legitimacy
 
@@ -100,6 +100,8 @@ source("utils/globals.R")
 
     -   in Poland and Hungary, the perception of **executive influence** on courts creates even more demand for judicial independence than in US and Germany, but awareness alone does not
 
+    -   @micheli2024 similarly show that knowledge alone of Latin American courts does not increase trust
+
 -   identification with anti-system parties may reduce trust in courts [@arzheimer2024]
 
 ## Anti-system parties
@@ -148,7 +150,7 @@ source("utils/globals.R")
 
 -   evidence of greater **self-restraint** in response to backlash
 
-    -   the ECtHR rules less often against most critical governments [@stiansen2018]
+    -   the ECtHR rules less often against most critical governments [@stiansen2020]
 
     -   the ECtHR restricted the scope of human rights and increased governments' margin of appreciation (discretion) [@helfer2020]
 
