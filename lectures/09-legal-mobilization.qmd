@@ -136,7 +136,7 @@ source("utils/globals.R")
 
     -   domestic political players have less control over the international LOS
 
-## Who litigates?  {.smaller}
+## Who litigates? {.smaller}
 
 -   until the 1930s, 90% of the SCOTUS docket was formed by business and property cases [@epp1998rights]
 

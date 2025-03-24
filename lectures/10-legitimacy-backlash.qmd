@@ -18,15 +18,142 @@ bibliography: references.bib
 source("utils/globals.R")
 ```
 
+## Assessment
+
+-   before starting writing, make sure to:
+
+    -   read the Assessment page on the website
+
+    -   read the FAQ page on the website
+
+    -   consult slides from week 7
+
 ## Legitimacy and public support
 
 -   to what extent are courts immune from changes in public opinion?
 
 -   is the legitimacy of judicial institutions in decline?
 
+## Legitimacy
+
+> Legitimacy is a psychological property of an authority, institution, or social arrangement that leads those connected to it to believe that it is appropriate, proper, and just. [@tyler2006]
+
+-   sometimes used interchangeably with "authority" and "diffuse support"
+
+    -   conceptually different from "specific support" (but measurement difficulties)
+
+## Judicial legitimacy
+
+-   unlike democratic parliaments and executives, most courts cannot derive their legitimacy from electoral mandates
+
+-   at the same time, courts rely on diffuse support for effectiveness more than other branches
+
+-   particularly important when constituents disagree over a policy decision
+
+## Sources of judicial legitimacy
+
+-   traditionally, belief in legalism and exposure to **legal symbols** is seen as a major source of judicial legitimacy [@gibson2017; @caldeira1992]
+
+    -   legal symbols make individuals believe that what courts do is fairer and **different from politics**
+
+    -   more awareness of courts leads to more exposure to its legitimizing symbols and a build up of a "repository of goodwill"
+
+    -   legalistic (compared to partisan) framing of a ruling induces specific support [@magalhães2023]
+
+## Sources of judicial legitimacy
+
+-   @bartels2013 put forward an **ideological** explanation for judicial legitimacy
+
+    -   individuals who believe they are in an ideological disagreement with SCOTUS ascribe it lower legitimacy than those who think they are in agreement
+
+    -   individual perceptions of a court's ideological tenor can be quite variable (lack of awareness, obscured by legalism, etc.)
+
+    -   perceived ideological congruence matters less for people who think courts decide on a case-by-case basis
+
+## Sources of judicial legitimacy
+
+-   seemingly even controversial decisions such as *Bush v. Gore* did not significantly reduce diffuse support for SCOTUS [@gibson2024]
+
+-   ... that is until *Dobbs* [@levendusky2024]
+
+## Support for SCOTUS post-*Dobbs*
+
+![Effect of the Dobbs ruling on trust in SCOTUS [@levendusky2024]](img/levendusky-dobbs.jpg)
+
+## Political foundations  {.smaller}
+
+-   we would expect that individuals holding **democratic values** are more supportive of judicial independence
+
+    -   @bartels2023 find no evidence of this in the context of 2017 Kenyan elections
+
+    -   @cheruvu2025 find less support for anti-court backlash among more democratically minded Hungarians
+
+-   a study of 34 African countries shows that presidential **co-partisanship decreases support** for horizontal judicial power and increases it for vertical [@bartels2020]
+
+    -   support for courts depends on who is in power
+
+## Political context  {.smaller}
+
+-   in line with positivity theory, greater **awareness** of a court should be associated with more support for its independence [@gibson2014]
+
+-   @gandur2025 show that this relationship is affected by the political context
+
+    -   in Poland and Hungary, the perception of **executive influence** on courts creates even more demand for judicial independence than in US and Germany, but awareness alone does not
+
+-   identification with anti-system parties may reduce trust in courts [@arzheimer2024]
+
+## Anti-system parties
+
+![Decline in trust in the German Constitutional Court among AfD voters [@arzheimer2024]](img/afd-trust-fcc.jpg)
+
+## Maintaining public support  {.smaller}
+
+-   to maintain diffuse support, it is arguably in courts' long-term interests to stay ideologically **close to the median** voter
+
+-   courts can offer compensation to the "losers" to increase acceptance [@gonzalez-ocantos2019]
+
+-   courts might care less about maintaining public support when
+
+    -   they are aligned with the executive (for enforcement)
+
+    -   the public is not paying attention (but see @casillas2011)
+
+    -   public opinion is less important (autocracies)
+
+## Maintaining public support
+
+![SCOTUS v. the public [@jessee2022]](img/scotus-median-voter.jpg)
+
 ## Court rulings and public opinion
 
--   can court rulings shape public opinion on policy questions?
-    -   yes: France and Germany [@sternberg2022]; US ..
+-   court rulings can (de)legitimize a policy [@sternberg2022]
+    -   they are most effective when the courts are trusted
+    -   media framing affects the degree to which a ruling moves public opinion [@linos2016]
+
+## Backlash
+
+![Daily Mail re Brexit judgment in *Miller* (2016)](img/daily-mail-enemies.png)
+
+## Backlash against courts
+
+-   what drives **backlash** against international courts? [@madsen2022]
+
+    -   probably the same thing that drives backlash against domestic courts: disagreement with outcomes
+
+    -   populism is at best a partial explanation [@voeten2020]
+
+-   individual-level illiberal views about justice are negatively correlated with trust in the EU, ECtHR and domestic judiciaries [@voeten2022]
+
+## Backlash against courts
+
+-   evidence of greater **self-restraint** in response to backlash
+
+    -   the ECtHR rules less often against most critical governments [@stiansen2018]
+
+    -   the ECtHR restricted the scope of human rights and increased governments' margin of appreciation (discretion) [@helfer2020]
+
+## Declining UK ECHR violations
+
+![Donald and Grogan (2025)](img/ukice-echr-24.jpg)
 
 ## References
