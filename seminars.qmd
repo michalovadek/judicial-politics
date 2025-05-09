@@ -39,31 +39,31 @@ The groups and weeks are assigned in the seminar of week 1 on a first-come-first
 ::: panel-tabset
 ### Seminar 1
 
-| Teaching week | Presenters                | Courts               |
-|---------------|---------------------------|----------------------|
-| 2             | No presentation           |                      |
-| 3             | Grant, Alexa              | CJEU, SA SC          |
-| 4             | Jack, Sofia               | UK SC, ICC           |
-| 5             | Charles, Matthieu, Alizeh | FR CC, ECtHR, ICJ    |
-| 6             | Rebecca, Ariane           | IT SC, BR SC         |
-| 7             | Iva, Vishal               | CA SC, PL CC         |
-| 8             | Manya, Young Seo, Crystal | IN SC, IACtHR, JP SC |
-| 9             | Max, Ben, Kohen           | MX SC, SC HU, KR SC  |
-| 10            | Joss, Maude, Iva          | PH SC, AfCHPR, CA SC |
+| Teaching week | Presenters      | Courts |
+|---------------|-----------------|--------|
+| 2             | No presentation |        |
+| 3             |                 |        |
+| 4             |                 |        |
+| 5             |                 |        |
+| 6             |                 |        |
+| 7             |                 |        |
+| 8             |                 |        |
+| 9             |                 |        |
+| 10            |                 |        |
 
 ### Seminar 2
 
-| Teaching week | Presenters      | Courts                          |
-|---------------|-----------------|---------------------------------|
-| 2             | No presentation |                                 |
-| 3             | David, Chiharu  | DE CC, JP SC                    |
-| 4             | Kamile, Liz     | US SC, ICJ                      |
-| 5             | Zoya, Gabriele  | PK SC, CJEU                     |
-| 6             | Natania, Corey  | IN SC, SA CC                    |
-| 7             | Tiegan, Sam     | DE SC, CA SC                    |
-| 8             | Joey, Sophie    | KR SC, AU SC                    |
-| 9             | Carla, Chloe    | Caribbean CJ, FR Cour d'assises |
-| 10            | Sacha, Castille | FR CC, FR Cour de Cassation     |
+| Teaching week | Presenters      | Courts |
+|---------------|-----------------|--------|
+| 2             | No presentation |        |
+| 3             |                 |        |
+| 4             |                 |        |
+| 5             |                 |        |
+| 6             |                 |        |
+| 7             |                 |        |
+| 8             |                 |        |
+| 9             |                 |        |
+| 10            |                 |        |
 :::
 
 Each court can only be covered **once** in a presentation. Students can 'reserve' courts for their presentation by signalling their preference to the instructor. The choice of a court must be signalled in any case at least a week before the presentation is due (to enable other students to select their courts). There can be no repeat presentations of the same court in the same seminar group.
