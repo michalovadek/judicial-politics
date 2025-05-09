@@ -80,7 +80,7 @@ source("utils/globals.R")
 
 ![Effect of the Dobbs ruling on trust in SCOTUS [@levendusky2024]](img/levendusky-dobbs.jpg)
 
-## Political foundations  {.smaller}
+## Political foundations {.smaller}
 
 -   we would expect that individuals holding **democratic values** are more supportive of judicial independence
 
@@ -92,7 +92,7 @@ source("utils/globals.R")
 
     -   support for courts depends on who is in power
 
-## Political context  {.smaller}
+## Political context {.smaller}
 
 -   in line with positivity theory, greater **awareness** of a court should be associated with more support for its independence [@gibson2014]
 
@@ -108,7 +108,7 @@ source("utils/globals.R")
 
 ![Decline in trust in the German Constitutional Court among AfD voters [@arzheimer2024]](img/afd-trust-fcc.jpg)
 
-## Maintaining public support  {.smaller}
+## Maintaining public support {.smaller}
 
 -   to maintain diffuse support, it is arguably in courts' long-term interests to stay ideologically **close to the median** voter
 

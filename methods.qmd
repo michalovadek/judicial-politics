@@ -1,0 +1,49 @@
+---
+title: "Methods resources"
+---
+
+In the course of this module we will be encountering a variety of empirical methods and research designs. Below is an indicative list of methodological resources offering a useful entry point to both qualitative and quantitative research designs.
+
+## Quantitative methods
+
+Huntington-Klein, Nick. *The effect: An introduction to research design and causality*. Chapman and Hall/CRC, 2021. [link](https://theeffectbook.net/)
+
+Imbens, Guido W. "Causal inference in the social sciences." *Annual Review of Statistics and Its Application* 11 (2024): 123-152.
+
+### Difference-in-differences
+
+Roth, Jonathan, Pedro HC Sant’Anna, Alyssa Bilinski, and John Poe. "What’s trending in difference-in-differences? A synthesis of the recent econometrics literature." *Journal of Econometrics* 235, no. 2 (2023): 2218-2244.
+
+Arkhangelsky, Dmitry, Susan Athey, David A. Hirshberg, Guido W. Imbens, and Stefan Wager. "Synthetic difference-in-differences." *American Economic Review* 111, no. 12 (2021): 4088-4118.
+
+### Regression discontinuity
+
+Cattaneo, Matias D., and Rocio Titiunik. "Regression discontinuity designs." *Annual Review of Economics* 14, no. 1 (2022): 821-851.
+
+## Qualitative methods
+
+Gerring, John. "Qualitative methods." *Annual Review of Political Science* 20, no. 1 (2017): 15-36.
+
+Rohlfing, Ingo, and Christina Isabel Zuber. "Check your truth conditions! Clarifying the relationship between theories of causation and social science methods for causal inference." *Sociological Methods & Research* 50, no. 4 (2021): 1623-1659.
+
+Collins, Caitlyn, Megan Tobias Neely, and Shamus Khan. "“Which cases do I need?” Constructing cases and observations in qualitative research." *Annual Review of Sociology* 50 (2024): 21-40.
+
+### Process tracing
+
+Ricks, Jacob I., and Amy H. Liu. "Process-tracing research designs: A practical guide." *PS: Political Science & Politics* 51, no. 4 (2018): 842-846.
+
+Beach, Derek. "It's all about mechanisms–what process-tracing case studies should be tracing." *New Political Economy* 21, no. 5 (2016): 463-472.
+
+### Controlled comparisons
+
+Slater, Dan, and Daniel Ziblatt. "The enduring indispensability of the controlled comparison." *Comparative Political Studies* 46, no. 10 (2013): 1301-1327.
+
+Gisselquist, Rachel M. “Paired Comparison and Theory Development: Considerations for Case Selection.” *PS: Political Science & Politics* 47, no. 2 (2014): 477–84.
+
+Tarrow, Sidney. "The strategy of paired comparison: Toward a theory of practice." *Comparative Political Studies* 43, no. 2 (2010): 230-259.
+
+### Case studies
+
+Gerring, John. "What is a case study and what is it good for?." *American Political Science Review* 98, no. 2 (2004): 341-354.
+
+Seawright, Jason, and John Gerring. "Case selection techniques in case study research: A menu of qualitative and quantitative options." *Political research quarterly* 61, no. 2 (2008): 294-308.

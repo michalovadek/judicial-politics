@@ -11,11 +11,13 @@ When doing research on courts and judicial politics, the following (non-exhausti
 -   [The German Constitutional Court Database](https://ccdb.eu/)
 -   [Varieties of Democracy](https://v-dem.net/data/the-v-dem-dataset/)
 -   [IUROPA CJEU Database](https://www.iuropa.pol.gu.se/)
--   [CompLaw: Comparative Study of Judicial Review](https://doi.org/10.1017/jlc.2024.4)
+-   [CompLaw: Comparative Study of Judicial Review](https://doi.org/10.7910/DVN/STT55X)
 -   [International Court of Justice Corpora](https://onlinelibrary.wiley.com/doi/full/10.1111/jels.12313)
 -   [The Czech Constitutional Court Database](https://www.cambridge.org/core/journals/journal-of-law-and-courts/article/czech-constitutional-court-database/E3BA7816D8C221C3A13CF843E2526BA1)
 -   [The Hungarian Constitutional Court Database](https://link.springer.com/article/10.1007/s13132-023-01395-6)
 -   [Database on the Inter-American Court of Human Rights](https://www.cambridge.org/core/journals/journal-of-law-and-courts/article/law-and-politics-in-the-interamerican-court-of-human-rights/D8626134C5CA187D2C90CF29EF27D752)
 -   [Corpus of Bundesfinanzhof Decisions](https://zenodo.org/records/14622341)
+
+Before spending time on collecting your own data, make sure to check whether an existing database cannot be leveraged for your research question.
 
 More generally, going beyond existing databases when working on the final paper is encouraged but not required.

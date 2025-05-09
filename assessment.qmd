@@ -14,7 +14,7 @@ Each research paper must include one section discussing **theory** and one secti
 
 The findings produced by the empirical analysis should be presented in a separate section for clarity. Thereafter they should be discussed in terms of the hypothesis, the research question and finally related back to the scholarly literature to which the paper is contributing.
 
-Papers are expected to use an author-year (in-text) citation system. Citation and reference formatting should follow the Chicago or Harvard style. The list of references at the end of the document are not counted towards the word limit (but the in-text citations are). Any footnotes or endnotes count towards the word limit. Compliance with university plagiarism policies is a must.
+Papers are expected to use an author-year (in-text) citation system. Citation and reference formatting should follow the [Chicago style](https://www.chicagomanualofstyle.org/home.html). The list of references at the end of the document are not counted towards the word limit (but the in-text citations are). Any footnotes or endnotes count towards the word limit. Compliance with university plagiarism policies is a must.
 
 ### General assessment criteria
 
@@ -43,3 +43,37 @@ An excellent essay will be strong on each criterion.
 ### Use of artificial intelligence tools
 
 No part of the work submitted for assessment is allowed to have been generated or otherwise produced by artificial intelligence tools. Failure to abide by this requirement will be treated as academic misconduct and trigger the relevant procedures and penalties. Standard academic misconduct regulations apply at all times.
+
+The use of artificial intelligence and machine learning tools is allowed insofar as it forms part of the methodological approach, such as using GPT models for text classification to measure a concept of interest.
+
+### Assessment tips
+
+Below is a non-exhaustive list of tips to help you write a better paper:
+
+- [] Imagine you are a researcher writing a short empirical paper for an academic journal in political science
+
+- [] Original empirical work must be the centrepiece of the paper -- this means demonstrating deep engagement with primary sources such as court decisions, government documents, parliamentary speeches, media coverage, etc
+
+- [] Be clear about what is new in your paper -- what about judicial politics do we not know or understand yet and how does your paper help address the gap?
+
+- [] Write in an academic style with a [focus on clarity above all else](https://catherineeunicedevries.substack.com/p/the-hidden-gift-of-fewer-words)
+
+- [] Don't submit your paper until you have carefully [revised and edited it](https://catherineeunicedevries.substack.com/p/editing-the-work-beneath-the-words)
+
+- [] When reviewing academic literature, take into account the reputation (importance and trustworthiness) of the source you are relying on. Avoid using articles from predatory and low-reputation [journals](https://www.scimagojr.com/journalrank.php?category=3320)
+
+- [] Make sure your literature review covers all relevant academic scholarship on your subject, including the most recently published articles
+
+- [] The lecture slides are just an entry point to the field -- your research and paper need to go deeper
+
+- [] Key concepts in your theory need to be clearly defined early on
+
+- [] If you are following a qualitative methodology, your paper should come with a [transparency appendix](https://doi.org/10.1017/S1049096513001789) that details how you assessed pieces of evidence and made analytical decisions
+
+- [] Whenever you are working with a sample of cases as your empirical material -- which will be almost always -- you need to explain how you made the selection, how it fits with your research design and how it serves your research question
+
+- [] Specific references (e.g. citations including the page number) are better than general references
+
+- [] Format your paper, including in-text citations and bibliography, correctly and consistently. When in doubt, consult the [Chicago Manual of Style](https://www.chicagomanualofstyle.org/home.html)
+
+- [] Your paper needs to have a title -- a hypothesis is not a title

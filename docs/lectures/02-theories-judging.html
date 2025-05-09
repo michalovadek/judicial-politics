@@ -1,346 +1,174 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-<meta name="author" content="Dr Michal Ovádek">
-
-<title>Theories of Judicial Behaviour – POLS0113: Judicial Politics</title>
-<style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
-}
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
-
-
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<html lang="en"><head>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
-<script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
-  }
-}</script>
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-da03d714c310c60cec1d83284c92da2c.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.17">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
+  <meta name="author" content="Dr Michal Ovádek">
+  <title>POLS0113: Judicial Politics – Theories of Judicial Behaviour</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
     }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../styles.css">
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-00ac2f6af1389919a18f42df5b7c0002.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
 </head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
 
-<body class="nav-sidebar floating">
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Theories of Judicial Behaviour</h1>
+  <p class="subtitle">Week 2</p>
 
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      POLS0113: Judicial Politics
-      </li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="../">POLS0113: Judicial Politics</a> 
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../assessment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Assessment</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../seminars.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Seminars</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../faq.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">FAQ</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../data-res.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data resources</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Weeks</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week01.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1: Reasons for Courts</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week02.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2: Theories of Judicial Behaviour</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week03.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">3: Judicial Preferences and Decisions</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week04.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4: Judicial Power and Independence</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week05.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5: Appointing and Monitoring Judges</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week06.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6: Courts, Executives and Legislatures</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week07.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7: Judicial Hierarchy and Organization</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week08.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8: Judicialization and Politicization</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week09.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">9: Legal Mobilization and Judicial Impact</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">10: Legitimacy, Public Support and Backlash</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#how-do-judges-make-decisions" id="toc-how-do-judges-make-decisions" class="nav-link active" data-scroll-target="#how-do-judges-make-decisions">How do judges make decisions?</a></li>
-  <li><a href="#how-do-judges-make-decisions-1" id="toc-how-do-judges-make-decisions-1" class="nav-link" data-scroll-target="#how-do-judges-make-decisions-1">How do judges make decisions?</a></li>
-  <li><a href="#legalism" id="toc-legalism" class="nav-link" data-scroll-target="#legalism">Legalism</a></li>
-  <li><a href="#legalism-1" id="toc-legalism-1" class="nav-link" data-scroll-target="#legalism-1">Legalism</a></li>
-  <li><a href="#complexity-of-rules" id="toc-complexity-of-rules" class="nav-link" data-scroll-target="#complexity-of-rules">Complexity of rules</a></li>
-  <li><a href="#complexity-of-rules-1" id="toc-complexity-of-rules-1" class="nav-link" data-scroll-target="#complexity-of-rules-1">Complexity of rules</a></li>
-  <li><a href="#complexity-of-rules-2" id="toc-complexity-of-rules-2" class="nav-link" data-scroll-target="#complexity-of-rules-2">Complexity of rules</a></li>
-  <li><a href="#complexity-of-rules-3" id="toc-complexity-of-rules-3" class="nav-link" data-scroll-target="#complexity-of-rules-3">Complexity of rules</a></li>
-  <li><a href="#ambiguity-and-disputes" id="toc-ambiguity-and-disputes" class="nav-link" data-scroll-target="#ambiguity-and-disputes">Ambiguity and disputes</a></li>
-  <li><a href="#ambiguity-and-disputes-1" id="toc-ambiguity-and-disputes-1" class="nav-link" data-scroll-target="#ambiguity-and-disputes-1">Ambiguity and disputes</a></li>
-  <li><a href="#ambiguity-and-disputes-2" id="toc-ambiguity-and-disputes-2" class="nav-link" data-scroll-target="#ambiguity-and-disputes-2">Ambiguity and disputes</a></li>
-  <li><a href="#ambiguity-and-disputes-3" id="toc-ambiguity-and-disputes-3" class="nav-link" data-scroll-target="#ambiguity-and-disputes-3">Ambiguity and disputes</a></li>
-  <li><a href="#theories-of-judicial-behaviour" id="toc-theories-of-judicial-behaviour" class="nav-link" data-scroll-target="#theories-of-judicial-behaviour">Theories of judicial behaviour</a></li>
-  <li><a href="#attitudinal-explanations" id="toc-attitudinal-explanations" class="nav-link" data-scroll-target="#attitudinal-explanations">Attitudinal explanations</a></li>
-  <li><a href="#attitudinal-explanations-1" id="toc-attitudinal-explanations-1" class="nav-link" data-scroll-target="#attitudinal-explanations-1">Attitudinal explanations</a></li>
-  <li><a href="#attitudinal-explanations-2" id="toc-attitudinal-explanations-2" class="nav-link" data-scroll-target="#attitudinal-explanations-2">Attitudinal explanations</a></li>
-  <li><a href="#attitudinal-explanations-3" id="toc-attitudinal-explanations-3" class="nav-link" data-scroll-target="#attitudinal-explanations-3">Attitudinal explanations</a></li>
-  <li><a href="#attitudinal-explanations-4" id="toc-attitudinal-explanations-4" class="nav-link" data-scroll-target="#attitudinal-explanations-4">Attitudinal explanations</a></li>
-  <li><a href="#attitudinal-explanations-5" id="toc-attitudinal-explanations-5" class="nav-link" data-scroll-target="#attitudinal-explanations-5">Attitudinal explanations</a></li>
-  <li><a href="#economic-explanations" id="toc-economic-explanations" class="nav-link" data-scroll-target="#economic-explanations">Economic explanations</a></li>
-  <li><a href="#economic-explanations-1" id="toc-economic-explanations-1" class="nav-link" data-scroll-target="#economic-explanations-1">Economic explanations</a></li>
-  <li><a href="#economic-explanations-2" id="toc-economic-explanations-2" class="nav-link" data-scroll-target="#economic-explanations-2">Economic explanations</a></li>
-  <li><a href="#economic-explanations-3" id="toc-economic-explanations-3" class="nav-link" data-scroll-target="#economic-explanations-3">Economic explanations</a></li>
-  <li><a href="#economic-explanations-4" id="toc-economic-explanations-4" class="nav-link" data-scroll-target="#economic-explanations-4">Economic explanations</a></li>
-  <li><a href="#cognitive-explanations" id="toc-cognitive-explanations" class="nav-link" data-scroll-target="#cognitive-explanations">Cognitive explanations</a></li>
-  <li><a href="#cognitive-explanations-1" id="toc-cognitive-explanations-1" class="nav-link" data-scroll-target="#cognitive-explanations-1">Cognitive explanations</a></li>
-  <li><a href="#cognitive-explanations-2" id="toc-cognitive-explanations-2" class="nav-link" data-scroll-target="#cognitive-explanations-2">Cognitive explanations</a></li>
-  <li><a href="#cognitive-explanations-3" id="toc-cognitive-explanations-3" class="nav-link" data-scroll-target="#cognitive-explanations-3">Cognitive explanations</a></li>
-  <li><a href="#cognitive-explanations-4" id="toc-cognitive-explanations-4" class="nav-link" data-scroll-target="#cognitive-explanations-4">Cognitive explanations</a></li>
-  <li><a href="#cognitive-explanations-5" id="toc-cognitive-explanations-5" class="nav-link" data-scroll-target="#cognitive-explanations-5">Cognitive explanations</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
-  </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="02-theories-judging.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
-    </div>
-<!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Theories of Judicial Behaviour</h1>
-<p class="subtitle lead">Week 2</p>
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Dr Michal Ovádek 
+</div>
+</div>
 </div>
 
-
-
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Dr Michal Ovádek </p>
-          </div>
-  </div>
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="how-do-judges-make-decisions" class="level2">
-<h2 class="anchored" data-anchor-id="how-do-judges-make-decisions">How do judges make decisions?</h2>
+</section>
+<section id="how-do-judges-make-decisions" class="slide level2 center">
+<h2>How do judges make decisions?</h2>
 <ul>
 <li>modern judges are meant to apply legal rules to establish facts and decide disputes about the law</li>
 <li>in the process of doing so, they are frequently the ultimate authority deciding what the law “is” (and isn’t)</li>
 <li>in this module we will be more concerned with how judges make decisions rather than how they <em>should</em> make decisions</li>
 </ul>
 </section>
-<section id="how-do-judges-make-decisions-1" class="level2">
-<h2 class="anchored" data-anchor-id="how-do-judges-make-decisions-1">How do judges make decisions?</h2>
+<section id="how-do-judges-make-decisions-1" class="slide level2 center">
+<h2>How do judges make decisions?</h2>
 <ul>
 <li><p>the <strong>legalist</strong> perspective</p>
 <p><span class="math display">\[
@@ -354,8 +182,8 @@ window.Quarto = {
 </ul></li>
 </ul>
 </section>
-<section id="legalism" class="level2">
-<h2 class="anchored" data-anchor-id="legalism">Legalism</h2>
+<section id="legalism" class="slide level2 center">
+<h2>Legalism</h2>
 <ul>
 <li><p><em>assumptions</em> behind the <strong>legalist</strong> perspective</p>
 <ul>
@@ -365,8 +193,8 @@ window.Quarto = {
 </ul></li>
 </ul>
 </section>
-<section id="legalism-1" class="level2">
-<h2 class="anchored" data-anchor-id="legalism-1">Legalism</h2>
+<section id="legalism-1" class="slide level2 center">
+<h2>Legalism</h2>
 <ul>
 <li><p><em>issues</em> with the <strong>legalist</strong> perspective</p>
 <ul>
@@ -376,24 +204,24 @@ window.Quarto = {
 </ul></li>
 </ul>
 </section>
-<section id="complexity-of-rules" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="complexity-of-rules">Complexity of rules</h2>
+<section id="complexity-of-rules" class="slide level2 smaller center">
+<h2>Complexity of rules</h2>
 <p>Let’s consider the following simplistic case.</p>
 <p><strong>Law:</strong></p>
 <p>Rule 1: The government can force foreign companies to sell their assets if they threaten national security.</p>
 <p><strong>Facts</strong>:</p>
 <p>A company based in a rival country wields a lot of influence in the Country. Its service facilitates the freedom of expression of millions of people. It collects data about its users. It does not share the data with the rival government. The Government invokes Rule 1 and orders a sale of the company’s assets. The company disputes the legality of the order.</p>
 </section>
-<section id="complexity-of-rules-1" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="complexity-of-rules-1">Complexity of rules</h2>
+<section id="complexity-of-rules-1" class="slide level2 smaller center">
+<h2>Complexity of rules</h2>
 <p><strong>Law:</strong></p>
 <p>Rule 1: The government can force foreign companies to sell their assets if they threaten national security.</p>
 <p><span style="color:red;">Rule 2: Companies are free to operate a business in the country.</span></p>
 <p><strong>Facts</strong>:</p>
 <p>A company based in a rival country wields a lot of influence in the Country. Its service facilitates the freedom of expression of millions of people. It collects data about its users. It does not share the data with the rival government. The Government invokes Rule 1 and orders a sale of the company’s assets. The company disputes the legality of the order.</p>
 </section>
-<section id="complexity-of-rules-2" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="complexity-of-rules-2">Complexity of rules</h2>
+<section id="complexity-of-rules-2" class="slide level2 smaller center">
+<h2>Complexity of rules</h2>
 <p><strong>Law:</strong></p>
 <p>Rule 1: The government can force foreign companies to sell their assets if they threaten national security.</p>
 <p>Rule 2: Companies are free to operate a business in the country.</p>
@@ -401,8 +229,8 @@ window.Quarto = {
 <p><strong>Facts</strong>:</p>
 <p>A company based in a rival country wields a lot of influence in the Country. Its service facilitates the freedom of expression of millions of people. It collects data about its users. It does not share the data with the rival government. The Government invokes Rule 1 and orders a sale of the company’s assets. The company disputes the legality of the order.</p>
 </section>
-<section id="complexity-of-rules-3" class="level2">
-<h2 class="anchored" data-anchor-id="complexity-of-rules-3">Complexity of rules</h2>
+<section id="complexity-of-rules-3" class="slide level2 center">
+<h2>Complexity of rules</h2>
 <ul>
 <li><p>in a real legal system, there are millions of rules</p>
 <ul>
@@ -411,44 +239,16 @@ window.Quarto = {
 <li><p>the interpretation of both facts and the law entails discretion</p></li>
 </ul>
 </section>
-<section id="ambiguity-and-disputes" class="level2">
-<h2 class="anchored" data-anchor-id="ambiguity-and-disputes">Ambiguity and disputes</h2>
-<div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-✔ dplyr     1.1.4     ✔ readr     2.1.5
-✔ forcats   1.0.0     ✔ stringr   1.5.1
-✔ ggplot2   3.5.0     ✔ tibble    3.2.1
-✔ lubridate 1.9.3     ✔ tidyr     1.3.1
-✔ purrr     1.0.2     
-── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()
-ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
-</div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="02-theories-judging_files/figure-html/ambigsigmoid-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="ambiguity-and-disputes-1" class="level2">
-<h2 class="anchored" data-anchor-id="ambiguity-and-disputes-1">Ambiguity and disputes</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="02-theories-judging_files/figure-html/withsquare-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="ambiguity-and-disputes-2" class="level2">
-<h2 class="anchored" data-anchor-id="ambiguity-and-disputes-2">Ambiguity and disputes</h2>
+<section id="ambiguity-and-disputes" class="slide level2 center">
+<h2>Ambiguity and disputes</h2>
+
+<img data-src="02-theories-judging_files/figure-revealjs/ambigsigmoid-1.png" width="960" class="r-stretch"></section>
+<section id="ambiguity-and-disputes-1" class="slide level2 center">
+<h2>Ambiguity and disputes</h2>
+
+<img data-src="02-theories-judging_files/figure-revealjs/withsquare-1.png" width="960" class="r-stretch"></section>
+<section id="ambiguity-and-disputes-2" class="slide level2 center">
+<h2>Ambiguity and disputes</h2>
 <ul>
 <li><p>where the law is perceived as unambiguous, it is less likely that a plaintiff would sue</p>
 <ul>
@@ -457,28 +257,23 @@ window.Quarto = {
 <li><p>the more ambiguity, the more discretion a judge has in deciding</p></li>
 </ul>
 </section>
-<section id="ambiguity-and-disputes-3" class="level2">
-<h2 class="anchored" data-anchor-id="ambiguity-and-disputes-3">Ambiguity and disputes</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/dyevre-indeterminacy.png" class="img-fluid figure-img" width="400"></p>
-<figcaption>Dyevre, Arthur. “Unifying the field of comparative judicial politics: towards a general theory of judicial behaviour.” European Political Science Review 2, no. 2 (2010): p.&nbsp;313</figcaption>
-</figure>
-</div>
-</section>
-<section id="theories-of-judicial-behaviour" class="level2">
-<h2 class="anchored" data-anchor-id="theories-of-judicial-behaviour">Theories of judicial behaviour</h2>
+<section id="ambiguity-and-disputes-3" class="slide level2 center">
+<h2>Ambiguity and disputes</h2>
+
+<img data-src="img/dyevre-indeterminacy.png" width="400" class="r-stretch quarto-figure-center"><p class="caption">Dyevre, Arthur. “Unifying the field of comparative judicial politics: towards a general theory of judicial behaviour.” European Political Science Review 2, no. 2 (2010): p.&nbsp;313</p></section>
+<section id="theories-of-judicial-behaviour" class="slide level2 center">
+<h2>Theories of judicial behaviour</h2>
 <ul>
 <li><p>attitudinal</p></li>
 <li><p>economic</p></li>
 <li><p>cognitive</p></li>
 </ul>
 </section>
-<section id="attitudinal-explanations" class="level2">
-<h2 class="anchored" data-anchor-id="attitudinal-explanations">Attitudinal explanations</h2>
+<section id="attitudinal-explanations" class="slide level2 center">
+<h2>Attitudinal explanations</h2>
 </section>
-<section id="attitudinal-explanations-1" class="level2">
-<h2 class="anchored" data-anchor-id="attitudinal-explanations-1">Attitudinal explanations</h2>
+<section id="attitudinal-explanations-1" class="slide level2 center">
+<h2>Attitudinal explanations</h2>
 <ul>
 <li><p>the law alone does not determine case outcomes; judges’ attitudinal preferences matter more</p></li>
 <li><p>originally motivated by the study of the US Supreme Court (SCOTUS)</p></li>
@@ -486,190 +281,139 @@ window.Quarto = {
 <li><p>judges might seek desired policy outcomes consciously or subconsciously</p></li>
 </ul>
 </section>
-<section id="attitudinal-explanations-2" class="level2">
-<h2 class="anchored" data-anchor-id="attitudinal-explanations-2">Attitudinal explanations</h2>
-<div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>Rows: 178 Columns: 244
-── Column specification ────────────────────────────────────────────────────────
-Delimiter: ","
-chr (239): name, posit, recess, success, id, analu, seatid, spaethid, zukid,...
-dbl   (5): yrnom, biryear, agenom, congress, nomsen
+<section id="attitudinal-explanations-2" class="slide level2 center">
+<h2>Attitudinal explanations</h2>
 
-ℹ Use `spec()` to retrieve the full column specification for this data.
-ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-`geom_smooth()` using method = 'loess' and formula = 'y ~ x'</code></pre>
-</div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="02-theories-judging_files/figure-html/scotusnews-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="attitudinal-explanations-3" class="level2">
-<h2 class="anchored" data-anchor-id="attitudinal-explanations-3">Attitudinal explanations</h2>
-<div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>Rows: 782 Columns: 8
-── Column specification ────────────────────────────────────────────────────────
-Delimiter: ","
-chr (1): justiceName
-dbl (7): term, justice, post_mn, post_sd, post_med, post_025, post_975
+<img data-src="02-theories-judging_files/figure-revealjs/scotusnews-1.png" width="960" class="r-stretch"></section>
+<section id="attitudinal-explanations-3" class="slide level2 center">
+<h2>Attitudinal explanations</h2>
 
-ℹ Use `spec()` to retrieve the full column specification for this data.
-ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: There was 1 warning in `mutate()`.
-ℹ In argument: `ideo = as.numeric(ideo)`.
-Caused by warning:
-! NAs introduced by coercion</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>`geom_smooth()` using formula = 'y ~ x'</code></pre>
-</div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="02-theories-judging_files/figure-html/mquinn-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="attitudinal-explanations-4" class="level2">
-<h2 class="anchored" data-anchor-id="attitudinal-explanations-4">Attitudinal explanations</h2>
+<img data-src="02-theories-judging_files/figure-revealjs/mquinn-1.png" width="960" class="r-stretch"></section>
+<section id="attitudinal-explanations-4" class="slide level2 center">
+<h2>Attitudinal explanations</h2>
 <ul>
-<li><p>SCOTUS votes can be predicted from newspaper descriptions of the nominees <span class="citation" data-cites="segal1989 cameron2009">(<a href="#ref-segal1989" role="doc-biblioref">Segal and Cover 1989</a>; <a href="#ref-cameron2009" role="doc-biblioref">Cameron and Park 2009</a>)</span></p></li>
-<li><p>with some exceptions <span class="citation" data-cites="weinshall-margel2011">(<a href="#ref-weinshall-margel2011" role="doc-biblioref">Weinshall-Margel 2011</a>)</span>, partisan identification predicts how judges decide</p></li>
+<li><p>SCOTUS votes can be predicted from newspaper descriptions of the nominees <span class="citation" data-cites="segal1989 cameron2009">(<a href="#/references" role="doc-biblioref" onclick="">Segal and Cover 1989</a>; <a href="#/references" role="doc-biblioref" onclick="">Cameron and Park 2009</a>)</span></p></li>
+<li><p>with some exceptions <span class="citation" data-cites="weinshall-margel2011">(<a href="#/references" role="doc-biblioref" onclick="">Weinshall-Margel 2011</a>)</span>, partisan identification predicts how judges decide</p></li>
 <li><p>many judicial attitudes can be mapped onto a left-right dimension of political conflict</p></li>
 <li><p>variation in attitudes stems from a number of sources, including judges’ background characteristics</p></li>
 </ul>
 </section>
-<section id="attitudinal-explanations-5" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="attitudinal-explanations-5">Attitudinal explanations</h2>
-<blockquote class="blockquote">
-<p>“judges’ decisions are a function of what they prefer to do, tempered by what they think they ought to do, but constrained by what they perceive is feasible to do” <span class="citation" data-cites="gibson1983">(<a href="#ref-gibson1983" role="doc-biblioref">Gibson 1983, 9</a>)</span></p>
+<section id="attitudinal-explanations-5" class="slide level2 smaller center">
+<h2>Attitudinal explanations</h2>
+<blockquote>
+<p>“judges’ decisions are a function of what they prefer to do, tempered by what they think they ought to do, but constrained by what they perceive is feasible to do” <span class="citation" data-cites="gibson1983">(<a href="#/references" role="doc-biblioref" onclick="">Gibson 1983, 9</a>)</span></p>
 </blockquote>
 <ul>
 <li><p>attitudinal explanations are most relevant in “policy” cases, i.e.&nbsp;when matters of public policy play a role in the dispute</p></li>
-<li><p>judicial preferences and decision-making are multidimensional – the identity of the median justice might vary by issue area <span class="citation" data-cites="lauderdale2012">(<a href="#ref-lauderdale2012" role="doc-biblioref">Lauderdale and Clark 2012</a>)</span></p>
+<li><p>judicial preferences and decision-making are multidimensional – the identity of the median justice might vary by issue area <span class="citation" data-cites="lauderdale2012">(<a href="#/references" role="doc-biblioref" onclick="">Lauderdale and Clark 2012</a>)</span></p>
 <ul>
 <li>the power of the unidimensional explanation tends to be lower outside the US context</li>
 </ul></li>
 </ul>
 </section>
-<section id="economic-explanations" class="level2">
-<h2 class="anchored" data-anchor-id="economic-explanations">Economic explanations</h2>
+<section id="economic-explanations" class="slide level2 center">
+<h2>Economic explanations</h2>
 </section>
-<section id="economic-explanations-1" class="level2">
-<h2 class="anchored" data-anchor-id="economic-explanations-1">Economic explanations</h2>
+<section id="economic-explanations-1" class="slide level2 center">
+<h2>Economic explanations</h2>
 <ul>
 <li><p>judges are <strong>self-interested</strong> agents who want to maximize their utility</p></li>
 <li><p>on the one hand, judges care about reputation, salary, career progress and personal satisfaction</p></li>
 <li><p>on the other hand, judges care about having free time</p></li>
 </ul>
 </section>
-<section id="economic-explanations-2" class="level2">
-<h2 class="anchored" data-anchor-id="economic-explanations-2">Economic explanations</h2>
-<div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
-ℹ Please use `linewidth` instead.</code></pre>
-</div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="02-theories-judging_files/figure-html/utility1-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="notes">
+<section id="economic-explanations-2" class="slide level2 center">
+<h2>Economic explanations</h2>
+
+<img data-src="02-theories-judging_files/figure-revealjs/utility1-1.png" width="960" class="r-stretch"><aside class="notes">
 <p>Judges are willing to substitute quality for leisure time and vice versa. Each curve offers a fixed amount of utility – sliding along the curve is just changing the trade-off. Curve further from the origin means more total utility (= higher productivity). Some judges are more productive than others (as shown in the graph). In reality, some judges value leisure, relative to quality, more than others as well (but this is not very much captured here).</p>
-</div>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="economic-explanations-3" class="level2">
-<h2 class="anchored" data-anchor-id="economic-explanations-3">Economic explanations</h2>
+<section id="economic-explanations-3" class="slide level2 center">
+<h2>Economic explanations</h2>
 <ul>
-<li><p>(peak-court) judges prefer writing better researched rulings over producing more of them <span class="citation" data-cites="ash2015 engel2020">(<a href="#ref-ash2015" role="doc-biblioref">Ash and MacLeod 2015</a>; <a href="#ref-engel2020" role="doc-biblioref">Engel and Weinshall 2020</a>)</span>, which is also why they like docket control <span class="citation" data-cites="skiple2021">(<a href="#ref-skiple2021" role="doc-biblioref">Skiple, Bentsen, and McKenzie 2021</a>)</span></p></li>
-<li><p>judges have strong intrinsic motivation to perform well, which reduces the effectiveness of extrinsic measures <span class="citation" data-cites="ash2015 engel2017">(<a href="#ref-ash2015" role="doc-biblioref">Ash and MacLeod 2015</a>; <a href="#ref-engel2017" role="doc-biblioref">Engel and Zhurakhovska 2017</a>)</span></p></li>
-<li><p>making leisure time more attractive (e.g.&nbsp;basketball tournament) makes judges do less and worse work <span class="citation" data-cites="clark2018">(<a href="#ref-clark2018" role="doc-biblioref">Clark, Engst, and Staton 2018</a>)</span></p></li>
+<li><p>(peak-court) judges prefer writing better researched rulings over producing more of them <span class="citation" data-cites="ash2015 engel2020">(<a href="#/references" role="doc-biblioref" onclick="">Ash and MacLeod 2015</a>; <a href="#/references" role="doc-biblioref" onclick="">Engel and Weinshall 2020</a>)</span>, which is also why they like docket control <span class="citation" data-cites="skiple2021">(<a href="#/references" role="doc-biblioref" onclick="">Skiple, Bentsen, and McKenzie 2021</a>)</span></p></li>
+<li><p>judges have strong intrinsic motivation to perform well, which reduces the effectiveness of extrinsic measures <span class="citation" data-cites="ash2015 engel2017">(<a href="#/references" role="doc-biblioref" onclick="">Ash and MacLeod 2015</a>; <a href="#/references" role="doc-biblioref" onclick="">Engel and Zhurakhovska 2017</a>)</span></p></li>
+<li><p>making leisure time more attractive (e.g.&nbsp;basketball tournament) makes judges do less and worse work <span class="citation" data-cites="clark2018">(<a href="#/references" role="doc-biblioref" onclick="">Clark, Engst, and Staton 2018</a>)</span></p></li>
 </ul>
 </section>
-<section id="economic-explanations-4" class="level2">
-<h2 class="anchored" data-anchor-id="economic-explanations-4">Economic explanations</h2>
+<section id="economic-explanations-4" class="slide level2 center">
+<h2>Economic explanations</h2>
 <ul>
-<li><p>promotion prospects motivate judges to avoid having their decisions overturned on appeal <span class="citation" data-cites="salzberger1999">(<a href="#ref-salzberger1999" role="doc-biblioref">Salzberger and Fenn 1999</a>)</span></p></li>
-<li><p>judges might choose to be deferential towards the government or politically popular causes for the same reason <span class="citation" data-cites="sisk1998 ramseyer2001">(<a href="#ref-sisk1998" role="doc-biblioref">Sisk, Heise, and Morriss 1998</a>; <a href="#ref-ramseyer2001" role="doc-biblioref">Ramseyer 2001</a>)</span></p></li>
+<li><p>promotion prospects motivate judges to avoid having their decisions overturned on appeal <span class="citation" data-cites="salzberger1999">(<a href="#/references" role="doc-biblioref" onclick="">Salzberger and Fenn 1999</a>)</span></p></li>
+<li><p>judges might choose to be deferential towards the government or politically popular causes for the same reason <span class="citation" data-cites="sisk1998 ramseyer2001">(<a href="#/references" role="doc-biblioref" onclick="">Sisk, Heise, and Morriss 1998</a>; <a href="#/references" role="doc-biblioref" onclick="">Ramseyer 2001</a>)</span></p></li>
 </ul>
 </section>
-<section id="cognitive-explanations" class="level2">
-<h2 class="anchored" data-anchor-id="cognitive-explanations">Cognitive explanations</h2>
+<section id="cognitive-explanations" class="slide level2 center">
+<h2>Cognitive explanations</h2>
 </section>
-<section id="cognitive-explanations-1" class="level2">
-<h2 class="anchored" data-anchor-id="cognitive-explanations-1">Cognitive explanations</h2>
+<section id="cognitive-explanations-1" class="slide level2 center">
+<h2>Cognitive explanations</h2>
 <ul>
 <li><p>less fully formed theories of decision-making and more studies of various types of cognitive ‘biases’</p></li>
 <li><p>people are only boundedly rational and instead of conducting strictly rational calculations rely on (biased) heuristics</p></li>
-<li><p>there are a number of common cognitive heuristics, e.g.&nbsp;anchoring, framing, hindsight bias, which have been shown to affect judges <span class="citation" data-cites="guthrie2001 guthrie2002">(<a href="#ref-guthrie2001" role="doc-biblioref">Guthrie, Rachlinski, and Wistrich 2001</a>; <a href="#ref-guthrie2002" role="doc-biblioref">Guthrie, Rachlinski, and Wistrich 2002</a>)</span></p></li>
+<li><p>there are a number of common cognitive heuristics, e.g.&nbsp;anchoring, framing, hindsight bias, which have been shown to affect judges <span class="citation" data-cites="guthrie2001 guthrie2002">(<a href="#/references" role="doc-biblioref" onclick="">Guthrie, Rachlinski, and Wistrich 2001</a>; <a href="#/references" role="doc-biblioref" onclick="">Guthrie, Rachlinski, and Wistrich 2002</a>)</span></p></li>
 </ul>
 </section>
-<section id="cognitive-explanations-2" class="level2">
-<h2 class="anchored" data-anchor-id="cognitive-explanations-2">Cognitive explanations</h2>
+<section id="cognitive-explanations-2" class="slide level2 center">
+<h2>Cognitive explanations</h2>
 <p>Anchoring: an initial value influences one’s perception of a reasonable estimate of a value.</p>
 <ul>
-<li><p><span class="citation" data-cites="guthrie2001">Guthrie, Rachlinski, and Wistrich (<a href="#ref-guthrie2001" role="doc-biblioref">2001</a>)</span> ask judges to award damages in a personal injury case – those exposed to an irrelevant low number awarded 30% less in damages on average</p></li>
-<li><p>“municipal court judges fined a nightclub three times as much when its name (after its street address) was Club 11,866 rather than Club 58” <span class="citation" data-cites="rachlinski2017">(<a href="#ref-rachlinski2017" role="doc-biblioref">Jeffrey J. Rachlinski and Wistrich 2017</a>)</span></p></li>
+<li><p><span class="citation" data-cites="guthrie2001">Guthrie, Rachlinski, and Wistrich (<a href="#/references" role="doc-biblioref" onclick="">2001</a>)</span> ask judges to award damages in a personal injury case – those exposed to an irrelevant low number awarded 30% less in damages on average</p></li>
+<li><p>“municipal court judges fined a nightclub three times as much when its name (after its street address) was Club 11,866 rather than Club 58” <span class="citation" data-cites="rachlinski2017">(<a href="#/references" role="doc-biblioref" onclick="">Jeffrey J. Rachlinski and Wistrich 2017</a>)</span></p></li>
 </ul>
 </section>
-<section id="cognitive-explanations-3" class="level2">
-<h2 class="anchored" data-anchor-id="cognitive-explanations-3">Cognitive explanations</h2>
+<section id="cognitive-explanations-3" class="slide level2 center">
+<h2>Cognitive explanations</h2>
 <p>Framing: categorization of decision options as more or less positive. Most people are risk-averse when looking at potential gains and risk-seeking when choosing between options representing losses.</p>
 <ul>
-<li><p>when framing a (sure) settlement as a gain, judges were more likely to endorse it than when framed as a loss <span class="citation" data-cites="guthrie2001">(<a href="#ref-guthrie2001" role="doc-biblioref">Guthrie, Rachlinski, and Wistrich 2001</a>)</span></p></li>
-<li><p>bankruptcy reorganization plans with certain outcomes were more likely to be approved by judges when framed in terms of gains than losses <span class="citation" data-cites="rachlinski2006">(<a href="#ref-rachlinski2006" role="doc-biblioref">Jeffrey J. Rachlinski, Guthrie, and Wistrich 2006</a>)</span></p></li>
+<li><p>when framing a (sure) settlement as a gain, judges were more likely to endorse it than when framed as a loss <span class="citation" data-cites="guthrie2001">(<a href="#/references" role="doc-biblioref" onclick="">Guthrie, Rachlinski, and Wistrich 2001</a>)</span></p></li>
+<li><p>bankruptcy reorganization plans with certain outcomes were more likely to be approved by judges when framed in terms of gains than losses <span class="citation" data-cites="rachlinski2006">(<a href="#/references" role="doc-biblioref" onclick="">Jeffrey J. Rachlinski, Guthrie, and Wistrich 2006</a>)</span></p></li>
 </ul>
 </section>
-<section id="cognitive-explanations-4" class="level2">
-<h2 class="anchored" data-anchor-id="cognitive-explanations-4">Cognitive explanations</h2>
+<section id="cognitive-explanations-4" class="slide level2 center">
+<h2>Cognitive explanations</h2>
 <ul>
-<li><p>decision-making bias is often driven by in-group favoritism <span class="citation" data-cites="kantorowicz-reznichenko2022">(<a href="#ref-kantorowicz-reznichenko2022" role="doc-biblioref">Kantorowicz-Reznichenko, Kantorowicz, and Weinshall 2022</a>)</span></p>
+<li><p>decision-making bias is often driven by in-group favoritism <span class="citation" data-cites="kantorowicz-reznichenko2022">(<a href="#/references" role="doc-biblioref" onclick="">Kantorowicz-Reznichenko, Kantorowicz, and Weinshall 2022</a>)</span></p>
 <ul>
-<li>including ethnic <span class="citation" data-cites="grossman2016">(<a href="#ref-grossman2016" role="doc-biblioref">Grossman et al. 2016</a>)</span> and place-based (e.g.&nbsp;Minnesota) in-groups <span class="citation" data-cites="wistrich2014">(<a href="#ref-wistrich2014" role="doc-biblioref">Wistrich, Rachlinski, and Guthrie 2014</a>)</span></li>
+<li>including ethnic <span class="citation" data-cites="grossman2016">(<a href="#/references" role="doc-biblioref" onclick="">Grossman et al. 2016</a>)</span> and place-based (e.g.&nbsp;Minnesota) in-groups <span class="citation" data-cites="wistrich2014">(<a href="#/references" role="doc-biblioref" onclick="">Wistrich, Rachlinski, and Guthrie 2014</a>)</span></li>
 </ul></li>
-<li><p>judges give away their preferences through emotional arousal in oral hearings <span class="citation" data-cites="dietrich2019">(<a href="#ref-dietrich2019" role="doc-biblioref">Dietrich, Enos, and Sen 2019</a>)</span></p></li>
-<li><p>legal training rarely attenuates bias in legal decision-making <span class="citation" data-cites="braman2007">(<a href="#ref-braman2007" role="doc-biblioref">Braman and Nelson 2007</a>)</span></p></li>
+<li><p>judges give away their preferences through emotional arousal in oral hearings <span class="citation" data-cites="dietrich2019">(<a href="#/references" role="doc-biblioref" onclick="">Dietrich, Enos, and Sen 2019</a>)</span></p></li>
+<li><p>legal training rarely attenuates bias in legal decision-making <span class="citation" data-cites="braman2007">(<a href="#/references" role="doc-biblioref" onclick="">Braman and Nelson 2007</a>)</span></p></li>
 </ul>
 </section>
-<section id="cognitive-explanations-5" class="level2">
-<h2 class="anchored" data-anchor-id="cognitive-explanations-5">Cognitive explanations</h2>
-<p>Legally irrelevant information influences how judges decide <span class="citation" data-cites="wistrich2005">(<a href="#ref-wistrich2005" role="doc-biblioref">Wistrich, Guthrie, and Rachlinski 2005</a>)</span>.</p>
+<section id="cognitive-explanations-5" class="slide level2 center">
+<h2>Cognitive explanations</h2>
+<p>Legally irrelevant information influences how judges decide <span class="citation" data-cites="wistrich2005">(<a href="#/references" role="doc-biblioref" onclick="">Wistrich, Guthrie, and Rachlinski 2005</a>)</span>.</p>
 <ul>
-<li><p>sympathetic defendants are treated better, while precedents exert limited impact <span class="citation" data-cites="spamann2016">(<a href="#ref-spamann2016" role="doc-biblioref">Spamann and Klöhn 2016</a>)</span></p></li>
-<li><p>defendant with an extramarital affair with a corrupt official was judged more harshly <span class="citation" data-cites="liu2019">(<a href="#ref-liu2019" role="doc-biblioref">Liu and Li 2019</a>)</span></p></li>
-<li><p>the legally irrelevant information which influences a decision is almost never acknowledged <span class="citation" data-cites="spamann2016 liu2019 kahan2015">(<a href="#ref-spamann2016" role="doc-biblioref">Spamann and Klöhn 2016</a>; <a href="#ref-liu2019" role="doc-biblioref">Liu and Li 2019</a>; <a href="#ref-kahan2015" role="doc-biblioref">Kahan et al. 2015</a>)</span></p></li>
+<li><p>sympathetic defendants are treated better, while precedents exert limited impact <span class="citation" data-cites="spamann2016">(<a href="#/references" role="doc-biblioref" onclick="">Spamann and Klöhn 2016</a>)</span></p></li>
+<li><p>defendant with an extramarital affair with a corrupt official was judged more harshly <span class="citation" data-cites="liu2019">(<a href="#/references" role="doc-biblioref" onclick="">Liu and Li 2019</a>)</span></p></li>
+<li><p>the legally irrelevant information which influences a decision is almost never acknowledged <span class="citation" data-cites="spamann2016 liu2019 kahan2015">(<a href="#/references" role="doc-biblioref" onclick="">Spamann and Klöhn 2016</a>; <a href="#/references" role="doc-biblioref" onclick="">Liu and Li 2019</a>; <a href="#/references" role="doc-biblioref" onclick="">Kahan et al. 2015</a>)</span></p></li>
 </ul>
 </section>
-<section id="references" class="level2">
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
 
 
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-ash2015" class="csl-entry" role="listitem">
-Ash, Elliott, and W. Bentley MacLeod. 2015. <span>“Intrinsic Motivation in Public Service: Theory and Evidence from State Supreme Courts.”</span> <em>The Journal of Law and Economics</em> 58 (4): 863913. <a href="http://www.journals.uchicago.edu/doi/abs/10.1086/684293">http://www.journals.uchicago.edu/doi/abs/10.1086/684293</a>.
+Ash, Elliott, and W. Bentley MacLeod. 2015. <span>“Intrinsic Motivation in Public Service: Theory and Evidence from State Supreme Courts.”</span> <em>The Journal of Law and Economics</em> 58 (4): 863–913. <a href="http://www.journals.uchicago.edu/doi/abs/10.1086/684293">http://www.journals.uchicago.edu/doi/abs/10.1086/684293</a>.
 </div>
 <div id="ref-braman2007" class="csl-entry" role="listitem">
 Braman, Eileen, and Thomas E. Nelson. 2007. <span>“Mechanism of Motivated Reasoning? Analogical Perception in Discrimination Disputes.”</span> <em>American Journal of Political Science</em> 51 (4): 940–56. <a href="https://doi.org/10.1111/j.1540-5907.2007.00290.x">https://doi.org/10.1111/j.1540-5907.2007.00290.x</a>.
 </div>
 <div id="ref-cameron2009" class="csl-entry" role="listitem">
-Cameron, Charles M., and Jee-Kwang Park. 2009. <span>“How Will They Vote? Predicting the Future Behavior of Supreme Court Nominees, 1937<span></span>2006.”</span> <em>Journal of Empirical Legal Studies</em> 6 (3): 485–511. <a href="https://doi.org/10.1111/j.1740-1461.2009.01151.x">https://doi.org/10.1111/j.1740-1461.2009.01151.x</a>.
+Cameron, Charles M., and Jee-Kwang Park. 2009. <span>“How Will They Vote? Predicting the Future Behavior of Supreme Court Nominees, 1937-2006.”</span> <em>Journal of Empirical Legal Studies</em> 6 (3): 485–511. <a href="https://doi.org/10.1111/j.1740-1461.2009.01151.x">https://doi.org/10.1111/j.1740-1461.2009.01151.x</a>.
 </div>
 <div id="ref-clark2018" class="csl-entry" role="listitem">
 Clark, Tom S., Benjamin G. Engst, and Jeffrey K. Staton. 2018. <span>“Estimating the Effect of Leisure on Judicial Performance.”</span> <em>The Journal of Legal Studies</em> 47 (2): 349–90. <a href="https://doi.org/10.1086/699150">https://doi.org/10.1086/699150</a>.
@@ -690,7 +434,7 @@ Gibson, James L. 1983. <span>“From Simplicity to Complexity: The Development o
 Grossman, Guy, Oren Gazal-Ayal, Samuel D. Pimentel, and Jeremy M. Weinstein. 2016. <span>“Descriptive Representation and Judicial Outcomes in Multiethnic Societies.”</span> <em>American Journal of Political Science</em> 60 (1): 44–69. <a href="https://doi.org/10.1111/ajps.12187">https://doi.org/10.1111/ajps.12187</a>.
 </div>
 <div id="ref-guthrie2001" class="csl-entry" role="listitem">
-Guthrie, Chris, Jeffrey J. Rachlinski, and Andrew J. Wistrich. 2001. <span>“Inside the Judicial Mind.”</span> <em>Cornell Law Review</em> 86: 777830.
+Guthrie, Chris, Jeffrey J. Rachlinski, and Andrew J. Wistrich. 2001. <span>“Inside the Judicial Mind.”</span> <em>Cornell Law Review</em> 86: 777–830.
 </div>
 <div id="ref-guthrie2002" class="csl-entry" role="listitem">
 Guthrie, Chris, Jeffrey J Rachlinski, and Andrew J Wistrich. 2002. <span>“Judging by Heuristic-Cognitive Illusions in Judicial Decision Making.”</span> <em>Judicature</em> 86: 44.
@@ -711,7 +455,7 @@ Liu, John Zhuang, and Xueyao Li. 2019. <span>“Legal Techniques for Rationalizi
 Rachlinski, Jeffrey J., Chris Guthrie, and Andrew J. Wistrich. 2006. <span>“Inside the Bankruptcy Judge’s Mind Symposium: The Role of the Judge in the Twenty-First Century.”</span> <em>Boston University Law Review</em> 86 (5): 1227–66. <a href="https://heinonline.org/HOL/P?h=hein.journals/bulr86&amp;i=1239">https://heinonline.org/HOL/P?h=hein.journals/bulr86&amp;i=1239</a>.
 </div>
 <div id="ref-rachlinski2017" class="csl-entry" role="listitem">
-Rachlinski, Jeffrey J, and Andrew J Wistrich. 2017. <span>“Judging the Judiciary by the Numbers: Empirical Research on Judges.”</span> <em>Annual Review of Law and Social Science</em> 13: 203229.
+Rachlinski, Jeffrey J, and Andrew J Wistrich. 2017. <span>“Judging the Judiciary by the Numbers: Empirical Research on Judges.”</span> <em>Annual Review of Law and Social Science</em> 13: 203–29.
 </div>
 <div id="ref-ramseyer2001" class="csl-entry" role="listitem">
 Ramseyer, J. Mark. 2001. <span>“Why Are Japanese Judges So Conservative in Politically Charged Cases?”</span> <em>American Political Science Review</em> 95 (2): 331–44. <a href="https://doi.org/10.1017/S0003055401002040">https://doi.org/10.1017/S0003055401002040</a>.
@@ -720,7 +464,7 @@ Ramseyer, J. Mark. 2001. <span>“Why Are Japanese Judges So Conservative in Pol
 Salzberger, Eli, and Paul Fenn. 1999. <span>“Judicial Independence: Some Evidence from the English Court of Appeal.”</span> <em>The Journal of Law and Economics</em> 42 (2): 831–47. <a href="https://doi.org/10.1086/467444">https://doi.org/10.1086/467444</a>.
 </div>
 <div id="ref-segal1989" class="csl-entry" role="listitem">
-Segal, Jeffrey A., and Albert D. Cover. 1989. <span>“Ideological Values and the Votes of u.s. Supreme Court Justices.”</span> <em>American Political Science Review</em> 83 (2): 557565. <a href="https://doi.org/10.2307/1962405">https://doi.org/10.2307/1962405</a>.
+Segal, Jeffrey A., and Albert D. Cover. 1989. <span>“Ideological Values and the Votes of u.s. Supreme Court Justices.”</span> <em>American Political Science Review</em> 83 (2): 557–65. <a href="https://doi.org/10.2307/1962405">https://doi.org/10.2307/1962405</a>.
 </div>
 <div id="ref-sisk1998" class="csl-entry" role="listitem">
 Sisk, Gregory C., Michael Heise, and Andrew P. Morriss. 1998. <span>“Charting the Influences on the Judicial Mind: An Empirical Study of Judicial Reasoning.”</span> <em>New York University Law Review</em> 73 (5): 1377–1500. <a href="https://heinonline.org/HOL/P?h=hein.journals/nylr73&amp;i=1393">https://heinonline.org/HOL/P?h=hein.journals/nylr73&amp;i=1393</a>.
@@ -735,448 +479,472 @@ Spamann, Holger, and Lars Klöhn. 2016. <span>“Justice Is Less Blind, and Less
 Weinshall-Margel, Keren. 2011. <span>“Attitudinal and Neo-Institutional Models of Supreme Court Decision Making: An Empirical and Comparative Perspective from Israel.”</span> <em>Journal of Empirical Legal Studies</em> 8 (3): 556–86. <a href="https://doi.org/10.1111/j.1740-1461.2011.01220.x">https://doi.org/10.1111/j.1740-1461.2011.01220.x</a>.
 </div>
 <div id="ref-wistrich2005" class="csl-entry" role="listitem">
-Wistrich, Andrew J., Chris Guthrie, and Jeffrey J. Rachlinski. 2005. <span>“Can Judges Ignore Inadmissible Information? The Difficulty of Deliberately Disregarding.”</span> <em>University of Pennsylvania Law Review</em> 153: 12511345.
+Wistrich, Andrew J., Chris Guthrie, and Jeffrey J. Rachlinski. 2005. <span>“Can Judges Ignore Inadmissible Information? The Difficulty of Deliberately Disregarding.”</span> <em>University of Pennsylvania Law Review</em> 153: 1251–1345.
 </div>
 <div id="ref-wistrich2014" class="csl-entry" role="listitem">
-Wistrich, Andrew J., Jeffrey J. Rachlinski, and Chris Guthrie. 2014. <span>“Heart versus Head: Do Judges Follow the Law of Follow Their Feelings.”</span> <em>Texas Law Review</em> 93: 855924.
+Wistrich, Andrew J., Jeffrey J. Rachlinski, and Chris Guthrie. 2014. <span>“Heart versus Head: Do Judges Follow the Law of Follow Their Feelings.”</span> <em>Texas Law Review</em> 93: 855–924.
 </div>
-</div></section></div></main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+</div>
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="img/ucl-logo.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>POLS0113: Judicial Politics</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+
+    <script>
+
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
+      // slide changes (different for each slide format).
+
+      (function () {
+
+        // dispatch for htmlwidgets
+
+        function fireSlideEnter() {
+
+          const event = window.document.createEvent("Event");
+
+          event.initEvent("slideenter", true, true);
+
+          window.document.dispatchEvent(event);
+
         }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+
+    
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          fireSlideEnter();
+
+    
+
+          // dispatch for shiny
+
+          if (window.jQuery) {
+
+            if (previousSlide) {
+
+              window.jQuery(previousSlide).trigger("hidden");
+
+            }
+
+            if (currentSlide) {
+
+              window.jQuery(currentSlide).trigger("shown");
+
+            }
+
           }
+
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+
+    
+
+        // hookup for slidy
+
+        if (window.w3c_slidy) {
+
+          window.w3c_slidy.add_observer(function (slide_num) {
+
+            // slide_num starts at position 1
+
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
+          });
+
         }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+
+    
+
+      })();
+
+    </script>
+
+    
+
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
           }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
+              }
+            }
+            return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
             }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
           } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
+            return undefined;
           }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
         };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
           }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+        }
       });
-    }
-  }
-});
-</script>
-</div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
-      &nbsp;
-    </div>
-    <div class="nav-footer-right">
-<p>Website by Michal Ovádek, built with Quarto</p>
-</div>
-  </div>
-</footer>
-
-
-
+      </script>
+    
 
 </body></html>
