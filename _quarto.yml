@@ -21,9 +21,9 @@ website:
       - text: "FAQ"
         href: faq.qmd
       - text: "Methods resources"
-        href: methods.qmd  
+        href: methods.qmd
       - text: "Data resources"
-        href: data-res.qmd  
+        href: data-res.qmd
       - section: Weeks
         contents: 
           auto: "week*.qmd"
