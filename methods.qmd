@@ -2,7 +2,7 @@
 title: "Methods resources"
 ---
 
-In the course of this module we will be encountering a variety of empirical methods and research designs. Below is an indicative list of methodological resources offering a useful entry point to both qualitative and quantitative research designs.
+In the course of this module we will be encountering a variety of empirical methods and research designs. Below is an indicative list of methodological resources offering a useful entry point to both qualitative and quantitative research designs. Consulting and translating into practice relevant methodological resources -- not constrained to the list below -- is particularly important for the [assessment](assessment.qmd#assessment-tips).
 
 ## Quantitative methods
 
@@ -23,6 +23,8 @@ Cattaneo, Matias D., and Rocio Titiunik. "Regression discontinuity designs." *An
 ## Qualitative methods
 
 Gerring, John. "Qualitative methods." *Annual Review of Political Science* 20, no. 1 (2017): 15-36.
+
+Humphreys, Macartan, and Alan M. Jacobs. *Integrated Inferences: Causal Models for Qualitative and Mixed-Method Research*. Cambridge University Press, 2023.
 
 Rohlfing, Ingo, and Christina Isabel Zuber. "Check your truth conditions! Clarifying the relationship between theories of causation and social science methods for causal inference." *Sociological Methods & Research* 50, no. 4 (2021): 1623-1659.
 
