@@ -24,4 +24,4 @@ Liu, Ernest, Yi Lu, Wenwei Peng, and Shaoda Wang. *Judicial independence, local
 
 ## Lecture slides
 
-[Week 4](lectures/04-judicial-power.html)
+<!-- [Week 4](lectures/04-judicial-power.html) -->

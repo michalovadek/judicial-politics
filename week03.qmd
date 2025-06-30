@@ -34,4 +34,4 @@ Ash, Elliott, Daniel L. Chen, and Suresh Naidu. *Ideas have consequences: The i
 
 ## Lecture slides
 
-[Week 3](lectures/03-judicial-preferences.html)
+<!-- [Week 3](lectures/03-judicial-preferences.html) -->

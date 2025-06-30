@@ -14,6 +14,8 @@ Dyevre, Arthur. "Unifying the field of comparative judicial politics: towards a 
 
 Choi, Donghyun Danny, J. Andrew Harris, and Fiona Shen-Bayh. "Ethnic bias in judicial decision making: Evidence from criminal appeals in Kenya." *American Political Science Review* 116, no. 3 (2022): 1067-1080.
 
+Ash, Elliott, Sam Asher, Aditi Bhowmick, Sandeep Bhupatiraju, Daniel Chen, Tanaya Devi, Christoph Goessmann, Paul Novosad, and Bilal Siddiqi. "In-group bias in the Indian judiciary: Evidence from 5 million criminal cases." *Review of Economics and Statistics* (2025): 1-45.
+
 Glynn, Adam N., and Maya Sen. "Identifying judicial empathy: Does having daughters cause judges to rule for women's issues?." *American Journal of Political Science* 59, no. 1 (2015): 37-54.
 
 Voeten, Erik. "Gender and judging: evidence from the European Court of Human Rights." *Journal of European Public Policy* 28, no. 9 (2021): 1453-1473.
@@ -32,4 +34,4 @@ Engel, Christoph, and Keren Weinshall. "Manna from Heaven for Judges: Judges’ 
 
 ## Lecture slides
 
-[Week 2](lectures/02-theories-judging.html)
+<!-- [Week 2](lectures/02-theories-judging.html) -->

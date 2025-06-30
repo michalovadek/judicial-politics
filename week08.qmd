@@ -26,4 +26,4 @@ Domingo, Pilar. "Judicialization of politics or politicization of the judiciary?
 
 ## Lecture slides
 
-[Week 8](lectures/08-judicialization.html)
+<!-- [Week 8](lectures/08-judicialization.html) -->

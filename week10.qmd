@@ -44,4 +44,4 @@ Caldeira, Gregory A. "Neither the purse nor the sword: Dynamics of public confid
 
 ## Lecture slides
 
-[Week 10](lectures/10-legitimacy-backlash.html)
+<!-- [Week 10](lectures/10-legitimacy-backlash.html) -->

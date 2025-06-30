@@ -17,6 +17,7 @@ When doing research on courts and judicial politics, the following (non-exhausti
 -   [The Hungarian Constitutional Court Database](https://link.springer.com/article/10.1007/s13132-023-01395-6)
 -   [Database on the Inter-American Court of Human Rights](https://www.cambridge.org/core/journals/journal-of-law-and-courts/article/law-and-politics-in-the-interamerican-court-of-human-rights/D8626134C5CA187D2C90CF29EF27D752)
 -   [Corpus of Bundesfinanzhof Decisions](https://zenodo.org/records/14622341)
+-   [Dataverse of the Journal of Law and Courts](https://dataverse.harvard.edu/dataverse/jlc)
 
 Before spending time on collecting your own data, make sure to check whether an existing database cannot be leveraged for your research question.
 

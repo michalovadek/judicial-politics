@@ -34,4 +34,4 @@ Pavone, Tommaso. "Revisiting judicial empowerment in the European Union: Limits 
 
 ## Lecture slides
 
-[Week 7](lectures/07-judicial-hierarchy.html)
+<!-- [Week 7](lectures/07-judicial-hierarchy.html) -->

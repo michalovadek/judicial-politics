@@ -26,4 +26,4 @@ Pavone, Tommaso. "From Marx to market: Lawyers, European Law, and the contentiou
 
 ## Lecture slides
 
-[Week 9](lectures/09-legal-mobilization.html)
+<!-- [Week 9](lectures/09-legal-mobilization.html) -->

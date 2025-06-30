@@ -28,6 +28,12 @@ source("utils/globals.R")
 
     -   consult slides from week 7
 
+## Assessment: write clearly {.smaller}
+
+**What was the hypothesis in this paper?**
+
+> South Africa is a noteworthy example of a country who created a constitutional court in order to successfully transition into democratization. This decision came at the cost of changing the jurisdictional scope and hierarchical standing of the Appellate division, now known as the Supreme Court of Appeal (SCA). This shift in the SCA’s jurisdictional scope and hierarchical standing allowed the Constitutional Court of South Africa (CC) to form a constitutional precedent, which I hypothesize increased the CC’s effectiveness and consequently contributed to South Africa’s successful transition into a democratic regime.
+
 ## Legitimacy and public support
 
 -   what are the determinants of public support of courts?

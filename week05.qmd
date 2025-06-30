@@ -20,4 +20,4 @@ Elsig, Manfred, and Mark A. Pollack. "Agents, trustees, and international courts
 
 ## Lecture slides
 
-[Week 5](lectures/05-appoint-monitor.html)
+<!-- [Week 5](lectures/05-appoint-monitor.html) -->
