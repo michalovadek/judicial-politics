@@ -15,8 +15,8 @@ now_date <- Sys.Date()
 now_year <- substr(now_date, 1, 4)
 
 # first and last lecture dates
-first_lecture <- "13 January"
-last_lecture <- "24 March"
+first_lecture <- "29 September"
+last_lecture <- "8 December"
 ```
 
 ## Description
@@ -39,8 +39,8 @@ The first lecture takes place on `r paste(first_lecture, now_year)`. The last le
 
 | Weeks | What | When | Where |
 |----|----|----|----|
-| 21--25, 27--31 | Lecture | Monday, 15:00--16:00 | Room 114, Foster Court, Gower Street |
-| 21--25, 27--31 | Seminar 1 | Monday, 16:00--17:00 | G04 (Council Room), 29 Tavistock Square |
-| 21--25, 27--31 | Seminar 2 | Monday, 17:00--18:00 | G04 (Council Room), 29 Tavistock Square |
+| 6--10, 12--16 | Lecture | Monday, 15:00--16:00 | UCL ICH, Wolfson Centre, F11 |
+| 6--10, 12--16 | Seminar 1 | Monday, 16:00--17:00 | UCL ICH, Wellcome Trust Building, Levinsky Room, 30 Guildford St |
+| 6--10, 12--16 | Seminar 2 | Monday, 17:00--18:00 | UCL ICH, Wellcome Trust Building, Levinsky Room, 30 Guildford St |
 
 Student support and feedback hours take place after seminar 2 in Room 202, 36 Gordon Square.

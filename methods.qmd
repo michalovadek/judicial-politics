@@ -2,7 +2,7 @@
 title: "Methods resources"
 ---
 
-In the course of this module we will be encountering a variety of empirical methods and research designs. Below is an indicative list of methodological resources offering a useful entry point to both qualitative and quantitative research designs. Consulting and translating into practice relevant methodological resources -- not constrained to the list below -- is particularly important for the [assessment](assessment.qmd#assessment-tips).
+In the course of this module we will be encountering a variety of empirical methods and research designs. Below is an indicative list of methodological resources offering a useful entry point to both qualitative and quantitative research designs and methods. Consulting and translating into practice relevant methodological resources -- not constrained to the list below -- is particularly important for the [assessment](assessment.qmd#assessment-tips).
 
 ## Quantitative methods
 
@@ -10,15 +10,65 @@ Huntington-Klein, Nick. *The effect: An introduction to research design and caus
 
 Imbens, Guido W. "Causal inference in the social sciences." *Annual Review of Statistics and Its Application* 11 (2024): 123-152.
 
+Spirling, Arthur, and Brandon M. Stewart. "What good is a regression? Inference to the best explanation and the practice of political science research." *The Journal of Politics* 87, no. 4 (2025): 000-000.
+
 ### Difference-in-differences
 
 Roth, Jonathan, Pedro HC Sant’Anna, Alyssa Bilinski, and John Poe. "What’s trending in difference-in-differences? A synthesis of the recent econometrics literature." *Journal of Econometrics* 235, no. 2 (2023): 2218-2244.
 
+Callaway, Brantly, and Pedro HC Sant’Anna. "Difference-in-differences with multiple time periods." *Journal of Econometrics* 225, no. 2 (2021): 200-230.
+
+De Chaisemartin, Clément, and Xavier d'Haultfoeuille. "Difference-in-differences estimators of intertemporal treatment effects." *Review of Economics and Statistics* (2024): 1-45.
+
+Chiu, Albert, Xingchen Lan, Ziyi Liu, and Yiqing Xu. "Causal panel analysis under parallel trends: lessons from a large reanalysis study." *American Political Science Review* (2025): 1-22.
+
+<!-- De Chaisemartin, Clément, and Xavier d’Haultfoeuille. "Two-way fixed effects and differences-in-differences with heterogeneous treatment effects: A survey." *The Econometrics Journal* 26, no. 3 (2023): C1-C30. -->
+
+### Synthetic control
+
+Abadie, Alberto. "Using synthetic controls: Feasibility, data requirements, and methodological aspects." *Journal of economic literature* 59, no. 2 (2021): 391-425.
+
 Arkhangelsky, Dmitry, Susan Athey, David A. Hirshberg, Guido W. Imbens, and Stefan Wager. "Synthetic difference-in-differences." *American Economic Review* 111, no. 12 (2021): 4088-4118.
+
+Abadie, Alberto, Alexis Diamond, and Jens Hainmueller. "Comparative politics and the synthetic control method." *American Journal of Political Science* 59, no. 2 (2015): 495-510.
 
 ### Regression discontinuity
 
 Cattaneo, Matias D., and Rocio Titiunik. "Regression discontinuity designs." *Annual Review of Economics* 14, no. 1 (2022): 821-851.
+
+Stommes, Drew, P. M. Aronow, and Fredrik Sävje. "On the reliability of published findings using the regression discontinuity design in political science." *Research & Politics* 10, no. 2 (2023).
+
+### Matching and weighting
+
+Imai, Kosuke, In Song Kim, and Erik H. Wang. "Matching methods for causal inference with time‐series cross‐sectional data." *American Journal of Political Science* 67, no. 3 (2023): 587-605.
+
+Ho, Daniel E., Kosuke Imai, Gary King, and Elizabeth A. Stuart. "Matching as nonparametric preprocessing for reducing model dependence in parametric causal inference." *Political Analysis* 15, no. 3 (2007): 199-236.
+
+Hainmueller, Jens. "Entropy balancing for causal effects: A multivariate reweighting method to produce balanced samples in observational studies." *Political Analysis* 20, no. 1 (2012): 25-46.
+
+Imai, Kosuke, and Marc Ratkovic. "Covariate balancing propensity score." *Journal of the Royal Statistical Society Series B: Statistical Methodology* 76, no. 1 (2014): 243-263.
+
+Chernozhukov, Victor, Denis Chetverikov, Mert Demirer, Esther Duflo, Christian Hansen, Whitney Newey, and James Robins. "Double/debiased machine learning for treatment and structural parameters." *The Econometrics Journal* 21, no. 1 (2018): C1-C68.
+
+### Ideal point estimation
+
+Morucci, Marco, Margaret J. Foster, Kaitlyn Webster, So Jin Lee, and David A. Siegel. "Measurement That Matches Theory: Theory-Driven Identification in Item Response Theory Models." *American Political Science Review* 119, no. 2 (2025): 727-745.
+
+Peress, Michael. "Large-scale ideal point estimation." *Political Analysis* 30, no. 3 (2022): 346-363.
+
+Martin, Andrew D., and Kevin M. Quinn. "Dynamic ideal point estimation via Markov chain Monte Carlo for the US Supreme Court, 1953–1999." *Political Analysis* 10, no. 2 (2002): 134-153.
+
+Poole, Keith, Jeffrey B. Lewis, James Lo, and Royce Carroll. "Scaling roll call votes with wnominate in R." *Journal of Statistical Software* 42 (2011): 1-21.
+
+### Instrumental variables
+
+Felton, Chris, and Brandon M. Stewart. "Handle with care: A sociologist’s guide to causal inference with instrumental variables." *Sociological Methods & Research* (2024).
+
+Mellon, Jonathan. "Rain, rain, go away: 194 potential exclusion‐restriction violations for studies using weather as an instrumental variable." *American Journal of Political Science* 69, no. 3 (2025): 881-898.
+
+Lal, Apoorva, Mackenzie Lockhart, Yiqing Xu, and Ziwen Zu. "How much should we trust instrumental variable estimates in political science? Practical advice based on 67 replicated studies." *Political Analysis* 32, no. 4 (2024): 521-540.
+
+Sovey, Allison J., and Donald P. Green. "Instrumental variables estimation in political science: A readers’ guide." *American Journal of Political Science* 55, no. 1 (2011): 188-200.
 
 ## Qualitative methods
 
@@ -40,7 +90,7 @@ Beach, Derek. "It's all about mechanisms–what process-tracing case studies sho
 
 Slater, Dan, and Daniel Ziblatt. "The enduring indispensability of the controlled comparison." *Comparative Political Studies* 46, no. 10 (2013): 1301-1327.
 
-Gisselquist, Rachel M. “Paired Comparison and Theory Development: Considerations for Case Selection.” *PS: Political Science & Politics* 47, no. 2 (2014): 477–84.
+Gisselquist, Rachel M. “Paired Comparison and Theory Development: Considerations for Case Selection.” *PS: Political Science & Politics* 47, no. 2 (2014): 477-484.
 
 Tarrow, Sidney. "The strategy of paired comparison: Toward a theory of practice." *Comparative Political Studies* 43, no. 2 (2010): 230-259.
 

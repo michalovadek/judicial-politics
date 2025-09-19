@@ -6,6 +6,7 @@ When doing research on courts and judicial politics, the following (non-exhausti
 
 -   [The US Supreme Court Database](http://scdb.wustl.edu/)
 -   [The US Supreme Court Justices Database](https://epstein.wustl.edu/justicesdata)
+-   [CourtListener (US Case Law and Judges Database)](https://www.courtlistener.com/)
 -   [The Constitute Project](https://www.constituteproject.org/)
 -   [Comparative Constitutions Project](https://comparativeconstitutionsproject.org/)
 -   [The German Constitutional Court Database](https://ccdb.eu/)
