@@ -17,6 +17,13 @@ now_year <- substr(now_date, 1, 4)
 # first and last lecture dates
 first_lecture <- "29 September"
 last_lecture <- "8 December"
+
+# weeks
+weeks <- ifelse(grepl("Sept", first_lecture), "6--10, 12--16", "21--25, 27--31")
+
+# rooms
+room_1 <- "UCL ICH, Wolfson Centre, F11"
+room_2 <- "UCL ICH, Wellcome Trust Building, Levinsky Room, 30 Guildford St"
 ```
 
 ## Description
@@ -39,8 +46,8 @@ The first lecture takes place on `r paste(first_lecture, now_year)`. The last le
 
 | Weeks | What | When | Where |
 |----|----|----|----|
-| 6--10, 12--16 | Lecture | Monday, 15:00--16:00 | UCL ICH, Wolfson Centre, F11 |
-| 6--10, 12--16 | Seminar 1 | Monday, 16:00--17:00 | UCL ICH, Wellcome Trust Building, Levinsky Room, 30 Guildford St |
-| 6--10, 12--16 | Seminar 2 | Monday, 17:00--18:00 | UCL ICH, Wellcome Trust Building, Levinsky Room, 30 Guildford St |
+| `r weeks` | Lecture | Monday, 15:00--16:00 | `r room_1` |
+| `r weeks` | Seminar 1 | Monday, 16:00--17:00 | `r room_2` |
+| `r weeks` | Seminar 2 | Monday, 17:00--18:00 | `r room_2` |
 
 Student support and feedback hours take place after seminar 2 in Room 202, 36 Gordon Square.
