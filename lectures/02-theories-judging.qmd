@@ -54,7 +54,7 @@ bibliography: references.bib
 
     -   there are often many overlapping rules
 
-    -   there are often many possible ways to decide a despite (discretion)
+    -   there are often many possible ways to decide a dispute (discretion)
 
 ## Complexity of rules {.smaller}
 
@@ -130,7 +130,6 @@ ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
 ## Ambiguity and disputes
 
 ```{r withsquare}
-
 # plot
 ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
   geom_rect(xmin = 0, xmax = 4.1, ymin = 0.5, ymax = 1, color = "grey80", fill = "#e3c1d3") +
@@ -176,7 +175,6 @@ ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
 ## Attitudinal explanations
 
 ```{r scotusnews}
-
 # data from Epstein et al
 usjustices <- read_csv("data/justicesdata2022.csv")
 
@@ -205,7 +203,6 @@ usjustices |>
 ## Attitudinal explanations
 
 ```{r mquinn}
-
 # data
 scotus_mq <- read_csv("data/justices_mquinn.csv")
 

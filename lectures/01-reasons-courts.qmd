@@ -13,6 +13,8 @@ format:
     margin-right: "0.1"
 ---
 
+# Definitions
+
 ## What are courts?
 
 Mohr defines courts as
@@ -117,6 +119,70 @@ Some similarities, some differences:
 
 -   independent
 
+# Module and assessment
+
+## Module
+
+-   all the information is on the website
+
+    -   <https://michalovadek.github.io/judicial-politics/>
+
+-   lectures + seminars (presentations)
+
+-   3000-word research paper (100%)
+
+## Module
+
+-   think, read, speak (to each other + to me) and write about courts for several hours each week
+
+-   how do courts relate to your existing interests?
+
+    -   geographically, temporally, thematically
+
+## Assessment
+
+-   you should start working on your research paper *right now*
+
+    -   see suggested timeline on the website
+
+-   the assessment is demanding, but the best work will be adequately rewarded
+
+    -   if you do it properly, you will learn a lot
+
+## Assessment
+
+Previous year:
+
+::: incremental
+-   best mark: 80
+
+    -   relevant question, grounded in literature, original data collection, appropriate analytical methods, meticulous attention to detail
+
+-   worst mark: 19
+
+    -   AI slop, vague research question, poor theory, poor methods, undocumented analysis
+:::
+
+## Assessment
+
+-   research-oriented =\> suitable for expanding into your dissertation
+
+-   no restrictions on geographical or temporal focus
+
+    -   but generally a good idea to venture into under-researched jurisdictions
+
+## Assessment
+
+-   coming up with something original requires first learning about what is already out there
+
+|            |            | Data       |         |
+|------------|------------|------------|---------|
+|            |            | *Existing* | *Novel* |
+| **Theory** | *Existing* | Nope       | Good    |
+|            | *Novel*    | Good       | Okay    |
+
+# Brief history of courts
+
 ## Brief history of courts {.smaller}
 
 -   the behaviour of a third-party arbiter mediating disputes long pre-dates the invention of syntactic language (\~ 70 000 BCE) and has been also observed among non-human primates[^3]
@@ -141,7 +207,7 @@ Some similarities, some differences:
 
     -   most famously in the Babylonian Code of Hammurabi ("eye for an eye")
 
-[^4]: Wolff, Hans Julius. "The origin of judicial litigation among the Greeks." Traditio (1946): 31-87.
+[^4]: Wolff, Hans Julius. "The origin of judicial litigation among the Greeks." *Traditio* (1946): 31-87.
 
 ## Brief history of courts
 
