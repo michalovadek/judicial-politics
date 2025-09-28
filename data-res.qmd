@@ -4,6 +4,7 @@ title: "Data resources"
 
 When doing research on courts and judicial politics, the following (non-exhaustive) list of databases and resources might be useful:
 
+-   [Dataverse of the Journal of Law and Courts](https://dataverse.harvard.edu/dataverse/jlc)
 -   [The US Supreme Court Database](http://scdb.wustl.edu/)
 -   [The US Supreme Court Justices Database](https://epstein.wustl.edu/justicesdata)
 -   [CourtListener (US Case Law and Judges Database)](https://www.courtlistener.com/)
@@ -18,7 +19,10 @@ When doing research on courts and judicial politics, the following (non-exhausti
 -   [The Hungarian Constitutional Court Database](https://link.springer.com/article/10.1007/s13132-023-01395-6)
 -   [Database on the Inter-American Court of Human Rights](https://www.cambridge.org/core/journals/journal-of-law-and-courts/article/law-and-politics-in-the-interamerican-court-of-human-rights/D8626134C5CA187D2C90CF29EF27D752)
 -   [Corpus of Bundesfinanzhof Decisions](https://zenodo.org/records/14622341)
--   [Dataverse of the Journal of Law and Courts](https://dataverse.harvard.edu/dataverse/jlc)
+-   [Members and Destinations of Spain's Judiciary](https://zenodo.org/records/13987475)
+-   [Discretionary Appointments to Spain's Judiciary](https://zenodo.org/records/13991514)
+-   [UK Supreme Court Decisions](https://zenodo.org/records/17207970)
+-   [Swiss Federal Supreme Court Dataset](https://doi.org/10.5281/zenodo.14867950)
 
 Before spending time on collecting your own data, make sure to check whether an existing database cannot be leveraged for your research question.
 

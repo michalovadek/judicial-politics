@@ -41,9 +41,9 @@ Students can indicate their preference for a week via email or in the seminar of
 
 | Teaching week | Region             | Presenters |
 |---------------|--------------------|------------|
-| 2             | North America      |            |
+| 2             | North America      |    Grace        |
 | 3             | Western Europe     |            |
-| 4             | Eastern Europe     |            |
+| 4             | Eastern Europe     |     Alexandra       |
 | 5             | East Asia          |            |
 | 6             | Southeast Asia     |            |
 | 7             | Sub-Saharan Africa |            |
@@ -62,7 +62,7 @@ Students can indicate their preference for a week via email or in the seminar of
 | 6             | Southeast Asia     |            |
 | 7             | Sub-Saharan Africa |            |
 | 8             | North Africa       |            |
-| 9             | South America      |            |
+| 9             | South America      |    Elleda        |
 | 10            | International      |            |
 :::
 

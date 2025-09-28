@@ -28,6 +28,12 @@ Segal, Jeffrey A., Chad Westerland, and Stefanie A. Lindquist. "Congress, the Su
 
 Solomon, Peter H. "Review of *Courts and Judges in Authoritarian Regimes*, by Lisa Hilbink, Tamir Moustafa, and Anthony W. Pereira." *World Politics* 60, no. 1 (2007): 122–45.
 
+Kureshi, Yasser. "When judges defy dictators: An audience-based framework to explain the emergence of judicial assertiveness against authoritarian regimes." *Comparative Politics* 53, no. 2 (2021): 233-257.
+
+Gerzso, Thalia. "Judicial resistance during electoral disputes: Evidence from Kenya." *Electoral Studies* 85 (2023): 102653.
+
+Harvey, Cole J. "Can courts in nondemocracies deter election fraud? De jure judicial independence, political competition, and election integrity." *American Political Science Review* 116, no. 4 (2022): 1325-1339.
+
 ## Lecture slides
 
 <!-- [Week 6](lectures/06-executive-legislature.html) -->

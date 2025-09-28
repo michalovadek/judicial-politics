@@ -56,4 +56,4 @@ The first lecture takes place on `r paste(first_lecture, now_year)`. The last le
 | `r weeks` | Seminar 1 | `r day`, `r time_2` | `r room_2` |
 | `r weeks` | Seminar 2 | `r day`, `r time_3` | `r room_2` |
 
-Student support and feedback hours take place after seminar 2 in Room 202, 36 Gordon Square.
+Student support and feedback hours take place before the lecture on Mondays between 1.30pm and 2.30pm in Room 202, 36 Gordon Square.
