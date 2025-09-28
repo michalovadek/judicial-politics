@@ -39,4 +39,4 @@ Dahl, Robert A. "Decision-making in a democracy: The Supreme Court as a national
 
 ## Lecture slides
 
-<!-- [Week 1](lectures/01-reasons-courts.html) -->
+[Week 1](lectures/01-reasons-courts.html)
