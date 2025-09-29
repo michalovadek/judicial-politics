@@ -41,29 +41,29 @@ Students can indicate their preference for a week via email or in the seminar of
 
 | Teaching week | Region             | Presenters |
 |---------------|--------------------|------------|
-| 2             | North America      |    Grace        |
-| 3             | Western Europe     |       Sasha     |
-| 4             | Eastern Europe     |     Alexandra       |
-| 5             | East Asia          |            |
-| 6             | Southeast Asia     |            |
-| 7             | Sub-Saharan Africa |            |
-| 8             | North Africa       |            |
-| 9             | South America      |            |
-| 10            | International      |            |
+| 2             | North America      |    Grace, Paige        |
+| 3             | Western Europe     |       Sasha, Victoria K    |
+| 4             | Eastern Europe     |     Alexandra I, Louisa       |
+| 5             | East Asia          |      Annabel, Theodore      |
+| 6             | Southeast Asia     |       Piti, Aadavha     |
+| 7             | Sub-Saharan Africa |     Victoria R, Blanche    |
+| 8             | North Africa       |        Maya, Tess, Jama    |
+| 9             | South America      |       Elleda, Luke, Lila   |
+| 10            | International      |      Ambrine, Margot      |
 
 ### Seminar 2
 
 | Teaching week | Region             | Presenters |
 |---------------|--------------------|------------|
-| 2             | North America      |     Sebastian       |
-| 3             | Western Europe     |            |
-| 4             | Eastern Europe     |            |
-| 5             | East Asia          |            |
-| 6             | Southeast Asia     |     Abigail     |
-| 7             | Sub-Saharan Africa |            |
-| 8             | North Africa       |            |
-| 9             | South America      |    Elleda        |
-| 10            | International      |            |
+| 2             | North America      |     Sebastian, Charlie       |
+| 3             | Western Europe     |      Rebecca, Eli      |
+| 4             | Eastern Europe     |    Mathilde, Tamsin        |
+| 5             | East Asia          |       Murph, Zoe     |
+| 6             | Southeast Asia     |     Abigail, Norah     |
+| 7             | Sub-Saharan Africa |    Madhav, Lemuel, Emma        |
+| 8             | North Africa       |     Mustafa, Will       |
+| 9             | South America      |    Carolina, Alexandra R        |
+| 10            | International      |      Mary, Yasma      |
 :::
 
 Each court can only be covered **once** – there can be no repeat presentations of the same court in the same seminar group. All students should establish contact with their co-presenters as soon as possible.
