@@ -42,7 +42,7 @@ Students can indicate their preference for a week via email or in the seminar of
 | Teaching week | Region             | Presenters |
 |---------------|--------------------|------------|
 | 2             | North America      |    Grace        |
-| 3             | Western Europe     |            |
+| 3             | Western Europe     |       Sasha     |
 | 4             | Eastern Europe     |     Alexandra       |
 | 5             | East Asia          |            |
 | 6             | Southeast Asia     |            |
@@ -55,11 +55,11 @@ Students can indicate their preference for a week via email or in the seminar of
 
 | Teaching week | Region             | Presenters |
 |---------------|--------------------|------------|
-| 2             | North America      |            |
+| 2             | North America      |     Sebastian       |
 | 3             | Western Europe     |            |
 | 4             | Eastern Europe     |            |
 | 5             | East Asia          |            |
-| 6             | Southeast Asia     |            |
+| 6             | Southeast Asia     |     Abigail     |
 | 7             | Sub-Saharan Africa |            |
 | 8             | North Africa       |            |
 | 9             | South America      |    Elleda        |
@@ -73,3 +73,15 @@ Each court can only be covered **once** – there can be no repeat presentations
 In each teaching week there is an assigned mandatory reading which students are expected to read and be prepared to discuss in class. There is also an additional list of optional readings which represent a good starting point to the literature on the topic of the week, but do not assume they are exhaustive (i.e. there are other papers on the topic). Further readings are featured in lecture slides.
 
 The length of the mandatory reading list is kept modest so that students have more time to dive deeper into specific topics of interest, which is essential for the final paper in particular, as it needs to be grounded in existing academic literature. The theories and methodologies used in the mandatory and optional readings should also be approached as a source of inspiration for the final paper.
+
+For each mandatory reading, each student should be prepared to discuss in the seminar the following questions:
+
+-   what is the main theoretical question the paper aspires to contribute to?
+
+-   what observed phenomena are the authors trying to explain?
+
+-   what is the theoretical explanation of the observed phenomena the authors advance?
+
+-   to what extent do the empirical results support the theory?
+
+-   in what ways do the findings support or contradict previous studies?
