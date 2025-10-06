@@ -34,4 +34,4 @@ Engel, Christoph, and Keren Weinshall. "Manna from Heaven for Judges: Judges’ 
 
 ## Lecture slides
 
-<!-- [Week 2](lectures/02-theories-judging.html) -->
+[Week 2](lectures/02-theories-judging.html)

@@ -32,6 +32,10 @@ bibliography: references.bib
 
 ## Variation in judicial preferences
 
+![Ideology of Democratic and Republican State Supreme Court Justices (Gibson & Nelson 2022)](img/dem-con-state-scs-ideo.png)
+
+## Variation in judicial preferences
+
 -   if judges were randomly sampled from a country's population, their preferences would be on average (in expectation) similar to the population's
 
     -   there would also be a lot of heterogeneity (as much as in the population)
@@ -93,6 +97,16 @@ bibliography: references.bib
 -   a law and economics training programme for US judges made them decide more conservatively [@ash2022]
 
 -   Fox News viewership causes elected judges to impose harsher sentences [@ash2024]
+
+## Empirical evidence
+
+-   judges socialized in Nazi Germany were more lenient towards Nazi criminals than other judges [@kern2024]
+
+-   high salience and politicization of immigration is related to lower asylum appeal success [@spirig2023]
+
+-   judges with daughters are more feminist than judges who only have sons [@glynn2015]
+
+## Learning about judicial preferences
 
 ## Learning about judicial preferences
 
@@ -178,7 +192,7 @@ bibliography: references.bib
 
     -   the case's discrimination sensitivity ($\gamma_i$)
 
-## Ideal point estimation  {.smaller}
+## Ideal point estimation {.smaller}
 
 -   a judge's response $y_{ij}$ (vote/decision) in a case is modelled as the distance between their ideal point and the case's location on a continuum (e.g. left-right)
 
@@ -254,7 +268,7 @@ generate_sigmoid(alpha = -1.3, gamma = -1)
 
 -   researchers need to validate it against additional information about cases and judges to establish what it captures (e.g. left-right)
 
-## Panel aggregation paradox  {.smaller}
+## Panel aggregation paradox {.smaller}
 
 ![](img/agg_paradox.png){width="500"}
 

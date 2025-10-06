@@ -34,6 +34,8 @@ Gerzso, Thalia. "Judicial resistance during electoral disputes: Evidence from Ke
 
 Harvey, Cole J. "Can courts in nondemocracies deter election fraud? De jure judicial independence, political competition, and election integrity." *American Political Science Review* 116, no. 4 (2022): 1325-1339.
 
+Ríos-Figueroa, Julio, and Fiona Shen-Bayh. "Courts in the Global South." *Annual Review of Political Science* 28 (2025).
+
 ## Lecture slides
 
 <!-- [Week 6](lectures/06-executive-legislature.html) -->

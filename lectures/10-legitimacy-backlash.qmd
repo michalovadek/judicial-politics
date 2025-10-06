@@ -132,6 +132,18 @@ source("utils/globals.R")
 
 ![SCOTUS v. the public [@jessee2022]](img/scotus-median-voter.jpg)
 
+## Perceptions of judicial fairness
+
+-   judges' identity categories operate as ideological cues affecting perceptions of judicial fairness [@bracic2023]
+
+    -   marginalized identities increase Democrats' perceptions of fairness, impartiality and trust in SCOTUS
+
+    -   Republicans see gay judges as less fair and impartial than straight judges
+
+-   descriptive representation seems to matter little
+
+    -   people prefer judges who (they assume) will think like them, not look like them
+
 ## Court rulings and public opinion
 
 -   court rulings can (de)legitimize a policy [@sternberg2022]

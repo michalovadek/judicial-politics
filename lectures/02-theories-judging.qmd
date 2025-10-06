@@ -116,12 +116,7 @@ scurve <- function(x){
 # plot
 ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
   stat_function(fun = scurve, n = 100, linewidth = 0.8) +
-  theme_minimal() +
-  theme(
-    axis.text = element_blank(),
-    axis.title = element_text(hjust = 1),
-    axis.line = element_line(arrow = arrow(length = unit(0.1, "in")))
-  ) +
+  theme_arrows() +
   labs(x = "Legal ambiguity", y = "Probability of court involvement",
        title = "Selection effects",
        subtitle = "More ambiguous issues are more likely to make it before courts")
@@ -350,11 +345,13 @@ Framing: categorization of decision options as more or less positive. Most peopl
 
 -   bankruptcy reorganization plans with certain outcomes were more likely to be approved by judges when framed in terms of gains than losses [@rachlinski2006]
 
-## Cognitive explanations
+## Cognitive explanations  {.smaller}
 
--   decision-making bias is often driven by in-group favoritism [@kantorowicz-reznichenko2022]
+-   decision-making bias can be driven by in-group favoritism [@kantorowicz-reznichenko2022]
 
     -   including ethnic [@grossman2016] and place-based (e.g. Minnesota) in-groups [@wistrich2014]
+
+    -   but this finding is likely exaggerated by publication bias [@ash2025]
 
 -   judges give away their preferences through emotional arousal in oral hearings [@dietrich2019]
 
