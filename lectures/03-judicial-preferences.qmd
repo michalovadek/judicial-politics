@@ -32,7 +32,7 @@ bibliography: references.bib
 
 ## Variation in judicial preferences
 
-![Ideology of Democratic and Republican State Supreme Court Justices (Gibson & Nelson 2022)](img/dem-con-state-scs-ideo.png)
+![Ideology of Democratic and Republican State Supreme Court Justices [@gibson2022]](img/dem-con-state-scs-ideo.png)
 
 ## Variation in judicial preferences
 

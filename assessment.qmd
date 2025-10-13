@@ -88,6 +88,8 @@ Below is a non-exhaustive list of tips to help you write a better paper:
 
 -   [ ] Whenever you are working with a sample of cases as your empirical material -- which will be almost always -- you need to explain how you made the selection, how it fits with your research design and how it serves your research question
 
+-   [ ] How does your theoretical argument and your empirical observation generalize to other cases? What are the scope conditions of your theory, i.e. where and when does your theory apply?
+
 -   [ ] Specific references (e.g. citations including the page number) are better than general references
 
 -   [ ] Format your paper, including in-text citations and bibliography, correctly and consistently. When in doubt, consult the [Chicago Manual of Style](https://www.chicagomanualofstyle.org/home.html)

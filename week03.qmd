@@ -38,4 +38,4 @@ Kern, Holger L., and Georg Vanberg. "Transitional justice and the rule of law: T
 
 ## Lecture slides
 
-<!-- [Week 3](lectures/03-judicial-preferences.html) -->
+[Week 3](lectures/03-judicial-preferences.html)
