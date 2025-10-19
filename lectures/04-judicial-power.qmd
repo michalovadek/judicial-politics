@@ -183,6 +183,14 @@ vdemdata::plot_indicator("v2x_jucon",
 
 ![General Franco ruled Spain until 1975](img/franco.jpg)
 
+## Legal dualism
+
+-   @hendley2022 argues that the creation of special tribunals for political issues is the exception in authoritarian regimes
+
+    -   instead, the "normative" and "prerogative" states coexist side-by-side, often relying on informal institutions
+
+    -   e.g. the same judge handling ordinary cases can be twisting the law to enable the persecution of dissidents
+
 ## Public support as a source of judicial power
 
 -   one reason why courts' autonomy and effectiveness can be high is **public support** [@carrubba2010]
