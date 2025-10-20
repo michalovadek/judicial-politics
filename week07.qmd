@@ -32,6 +32,8 @@ Lax, Jeffrey R. "Political constraints on legal doctrine: How hierarchy shapes t
 
 Pavone, Tommaso. "Revisiting judicial empowerment in the European Union: Limits of empowerment, logics of resistance." *Journal of Law and Courts* 6, no. 2 (2018): 303-331.
 
+Goto, Jun. "Career incentives and judicial independence: Evidence from the Indian lower judiciary." *Journal of Development Economics* (2025): 103571.
+
 ## Lecture slides
 
 <!-- [Week 7](lectures/07-judicial-hierarchy.html) -->
