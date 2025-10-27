@@ -12,6 +12,8 @@ Dunoff, Jeffrey L., and Mark A. Pollack. "The judicial trilemma." *American Jour
 
 Voeten, Erik. "The politics of international judicial appointments: evidence from the European Court of Human Rights." *International Organization* 61, no. 4 (2007): 669-701.
 
+Hanretty, Chris. "The appointment of judges by ministers: Political preferment in England, 1880–2005." *Journal of Law and Courts* 3, no. 2 (2015): 305-329.
+
 Arrington, Nancy, Leeann Bass, Adam Glynn, Jeffrey K. Staton, Brian Delgado, and Staffan I. Lindberg. "Constitutional reform and the gender diversification of peak courts." *American Political Science Review* 115, no. 3 (2021): 851-868.
 
 Kastellec, Jonathan P., Jeffrey R. Lax, and Justin H. Phillips. "Public opinion and senate confirmation of Supreme Court nominees." *The Journal of Politics* 72, no. 3 (2010): 767-784.
@@ -28,4 +30,4 @@ Larsson, Olof, Theresa Squatrito, Øyvind Stiansen, and Taylor St John. "Selecti
 
 ## Lecture slides
 
-<!-- [Week 5](lectures/05-appoint-monitor.html) -->
+[Week 5](lectures/05-appoint-monitor.html)

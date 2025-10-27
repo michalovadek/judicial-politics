@@ -58,7 +58,7 @@ Students can indicate their preference for a week via email or in the seminar of
 | 2             | North America      |     Sebastian, Charlie       |
 | 3             | Western Europe     |      Rebecca, Eli      |
 | 4             | Eastern Europe     |    Mathilde, Tamsin        |
-| 5             | East Asia          |       Murph, Zoe     |
+| 5             | East Asia          |       Murph, Violet     |
 | 6             | Southeast Asia     |     Abigail, Norah     |
 | 7             | Sub-Saharan Africa |    Madhav, Lemuel, Emma        |
 | 8             | North Africa       |     Mustafa, Will       |

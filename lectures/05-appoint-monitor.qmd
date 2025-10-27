@@ -103,7 +103,7 @@ comp |>
        caption = "Based on Tiede (2024)")
 ```
 
-## Appointment procedures  {.smaller}
+## Appointment procedures {.smaller}
 
 -   mixed systems encourage a tendency for each appointing branch to select judges most closely aligned with its interests
 
@@ -190,13 +190,25 @@ ECtHR judges had their tenures increased from 6 to 9 but made non-renewable
 
 ![Source: @pérez-liñán2024](img/jud-exits.png)
 
+## Strategic retirements  {.smaller}
+
+-   hypothesis: federal judges in the US prefer to retire under presidents of the same political party that first appointed them [@stolzenberg2022; @nixon2000]
+
+    -   @stolzenberg2022 argue that this behaviour is driven more by reciprocity norms (giving back to appointing party) than ideology
+
+    -   in contrast, @deschler2024 show that recently, moderate Republican judges have withheld retirement under more conservative presidents such as Trump (ideology \> partisanship/reciprocity)
+
+-   older judges are more inclined to retire strategically [@hansford2010]
+
+-   understudied outside the US [@pérez-liñán2017]
+
 ## Judicial elections
 
 -   perceived rejection of "elite-driven" judicial selection
 
 -   tried out in revolutionary France (1790) and Central America post Spanish independence
 
--   38 US states (as of 2024) elect judges to state supreme courts
+-   38 US states (as of 2024) elect judges to state supreme courts [@lim2013; @lim2015; @besley2013]
 
     -   the 2023 Wisconsin Supreme Court election saw 51 million USD in campaign spending
 
@@ -204,7 +216,7 @@ ECtHR judges had their tenures increased from 6 to 9 but made non-renewable
 the Wisconsin figure is only slightly less than total party spending in the 2019 UK general election. Wisconsin has a population of less than 6 million (cf UK almost 70)
 :::
 
-## Judicial elections  {.smaller}
+## Judicial elections {.smaller}
 
 -   @driscoll2015 show the impact of Bolivia introducing judicial elections
 
@@ -212,9 +224,11 @@ the Wisconsin figure is only slightly less than total party spending in the 2019
 
     -   confidence in the judiciary increased among government supporters but declined overall
 
--   Mexico should hold its first judicial election in June 2025
+-   Mexico has been holding judicial elections for a portion of offices since 2025
 
     -   pre-selected candidates by evaluation committees of each branch of government
+
+    -   mired in disagreement and controversy
 
 ::: notes
 the judicial branch has been refusing to cooperate after a judge ruled to suspend the election
