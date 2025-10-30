@@ -190,7 +190,7 @@ ECtHR judges had their tenures increased from 6 to 9 but made non-renewable
 
 ![Source: @pérez-liñán2024](img/jud-exits.png)
 
-## Strategic retirements  {.smaller}
+## Strategic retirements {.smaller}
 
 -   hypothesis: federal judges in the US prefer to retire under presidents of the same political party that first appointed them [@stolzenberg2022; @nixon2000]
 

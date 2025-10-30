@@ -46,9 +46,9 @@ Students can indicate their preference for a week via email or in the seminar of
 | 4             | Eastern Europe     |     Alexandra I, Louisa       |
 | 5             | East Asia          |      Annabel, Theodore      |
 | 6             | Southeast Asia     |       Piti, Aadavha     |
-| 7             | Sub-Saharan Africa |     Victoria R, Blanche    |
+| 7             | Sub-Saharan Africa |     Victoria R, Blanche, Elleda    |
 | 8             | North Africa       |        Maya, Tess, Jama    |
-| 9             | South America      |       Elleda, Luke, Lila   |
+| 9             | South America      |       Luke, Lila   |
 | 10            | International      |      Ambrine, Margot      |
 
 ### Seminar 2

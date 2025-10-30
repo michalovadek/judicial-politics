@@ -21,6 +21,7 @@ source("utils/globals.R")
 ## Strategic interactions
 
 -   How do courts, executives and legislatures interact in the enactment and enforcement of policy?
+
 -   How does strategic anticipation of mutual preferences affect how they behave?
 
 ## Separation of powers
