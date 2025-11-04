@@ -4,9 +4,11 @@ bibliography: lectures/references.bib
 csl: https://www.zotero.org/styles/chicago-author-date
 link-citations: false
 citations-hover: false
+nocite: |
+  @*
 ---
 
-To enable easier searching, below is a list of all the scholarship referenced on the lecture slides.
+To enable easier searching, below is a list of all the literature referenced on the lecture slides.
 
 ::: {#refs}
 :::
