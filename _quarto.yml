@@ -27,6 +27,8 @@ website:
       - section: Weeks
         contents: 
           auto: "week*.qmd"
+      - text: "Bibliography"
+        href: bib.qmd
 
 execute:
   echo: false
