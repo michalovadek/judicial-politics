@@ -6,7 +6,7 @@ Judicial systems typically resemble pyramids: courts at each layer of the hierar
 
 ## Mandatory readings
 
-Carrubba, Clifford J., and Tom S. Clark. "Rule creation in a political hierarchy." *American Political Science Review* 106, no. 3 (2012): 622-643.
+Masood, Ali S., and Jennifer Bowie. "Hierarchical interactions and compliance in comparative courts." *Political Research Quarterly* 76, no. 4 (2023): 1906-1919.
 
 ## Optional readings
 
@@ -32,7 +32,13 @@ Lax, Jeffrey R. "Political constraints on legal doctrine: How hierarchy shapes t
 
 Pavone, Tommaso. "Revisiting judicial empowerment in the European Union: Limits of empowerment, logics of resistance." *Journal of Law and Courts* 6, no. 2 (2018): 303-331.
 
+Dyevre, Arthur, Nicolas Lampach, and Monika Glavina. "Chilling or Learning?: The effect of negative feedback on interjudicial cooperation in nonhierarchical referral regimes." *Journal of Law and Courts* 10, no. 1 (2022): 87-112.
+
 Goto, Jun. "Career incentives and judicial independence: Evidence from the Indian lower judiciary." *Journal of Development Economics* (2025): 103571.
+
+Carrubba, Clifford J., and Tom S. Clark. "Rule creation in a political hierarchy." *American Political Science Review* 106, no. 3 (2012): 622-643.
+
+Bhuller, Manudeep, and Henrik Sigstad. "Feedback and learning: The causal effects of reversals on judicial decision-making." *Review of Economic Studies* 92, no. 4 (2025): 2359-2397.
 
 ## Lecture slides
 

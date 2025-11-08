@@ -38,6 +38,14 @@ Ríos-Figueroa, Julio, and Fiona Shen-Bayh. "Courts in the Global South." *Annua
 
 Mehmood, Sultan, and Bakhtawar Ali. "Judicial capture." *The Economic Journal* 134, no. 659 (2024): 1287-1301.
 
+Lambais, Guilherme, and Henrik Sigstad. "Judicial subversion: The effects of political power on court outcomes." *Journal of Public Economics* 217 (2023): 104788.
+
+Chemin, Matthieu. "Can judiciaries constrain executive power? Evidence from judicial reforms." *Journal of Public Economics* 199 (2021): 104428.
+
+Cao, Guangyu, Chenran Liu, and Li-An Zhou. "Suing the government under weak rule of law: Evidence from administrative litigation reform in China." *Journal of Public Economics* 222 (2023): 104895.
+
+Zhang, Peng. "Anti-corruption campaign, political connections, and court bias: Evidence from Chinese corporate lawsuits." *Journal of Public Economics* 222 (2023): 104861.
+
 ## Lecture slides
 
-<!-- [Week 6](lectures/06-executive-legislature.html) -->
+[Week 6](lectures/06-executive-legislature.html)

@@ -24,6 +24,13 @@ source("utils/globals.R")
 
 -   How does strategic anticipation of mutual preferences affect how they behave?
 
+## Judicial constraints on the executive  {.smaller}
+
+-   in the classic narrative, independent courts constrain the executive's discretion, including to engage in arbitrary coercive acts, which benefits economic development [@north1989]
+    -   across a sample of 104 countries, de facto (but not de jure) judicial independence is associated with higher growth rates [@voigt2015]
+    -   externally funded judicial reforms in Global South countries increase trust in the judiciary among relatively powerless groups [@chemin2021]
+    -   removing presidential discretion in judicial appointments in Pakistan improved decision quality and constrained government discretion [@mehmood2022]
+
 ## Separation of powers
 
 -   even in systems where judicial independence is strong, there are many points of contact between the judiciary, the legislature and the executive
@@ -32,7 +39,7 @@ source("utils/globals.R")
 
     -   competence disputes
 
-    -   judicial review of adminstrative acts
+    -   judicial review of administrative acts
 
     -   judicial review of statutory law
 
@@ -136,7 +143,7 @@ source("utils/globals.R")
 
 ## Court curbing
 
--   the legislator signalling intent to engage in court curbing is likely to lead to judicial self-restraint
+-   the legislator signaling intent to engage in court curbing is likely to lead to judicial self-restraint
 
 -   a number of possible measures:
 
@@ -163,5 +170,25 @@ source("utils/globals.R")
     -   a "friendly" judicial intervention can be particularly valuable when it concerns constitutional interpretation that would be otherwise difficult to legislate away (e.g. *Roe* and *Dobbs*)
 
     -   also helps explain why governments might sometimes appear to support "activist" judiciaries [@whittington2005]
+
+## Informal interactions
+
+-   many interactions between courts and representatives of other branches can occur outside formal contexts
+
+-   as members of the elite with access to power and resources, both judges and politicians can face incentives to confer special treatment
+
+    -   eg judges may shield corrupt politicians from prosecution in exchange for bribes or career progress
+
+## Informal interactions  {.smaller}
+
+-   transferring jurisdiction outside the local county increased the chance of the local government losing a case by \~4 pp (10%) [@cao2023]
+
+-   (narrowly) winning a seat in Indian state legislature decreases the chance of criminal conviction by \~20 pp, but only for ruling party co-partisans [@poblete-cazenave2025]
+
+-   (narrowly) winning mayoral elections in Brazil reduces chance of conviction by local judges by \~11 pp (65%) [@lambais2023]
+
+    -   despite there being no formal power of mayors over judges
+
+-   de jure separation is not sufficient to capture intended benefits of judicial independence
 
 ## References
