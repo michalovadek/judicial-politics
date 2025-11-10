@@ -24,16 +24,16 @@ source("utils/globals.R")
 
 -   How does strategic anticipation of mutual preferences affect how they behave?
 
-## Judicial constraints on the executive  {.smaller}
+## Judicial constraints on the executive {.smaller}
 
 -   in the classic narrative, independent courts constrain the executive's discretion, including to engage in arbitrary coercive acts, which benefits economic development [@north1989]
     -   across a sample of 104 countries, de facto (but not de jure) judicial independence is associated with higher growth rates [@voigt2015]
-    -   externally funded judicial reforms in Global South countries increase trust in the judiciary among relatively powerless groups [@chemin2021]
+    -   externally funded judicial reforms in African countries improved perception of the rule of law among relatively powerless groups [@chemin2021]
     -   removing presidential discretion in judicial appointments in Pakistan improved decision quality and constrained government discretion [@mehmood2022]
 
 ## Separation of powers
 
--   even in systems where judicial independence is strong, there are many points of contact between the judiciary, the legislature and the executive
+-   even in systems where judicial independence is strong, there are many formal points of contact between the judiciary, the legislature and the executive
 
     -   appointment of judges
 
@@ -83,7 +83,7 @@ source("utils/globals.R")
 
     -   the court's previous case law
 
-    -   judges' ideological distance
+    -   judges' ideological positions
 
     -   public support
 
@@ -95,7 +95,7 @@ source("utils/globals.R")
 
     -   actors sometimes behave irrationally
 
--   the legislator might water down an act or otherwise pre-empt negative judicial action
+-   the legislator might water down an act or otherwise preempt negative judicial action
 
 ## Anticipating judicial review
 
@@ -179,7 +179,7 @@ source("utils/globals.R")
 
     -   eg judges may shield corrupt politicians from prosecution in exchange for bribes or career progress
 
-## Informal interactions  {.smaller}
+## Informal interactions {.smaller}
 
 -   transferring jurisdiction outside the local county increased the chance of the local government losing a case by \~4 pp (10%) [@cao2023]
 
