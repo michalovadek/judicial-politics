@@ -42,4 +42,4 @@ Bhuller, Manudeep, and Henrik Sigstad. "Feedback and learning: The causal effect
 
 ## Lecture slides
 
-<!-- [Week 7](lectures/07-judicial-hierarchy.html) -->
+[Week 7](lectures/07-judicial-hierarchy.html)

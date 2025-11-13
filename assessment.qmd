@@ -12,14 +12,16 @@ The introduction to the paper should explicitly motivate why the phenomenon of i
 
 Each research paper must include one section discussing **theory** and one section discussing **research design**. The theory section sets out the researcher's expectations about the studied phenomenon on the basis of existing academic literature and typically ends with a testable hypothesis. The research design section describes how the research question will be answered and must include a discussion of the information (data) and the method (e.g. process tracing or regression analysis) used to produce evidence in support of (or against) a hypothesis. The theory and research design need to be selected so as to be appropriate to the research question.
 
-The findings produced by the empirical analysis should be presented in a separate section for clarity. Thereafter they should be discussed in terms of the hypothesis, the research question and finally related back to the scholarly literature to which the paper is contributing.
+The findings produced by the **empirical analysis** should be presented in a separate section for clarity. Thereafter they should be discussed in terms of the hypothesis, the research question and finally related back to the scholarly literature to which the paper is contributing. It is highly recommended to provide additional detail about the empirical analysis in an appendix for the sake of transparency.[^1]
+
+[^1]: As a general rule, for qualitative methodology papers, this should be a transparency appendix ([example](https://dataverse.harvard.edu/file.xhtml?fileId=4887668&version=1.0)). For quantitative methodology papers, the appendix should clarify measurement choices and show robustness checks ([example](https://static.cambridge.org/content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS0007123425100884/resource/name/S0007123425100884sup001.pdf)). The appendix does not count towards the 3000-word limit. All essential information must be included in the paper, however.
 
 Papers are expected to use an author-year (in-text) citation system. Citation and reference formatting should follow the [Chicago style](https://www.chicagomanualofstyle.org/home.html). The list of references at the end of the document are not counted towards the word limit (but the in-text citations are). Any footnotes or endnotes count towards the word limit. Compliance with university plagiarism policies is a must.
 
 The module's schedule requires continuous work on the assessment from week 1 until submission date. The following table outlines a possible workflow for writing a good final paper:
 
 | Weeks | Objective | Tasks |
-|----------|--------------------------|------------------------------------|
+|----------------|------------------------|---------------------------------|
 | 1 – 2 | Find a research topic | Skim the module's contents, including suggested readings in areas of interest; make notes on findings and questions encountered |
 | 3 – 4 | Review literature | Summarize at least 15 relevant academic publications; identify gaps in the literature; formulate a specific research question answerable with data; build on existing theories to propose a testable hypothesis |
 | 5 – 6 | Propose a research design | Choose an empirical strategy to answer your research question; find suitable data to test your hypothesis; choose a specific methodology for data analysis; create a work-in-progress paper with at least headings |

@@ -18,9 +18,9 @@ bibliography: references.bib
 source("utils/globals.R")
 ```
 
-## Assessment  {.smaller}
+## Assessment {.smaller}
 
--   regular deadline: **29 April 2025**
+-   deadline: **6 January 2026**
 
 -   what **theory** do you want to contribute to with your empirical analysis?
 
@@ -30,9 +30,7 @@ source("utils/globals.R")
 
 -   what **method** are you going to use to analyse your data?
 
--   come to office hours after 2nd seminar if you want to chat about your paper idea
-
-## Empirical paper  {.smaller}
+## Empirical paper {.smaller}
 
 -   **Introduction**: what is the research puzzle/problem and why is it important?
 
@@ -40,7 +38,7 @@ source("utils/globals.R")
 
     -   examples of a gap: all evidence comes from a single jurisdiction; there is conflicting evidence; existing theories do not account for an important variable; etc.
 
--   **Theory**: a reasoned justification of your principal expectation (**hypothesis**) prior to conducting the empirical analysis; must be informed by existing literature
+-   **Theory**: a reasoned justification of (the logic behind) your principal expectation (**hypothesis**) prior to conducting the empirical analysis; must be informed by existing literature
 
     -   what puzzle does your theory attempt to explain?
 
@@ -60,7 +58,7 @@ source("utils/globals.R")
 
     -   you can use an existing dataset or collect your own data
 
-    -   even in qualitative research keep meticulous track of your sources
+    -   even in qualitative research keep meticulous track of your sources (transparency appendix)
 
 -   **Methods/research design**: the empirical strategy applied to your data in order to test your hypothesis
 
@@ -128,7 +126,7 @@ source("utils/globals.R")
 
     -   not all national courts accept that the CJEU sits atop the EU law hierarchy
 
-## Judicial hierarchy  {.smaller}
+## Judicial hierarchy {.smaller}
 
 > The Court of Justice of the European Union exceeds its judicial mandate, as determined by the functions conferred upon it in Article 19(1) second sentence of the Treaty on European Union, where an interpretation of the Treaties is not comprehensible and must thus be considered arbitrary from an objective perspective. **If the Court of Justice of the European Union crosses that limit**, its decisions are no longer covered by Article 19(1) second sentence of the Treaty on European Union in conjunction with the domestic Act of Approval; at least in relation to Germany, these decisions lack the minimum of democratic legitimation necessary under Article 23(1) second sentence in conjunction with Article 20(1) and (2) and Article 79(3) of the Basic Law.
 
@@ -141,6 +139,10 @@ German Constitutional Court, Judgment of the Second Senate of 5 May 2020, press 
     -   at the bottom, the range of goals is the widest (e.g. routines, workload, promotion, policy)
 
     -   at the top, judges are mostly concerned with policy considerations and ideological influence is therefore the strongest [@zorn2010]
+
+## Judicial motivation
+
+-   motivated by promotions? [@goto2026]
 
 ## Judicial discipline
 
@@ -158,7 +160,7 @@ German Constitutional Court, Judgment of the Second Senate of 5 May 2020, press 
 
 -   courts higher in the hierarchy and later in time can amend or expunge lower or previous precedents
 
-## Role of lower courts  {.smaller}
+## Role of lower courts {.smaller}
 
 -   in the standard account, lower courts implement the doctrines developed by peak courts
 
@@ -190,7 +192,7 @@ the ideal situation for the lower court is one like the following:
 suppose the lower court is liberal and wants a liberal rule. The Supreme Court is more conservative. The facts are such that the adoption of almost any rule would yield the disposition desired by the SC. But the lower court can push the rule further in its preferred direction because the "correct" disposition will to some extent shield it from review
 :::
 
-## The threat of reversal  {.smaller}
+## The threat of reversal {.smaller}
 
 -   why do lower courts follow precedent? why do they fear reversal?
 
@@ -217,6 +219,11 @@ suppose the lower court is liberal and wants a liberal rule. The Supreme Court i
 ::: notes
 if the whistle is blown too often, the signal becomes less informative and easier to ignore for the lower court, leading to lower compliance with upper court doctrine
 :::
+
+## The effect of reversal
+
+-   norwegian study [@bhuller2025]
+-   dyevre [@dyevre2022]
 
 ## Collegial courts
 
