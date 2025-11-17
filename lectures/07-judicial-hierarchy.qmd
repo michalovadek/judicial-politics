@@ -272,11 +272,23 @@ if the whistle is blown too often, the signal becomes less informative and easie
 
 -   in some courts (e.g. CJEU), the president chooses the opinion writer (judge-rapporteur)
 
-    -   a source of power to steer decisions in a desired direction
+    -   a source of power to steer decisions in a desired direction [@hermansen2020]
 
     -   at SCOTUS, the initial majority also gets the pen-holder [@lax2007]
 
+## Case assignment
+
 -   automatic systems of random case assignment as an anti-corruption measure [@marcondes2019]
+
+-   in some settings assignment of cases is plausibly quasi-random in expectation [@goldsmith-pinkham2025]
+
+    -   conditional on some covariates, judges are assigned cases as if randomly
+
+    -   more likely to hold when there is a large volume of cases
+
+::: notes
+the random or otherwise assignment of cases to judges is a critical element in research design
+:::
 
 ## Role of clerks
 
