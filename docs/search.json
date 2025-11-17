@@ -1860,7 +1860,7 @@
     "href": "lectures/07-judicial-hierarchy.html#judicial-motivation",
     "title": "Judicial Hierarchy and Organization",
     "section": "Judicial motivation",
-    "text": "Judicial motivation\n\nmotivated by promotions? (Goto 2026)"
+    "text": "Judicial motivation\n\nGoto (2026) presents evidence of judicial pandering in Indian courts\n\njudicial leaders hold power over lower courts’ judges promotion prospects\neligible judges become more likely to acquit female defendants and less likely to acquit male defendants in the presence of a female chief justice"
   },
   {
     "objectID": "lectures/07-judicial-hierarchy.html#judicial-discipline",
@@ -1891,6 +1891,13 @@
     "text": "The cost of review\n\nupper courts do not have direct and immediate access to case facts, only to lower courts’ decisions\n\nthey need to spend time and resources to find out more\n=&gt; upper courts need to decide which decisions are worth auditing\n\nupper courts care about lower courts’ dispositions and rules\n\nlower courts choose rules to avoid review (Carrubba and Clark 2012)\n\n\n\nthe ideal situation for the lower court is one like the following:\nsuppose the lower court is liberal and wants a liberal rule. The Supreme Court is more conservative. The facts are such that the adoption of almost any rule would yield the disposition desired by the SC. But the lower court can push the rule further in its preferred direction because the “correct” disposition will to some extent shield it from review"
   },
   {
+    "objectID": "lectures/07-judicial-hierarchy.html#the-cost-of-review-1",
+    "href": "lectures/07-judicial-hierarchy.html#the-cost-of-review-1",
+    "title": "Judicial Hierarchy and Organization",
+    "section": "The cost of review",
+    "text": "The cost of review\n\nthe ideal situation for the lower court is when the disposition aligns with the upper court’s preferences\nsuppose the lower court prefers a liberal rule, while the upper court is more conservative. The facts are so extreme that almost any rule yields a “conservative” disposition (e.g. harsh sentence). The lower can push the rule in a liberal direction because the upper court will be satisfied with the disposition regardless"
+  },
+  {
     "objectID": "lectures/07-judicial-hierarchy.html#the-threat-of-reversal",
     "href": "lectures/07-judicial-hierarchy.html#the-threat-of-reversal",
     "title": "Judicial Hierarchy and Organization",
@@ -1909,7 +1916,14 @@
     "href": "lectures/07-judicial-hierarchy.html#the-effect-of-reversal",
     "title": "Judicial Hierarchy and Organization",
     "section": "The effect of reversal",
-    "text": "The effect of reversal\n\nnorwegian study (Bhuller and Sigstad 2025)\ndyevre (Dyevre, Lampach, and Glavina 2022)"
+    "text": "The effect of reversal\n\ntrial judges in Norway who had their ruling overturned on appeal shift their behaviour in the corresponding direction (Bhuller and Sigstad 2025)\n\n“Following a decision reversal, trial judges who receive a sentence increase have almost 40 percentage points higher probability of incarcerating in the next case, compared to judges receiving a sentence affirmance”\njudges do not merely “learn” from reversals but overreact to them"
+  },
+  {
+    "objectID": "lectures/07-judicial-hierarchy.html#the-effect-of-reversal-1",
+    "href": "lectures/07-judicial-hierarchy.html#the-effect-of-reversal-1",
+    "title": "Judicial Hierarchy and Organization",
+    "section": "The effect of reversal",
+    "text": "The effect of reversal\n\nin the European Union, national courts submit cases to the Court of Justice of the EU (CJEU). What happens these cases are rejected by the CJEU?\nnational courts receiving such a negative result are more likely to submit another case (Dyevre, Lampach, and Glavina 2022)\n\nthe CJEU is more likely to accept requests from national courts that previously experienced rejection"
   },
   {
     "objectID": "lectures/07-judicial-hierarchy.html#collegial-courts",

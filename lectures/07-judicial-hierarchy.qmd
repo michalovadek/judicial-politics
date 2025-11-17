@@ -142,7 +142,11 @@ German Constitutional Court, Judgment of the Second Senate of 5 May 2020, press 
 
 ## Judicial motivation
 
--   motivated by promotions? [@goto2026]
+-   @goto2026 presents evidence of judicial pandering in Indian courts
+
+    -   judicial leaders hold power over lower courts' judges promotion prospects
+
+    -   eligible judges become more likely to acquit female defendants and less likely to acquit male defendants in the presence of a female chief justice
 
 ## Judicial discipline
 
@@ -192,6 +196,12 @@ the ideal situation for the lower court is one like the following:
 suppose the lower court is liberal and wants a liberal rule. The Supreme Court is more conservative. The facts are such that the adoption of almost any rule would yield the disposition desired by the SC. But the lower court can push the rule further in its preferred direction because the "correct" disposition will to some extent shield it from review
 :::
 
+## The cost of review
+
+-   the ideal situation for the lower court is when the disposition aligns with the upper court's preferences
+
+-   suppose the lower court prefers a liberal rule, while the upper court is more conservative. The facts are so extreme that almost any rule yields a "conservative" disposition (e.g. harsh sentence). The lower can push the rule in a liberal direction because the upper court will be satisfied with the disposition regardless
+
 ## The threat of reversal {.smaller}
 
 -   why do lower courts follow precedent? why do they fear reversal?
@@ -222,8 +232,17 @@ if the whistle is blown too often, the signal becomes less informative and easie
 
 ## The effect of reversal
 
--   norwegian study [@bhuller2025]
--   dyevre [@dyevre2022]
+-   trial judges in Norway who had their ruling overturned on appeal shift their behaviour in the corresponding direction [@bhuller2025]
+    -   "Following a decision reversal, trial judges who receive a sentence increase have almost 40 percentage points higher probability of incarcerating in the next case, compared to judges receiving a sentence affirmance"
+    -   judges do not merely "learn" from reversals but overreact to them
+
+## The effect of reversal
+
+-   in the European Union, national courts submit cases to the Court of Justice of the EU (CJEU). What happens these cases are rejected by the CJEU?
+
+-   national courts receiving such a negative result are more likely to submit another case [@dyevre2022]
+
+    -   the CJEU is more likely to accept requests from national courts that previously experienced rejection
 
 ## Collegial courts
 
