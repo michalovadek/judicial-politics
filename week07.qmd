@@ -2,7 +2,7 @@
 title: "7: Judicial Hierarchy and Organization"
 ---
 
-Judicial systems typically resemble pyramids: courts at each layer of the hierarchy are subject to oversight by courts in the layer above, except for the courts at the apex of the pyramid. This week we discuss the differences between higher and lower courts and the impact of judicial hierarchy on decision-making.
+Judicial systems typically resemble pyramids: courts at each layer of the hierarchy are subject to oversight by courts in the layer above, except for the courts at the apex of the pyramid. This week we discuss the differences between higher and lower courts and the impact of judicial hierarchy and internal organization on decision-making.
 
 ## Mandatory readings
 
@@ -17,6 +17,8 @@ Zorn, Christopher, and Jennifer Barnes Bowie. "Ideological influences on decisio
 Scott, Kevin M. "Understanding judicial hierarchy: Reversals and the behavior of intermediate appellate judges." *Law & Society Review* 40, no. 1 (2006): 163-192.
 
 Fjelstul, Joshua C. "How the Chamber System at the CJEU Undermines the Consistency of the Court’s Application of EU Law." *Journal of Law and Courts* 11, no. 1 (2023): 141-162.
+
+Hangartner, Dominik, Benjamin E. Lauderdale, and Judith Spirig. "Inferring Individual Preferences from Group Decisions: Judicial Preference Variation and Aggregation on Collegial Courts." *British Journal of Political Science* 55 (2025): e163.
 
 Posner, Richard A. "An economic approach to legal procedure and judicial administration." *The Journal of Legal Studies* 2, no. 2 (1973): 399-458.
 

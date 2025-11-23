@@ -250,7 +250,7 @@ if the whistle is blown too often, the signal becomes less informative and easie
 
 -   if opinion amendments by judges are costless, the result will align with the median judge's preferences
 
-    -   if they are not, the opinion writer can pull the judgment slightly away from the median judge
+    -   if they are not, the opinion writer can pull the judgment slightly away from the median judge [@hangartner2025]
 
 ## Collegial courts
 

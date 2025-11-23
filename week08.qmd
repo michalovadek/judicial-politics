@@ -18,12 +18,18 @@ Moravcsik, Andrew. "The origins of human rights regimes: Democratic delegation i
 
 Ferejohn, John. "Judicializing politics, politicizing law." *Law and contemporary problems* 65, no. 3 (2002): 41-68.
 
-Goldstein, Leslie Friedman. "From democracy to juristocracy." *Law & society review* 38, no. 3 (2004): 611-629.
+Goldstein, Leslie Friedman. "From democracy to juristocracy." *Law & Society Review* 38, no. 3 (2004): 611-629.
 
 Hirschl, Ran. "The judicialization of mega-politics and the rise of political courts." *Annual Review of Political Science* 11, no. 1 (2008): 93-118.
 
 Domingo, Pilar. "Judicialization of politics or politicization of the judiciary? Recent trends in Latin America." *Democratization* 11, no. 1 (2004): 104-126.
 
+Botero, Sandra, Daniel M. Brinks, and Ezequiel Gonzalez-Ocantos, eds. *The Limits of Judicialization: From Progress to Backlash in Latin America*. Cambridge University Press, 2022.
+
+Harguindéguy, Jean-Baptiste. "The Constitutional Court and the judicialization of Spanish politics." *European Politics and Society* 25, no. 3 (2024): 501-517.
+
+Basedow, Johann Robert. "Why de‐judicialize? Explaining state preferences on judicialization in World Trade Organization Dispute Settlement Body and Investor‐to‐State Dispute Settlement reforms." *Regulation & Governance* 16, no. 4 (2022): 1362-1381.
+
 ## Lecture slides
 
-<!-- [Week 8](lectures/08-judicialization.html) -->
+[Week 8](lectures/08-judicialization.html)

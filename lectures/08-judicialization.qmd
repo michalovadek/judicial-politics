@@ -76,7 +76,7 @@ French Constitutional Council is the archetype of the ex ante review effect on l
 legislators promising unconstitutional policies can make it harder for voters to make good decisions
 :::
 
-## Judicialization  {.smaller}
+## Judicialization {.smaller}
 
 > There is **hardly any political question in the United States that sooner or later does not turn into a judicial question**. From that, the obligation that the parties find in their daily polemics to borrow ideas and language from the judicial system. Since most public men are or have formerly been jurists, they make the habits and the turn of ideas that belong to jurists pass into the handling of public affairs. The jury ends up by familiarizing all classes with them. Thus, judicial language becomes, in a way, the common language; so **the spirit of the jurist, born inside the schools and courtrooms, spreads little by little beyond their confines**; it infiltrates all of society, so to speak; it descends to the lowest ranks, and the entire people finishes by acquiring a part of the habits and tastes of the magistrate.
 >
@@ -133,6 +133,24 @@ another example of electoral is Bush v Gore (2000) where 5 judges decided to sto
 
 -   *rights-centred*: rights and litigants explain expansion of judicial power
 
+## The impact of judicialization {.smaller}
+
+-   judicial empowerment is usually pursued with the hope of increasing government accountability and individual right protection
+
+-   @botero2022 argue that in Latin America, judicialization mostly failed to deliver on these promises due to
+
+    -   weak state capacity limiting the desired positive impact of courts
+
+    -   weak social embeddedness of (liberal) legal structures
+
+    -   the capture of courts by special interests (corruption, nepotism)
+
+::: notes
+judicialization in Latin America as a product of the 1980s and 1990s liberal (either domestic or foreign) visions, out of step with
+
+in Lava Jato Brazilian prosecutors and judges were coming up with creative legal solutions; this opens them up even further to criticism
+:::
+
 ## International judicialization
 
 -   why would governments establish **international** judicial regimes that constrain them?
@@ -143,13 +161,13 @@ another example of electoral is Bush v Gore (2000) where 5 judges decided to sto
 
     -   newly established democracies are driving the process
 
-## Judicialization and politicization  {.smaller}
+## Judicialization and politicization {.smaller}
 
 -   courts expand their power through decisions on **public** policy and state institutions
 
     -   such matters naturally invite *politicization* which can lead to decline of trust in the long-run
 
--   as courts grow in importance, they also become more attractive to **politicians**
+-   as courts grow in importance, they also become more interesting to the public and attractive to **politicians**
 
     -   *judicialization* –\> *politicization*
 
@@ -169,7 +187,7 @@ another example of electoral is Bush v Gore (2000) where 5 judges decided to sto
 
     -   autocratization
 
-## Dejudicialization
+## Dejudicialization {.smaller}
 
 -   is the era of increasing judicialization over? [@abebe2019]
 
@@ -177,6 +195,7 @@ another example of electoral is Bush v Gore (2000) where 5 judges decided to sto
 
 -   but there are also signs in domestic politics
 
-    -   e.g. the near total de-legitimization of the Polish Constitutional Court in recent years
+    -   e.g. the near total de-legitimization of the Polish Constitutional Court in recent years, conservative backlash in Israel, Turkey and elsewhere
+    -   open question whether backlash and counter movements will sustain judicialization or reverse it through institutional attacks
 
 ## References
