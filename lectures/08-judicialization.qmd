@@ -112,13 +112,15 @@ legislators promising unconstitutional policies can make it harder for voters to
 
 ## Types of mega-politics cases
 
-1.  **Policy**: e.g. rulings on the pessification of the Argentinian economy (2003-4)
+1.  **Policy**: e.g. rulings on the "pesification" of the Argentinian economy (2003-4)
 2.  **Electoral:** e.g. excluding a candidate or declaring an election void (Romania 2024)
 3.  **Constitutional**: e.g. SA CC demanding amendments to constitution (1996)
 4.  **Identity**: e.g. Turkish Constitutional Court crackdown on religion (1998-2003)
 
 ::: notes
 the Turkish court eg banned parties which promised to undermine the secularist tradition
+
+Argentinian SC declared unconstitutional the forced conversion of US dollars to pesos
 
 another example of electoral is Bush v Gore (2000) where 5 judges decided to stop the recount in Florida. The recount could have overturned the result in Gore's favour
 :::
@@ -131,7 +133,9 @@ another example of electoral is Bush v Gore (2000) where 5 judges decided to sto
 
 -   *court-centred*: judges are power-hungry and drive the process
 
--   *rights-centred*: rights and litigants explain expansion of judicial power
+-   *rights-centred*: rights and litigants explain expansion of judicial power [@epp1998rights]
+
+-   *policy entrenchment*: parties try to isolate policies from electoral politics [@gillman2002]
 
 ## The impact of judicialization {.smaller}
 
@@ -151,7 +155,7 @@ judicialization in Latin America as a product of the 1980s and 1990s liberal (ei
 in Lava Jato Brazilian prosecutors and judges were coming up with creative legal solutions; this opens them up even further to criticism
 :::
 
-## International judicialization
+## International judicialization  {.smaller}
 
 -   why would governments establish **international** judicial regimes that constrain them?
 
@@ -159,7 +163,7 @@ in Lava Jato Brazilian prosecutors and judges were coming up with creative legal
 
     -   governments **lock in** their preferences against future political alternatives
 
-    -   newly established democracies are driving the process
+    -   newly established democracies were driving the process in the ECHR case
 
 ## Judicialization and politicization {.smaller}
 
