@@ -7,6 +7,7 @@ When doing research on courts and judicial politics, the following (non-exhausti
 -   [Dataverse of the Journal of Law and Courts](https://dataverse.harvard.edu/dataverse/jlc)
 -   [The US Supreme Court Database](http://scdb.wustl.edu/)
 -   [The US Supreme Court Justices Database](https://epstein.wustl.edu/justicesdata)
+-   [The US Supreme Court Shadow Docket Database](https://www.shadowdocketdata.com/)
 -   [CourtListener (US Case Law and Judges Database)](https://www.courtlistener.com/)
 -   [The Constitute Project](https://www.constituteproject.org/)
 -   [Comparative Constitutions Project](https://comparativeconstitutionsproject.org/)

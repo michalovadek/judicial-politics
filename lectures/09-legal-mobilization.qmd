@@ -178,6 +178,10 @@ source("utils/globals.R")
 As an example, there was a successful suit resulting from a handwritten complaint without legal counsel by a 10-year old
 :::
 
+## Legal mobilization in Costa Rica
+
+![The building of the Costa Rican Supreme Court](img/costa-rica-sc.jpg)
+
 ## Who wins?
 
 -   those who litigate more are usually also more likely to win
@@ -218,6 +222,6 @@ role of US SG somewhat similar to role of the Commission in the EU system - also
 
 ## Who wins in international courts?
 
-![Source: @hermansen2025](images/paste-1.png)
+![Source: @hermansen2025](img/ecj-litigants.png)
 
 ## References

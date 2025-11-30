@@ -1075,7 +1075,7 @@
     "href": "data-res.html",
     "title": "Data resources",
     "section": "",
-    "text": "When doing research on courts and judicial politics, the following (non-exhaustive) list of databases and resources might be useful:\n\nDataverse of the Journal of Law and Courts\nThe US Supreme Court Database\nThe US Supreme Court Justices Database\nCourtListener (US Case Law and Judges Database)\nThe Constitute Project\nComparative Constitutions Project\nThe German Constitutional Court Database\nVarieties of Democracy\nIUROPA CJEU Database\nCompLaw: Comparative Study of Judicial Review\nInternational Court of Justice Corpora\nThe Czech Constitutional Court Database\nThe Hungarian Constitutional Court Database\nDatabase on the Inter-American Court of Human Rights\nCorpus of Bundesfinanzhof Decisions\nMembers and Destinations of Spain’s Judiciary\nDiscretionary Appointments to Spain’s Judiciary\nUK Supreme Court Decisions\nSwiss Federal Supreme Court Dataset\n\nBefore spending time on collecting your own data, make sure to check whether an existing database cannot be leveraged for your research question.\nMore generally, going beyond existing databases when working on the final paper is encouraged but not required.",
+    "text": "When doing research on courts and judicial politics, the following (non-exhaustive) list of databases and resources might be useful:\n\nDataverse of the Journal of Law and Courts\nThe US Supreme Court Database\nThe US Supreme Court Justices Database\nThe US Supreme Court Shadow Docket Database\nCourtListener (US Case Law and Judges Database)\nThe Constitute Project\nComparative Constitutions Project\nThe German Constitutional Court Database\nVarieties of Democracy\nIUROPA CJEU Database\nCompLaw: Comparative Study of Judicial Review\nInternational Court of Justice Corpora\nThe Czech Constitutional Court Database\nThe Hungarian Constitutional Court Database\nDatabase on the Inter-American Court of Human Rights\nCorpus of Bundesfinanzhof Decisions\nMembers and Destinations of Spain’s Judiciary\nDiscretionary Appointments to Spain’s Judiciary\nUK Supreme Court Decisions\nSwiss Federal Supreme Court Dataset\n\nBefore spending time on collecting your own data, make sure to check whether an existing database cannot be leveraged for your research question.\nMore generally, going beyond existing databases when working on the final paper is encouraged but not required.",
     "crumbs": [
       "Data resources"
     ]
@@ -2099,6 +2099,13 @@
     "title": "Legal Mobilization and Judicial Impact",
     "section": "Legal mobilization in Costa Rica",
     "text": "Legal mobilization in Costa Rica\n\nin 1989, the Costa Rican constitution was reformed to create a constitutional chamber in the Supreme Court\n\nWilson and Rodríguez Cordero (2006) argue that marginalized groups managed to score significant wins without organization and resources due to very permissive access\nthe existence of an expansive list of rights as a prerequisite\n\n\n\nAs an example, there was a successful suit resulting from a handwritten complaint without legal counsel by a 10-year old"
+  },
+  {
+    "objectID": "lectures/09-legal-mobilization.html#legal-mobilization-in-costa-rica-1",
+    "href": "lectures/09-legal-mobilization.html#legal-mobilization-in-costa-rica-1",
+    "title": "Legal Mobilization and Judicial Impact",
+    "section": "Legal mobilization in Costa Rica",
+    "text": "Legal mobilization in Costa Rica\n\nThe building of the Costa Rican Supreme Court"
   },
   {
     "objectID": "lectures/09-legal-mobilization.html#who-wins",
