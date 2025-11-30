@@ -28,4 +28,4 @@ Hermansen, Silje Synnøve Lyder, Tommaso Pavone, and Louisa Boulaziz. "Leveling 
 
 ## Lecture slides
 
-<!-- [Week 9](lectures/09-legal-mobilization.html) -->
+[Week 9](lectures/09-legal-mobilization.html)

@@ -8,9 +8,9 @@ The seminars consist of two activities. First, students **present** in groups of
 
 In teaching weeks 2 to 10, student presentations are given on courts in a comparative perspective. These presentations are **formative** (not marked). Nonetheless, they play an important role in the module. They ensure that the class attains an overview of judicial politics across different national and international contexts. They also give the presenting students an opportunity to familiarize themselves with empirical research before the final paper.
 
-Students present in groups of two with each student covering **one specific court** within a specific region (see below). The chosen courts should preferably hold high importance in the judicial system of a country or international organization (e.g. peak courts). The presenting group concludes the presentation with a comparison of the selected courts. The full presentation should take 25 minutes in total.
+Students present in groups of two with each student covering **one specific court** within a specific region (see below). The chosen courts should preferably hold high importance in the judicial system of a country or international organization (e.g. peak courts) and be mutually comparable. The presenting group concludes the presentation with a comparison of the selected courts. The full presentation should take 25 minutes in total.
 
-To enable a structured comparison of courts across different jurisdictions, each student chooses a specific court from the week's region on which they collect and present answers to at least the following questions:
+To enable a structured comparison of courts across different jurisdictions, each student chooses a specific court -- preferably at the same level of hierarchy -- from the week's region on which they collect and present answers to at least the following questions:
 
 -   At which level of hierarchy does the court operate?
 
@@ -76,7 +76,7 @@ The length of the mandatory reading list is kept modest so that students have mo
 
 For each mandatory reading, each student should be prepared to discuss in the seminar the following questions:
 
--   what is the main theoretical question the paper aspires to contribute to?
+-   what is the main theoretical problem the paper aspires to contribute to?
 
 -   what observed phenomena are the authors trying to explain?
 

@@ -50,6 +50,12 @@ source("utils/globals.R")
 
     -   related to but distinct from *legal framing* and *legal consciousness*
 
+## Legal mobilization
+
+-   "*the process by which individuals make claims about their legal rights and pursue lawsuits to defend or develop those rights*" [@epp1998rights, p. 18]
+
+    -   "claims" not strictly invoking formal institutional mechanisms
+
 ## Why mobilize the law?
 
 -   most often targeting **legal change** through courts ("strategic litigation")
@@ -160,9 +166,21 @@ source("utils/globals.R")
 
     -   but mixed evidence regarding proximity to power [@coglianese1996]
 
+## Legal mobilization in Costa Rica
+
+-   in 1989, the Costa Rican constitution was reformed to create a constitutional chamber in the Supreme Court
+
+    -   @wilson2006 argue that marginalized groups managed to score significant wins without organization and resources due to very permissive access
+
+    -   the existence of an expansive list of rights as a prerequisite
+
+::: notes
+As an example, there was a successful suit resulting from a handwritten complaint without legal counsel by a 10-year old
+:::
+
 ## Who wins?
 
--   those who litigate more are generally also more likely to win
+-   those who litigate more are usually also more likely to win
 
 -   individuals are the least likely to win cases in the US, followed by interest groups (heterogeneous) and governments
 
@@ -174,8 +192,32 @@ source("utils/globals.R")
 role of US SG somewhat similar to role of the Commission in the EU system - also wins a lot and indicates what the pro-EU position is. But maybe COM and CJEU are more ideologically aligned
 :::
 
+## Questioning "repeat players"
+
+-   @galanter1974 argues that repeat players make for more successful litigants (they are more strategic)
+
+    -   but some repeat players are just chronically bad businesses who also lose cases [@volkov2023]
+
+    -   decouple party capability from repetitiveness
+
 ## Who wins?
 
-![Source: Hermansen and Pavone (forthcoming)](img/pavone-eu-litigants.png)
+-   broad evidence base showing that party capability predicts success before courts [@mccormick1993]
+
+    -   attorney experience before SCOTUS [@nelson2022a] and US immigration courts [@miller2015] helps litigants win
+
+    -   the "haves" hire better lawyers than the "have nots" which is why they win more often [@szmer2016]
+
+## Who wins in international courts?
+
+-   @hermansen2025 ask whether international courts amplify the power of the already powerful
+
+    -   they find that instead the ECJ favours less privileged litigants and ("leveling") and "spotlights" those rulings which enhance individual rights
+
+    -   suggests ICs are consciously trying to build up their popular legitimacy
+
+## Who wins in international courts?
+
+![Source: @hermansen2025](images/paste-1.png)
 
 ## References
