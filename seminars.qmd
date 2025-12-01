@@ -32,9 +32,9 @@ To enable a structured comparison of courts across different jurisdictions, each
 
 -   How supportive is the public of the court?
 
-In the final part of the presentation, the presenting group should reflect on what we can learn about judicial politics based on the similarities and differences between the courts. For example, the group might want to consider the extent to which different appointment procedures manifest in different ideological compositions of a court (or any other aspect of judicial politics).
+In the final part of the presentation, the presenting group should show **a side-by-side comparison** of the gathered information in a table and reflect on what we can learn about judicial politics from the similarities and differences between the courts. For example, the group might want to consider the extent to which different appointment procedures manifest in different ideological compositions of courts (or any other aspect of judicial politics).
 
-Students can indicate their preference for a week via email or in the seminar of week 1 on a first-come-first-serve basis. All remaining students will be randomly assigned to available spots.
+Students can indicate their preference for a week via email or in the seminar of week 1 on a first-come-first-serve basis. Students who have not indicated a preference are randomly assigned to the remaining spots.
 
 ::: panel-tabset
 ### Seminar 1
@@ -66,11 +66,11 @@ Students can indicate their preference for a week via email or in the seminar of
 | 10            | International      |      Mary, Yasma      |
 :::
 
-Each court can only be covered **once** – there can be no repeat presentations of the same court in the same seminar group. All students should establish contact with their co-presenters as soon as possible.
+Each court can only be covered **once** – there can be no repeat presentations of the same court in the same seminar group. All students should establish contact with their co-presenters as soon as possible and email the choice of courts to the instructor at least one week before the presentation is due.
 
 ## Readings
 
-In each teaching week there is an assigned mandatory reading which students are expected to read and be prepared to discuss in class. There is also an additional list of optional readings which represent a good starting point to the literature on the topic of the week, but do not assume they are exhaustive (i.e. there are other papers on the topic). Further readings are featured in lecture slides.
+In each teaching week there is an assigned mandatory reading which students are expected to read and be prepared to discuss in class. There is also an additional list of optional readings which constitute a good starting point to the literature on the topic of the week. These are not exhaustive: there are other papers and books on the topic of the week. Further readings are featured in lecture slides.
 
 The length of the mandatory reading list is kept modest so that students have more time to dive deeper into specific topics of interest, which is essential for the final paper in particular, as it needs to be grounded in existing academic literature. The theories and methodologies used in the mandatory and optional readings should also be approached as a source of inspiration for the final paper.
 
@@ -82,6 +82,6 @@ For each mandatory reading, each student should be prepared to discuss in the se
 
 -   what is the theoretical explanation of the observed phenomena the authors advance?
 
--   to what extent do the empirical results support the theory?
+-   what are the strengths and weaknesses of the paper's research design?
 
 -   in what ways do the findings support or contradict previous studies?

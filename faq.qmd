@@ -32,7 +32,7 @@ No. Consultations on paper ideas must take place during the ten teaching weeks.
 No. The paper can be no longer than 3000 words, excluding the bibliography but including in-text citations.
 
 **Do I have to use quantitative methods in the final paper?**\
-No. Qualitative methods are equally admissible.
+No. Qualitative methods are equally admissible, but they should not be confused with a carte blanche to disregard methodological questions. The paper needs to be rigorously empirical in focus.
 
 **Can I submit the final paper with an appendix?**\
 Yes. Supplementary analyses – such as robustness checks – or evidence which would take up too much space in the paper – such as a long excerpt from a document – can be submitted in an appendix and referred to in the main text. The appendix does not count towards the 3000-word limit. All essential information must be included in the paper, however.
