@@ -151,8 +151,8 @@ source("utils/globals.R")
     -   media framing affects the degree to which a ruling moves public opinion [@linos2016]
     -   but courts might not be uniquely good at this [@cohen2024]
 
-::: .notes
-Cohen and Powers argue that compliance (with international law) signals from courts are not better at moving public opinion in the desired direction than signals from IOs or domestic elites
+::: notes
+Cohen and Powers argue that compliance (with international law) signals from courts are not better at moving public opinion in the desired direction than signals from IOs or domestic elite
 :::
 
 ## International courts and public opinion
@@ -163,8 +163,8 @@ Cohen and Powers argue that compliance (with international law) signals from cou
 
 -   but generally tends to be correlated with trust in national courts and adjacent international organizations at the individual level [@stappert2025]
 
-::: .notes
-Zvobgo and Chaudoin (2025) do not find evidence that arguments about ICC's complementarity are convincing to global publics
+::: notes
+Zvobgo and Chaudoin (2025) do not find evidence that arguments about ICC's complementarity are convincing to global public
 :::
 
 ## Backlash
