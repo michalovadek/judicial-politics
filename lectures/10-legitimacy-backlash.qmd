@@ -22,11 +22,11 @@ source("utils/globals.R")
 
 -   before starting writing, make sure to:
 
-    -   read the Assessment page on the website
+    -   read the Assessment page on the website extremely carefully
 
     -   read the FAQ page on the website
 
-    -   consult slides from week 7
+    -   consult slides from previous weeks (eg week 7)
 
 ## Assessment: write clearly {.smaller}
 
@@ -149,6 +149,23 @@ source("utils/globals.R")
 -   court rulings can (de)legitimize a policy [@sternberg2022]
     -   they are most effective when the courts are trusted
     -   media framing affects the degree to which a ruling moves public opinion [@linos2016]
+    -   but courts might not be uniquely good at this [@cohen2024]
+
+::: .notes
+Cohen and Powers argue that compliance (with international law) signals from courts are not better at moving public opinion in the desired direction than signals from IOs or domestic elites
+:::
+
+## International courts and public opinion
+
+-   support for international courts is context dependent
+
+    -   which court, which country, which narratives [@zvobgo2025]
+
+-   but generally tends to be correlated with trust in national courts and adjacent international organizations at the individual level [@stappert2025]
+
+::: .notes
+Zvobgo and Chaudoin (2025) do not find evidence that arguments about ICC's complementarity are convincing to global publics
+:::
 
 ## Backlash
 

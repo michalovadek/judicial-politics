@@ -46,4 +46,4 @@ Peffley, Mark, and Robert Rohrschneider. "Populism and support for limiting the 
 
 ## Lecture slides
 
-<!-- [Week 10](lectures/10-legitimacy-backlash.html) -->
+[Week 10](lectures/10-legitimacy-backlash.html)

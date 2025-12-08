@@ -24,6 +24,7 @@ When doing research on courts and judicial politics, the following (non-exhausti
 -   [Discretionary Appointments to Spain's Judiciary](https://zenodo.org/records/13991514)
 -   [UK Supreme Court Decisions](https://zenodo.org/records/17207970)
 -   [Swiss Federal Supreme Court Dataset](https://doi.org/10.5281/zenodo.14867950)
+-   [Criminal Cases from Wisconsin Circuit Courts](https://clezdata.github.io/wcld/)
 
 Before spending time on collecting your own data, make sure to check whether an existing database cannot be leveraged for your research question.
 
