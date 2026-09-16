@@ -28,4 +28,12 @@ When doing research on courts and judicial politics, the following (non-exhausti
 
 Before spending time on collecting your own data, make sure to check whether an existing database cannot be leveraged for your research question.
 
-More generally, going beyond existing databases when working on the final paper is encouraged but not required.
+More generally, going beyond existing databases when working on the final paper is encouraged but not strictly required. Original data collection can constitute an important contribution, however.
+
+### Data tips
+
+- in general, more granular data is preferred to aggregated data because it enables attending to potentially important details. For example, having data on judicial decisions at the individual case level is more useful than a monthly summary of how many decisions a given court rendered. The latter can be constructed from the former but not vice versa
+
+- when using the texts of judicial opinions (decisions) as data, it is important to keep in mind the limitations of and necessary assumptions for basing inferences on them. The text of a judicial opinion is unlikely to be a sincere representation of the full deliberation and process that led to the decision. In contrast, it is quite likely that the judicial opinion is written as a form of motivated reasoning to justify the court's preferred outcome. The choice of what is (not) included in the final opinion can therefore be highly strategic. It is very likely that the text (including citations) does not contain the full set of considerations which shaped the judicial outcome
+
+- given the limitations of using judicial opinions, empirical research frequently focuses on judicial outcomes. Regardless of the reasoning revealed in the judicial opinion, outcomes of court cases are generally expected to be consequential, at least for the parties to the case and potentially beyond. The most consequential outcomes tend to be *dispositions* that reveal which party won the case, whether someone was found guilty of a crime, the length of a prison sentence, etc. Less obviously, a case outcome may also be the creation or amendment of a legal *rule* 
