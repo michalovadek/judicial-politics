@@ -1,0 +1,275 @@
+---
+title: "Courts in Authoritarian Regimes"
+subtitle: "Week 10"
+author: "Dr Michal Ovádek"
+search: false
+format:
+  revealjs:
+    logo: img/ucl-logo.png
+    footer: "POLS0113: Judicial Politics"
+    slide-number: c/t
+    show-slide-number: all
+    center: true
+    margin-left: "0.1"
+    margin-right: "0.1"
+bibliography: ../references.bib
+---
+
+```{r globals, warning=FALSE, message=FALSE, error=FALSE}
+source("utils/globals.R")
+```
+
+## Assessment
+
+-   before starting writing, make sure to:
+
+    -   read the Assessment page on the website extremely carefully
+
+    -   read the FAQ page on the website
+
+    -   consult slides from previous weeks (eg week 5)
+
+## Assessment: write clearly {.smaller}
+
+**What was the hypothesis in this paper?**
+
+> South Africa is a noteworthy example of a country who created a constitutional court in order to successfully transition into democratization. This decision came at the cost of changing the jurisdictional scope and hierarchical standing of the Appellate division, now known as the Supreme Court of Appeal (SCA). This shift in the SCA’s jurisdictional scope and hierarchical standing allowed the Constitutional Court of South Africa (CC) to form a constitutional precedent, which I hypothesize increased the CC’s effectiveness and consequently contributed to South Africa’s successful transition into a democratic regime.
+
+## Courts without democracy
+
+-   the module so far assumed a liberal democracy: elected politicians, an independent judiciary, a public that can punish
+
+-   most of the world's courts operate without at least one of those
+
+-   this week: why autocrats build courts, what those courts do and when they turn on their makers
+
+-   and what this says about a literature written mostly about the US and Europe
+
+# Why autocrats build courts
+
+## Why empower courts in autocracies?
+
+-   authoritarian regimes want to keep low-level corruption in check
+
+-   courts can share the blame for unpopular policies [@ginsburg2008rule]
+
+-   independent enforcement of property rights as a credible commitment to investors
+
+-   courts are useful for controlling opposition movements
+
+-   courts can provide regime-friendly interpretations of the law, including the constitution
+
+## What are courts for in an autocracy? {.smaller}
+
+| function | what the ruler gets | examples |
+|------|------|------|
+| social control | dissent processed through courts looks like law rather than repression | Singapore's defamation suits; Russia's "extremism" prosecutions |
+| legitimation | rule by law dresses power as legality | constitutional courts across the Arab world and post-Soviet space |
+| administrative discipline | courts monitor lower officials the centre cannot see | China's administrative litigation [@cao2023] |
+| credible commitment | investors trust contracts and property | Egypt's constitutional court, created to reassure investors (this week's reading); Mexico under the PRI |
+| delegating controversial questions | let judges take the blame | privatization, family law, religion |
+| repressing elite rivals | trials discipline insiders and signal strength | this week's reading on judicial repression |
+
+-   the functions come from @ginsburg2008rule and @moustafa2014law; the tension is that each of them requires a court that is at least somewhat believable
+
+## Insurance theory of court power
+
+-   empowering courts comes at a cost to executives and legislators
+
+-   courts are more stable than governments – empowering courts can **insure** incumbents against loss of power [@finkel2005]
+
+    -   powerful courts can make it harder to change policy direction
+
+    -   they can also help protect former leaders and their assets
+
+## 1994 judicial reform in Mexico
+
+-   after winning elections in 1994 president Ernesto Zedillo decided to make the Mexican judiciary more independent and powerful – why?
+
+-   @finkel2005 explains this counterintuitive move as a form of insurance policy
+
+    -   the ruling Institutional Revolutionary Party was losing support and anticipated loss of power
+
+    -   the reform gave the Mexican Supreme Court more power to circumscribe (federal and state) government policy
+
+## 1994 judicial reform in Mexico
+
+![Ernesto Zedillo during his presidency](img/zedillo.png){width="600"}
+
+## Independence by regime type
+
+```{r vdemregime, warning=FALSE, message=FALSE}
+vdemdata::vdem |>
+  filter(year == max(year)) |>
+  select(country_name, v2x_regime, v2juhcind_osp) |>
+  drop_na() |>
+  mutate(regime = factor(v2x_regime, levels = 0:3,
+                         labels = c("closed autocracy", "electoral autocracy",
+                                    "electoral democracy", "liberal democracy"))) |>
+  ggplot(aes(x = regime, y = v2juhcind_osp)) +
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(width = 0.15, alpha = 0.3) +
+  geom_text(data = function(d) filter(d, country_name %in% c("Singapore", "United Arab Emirates", "Hungary", "Poland", "Venezuela", "United States of America")),
+            aes(label = country_name), hjust = -0.1, size = 3) +
+  theme_minimal() +
+  labs(x = NULL, y = "High court independence (0-4)",
+       title = "Judicial independence by regime type",
+       subtitle = "V-Dem, latest year; Regimes of the World classification",
+       caption = "Source: V-Dem via vdemdata")
+```
+
+## Judicial power in autocracies over time
+
+```{r vdemautocracies}
+vdemdata::plot_indicator("v2x_jucon",
+                         min_year = 1970,
+                         countries = c("Egypt", "China", "Russia", "Venezuela", "Hungary")) +
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  scale_x_continuous() +
+  labs(y = "Judicial Power",
+       title = "Judicial constraints on the executive",
+       subtitle = "V-Dem index 'judicial constraints on the executive'") +
+  guides(linetype = "none")
+```
+
+# The dual state
+
+## The dual state {.smaller}
+
+-   Fraenkel, writing from inside Nazi Germany, described two states in one [@fraenkel1941]
+
+    -   the **normative state**: ordinary law applied by ordinary courts to contracts, crimes and property
+
+    -   the **prerogative state**: power acting without legal limits whenever it decides a matter is political
+
+-   the boundary between the two is drawn by the regime, case by case, and the normative state keeps working precisely because the prerogative state exists
+
+-   the concept travels: Francoist Spain (next slides), Russia [@hendley2022], China's environmental litigation that works until a state enterprise is the defendant [@stern2013], Singapore's meticulous legality in the service of one-party rule [@rajah2012]
+
+-   for the study of courts it means that country-level independence scores average over two very different things
+
+## Judicial independence in Francoist Spain
+
+-   @toharia1975 documents that in the authoritarian Spain of the 1970s, judges held diverse opinions different from the regime
+
+-   ordinary judges were by and large insulated from threat of removal or punishment by the government
+
+-   however, the regime interfered with independence in politically sensitive cases by creating and staffing a host of special tribunals
+
+## Judicial independence in Francoist Spain
+
+![General Franco ruled Spain until 1975](img/franco.jpg)
+
+## Legal dualism
+
+-   @hendley2022 argues that the creation of special tribunals for political issues is the exception in authoritarian regimes
+
+    -   instead, the "normative" and "prerogative" states coexist side-by-side, often relying on informal institutions
+
+    -   e.g. the same judge handling ordinary cases can be twisting the law to enable the persecution of dissidents
+
+## China {.smaller}
+
+-   the largest court system in the world, run by a party that has never pretended it stands outside the law it makes
+
+-   **tying the autocrat's hands**: the party built commercial and property law, and courts to apply it, where it needed the cooperation of business elites it could not simply coerce [@wang2015]
+
+-   **suing the government**: administrative litigation lets citizens challenge local officials; transferring such cases outside the local county raised the chance of the local government losing by about 4 percentage points [@cao2023]
+
+-   **anti-corruption and court bias**: politically connected firms won more often in commercial disputes until the anti-corruption campaign after 2012 weakened the advantage [@zhang2023]
+
+-   courts work for the centre against local officials and connected firms, and stop where the centre's own power begins
+
+## Rule by law in Singapore {.smaller}
+
+-   Singapore has no show trials or special tribunals, and a judiciary ranked among the most efficient in the world
+
+-   the same courts have bankrupted opposition politicians through defamation suits brought by ministers, upheld detention without trial and enforced the restrictions on assembly and speech [@rajah2012]
+
+-   **authoritarian rule of law**: legality as a source of legitimacy for a regime that never needs to break its own laws, because it writes them
+
+-   by every procedural measure these courts are independent
+
+# When courts bite
+
+## When do courts in autocracies bite? {.smaller}
+
+| condition | mechanism | evidence |
+|------|------|------|
+| audiences | judges assert themselves when a bar, a press or a public will back them | Pakistan's lawyers' movement [@ghias2010]; an audience-based framework [@kureshi2021when] |
+| competition | rulers interfere when the opposition might win, and leave courts alone when it cannot | Russia and Ukraine [@popova2010political]; election fraud is this week's reading |
+| fragmentation | divided rulers cannot coordinate on punishing judges | [@helmke2009regimes] |
+| elections | electoral disputes give courts cover to act | Kenya's 2017 annulment [@gerzso2023] |
+| international audiences | investors, donors, accession talks | Turkey before 2010, EU candidate states |
+| the dual state boundary | independence survives in the normative state, not the prerogative one | Spain, Russia, China |
+
+## Lawyers against the regime {.smaller}
+
+-   Pakistan 2007: General Musharraf suspended Chief Justice Chaudhry; the bar went on strike, marched and boycotted the courts for two years, and the judges were restored in 2009 once Musharraf had gone [@ghias2010]
+
+-   the **legal complex**, lawyers and judges acting together, has carried political liberalism in more cases than the bench alone (Halliday, Karpik and Feeley 2007)
+
+-   the same complex can be captured: bar associations packed, licences revoked, lawyers prosecuted, as in Turkey after 2016 and Belarus after 2020
+
+-   audiences matter because a judge who rules against the regime needs someone to notice
+
+## Elections and annulments {.smaller}
+
+-   courts in competitive authoritarian and hybrid regimes are most exposed when they rule on elections, and that is also when they are most watched
+
+-   Kenya 2017: the Supreme Court annulled the presidential election for irregularities, the first such annulment in Africa; the opposition boycotted the rerun and the president attacked the judges [@gerzso2023]
+
+-   Malawi 2020: the Constitutional Court annulled the 2019 presidential election over correction fluid on tally sheets, the Supreme Court upheld it, and the opposition won the rerun
+
+-   in both cases the outcome depended on whether the government complied and how the opposition and voters responded
+
+## Capture without formal control {.smaller}
+
+-   many interactions between courts and representatives of other branches can occur outside formal contexts
+
+-   as members of the elite with access to power and resources, both judges and politicians can face incentives to confer special treatment
+
+    -   e.g. judges may shield corrupt politicians from prosecution in exchange for bribes or career progress
+
+-   (narrowly) winning a seat in Indian state legislature decreases the chance of criminal conviction by \~20 pp, but only for ruling party co-partisans [@poblete-cazenave2025]
+
+-   (narrowly) winning mayoral elections in Brazil reduces chance of conviction by local judges by \~11 pp (65%) [@lambais2023], despite there being no formal power of mayors over judges
+
+-   de jure separation is not sufficient to capture intended benefits of judicial independence – and these are democracies
+
+## Regression discontinuity {.smaller}
+
+-   when a treatment switches on at a threshold, units just above and just below it are comparable; the jump in outcomes at the threshold is the effect
+
+-   close elections are the classic case: a mayor who won by a handful of votes and one who lost by a handful are alike in everything but office
+
+-   that is how the Brazilian and Indian results on the previous slide are identified [@lambais2023; @poblete-cazenave2025]
+
+-   what to check: are there enough close races? does anything else change at the threshold? can candidates manipulate who wins narrowly?
+
+-   the design shows whether holding power bends courts without observing the bending
+
+## Courts in the Global South {.smaller}
+
+-   most of the module's evidence comes from the US and Europe; most of the world's courts sit elsewhere, in states with legal pluralism, customary and religious courts, weak enforcement and personalist politics
+
+-   independence and compliance mean something different when the ruling party is the state and the state barely reaches the village
+
+-   research designs travel badly too, since cases are steered and dockets kept on paper
+
+-   the field's map is being redrawn from South Africa, Colombia, India and Kenya outward [@riosfigueroa2025courts]
+
+-   which of the module's findings would you expect to hold in Lagos, Lahore or Lima?
+
+## Four puzzles
+
+-   autocrats build courts to serve them and the courts sometimes turn on them – the more successful the court at its intended job, the more dangerous it becomes
+
+-   some autocracies score higher on judicial independence than some democracies – what are the indices measuring?
+
+-   courts in Brazil and India bend towards those in power without any formal control; courts in Kenya and, in administrative cases, China constrain it – regime type is a poor guide
+
+-   special political tribunals are the exception; ordinary judges who decide ordinary cases impartially and political cases as told are the rule
+
+## References

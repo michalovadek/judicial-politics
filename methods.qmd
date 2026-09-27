@@ -10,7 +10,7 @@ Huntington-Klein, Nick. *The effect: An introduction to research design and caus
 
 Imbens, Guido W. "Causal inference in the social sciences." *Annual Review of Statistics and Its Application* 11 (2024): 123-152.
 
-Spirling, Arthur, and Brandon M. Stewart. "What good is a regression? Inference to the best explanation and the practice of political science research." *The Journal of Politics* 87, no. 4 (2025): 000-000.
+Spirling, Arthur, and Brandon M. Stewart. "What good is a regression? Inference to the best explanation and the practice of political science research." *The Journal of Politics* 87, no. 4 (2025): 1587-1599.
 
 ### Difference-in-differences
 
@@ -18,9 +18,9 @@ Roth, Jonathan, Pedro HC Sant’Anna, Alyssa Bilinski, and John Poe. "What’s t
 
 Callaway, Brantly, and Pedro HC Sant’Anna. "Difference-in-differences with multiple time periods." *Journal of Econometrics* 225, no. 2 (2021): 200-230.
 
-De Chaisemartin, Clément, and Xavier d'Haultfoeuille. "Difference-in-differences estimators of intertemporal treatment effects." *Review of Economics and Statistics* (2024): 1-45.
+De Chaisemartin, Clément, and Xavier d'Haultfoeuille. "Difference-in-differences estimators of intertemporal treatment effects." *Review of Economics and Statistics* 108, no. 4 (2026): 863-880.
 
-Chiu, Albert, Xingchen Lan, Ziyi Liu, and Yiqing Xu. "Causal panel analysis under parallel trends: lessons from a large reanalysis study." *American Political Science Review* (2025): 1-22.
+Chiu, Albert, Xingchen Lan, Ziyi Liu, and Yiqing Xu. "Causal panel analysis under parallel trends: lessons from a large reanalysis study." *American Political Science Review* 120, no. 1 (2026): 245-266.
 
 <!-- De Chaisemartin, Clément, and Xavier d’Haultfoeuille. "Two-way fixed effects and differences-in-differences with heterogeneous treatment effects: A survey." *The Econometrics Journal* 26, no. 3 (2023): C1-C30. -->
 
@@ -62,13 +62,25 @@ Poole, Keith, Jeffrey B. Lewis, James Lo, and Royce Carroll. "Scaling roll call 
 
 ### Instrumental variables
 
-Felton, Chris, and Brandon M. Stewart. "Handle with care: A sociologist’s guide to causal inference with instrumental variables." *Sociological Methods & Research* (2024).
+Felton, Chris, and Brandon M. Stewart. "Handle with care: A sociologist’s guide to causal inference with instrumental variables." *Sociological Methods & Research* 55, no. 1 (2026): 3-50.
 
 Mellon, Jonathan. "Rain, rain, go away: 194 potential exclusion‐restriction violations for studies using weather as an instrumental variable." *American Journal of Political Science* 69, no. 3 (2025): 881-898.
 
 Lal, Apoorva, Mackenzie Lockhart, Yiqing Xu, and Ziwen Zu. "How much should we trust instrumental variable estimates in political science? Practical advice based on 67 replicated studies." *Political Analysis* 32, no. 4 (2024): 521-540.
 
 Sovey, Allison J., and Donald P. Green. "Instrumental variables estimation in political science: A readers’ guide." *American Journal of Political Science* 55, no. 1 (2011): 188-200.
+
+### Survey experiments
+
+Hainmueller, Jens, Daniel J. Hopkins, and Teppei Yamamoto. "Causal inference in conjoint analysis: Understanding multidimensional choices via stated preference experiments." *Political Analysis* 22, no. 1 (2014): 1-30.
+
+Muñoz, Jordi, Albert Falcó-Gimeno, and Enrique Hernández. "Unexpected event during survey design: Promise and pitfalls for causal inference." *Political Analysis* 28, no. 2 (2020): 186-206.
+
+### Random assignment of judges and cases
+
+Frandsen, Brigham, Lars Lefgren, and Emily Leslie. "Judging judge fixed effects." *American Economic Review* 113, no. 1 (2023): 253-277.
+
+Chyn, Eric, Brigham Frandsen, and Emily Leslie. "Examiner and judge designs in economics: A practitioner's guide." *Journal of Economic Literature* 63, no. 2 (2025): 401-439.
 
 ## Qualitative methods
 

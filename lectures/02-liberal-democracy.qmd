@@ -1,0 +1,292 @@
+---
+title: "Courts in Liberal Democracy"
+subtitle: "Week 2"
+author: "Dr Michal Ovádek"
+search: false
+format:
+  revealjs:
+    logo: img/ucl-logo.png
+    footer: "POLS0113: Judicial Politics"
+    slide-number: c/t
+    show-slide-number: all
+    center: true
+    margin-left: "0.1"
+    margin-right: "0.1"
+bibliography: ../references.bib
+---
+
+```{r globals, warning=FALSE, message=FALSE, error=FALSE}
+source("utils/globals.R")
+```
+
+## Why should unelected judges have the last word?
+
+-   this week: the political theory that frames the module (rule of law, separation of powers, judicial review) and the concept doing most of the work, **judicial independence**
+
+-   what does it take for a court to constrain a government that could simply ignore it?
+
+# The rule of law
+
+## What is the rule of law? {.smaller}
+
+-   **thin** (formal) conceptions: law must be general, public, prospective, clear, consistent, possible to comply with, stable and actually applied (Fuller's eight desiderata, 1964)
+
+    -   says nothing about the content of the law; an unjust law can satisfy all eight
+
+-   **thick** (substantive) conceptions add rights, democracy or social justice
+
+    -   the more you pack in, the less the concept can explain
+
+-   courts feature in both: as the guarantee of consistent application (thin) and as the guardians of rights (thick)
+
+-   this week's Waldron reading takes a procedural view: what matters is the hearing and the argument
+
+## Rule of law in comparative perspective
+
+```{r vdemrule}
+vdemdata::plot_indicator("v2x_rule") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  scale_x_continuous() +
+  labs(y = "Rule of law",
+       title = "Rule of law",
+       subtitle = "V-Dem index 'rule of law'")
+```
+
+## Rule of law in comparative perspective
+
+```{r vdemrulectrs}
+vdemdata::plot_indicator("v2x_rule",
+                         min_year = 1990,
+                         countries = c("Hungary", "Poland", "United Kingdom", "Venezuela")) +
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  scale_x_continuous() +
+  labs(y = "Rule of law",
+       title = "Rule of law",
+       subtitle = "V-Dem index 'rule of law'") +
+  guides(linetype = "none")
+```
+
+# Separation of powers and judicial review
+
+## Separation of powers
+
+-   even in systems where judicial independence is strong, there are many formal points of contact between the judiciary, the legislature and the executive
+
+    -   appointment of judges
+
+    -   competence disputes
+
+    -   judicial review of administrative acts
+
+    -   judicial review of statutory law
+
+## Designs of constitutional review {.smaller}
+
+-   **who reviews**: one constitutional court (centralized) or every court (diffuse)
+
+-   **when**: before promulgation (*a priori*, France until 2008) or after (*a posteriori*, almost everywhere else)
+
+-   **how**: in the abstract, detached from any case (referral by politicians), or concretely, in a dispute between parties
+
+-   **who can trigger it**: politicians, courts, ombudsmen, individuals (constitutional complaint in Germany, Spain or Hungary; the *tutela* in Colombia)
+
+-   **how strong**: strike down (strong form) or declare incompatible and leave parliament to act (weak form)
+
+-   each dimension changes which cases arrive and who can be blamed for the result
+
+## *Ex ante* v *ex post* review
+
+-   one type of indirect effect of judicialization is legislator moral hazard [@fox2011; @ward2019]
+
+    -   knowledge that courts will correct ill-advised policies makes legislators behave more recklessly
+
+-   this type of moral hazard is more common with *ex ante* judicial review [@gabel2024]
+
+::: notes
+French Constitutional Council is the archetype of the ex ante review effect on legislative recklessness
+
+legislators promising unconstitutional policies can make it harder for voters to make good decisions
+:::
+
+## The counter-majoritarian difficulty {.smaller}
+
+-   Bickel (1962) named it: an unelected court striking down the acts of elected majorities
+
+| position | core claim | who |
+|------|------|------|
+| rights as trumps | some questions should be beyond the reach of majorities | Dworkin |
+| process theory | review is legitimate when it polices the democratic process itself | Ely (1980) |
+| the uneasy case | review reduces the risk of rights violations even if it is not democratic | Fallon (2008) |
+| the case against | disagreement about rights should be settled by legislatures | Waldron (this week) |
+
+-   all four are about what courts *should* do; most of this module is about what they *do*
+
+## Is the court counter-majoritarian in practice? {.smaller}
+
+-   Dahl's answer in 1957: the US Supreme Court rarely blocks a lawmaking majority for long, because appointments bring it back into line [@dahl1957decision]
+
+-   public opinion and the Court's decisions move together over time [@mishler1993]
+
+-   when courts fear non-implementation, they side with majorities – "judicial majoritarianism" [@hall2015]
+
+-   the difficulty may be smaller in practice than in theory
+
+# Judicial power and independence
+
+## Who cares about courts?
+
+-   it is commonly assumed that court rulings must be complied with and followed by affected actors in virtually all constitutional systems
+
+-   but what are the sources of this *judicial power*? why and when does anyone listen to courts?
+
+## Concept of judicial power
+
+-   following @staton2011judicial, we can usefully identify two pillars of judicial power:
+
+    -   **autonomy** – or independence in a strict sense – or the extent to which judges' decisions reflect their true preferences as opposed to someone else's
+
+    -   **effectiveness** – or compliance – or the extent to which courts can compel actors to comply with adverse decisions
+
+## Concept of judicial power
+
+|                   |                        |                       |
+|-------------------|------------------------|-----------------------|
+|                   | **High Effectiveness** | **Low Effectiveness** |
+| **High Autonomy** | Powerful Court         | Ignorable Court       |
+| **Low Autonomy**  | Puppet Court           | Joke Court            |
+
+: The two dimensions of judicial power
+
+## Judicial power in comparative perspective
+
+```{r vdem}
+vdemdata::plot_indicator("v2x_jucon") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  scale_x_continuous() +
+  scale_y_continuous(limits = c(0.25,0.75)) +
+  labs(y = "Judicial Power",
+       title = "Judicial Power",
+       subtitle = "V-Dem index 'judicial constraints on the executive'")
+```
+
+## Judicial power in comparative perspective
+
+```{r vdemctrs}
+vdemdata::plot_indicator("v2x_jucon",
+                         min_year = 1990,
+                         countries = c("Hungary", "United States of America", "Mexico")) +
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  scale_x_continuous() +
+  labs(y = "Judicial Power",
+       title = "Judicial Power",
+       subtitle = "V-Dem index 'judicial constraints on the executive'") +
+  guides(linetype = "none")
+```
+
+## What independent courts are for {.smaller}
+
+-   in the classic narrative, independent courts constrain the executive's discretion, including to engage in arbitrary coercive acts, which benefits economic development [@north1989]
+
+    -   across a sample of 104 countries, de facto (but not de jure) judicial independence is associated with higher growth rates [@voigt2015]
+
+    -   externally funded judicial reforms in African countries improved perception of the rule of law among relatively powerless groups [@chemin2021]
+
+-   the mechanism is credible commitment: a government that cannot expropriate at will gets cheaper credit and more investment
+
+## What makes judges autonomous?
+
+-   **judicial independence** is the single most important attribute associated with modern judiciaries
+
+-   yet there is disagreement on the precise content of this concept
+
+-   independence to do what? independence from what or whom?
+
+## Judicial independence
+
+> the degree to which judges actually decide cases in accordance with their own determinations of the evidence, the law and justice, free from the coercion, blandishments, interference, or threats from governmental authorities or private citizens. [@rosenn1987, p. 8]
+
+## What is(n't) judicial independence
+
+-   can a judge be independent when the judiciary as a whole isn't?
+
+-   does "dependence" on another judge's or court's decision undermine judicial independence?
+
+## What is(n't) judicial independence
+
+-   what about anticipatory judicial behaviour?
+
+    -   a court may self-censor if it knows the government is likely to override its decision
+
+-   free from "governmental authorities **or** private citizens"
+
+-   rulings based on "own determinations of ... the law" vs "the law"
+
+## De jure vs de facto independence
+
+-   many scholars distinguish between "paper" or institutional guarantees of independence and what happens in practice [@melton2014; @hayo2007]
+
+-   the most common *de jure* guarantees are:
+
+    -   commitment to judicial independence, life tenure, depoliticized selection procedure, constrained removal procedure, salary non-regression
+
+## De jure vs de facto independence
+
+-   there is mixed evidence on the importance of *de jure* guarantees of independence on *de facto* levels
+
+    -   some find *de jure* independence to matter little in the aggregate (this week's reading), others find it to be the most important predictor of *de facto* independence [@hayo2007]
+
+-   specific guarantees nonetheless seem to change behaviour when they change, tenure and reappointment rules in particular
+
+## De jure vs de facto independence
+
+-   there is doubt whether judicial autonomy can be measured in isolation due to anticipation effects
+
+    -   judges' decisions are affected by the likelihood of compliance [@linzer2015]
+
+## Measuring judicial independence {.smaller}
+
+-   three families of measures:
+
+    -   **de jure**: code the constitution and statutes (tenure, appointment, removal, salary) – cheap and comparable, but paper
+
+    -   **de facto**: ask experts (V-Dem, CIRI) or read behaviour (rulings against the government) – closer to reality, but subjective or contaminated
+
+    -   **latent**: combine many noisy indicators into one estimate with a measurement model [@linzer2015]
+
+-   the available measures disagree with each other more than their users assume [@riosfigueroa2014]
+
+-   behaviour is a treacherous indicator: a court that never rules against the government may be captured, or may never be asked to
+
+    -   and a government that expects to lose may not legislate at all
+
+## Public support as a source of judicial power
+
+-   one reason why courts' autonomy and effectiveness can be high is **public support** [@carrubba2010]
+
+-   in general, people hold courts in high regard [@vanberg2015]
+
+    -   this is helped by the fact that courts are often responsive to public preferences [@mishler1993]
+
+-   attacking courts and non-compliance is usually politically costly
+
+## How can courts increase their power?
+
+-   new courts consolidate power by not antagonizing the government for an initial period
+
+-   expand jurisdiction through broad interpretation of access rules and legal domains
+
+-   a common strategy is to first create the power-expanding principle without applying it in the initial case to mitigate costs of compliance (*Marbury*)
+
+## Three puzzles
+
+-   guarantees on paper predict little in the aggregate, yet changing a specific guarantee (a term limit, a retirement age) visibly changes behaviour – what exactly is being measured?
+
+-   *ex ante* review, designed to catch unconstitutional laws early, makes legislators more reckless
+
+-   the least democratic branch is, almost everywhere, the most trusted one
+
+## References

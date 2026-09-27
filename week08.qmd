@@ -1,35 +1,13 @@
 ---
-title: "8: Judicialization and Politicization"
+title: "8: How the Public Perceives Courts"
 ---
 
-Has politics become judicialized? Or have courts become politicized? What are the political implications of judicial empowerment? This week we examine normative and empirical arguments about the judicialization of politics and politicization of courts.
+Courts are often said to hold a "reservoir of goodwill" that lets them prevail even when their decisions are unpopular. But where does public support for courts come from? This week we seek to understand the sources of judicial legitimacy amongst the public, from legal symbols to partisanship and ideology.
 
-## Mandatory readings
+{{< include _readings/week08.md >}}
 
-Hirschl, Ran. "The political origins of judicial empowerment through constitutionalization: Lessons from four constitutional revolutions." *Law & Social Inquiry* 25, no. 1 (2000): 91-149.
-
-## Optional readings
-
-Whittington, Keith E. "“Interpose your friendly hand”: Political supports for the exercise of judicial review by the United States Supreme Court." *American Political Science Review* 99, no. 4 (2005): 583-596.
-
-Abebe, Daniel, and Tom Ginsburg. "The dejudicialization of international politics?." *International Studies Quarterly* 63, no. 3 (2019): 521-530.
-
-Moravcsik, Andrew. "The origins of human rights regimes: Democratic delegation in postwar Europe." *International Organization* 54, no. 2 (2000): 217-252.
-
-Ferejohn, John. "Judicializing politics, politicizing law." *Law and contemporary problems* 65, no. 3 (2002): 41-68.
-
-Goldstein, Leslie Friedman. "From democracy to juristocracy." *Law & Society Review* 38, no. 3 (2004): 611-629.
-
-Hirschl, Ran. "The judicialization of mega-politics and the rise of political courts." *Annual Review of Political Science* 11, no. 1 (2008): 93-118.
-
-Domingo, Pilar. "Judicialization of politics or politicization of the judiciary? Recent trends in Latin America." *Democratization* 11, no. 1 (2004): 104-126.
-
-Botero, Sandra, Daniel M. Brinks, and Ezequiel Gonzalez-Ocantos, eds. *The Limits of Judicialization: From Progress to Backlash in Latin America*. Cambridge University Press, 2022.
-
-Harguindéguy, Jean-Baptiste. "The Constitutional Court and the judicialization of Spanish politics." *European Politics and Society* 25, no. 3 (2024): 501-517.
-
-Basedow, Johann Robert. "Why de‐judicialize? Explaining state preferences on judicialization in World Trade Organization Dispute Settlement Body and Investor‐to‐State Dispute Settlement reforms." *Regulation & Governance* 16, no. 4 (2022): 1362-1381.
-
+<!--
 ## Lecture slides
 
-[Week 8](lectures/08-judicialization.html)
+[Week 8](lectures/08-public-trust.html)
+-->

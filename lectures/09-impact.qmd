@@ -1,0 +1,289 @@
+---
+title: "The Impact of Judicial Decisions"
+subtitle: "Week 9"
+author: "Dr Michal Ovádek"
+search: false
+format:
+  revealjs:
+    logo: img/ucl-logo.png
+    footer: "POLS0113: Judicial Politics"
+    slide-number: c/t
+    show-slide-number: all
+    center: true
+    margin-left: "0.1"
+    margin-right: "0.1"
+bibliography: ../references.bib
+---
+
+```{r globals, warning=FALSE, message=FALSE, error=FALSE}
+source("utils/globals.R")
+```
+
+## Do court rulings change anything?
+
+-   courts command neither the sword nor the purse, yet their rulings are treated as changing the world
+
+-   this week: how decisions get executed, how much of their effect survives the politics, and what they do to behaviour, the economy and public opinion
+
+-   how would we know that a ruling caused anything?
+
+# Two streams
+
+## How do decisions turn into outcomes? {.smaller}
+
+-   two **streams** through which judicial decisions get executed
+
+-   the **conveyor belt**: the relevant bureaucracy (civil service, police, prisons, registries) implements the decision mechanically
+
+    -   execution depends on the **quality of implementing institutions**: capacity, professionalism, corruption
+
+    -   the same quality determines how much compliance there is
+
+    -   most decisions and most of the impact courts have, but rarely studied
+
+-   the **contested** stream: some decisions become contested or politicized
+
+    -   execution still runs through the implementing institutions
+
+    -   but impact now also depends on **other political actors** (executive, legislature, parties, other courts) and on **public support**
+
+    -   compliance becomes a choice between implementation, evasion, override and backlash
+
+::: notes
+What moves a decision from one stream to the other? Salience, distributive stakes, who loses, media attention. The shadow effect sits upstream of both: some decisions never need executing because policy was adapted in anticipation. Support deterring non-compliance is the public-support arrow in the lower stream.
+:::
+
+## Two streams of judicial impact
+
+```{mermaid}
+%%| fig-width: 10
+flowchart LR
+  D[judicial decision] --> Q{contested or<br/>politicized?}
+  Q -->|no| I1[implementing institutions<br/>civil service, police, agencies]
+  I1 -->|institutional quality| O1[execution and compliance]
+  Q -->|yes| I2[implementing institutions]
+  Q -->|yes| P[political actors<br/>executive, legislature, parties]
+  Q -->|yes| S[public support]
+  S -.-> P
+  I2 --> O2[compliance, evasion,<br/>override or backlash]
+  P --> O2
+  S --> O2
+```
+
+# Compliance
+
+## Compliance: concept and measurement {.smaller}
+
+-   **compliance**: the addressee does what the ruling requires; **implementation**: the ruling is put into practice by whoever has to; **impact**: anything changes as a result, intended or not
+
+-   two types of effects of courts in judicialized political systems: **direct** effects of litigation and rulings, **indirect** effects of anticipation and threat
+
+-   measuring compliance is harder than it looks: rulings differ in what they demand, addressees comply partially or late, and "full compliance" is often a judgment call [@kapiszewski2013compliance]
+
+-   and compliance is endogenous: courts write the rulings they expect to be obeyed, so observed compliance rates overstate judicial power
+
+## How courts secure compliance {.smaller}
+
+-   **vagueness**: judges write vaguer opinions where they fear defiance, trading clarity for the appearance of compliance [@staton2008]
+
+-   **publicity**: public hearings and press work raise the cost of ignoring a ruling [@krehbiel2016]
+
+-   **monitoring**: the Costa Rican Supreme Court built a compliance monitoring system with follow-up orders [@gauri2015costa]
+
+-   **domestic politics**, for international courts: new democracies comply faster with the ECtHR [@grewal2015]; compliance depends on domestic institutions and coalitions [@hillebrecht2014]; media attention to a ruling predicts whether it is complied with [@reis2025media]; leaders defy the Inter-American Court when their publics oppose the remedy [@parente2025]
+
+-   in the conveyor-belt stream compliance depends on the bureaucracy, not on these tools
+
+## Judgments waiting to be implemented {.smaller}
+
+-   at the end of 2024, 3,916 judgments of the ECtHR were pending full implementation, 1,149 of them "leading" cases that require a change in law or practice (Council of Europe annual report, 2024)
+
+-   894 cases were closed during the year: the stock is not growing, but it is not shrinking fast either
+
+-   cases against Russia, expelled from the Council of Europe in 2022, make up about 44% of the stock, with more than three billion euros of awards unpaid
+
+-   the states with the most pending leading cases combine a heavy caseload with slow legislation (Russia, Ukraine, Turkey); Romania is the counter-example of building domestic capacity to implement
+
+-   implementation of international judgments runs through domestic parliaments, ministries and courts
+
+# The hollow hope
+
+## The hollow hope debate {.smaller}
+
+-   **the constrained court**: courts lack the tools to produce social change; *Brown* did little for desegregation until Congress and the executive acted a decade later [@rosenberg2023hollow]
+
+-   **the dynamic court**: litigation works indirectly, by legitimizing claims, mobilizing movements and raising rights consciousness [@mccann1992]
+
+-   **the backlash thesis**: *Brown* mattered, but by radicalizing Southern politics and provoking the violence that made civil rights legislation possible [@klarman1994]
+
+-   three claims about the same ruling; the disagreement is partly about which outcome counts as impact and over what horizon
+
+## Four kinds of impact {.smaller}
+
+|  | material | symbolic |
+|------|------|------|
+| **direct** | the addressees do what the ruling orders: policy adopted, prisoners released, payments made | the parties and the public come to frame the issue as a matter of rights |
+| **indirect** | actors not addressed change behaviour: agencies, firms, other courts; mobilization is triggered | the wider public debate and the media reframe the problem |
+
+-   the typology comes from the study of the Colombian Constitutional Court's 2004 ruling on internally displaced people (T-025), which ordered a national policy and kept jurisdiction to monitor it for years [@rodriguezgaravito2015]
+
+-   most impact studies measure the top-left cell; the other three cells are where Rosenberg and McCann disagree
+
+## Structural rulings {.smaller}
+
+-   some rulings order a whole policy rather than a remedy for one claimant
+
+    -   Colombia's T-025 on displaced people (2004), Brazil's declaration of an "unconstitutional state of affairs" in its prisons (2015), South Africa's order to roll out antiretroviral treatment (2002), India's right-to-food orders (from 2001)
+
+-   the court keeps the case open and supervises: follow-up hearings, reporting duties, deadlines
+
+-   implementation runs through ministries and budgets, so these rulings sit in the contested stream from the start
+
+-   the evidence on their effects is mixed: large symbolic and indirect effects, slow and partial material ones [@rodriguezgaravito2015]
+
+## The limits of judicialization {.smaller}
+
+-   judicial empowerment is usually pursued with the hope of increasing government accountability and individual right protection
+
+-   @botero2022 argue that in Latin America, judicialization mostly failed to deliver on these promises due to
+
+    -   weak state capacity limiting the desired positive impact of courts
+
+    -   weak social embeddedness of (liberal) legal structures
+
+    -   the capture of courts by special interests (corruption, nepotism)
+
+::: notes
+judicialization in Latin America as a product of the 1980s and 1990s liberal (either domestic or foreign) visions, out of step with
+
+in Lava Jato Brazilian prosecutors and judges were coming up with creative legal solutions; this opens them up even further to criticism
+:::
+
+# What rulings do
+
+## What rulings do {.smaller}
+
+| ruling or decision | outcome | finding | source |
+|------|------|------|------|
+| *Dobbs* (2022) | births | up about 2.3 percent in states that banned abortion, relative to a synthetic comparison | @dench2024 |
+| *Dobbs* | trust in the Supreme Court | a large fall in legitimacy that lingered at least six months | @gibson2025 |
+| *Shelby County* (2013) | turnout | fell for Black relative to white registered voters in formerly covered areas | @billings2024 |
+| *Citizens United* (2010) | elections | Republican candidates gained in states whose spending bans were struck down | @klumpp2016 |
+| *Obergefell* (2015) | social norms | perceived norms shifted towards approval, personal attitudes did not | @tankard2017 |
+| same-sex marriage legalization | implicit bias | anti-gay bias declined faster after legalization | @ofosu2019 |
+| CJEU *Junqueras* (2019) | euroscepticism in Spain | rose among those interviewed after the ruling | @turnbull-dugarte2022 |
+| a stricter judge | a defendant's life | prison in Norway cut reoffending; pretrial detention in the US raised convictions and cut employment | @bhuller2020incarceration; @dobbie2018 |
+
+## Outside spending before and after *Citizens United*
+
+```{r citizensunited}
+read_csv("data/outside_spending.csv", show_col_types = FALSE) |>
+  ggplot(aes(x = cycle, y = spending_bn, fill = type)) +
+  geom_col() +
+  geom_vline(xintercept = 2010, linetype = "dashed") +
+  annotate("text", x = 2010.2, y = 4.2, label = "Citizens United\n(January 2010)", hjust = 0, size = 3.5) +
+  scale_x_continuous(breaks = seq(2006, 2024, 2)) +
+  scale_fill_brewer(palette = "Set2") +
+  theme_minimal() +
+  theme(legend.position = "bottom", legend.title = element_blank()) +
+  labs(x = NULL, y = "Billion USD (nominal)",
+       title = "Outside spending in US federal elections",
+       subtitle = "Spending by groups other than candidates and party committees, by election cycle",
+       caption = "Source: OpenSecrets, as reported by The Conversation (2006-2016) and in press coverage of the 2018-2024 cycles; 2024 as of 16 November 2024")
+```
+
+## *Citizens United* (2010) {.smaller}
+
+-   January 2010: the Supreme Court held that corporations and unions may spend unlimited sums on independent political advertising; two months later *SpeechNow* opened the way to super PACs
+
+-   outside spending by non-party groups went from a few hundred million dollars per cycle to billions; part of the rise is money that would have flowed through other channels anyway, part of it is new
+
+-   the ruling struck down bans in about half the states, which supplies a comparison: Republican candidates gained in the states that had bans relative to those that did not [@klumpp2016]
+
+-   caveats for the chart: nominal dollars, definitions of outside spending differ between sources, and the 2024 figure covers only part of the cycle
+
+## Judges' decisions and defendants' lives {.smaller}
+
+-   the most literal impact of a judicial decision is on the person in the dock
+
+-   as-if random assignment of judges turns a judge's leniency into an instrument for what happens next
+
+    -   Norway: incarceration reduced reoffending and raised employment, through training and treatment in prison [@bhuller2020incarceration]
+
+    -   US: pretrial detention raised the probability of conviction and lowered employment years later [@dobbie2018]
+
+-   the same design gives opposite results; what a sentence does depends on what the sentence is
+
+## Courts and the economy {.smaller}
+
+-   in the classic narrative, independent courts constrain the executive's discretion, including to engage in arbitrary coercive acts, which benefits economic development [@north1989]
+
+    -   across a sample of 104 countries, de facto (but not de jure) judicial independence is associated with higher growth rates [@voigt2015]
+
+    -   externally funded judicial reforms in African countries improved perception of the rule of law among relatively powerless groups [@chemin2021]
+
+-   court quality has firm-level effects: comprehensive judicial reforms raise the productivity of firms in contract-intensive sectors [@chemin2020]; less congested courts amplified the effect of Brazil's bankruptcy reform on credit and investment [@ponticelli2016]
+
+-   these are effects of judicial institutions rather than of particular rulings
+
+# Rulings and public opinion
+
+## Four public reactions to a ruling {.smaller}
+
+-   **acceptance and legitimation**: a trusted court moves opinion towards the policy it upheld (this week's first reading), helped by legalistic media framing [@linos2016]; courts may be no better at this than other institutions [@cohen2024judicialization]
+
+-   **backlash**: the ruling moves opinion against it (this week's Catalan reading); *Brown* [@klarman1994]; yet opinion backlash is rarer than assumed and gay-rights advances did not provoke it [@bishin2016]
+
+-   **nothing**: *Bush v Gore* left the Court's legitimacy intact [@gibson2024]; public mood responds to the Court's direction thermostatically at best [@ura2014]
+
+-   **spillover**: the ruling changes what people think of the court or the polity rather than of the policy, as after *Dobbs* [@levendusky2024; @gibson2025], *Junqueras* [@turnbull-dugarte2022] and unpopular UK Supreme Court rulings [@ovadek2026contagion]
+
+-   legitimation is studied with survey experiments, backlash and spillover with unexpected events, durability with panels
+
+## Support for SCOTUS after *Dobbs* {.smaller}
+
+-   seemingly even controversial decisions such as *Bush v. Gore* did not significantly reduce diffuse support for SCOTUS [@gibson2024]
+
+-   ... that is until *Dobbs* [@levendusky2024]
+
+-   the fall in legitimacy lingered at least six months, though it weakened over time [@gibson2025]
+
+-   the incongruity for positivity theory: legitimacy was supposed to be resilient to unpopular rulings
+
+## Support for SCOTUS post-*Dobbs*
+
+![Effect of the Dobbs ruling on trust in SCOTUS [@levendusky2024]](img/levendusky-dobbs.jpg)
+
+## Rulings and attitudes {.smaller}
+
+-   legalization of same-sex marriage reduced anti-gay bias in the states that legalized it [@kreitzer2014; @ofosu2019]
+
+-   *Obergefell* moved what people believed others thought, not what they themselves thought: rulings can shift **norms** without shifting attitudes [@tankard2017]
+
+-   the opinion backlash that many predicted after gay-rights advances did not materialize [@bishin2016]
+
+-   the durable effects of rulings on attitudes run through norms and behaviour more than through persuasion
+
+## Synthetic difference-in-differences {.smaller}
+
+-   a policy shock hits some units (states that banned abortion after *Dobbs*) and not others; the untreated units supply the counterfactual
+
+-   ordinary difference-in-differences assumes the two groups would have moved in parallel; the **synthetic** version builds a weighted composite of untreated states that matches the treated states before the shock and compares against that
+
+-   @dench2024: births in ban states rose about 2.3 percent above the synthetic comparison in the first half of 2023, most for women in their early twenties and for Hispanic women
+
+-   what to check: does the composite track the treated states well before the shock? are there spillovers (travel for abortions) that contaminate the controls? is the window after the shock long enough?
+
+-   this is the workhorse design for the policy effects of rulings; the unexpected-event design is its cousin for opinion
+
+## Four puzzles
+
+-   births, turnout and campaign spending move after rulings; through which of the two streams?
+
+-   a ruling confers legitimacy on a policy only if the court is trusted, and politicized rulings are exactly what erodes trust
+
+-   *Brown* changed little directly and a great deal indirectly – success or failure for the court?
+
+-   new democracies comply with Strasbourg faster than old ones
+
+## References

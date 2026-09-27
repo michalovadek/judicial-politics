@@ -1,33 +1,13 @@
 ---
-title: "5: Appointing and Monitoring Judges"
+title: "5: How Cases Reach Courts -- Legal Mobilization"
 ---
 
-A key mechanism through which politicians keep judges in check is the appointment procedure. This week we focus on the implications of institutional design choices of judicial appointment procedures, as well as what monitoring mechanisms governments can devise to keep abreast of how their appointees are deciding.
+Under what conditions do individuals and interest groups resort to litigation and what makes their success likely? As "passive" institutions, courts rely on legal mobilization for influence. This week we explore the dynamics of legal mobilization, the role of resources and lawyers, and who tends to come out ahead.
 
-## Mandatory readings
+{{< include _readings/week05.md >}}
 
-Dunoff, Jeffrey L., and Mark A. Pollack. "The judicial trilemma." *American Journal of International Law* 111, no. 2 (2017): 225-276.
-
-## Optional readings
-
-Voeten, Erik. "The politics of international judicial appointments: evidence from the European Court of Human Rights." *International Organization* 61, no. 4 (2007): 669-701.
-
-Hanretty, Chris. "The appointment of judges by ministers: Political preferment in England, 1880–2005." *Journal of Law and Courts* 3, no. 2 (2015): 305-329.
-
-Arrington, Nancy, Leeann Bass, Adam Glynn, Jeffrey K. Staton, Brian Delgado, and Staffan I. Lindberg. "Constitutional reform and the gender diversification of peak courts." *American Political Science Review* 115, no. 3 (2021): 851-868.
-
-Kastellec, Jonathan P., Jeffrey R. Lax, and Justin H. Phillips. "Public opinion and senate confirmation of Supreme Court nominees." *The Journal of Politics* 72, no. 3 (2010): 767-784.
-
-Elsig, Manfred, and Mark A. Pollack. "Agents, trustees, and international courts: The politics of judicial appointment at the World Trade Organization." *European Journal of International Relations* 20, no. 2 (2014): 391-415.
-
-Brett, Peter. "The new politics of judicial appointments in Southern Africa." *Law & Social Inquiry* 48, no. 4 (2023): 1334-1364.
-
-Stolzenberg, Ross M., and James Lindgren. "Judges as party animals: Retirement timing by federal judges and party control of judicial appointments." *American Sociological Review* 87, no. 4 (2022): 675-697.
-
-Mehmood, Sultan. "The impact of Presidential appointment of judges: Montesquieu or the Federalists?." *American Economic Journal: Applied Economics* 14, no. 4 (2022): 411-445.
-
-Larsson, Olof, Theresa Squatrito, Øyvind Stiansen, and Taylor St John. "Selection and appointment in international adjudication: insights from political science." *Journal of International Dispute Settlement* 14, no. 2 (2023): 134-148.
-
+<!--
 ## Lecture slides
 
-[Week 5](lectures/05-appoint-monitor.html)
+[Week 5](lectures/05-legal-mobilization.html)
+-->

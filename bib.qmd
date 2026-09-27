@@ -1,6 +1,6 @@
 ---
 title: "Bibliography"
-bibliography: lectures/references.bib
+bibliography: references.bib
 csl: https://www.zotero.org/styles/chicago-author-date
 link-citations: false
 citations-hover: false
@@ -8,7 +8,7 @@ nocite: |
   @*
 ---
 
-To enable easier searching, below is a list of all the literature referenced on the lecture slides.
+To enable easier searching, below is a list of the literature referenced on the lecture slides and in the reading list, along with further sources relevant to the module.
 
 ::: {#refs}
 :::

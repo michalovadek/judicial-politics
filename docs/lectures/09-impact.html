@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-da03d714c310c60cec1d83284c92da2c.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.17">
+
+  <meta name="author" content="Dr Michal Ovádek">
+  <title>POLS0113: Judicial Politics – The Impact of Judicial Decisions</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-00ac2f6af1389919a18f42df5b7c0002.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">The Impact of Judicial Decisions</h1>
+  <p class="subtitle">Week 9</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Dr Michal Ovádek 
+</div>
+</div>
+</div>
+
+</section>
+<section id="do-court-rulings-change-anything" class="slide level2 center">
+<h2>Do court rulings change anything?</h2>
+<ul>
+<li><p>courts command neither the sword nor the purse, yet their rulings are treated as changing the world</p></li>
+<li><p>this week: how decisions get executed, how much of their effect survives the politics, and what they do to behaviour, the economy and public opinion</p></li>
+<li><p>how would we know that a ruling caused anything?</p></li>
+</ul>
+</section>
+<section>
+<section id="two-streams" class="title-slide slide level1 center">
+<h1>Two streams</h1>
+
+</section>
+<section id="how-do-decisions-turn-into-outcomes" class="slide level2 smaller center">
+<h2>How do decisions turn into outcomes?</h2>
+<ul>
+<li><p>two <strong>streams</strong> through which judicial decisions get executed</p></li>
+<li><p>the <strong>conveyor belt</strong>: the relevant bureaucracy (civil service, police, prisons, registries) implements the decision mechanically</p>
+<ul>
+<li><p>execution depends on the <strong>quality of implementing institutions</strong>: capacity, professionalism, corruption</p></li>
+<li><p>the same quality determines how much compliance there is</p></li>
+<li><p>most decisions and most of the impact courts have, but rarely studied</p></li>
+</ul></li>
+<li><p>the <strong>contested</strong> stream: some decisions become contested or politicized</p>
+<ul>
+<li><p>execution still runs through the implementing institutions</p></li>
+<li><p>but impact now also depends on <strong>other political actors</strong> (executive, legislature, parties, other courts) and on <strong>public support</strong></p></li>
+<li><p>compliance becomes a choice between implementation, evasion, override and backlash</p></li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>What moves a decision from one stream to the other? Salience, distributive stakes, who loses, media attention. The shadow effect sits upstream of both: some decisions never need executing because policy was adapted in anticipation. Support deterring non-compliance is the public-support arrow in the lower stream.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="two-streams-of-judicial-impact" class="slide level2 center">
+<h2>Two streams of judicial impact</h2>
+<div class="cell" data-reveal="true" data-fig-width="10" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  D[judicial decision] --&gt; Q{contested or&lt;br/&gt;politicized?}
+  Q --&gt;|no| I1[implementing institutions&lt;br/&gt;civil service, police, agencies]
+  I1 --&gt;|institutional quality| O1[execution and compliance]
+  Q --&gt;|yes| I2[implementing institutions]
+  Q --&gt;|yes| P[political actors&lt;br/&gt;executive, legislature, parties]
+  Q --&gt;|yes| S[public support]
+  S -.-&gt; P
+  I2 --&gt; O2[compliance, evasion,&lt;br/&gt;override or backlash]
+  P --&gt; O2
+  S --&gt; O2
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="compliance" class="title-slide slide level1 center">
+<h1>Compliance</h1>
+
+</section>
+<section id="compliance-concept-and-measurement" class="slide level2 smaller center">
+<h2>Compliance: concept and measurement</h2>
+<ul>
+<li><p><strong>compliance</strong>: the addressee does what the ruling requires; <strong>implementation</strong>: the ruling is put into practice by whoever has to; <strong>impact</strong>: anything changes as a result, intended or not</p></li>
+<li><p>two types of effects of courts in judicialized political systems: <strong>direct</strong> effects of litigation and rulings, <strong>indirect</strong> effects of anticipation and threat</p></li>
+<li><p>measuring compliance is harder than it looks: rulings differ in what they demand, addressees comply partially or late, and “full compliance” is often a judgment call <span class="citation" data-cites="kapiszewski2013compliance">(<a href="#/references" role="doc-biblioref" onclick="">Kapiszewski and Taylor 2013</a>)</span></p></li>
+<li><p>and compliance is endogenous: courts write the rulings they expect to be obeyed, so observed compliance rates overstate judicial power</p></li>
+</ul>
+</section>
+<section id="how-courts-secure-compliance" class="slide level2 smaller center">
+<h2>How courts secure compliance</h2>
+<ul>
+<li><p><strong>vagueness</strong>: judges write vaguer opinions where they fear defiance, trading clarity for the appearance of compliance <span class="citation" data-cites="staton2008">(<a href="#/references" role="doc-biblioref" onclick="">Staton and Vanberg 2008</a>)</span></p></li>
+<li><p><strong>publicity</strong>: public hearings and press work raise the cost of ignoring a ruling <span class="citation" data-cites="krehbiel2016">(<a href="#/references" role="doc-biblioref" onclick="">Krehbiel 2016</a>)</span></p></li>
+<li><p><strong>monitoring</strong>: the Costa Rican Supreme Court built a compliance monitoring system with follow-up orders <span class="citation" data-cites="gauri2015costa">(<a href="#/references" role="doc-biblioref" onclick="">Gauri, Staton, and Vargas Cullell 2015</a>)</span></p></li>
+<li><p><strong>domestic politics</strong>, for international courts: new democracies comply faster with the ECtHR <span class="citation" data-cites="grewal2015">(<a href="#/references" role="doc-biblioref" onclick="">Grewal and Voeten 2015</a>)</span>; compliance depends on domestic institutions and coalitions <span class="citation" data-cites="hillebrecht2014">(<a href="#/references" role="doc-biblioref" onclick="">Hillebrecht 2014</a>)</span>; media attention to a ruling predicts whether it is complied with <span class="citation" data-cites="reis2025media">(<a href="#/references" role="doc-biblioref" onclick="">Reis and Garz 2025</a>)</span>; leaders defy the Inter-American Court when their publics oppose the remedy <span class="citation" data-cites="parente2025">(<a href="#/references" role="doc-biblioref" onclick="">Parente 2025</a>)</span></p></li>
+<li><p>in the conveyor-belt stream compliance depends on the bureaucracy, not on these tools</p></li>
+</ul>
+</section>
+<section id="judgments-waiting-to-be-implemented" class="slide level2 smaller center">
+<h2>Judgments waiting to be implemented</h2>
+<ul>
+<li><p>at the end of 2024, 3,916 judgments of the ECtHR were pending full implementation, 1,149 of them “leading” cases that require a change in law or practice (Council of Europe annual report, 2024)</p></li>
+<li><p>894 cases were closed during the year: the stock is not growing, but it is not shrinking fast either</p></li>
+<li><p>cases against Russia, expelled from the Council of Europe in 2022, make up about 44% of the stock, with more than three billion euros of awards unpaid</p></li>
+<li><p>the states with the most pending leading cases combine a heavy caseload with slow legislation (Russia, Ukraine, Turkey); Romania is the counter-example of building domestic capacity to implement</p></li>
+<li><p>implementation of international judgments runs through domestic parliaments, ministries and courts</p></li>
+</ul>
+</section></section>
+<section>
+<section id="the-hollow-hope" class="title-slide slide level1 center">
+<h1>The hollow hope</h1>
+
+</section>
+<section id="the-hollow-hope-debate" class="slide level2 smaller center">
+<h2>The hollow hope debate</h2>
+<ul>
+<li><p><strong>the constrained court</strong>: courts lack the tools to produce social change; <em>Brown</em> did little for desegregation until Congress and the executive acted a decade later <span class="citation" data-cites="rosenberg2023hollow">(<a href="#/references" role="doc-biblioref" onclick="">Rosenberg 2023</a>)</span></p></li>
+<li><p><strong>the dynamic court</strong>: litigation works indirectly, by legitimizing claims, mobilizing movements and raising rights consciousness <span class="citation" data-cites="mccann1992">(<a href="#/references" role="doc-biblioref" onclick="">McCann 1992</a>)</span></p></li>
+<li><p><strong>the backlash thesis</strong>: <em>Brown</em> mattered, but by radicalizing Southern politics and provoking the violence that made civil rights legislation possible <span class="citation" data-cites="klarman1994">(<a href="#/references" role="doc-biblioref" onclick="">Klarman 1994</a>)</span></p></li>
+<li><p>three claims about the same ruling; the disagreement is partly about which outcome counts as impact and over what horizon</p></li>
+</ul>
+</section>
+<section id="four-kinds-of-impact" class="slide level2 smaller center">
+<h2>Four kinds of impact</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>material</th>
+<th>symbolic</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>direct</strong></td>
+<td>the addressees do what the ruling orders: policy adopted, prisoners released, payments made</td>
+<td>the parties and the public come to frame the issue as a matter of rights</td>
+</tr>
+<tr class="even">
+<td><strong>indirect</strong></td>
+<td>actors not addressed change behaviour: agencies, firms, other courts; mobilization is triggered</td>
+<td>the wider public debate and the media reframe the problem</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p>the typology comes from the study of the Colombian Constitutional Court’s 2004 ruling on internally displaced people (T-025), which ordered a national policy and kept jurisdiction to monitor it for years <span class="citation" data-cites="rodriguezgaravito2015">(<a href="#/references" role="doc-biblioref" onclick="">Rodríguez-Garavito and Rodríguez-Franco 2015</a>)</span></p></li>
+<li><p>most impact studies measure the top-left cell; the other three cells are where Rosenberg and McCann disagree</p></li>
+</ul>
+</section>
+<section id="structural-rulings" class="slide level2 smaller center">
+<h2>Structural rulings</h2>
+<ul>
+<li><p>some rulings order a whole policy rather than a remedy for one claimant</p>
+<ul>
+<li>Colombia’s T-025 on displaced people (2004), Brazil’s declaration of an “unconstitutional state of affairs” in its prisons (2015), South Africa’s order to roll out antiretroviral treatment (2002), India’s right-to-food orders (from 2001)</li>
+</ul></li>
+<li><p>the court keeps the case open and supervises: follow-up hearings, reporting duties, deadlines</p></li>
+<li><p>implementation runs through ministries and budgets, so these rulings sit in the contested stream from the start</p></li>
+<li><p>the evidence on their effects is mixed: large symbolic and indirect effects, slow and partial material ones <span class="citation" data-cites="rodriguezgaravito2015">(<a href="#/references" role="doc-biblioref" onclick="">Rodríguez-Garavito and Rodríguez-Franco 2015</a>)</span></p></li>
+</ul>
+</section>
+<section id="the-limits-of-judicialization" class="slide level2 smaller center">
+<h2>The limits of judicialization</h2>
+<ul>
+<li><p>judicial empowerment is usually pursued with the hope of increasing government accountability and individual right protection</p></li>
+<li><p><span class="citation" data-cites="botero2022">Botero, Brinks, and Gonzalez-Ocantos (<a href="#/references" role="doc-biblioref" onclick="">2022</a>)</span> argue that in Latin America, judicialization mostly failed to deliver on these promises due to</p>
+<ul>
+<li><p>weak state capacity limiting the desired positive impact of courts</p></li>
+<li><p>weak social embeddedness of (liberal) legal structures</p></li>
+<li><p>the capture of courts by special interests (corruption, nepotism)</p></li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>judicialization in Latin America as a product of the 1980s and 1990s liberal (either domestic or foreign) visions, out of step with</p>
+<p>in Lava Jato Brazilian prosecutors and judges were coming up with creative legal solutions; this opens them up even further to criticism</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="what-rulings-do" class="title-slide slide level1 center">
+<h1>What rulings do</h1>
+
+</section>
+<section id="what-rulings-do-1" class="slide level2 smaller center">
+<h2>What rulings do</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>ruling or decision</th>
+<th>outcome</th>
+<th>finding</th>
+<th>source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Dobbs</em> (2022)</td>
+<td>births</td>
+<td>up about 2.3 percent in states that banned abortion, relative to a synthetic comparison</td>
+<td><span class="citation" data-cites="dench2024">Dench, Pineda-Torres, and Myers (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span></td>
+</tr>
+<tr class="even">
+<td><em>Dobbs</em></td>
+<td>trust in the Supreme Court</td>
+<td>a large fall in legitimacy that lingered at least six months</td>
+<td><span class="citation" data-cites="gibson2025">Gibson (<a href="#/references" role="doc-biblioref" onclick="">2025</a>)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Shelby County</em> (2013)</td>
+<td>turnout</td>
+<td>fell for Black relative to white registered voters in formerly covered areas</td>
+<td><span class="citation" data-cites="billings2024">Billings et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span></td>
+</tr>
+<tr class="even">
+<td><em>Citizens United</em> (2010)</td>
+<td>elections</td>
+<td>Republican candidates gained in states whose spending bans were struck down</td>
+<td><span class="citation" data-cites="klumpp2016">Klumpp, Mialon, and Williams (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span></td>
+</tr>
+<tr class="odd">
+<td><em>Obergefell</em> (2015)</td>
+<td>social norms</td>
+<td>perceived norms shifted towards approval, personal attitudes did not</td>
+<td><span class="citation" data-cites="tankard2017">Tankard and Paluck (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span></td>
+</tr>
+<tr class="even">
+<td>same-sex marriage legalization</td>
+<td>implicit bias</td>
+<td>anti-gay bias declined faster after legalization</td>
+<td><span class="citation" data-cites="ofosu2019">Ofosu et al. (<a href="#/references" role="doc-biblioref" onclick="">2019</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>CJEU <em>Junqueras</em> (2019)</td>
+<td>euroscepticism in Spain</td>
+<td>rose among those interviewed after the ruling</td>
+<td><span class="citation" data-cites="turnbull-dugarte2022">Turnbull-Dugarte and Devine (<a href="#/references" role="doc-biblioref" onclick="">2022</a>)</span></td>
+</tr>
+<tr class="even">
+<td>a stricter judge</td>
+<td>a defendant’s life</td>
+<td>prison in Norway cut reoffending; pretrial detention in the US raised convictions and cut employment</td>
+<td><span class="citation" data-cites="bhuller2020incarceration">Bhuller et al. (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>; <span class="citation" data-cites="dobbie2018">Dobbie, Goldin, and Yang (<a href="#/references" role="doc-biblioref" onclick="">2018</a>)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="outside-spending-before-and-after-citizens-united" class="slide level2 center">
+<h2>Outside spending before and after <em>Citizens United</em></h2>
+
+<img data-src="09-impact_files/figure-revealjs/citizensunited-1.png" width="960" class="r-stretch"></section>
+<section id="citizens-united-2010" class="slide level2 smaller center">
+<h2><em>Citizens United</em> (2010)</h2>
+<ul>
+<li><p>January 2010: the Supreme Court held that corporations and unions may spend unlimited sums on independent political advertising; two months later <em>SpeechNow</em> opened the way to super PACs</p></li>
+<li><p>outside spending by non-party groups went from a few hundred million dollars per cycle to billions; part of the rise is money that would have flowed through other channels anyway, part of it is new</p></li>
+<li><p>the ruling struck down bans in about half the states, which supplies a comparison: Republican candidates gained in the states that had bans relative to those that did not <span class="citation" data-cites="klumpp2016">(<a href="#/references" role="doc-biblioref" onclick="">Klumpp, Mialon, and Williams 2016</a>)</span></p></li>
+<li><p>caveats for the chart: nominal dollars, definitions of outside spending differ between sources, and the 2024 figure covers only part of the cycle</p></li>
+</ul>
+</section>
+<section id="judges-decisions-and-defendants-lives" class="slide level2 smaller center">
+<h2>Judges’ decisions and defendants’ lives</h2>
+<ul>
+<li><p>the most literal impact of a judicial decision is on the person in the dock</p></li>
+<li><p>as-if random assignment of judges turns a judge’s leniency into an instrument for what happens next</p>
+<ul>
+<li><p>Norway: incarceration reduced reoffending and raised employment, through training and treatment in prison <span class="citation" data-cites="bhuller2020incarceration">(<a href="#/references" role="doc-biblioref" onclick="">Bhuller et al. 2020</a>)</span></p></li>
+<li><p>US: pretrial detention raised the probability of conviction and lowered employment years later <span class="citation" data-cites="dobbie2018">(<a href="#/references" role="doc-biblioref" onclick="">Dobbie, Goldin, and Yang 2018</a>)</span></p></li>
+</ul></li>
+<li><p>the same design gives opposite results; what a sentence does depends on what the sentence is</p></li>
+</ul>
+</section>
+<section id="courts-and-the-economy" class="slide level2 smaller center">
+<h2>Courts and the economy</h2>
+<ul>
+<li><p>in the classic narrative, independent courts constrain the executive’s discretion, including to engage in arbitrary coercive acts, which benefits economic development <span class="citation" data-cites="north1989">(<a href="#/references" role="doc-biblioref" onclick="">North and Weingast 1989</a>)</span></p>
+<ul>
+<li><p>across a sample of 104 countries, de facto (but not de jure) judicial independence is associated with higher growth rates <span class="citation" data-cites="voigt2015">(<a href="#/references" role="doc-biblioref" onclick="">Voigt, Gutmann, and Feld 2015</a>)</span></p></li>
+<li><p>externally funded judicial reforms in African countries improved perception of the rule of law among relatively powerless groups <span class="citation" data-cites="chemin2021">(<a href="#/references" role="doc-biblioref" onclick="">Chemin 2021</a>)</span></p></li>
+</ul></li>
+<li><p>court quality has firm-level effects: comprehensive judicial reforms raise the productivity of firms in contract-intensive sectors <span class="citation" data-cites="chemin2020">(<a href="#/references" role="doc-biblioref" onclick="">Chemin 2020</a>)</span>; less congested courts amplified the effect of Brazil’s bankruptcy reform on credit and investment <span class="citation" data-cites="ponticelli2016">(<a href="#/references" role="doc-biblioref" onclick="">Ponticelli and Alencar 2016</a>)</span></p></li>
+<li><p>these are effects of judicial institutions rather than of particular rulings</p></li>
+</ul>
+</section></section>
+<section>
+<section id="rulings-and-public-opinion" class="title-slide slide level1 center">
+<h1>Rulings and public opinion</h1>
+
+</section>
+<section id="four-public-reactions-to-a-ruling" class="slide level2 smaller center">
+<h2>Four public reactions to a ruling</h2>
+<ul>
+<li><p><strong>acceptance and legitimation</strong>: a trusted court moves opinion towards the policy it upheld (this week’s first reading), helped by legalistic media framing <span class="citation" data-cites="linos2016">(<a href="#/references" role="doc-biblioref" onclick="">Linos and Twist 2016</a>)</span>; courts may be no better at this than other institutions <span class="citation" data-cites="cohen2024judicialization">(<a href="#/references" role="doc-biblioref" onclick="">Cohen and Powers 2024</a>)</span></p></li>
+<li><p><strong>backlash</strong>: the ruling moves opinion against it (this week’s Catalan reading); <em>Brown</em> <span class="citation" data-cites="klarman1994">(<a href="#/references" role="doc-biblioref" onclick="">Klarman 1994</a>)</span>; yet opinion backlash is rarer than assumed and gay-rights advances did not provoke it <span class="citation" data-cites="bishin2016">(<a href="#/references" role="doc-biblioref" onclick="">Bishin et al. 2016</a>)</span></p></li>
+<li><p><strong>nothing</strong>: <em>Bush v Gore</em> left the Court’s legitimacy intact <span class="citation" data-cites="gibson2024">(<a href="#/references" role="doc-biblioref" onclick="">Gibson 2024</a>)</span>; public mood responds to the Court’s direction thermostatically at best <span class="citation" data-cites="ura2014">(<a href="#/references" role="doc-biblioref" onclick="">Ura 2014</a>)</span></p></li>
+<li><p><strong>spillover</strong>: the ruling changes what people think of the court or the polity rather than of the policy, as after <em>Dobbs</em> <span class="citation" data-cites="levendusky2024 gibson2025">(<a href="#/references" role="doc-biblioref" onclick="">Levendusky et al. 2024</a>; <a href="#/references" role="doc-biblioref" onclick="">Gibson 2025</a>)</span>, <em>Junqueras</em> <span class="citation" data-cites="turnbull-dugarte2022">(<a href="#/references" role="doc-biblioref" onclick="">Turnbull-Dugarte and Devine 2022</a>)</span> and unpopular UK Supreme Court rulings <span class="citation" data-cites="ovadek2026contagion">(<a href="#/references" role="doc-biblioref" onclick="">Ovádek and Perrett 2026</a>)</span></p></li>
+<li><p>legitimation is studied with survey experiments, backlash and spillover with unexpected events, durability with panels</p></li>
+</ul>
+</section>
+<section id="support-for-scotus-after-dobbs" class="slide level2 smaller center">
+<h2>Support for SCOTUS after <em>Dobbs</em></h2>
+<ul>
+<li><p>seemingly even controversial decisions such as <em>Bush v. Gore</em> did not significantly reduce diffuse support for SCOTUS <span class="citation" data-cites="gibson2024">(<a href="#/references" role="doc-biblioref" onclick="">Gibson 2024</a>)</span></p></li>
+<li><p>… that is until <em>Dobbs</em> <span class="citation" data-cites="levendusky2024">(<a href="#/references" role="doc-biblioref" onclick="">Levendusky et al. 2024</a>)</span></p></li>
+<li><p>the fall in legitimacy lingered at least six months, though it weakened over time <span class="citation" data-cites="gibson2025">(<a href="#/references" role="doc-biblioref" onclick="">Gibson 2025</a>)</span></p></li>
+<li><p>the incongruity for positivity theory: legitimacy was supposed to be resilient to unpopular rulings</p></li>
+</ul>
+</section>
+<section id="support-for-scotus-post-dobbs" class="slide level2 center">
+<h2>Support for SCOTUS post-<em>Dobbs</em></h2>
+
+<img data-src="img/levendusky-dobbs.jpg" class="r-stretch quarto-figure-center"><p class="caption">Effect of the Dobbs ruling on trust in SCOTUS <span class="citation" data-cites="levendusky2024">(<a href="#/references" role="doc-biblioref" onclick="">Levendusky et al. 2024</a>)</span></p></section>
+<section id="rulings-and-attitudes" class="slide level2 smaller center">
+<h2>Rulings and attitudes</h2>
+<ul>
+<li><p>legalization of same-sex marriage reduced anti-gay bias in the states that legalized it <span class="citation" data-cites="kreitzer2014 ofosu2019">(<a href="#/references" role="doc-biblioref" onclick="">Kreitzer, Hamilton, and Tolbert 2014</a>; <a href="#/references" role="doc-biblioref" onclick="">Ofosu et al. 2019</a>)</span></p></li>
+<li><p><em>Obergefell</em> moved what people believed others thought, not what they themselves thought: rulings can shift <strong>norms</strong> without shifting attitudes <span class="citation" data-cites="tankard2017">(<a href="#/references" role="doc-biblioref" onclick="">Tankard and Paluck 2017</a>)</span></p></li>
+<li><p>the opinion backlash that many predicted after gay-rights advances did not materialize <span class="citation" data-cites="bishin2016">(<a href="#/references" role="doc-biblioref" onclick="">Bishin et al. 2016</a>)</span></p></li>
+<li><p>the durable effects of rulings on attitudes run through norms and behaviour more than through persuasion</p></li>
+</ul>
+</section>
+<section id="synthetic-difference-in-differences" class="slide level2 smaller center">
+<h2>Synthetic difference-in-differences</h2>
+<ul>
+<li><p>a policy shock hits some units (states that banned abortion after <em>Dobbs</em>) and not others; the untreated units supply the counterfactual</p></li>
+<li><p>ordinary difference-in-differences assumes the two groups would have moved in parallel; the <strong>synthetic</strong> version builds a weighted composite of untreated states that matches the treated states before the shock and compares against that</p></li>
+<li><p><span class="citation" data-cites="dench2024">Dench, Pineda-Torres, and Myers (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span>: births in ban states rose about 2.3 percent above the synthetic comparison in the first half of 2023, most for women in their early twenties and for Hispanic women</p></li>
+<li><p>what to check: does the composite track the treated states well before the shock? are there spillovers (travel for abortions) that contaminate the controls? is the window after the shock long enough?</p></li>
+<li><p>this is the workhorse design for the policy effects of rulings; the unexpected-event design is its cousin for opinion</p></li>
+</ul>
+</section>
+<section id="four-puzzles" class="slide level2 center">
+<h2>Four puzzles</h2>
+<ul>
+<li><p>births, turnout and campaign spending move after rulings; through which of the two streams?</p></li>
+<li><p>a ruling confers legitimacy on a policy only if the court is trusted, and politicized rulings are exactly what erodes trust</p></li>
+<li><p><em>Brown</em> changed little directly and a great deal indirectly – success or failure for the court?</p></li>
+<li><p>new democracies comply with Strasbourg faster than old ones</p></li>
+</ul>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-bhuller2020incarceration" class="csl-entry" role="listitem">
+Bhuller, Manudeep, Gordon B. Dahl, Katrine V. Løken, and Magne Mogstad. 2020. <span>“Incarceration, Recidivism, and Employment.”</span> <em>Journal of Political Economy</em> 128 (4): 1269–1324. <a href="https://doi.org/10.1086/705330">https://doi.org/10.1086/705330</a>.
+</div>
+<div id="ref-billings2024" class="csl-entry" role="listitem">
+Billings, Stephen B., Noah Braun, Daniel B. Jones, and Ying Shi. 2024. <span>“Disparate Racial Impacts of Shelby County v. Holder on Voter Turnout.”</span> <em>Journal of Public Economics</em> 230: 105047. <a href="https://doi.org/10.1016/j.jpubeco.2023.105047">https://doi.org/10.1016/j.jpubeco.2023.105047</a>.
+</div>
+<div id="ref-bishin2016" class="csl-entry" role="listitem">
+Bishin, Benjamin G., Thomas J. Hayes, Matthew B. Incantalupo, and Charles Anthony Smith. 2016. <span>“Opinion Backlash and Public Attitudes: Are Political Advances in Gay Rights Counterproductive?”</span> <em>American Journal of Political Science</em> 60 (3): 625–48. <a href="https://doi.org/10.1111/ajps.12181">https://doi.org/10.1111/ajps.12181</a>.
+</div>
+<div id="ref-botero2022" class="csl-entry" role="listitem">
+Botero, Sandra, Daniel Brinks, and Ezequiel Gonzalez-Ocantos. 2022. <em>The Limits of Judicialization: From Progress to Backlash in Latin America</em>. Cambridge University Press. <a href="https://doi.org/10.1017/9781009093859">https://doi.org/10.1017/9781009093859</a>.
+</div>
+<div id="ref-chemin2020" class="csl-entry" role="listitem">
+Chemin, Matthieu. 2020. <span>“Judicial Efficiency and Firm Productivity: Evidence from a World Database of Judicial Reforms.”</span> <em>The Review of Economics and Statistics</em> 102 (1): 49–64. <a href="https://doi.org/10.1162/rest_a_00799">https://doi.org/10.1162/rest_a_00799</a>.
+</div>
+<div id="ref-chemin2021" class="csl-entry" role="listitem">
+———. 2021. <span>“Can Judiciaries Constrain Executive Power? Evidence from Judicial Reforms.”</span> <em>Journal of Public Economics</em> 199: 104428. <a href="https://doi.org/10.1016/j.jpubeco.2021.104428">https://doi.org/10.1016/j.jpubeco.2021.104428</a>.
+</div>
+<div id="ref-cohen2024judicialization" class="csl-entry" role="listitem">
+Cohen, Harlan, and Ryan Powers. 2024. <span>“Judicialization and <span>Public</span> <span>Support</span> for <span>Compliance</span> with <span>International</span> <span>Commitments</span>.”</span> <em>International Studies Quarterly</em> 68 (3): sqae078. <a href="https://doi.org/10.1093/isq/sqae078">https://doi.org/10.1093/isq/sqae078</a>.
+</div>
+<div id="ref-dench2024" class="csl-entry" role="listitem">
+Dench, Daniel, Mayra Pineda-Torres, and Caitlin Myers. 2024. <span>“The Effects of Post-Dobbs Abortion Bans on Fertility.”</span> <em>Journal of Public Economics</em> 234: 105124. <a href="https://doi.org/10.1016/j.jpubeco.2024.105124">https://doi.org/10.1016/j.jpubeco.2024.105124</a>.
+</div>
+<div id="ref-dobbie2018" class="csl-entry" role="listitem">
+Dobbie, Will, Jacob Goldin, and Crystal S. Yang. 2018. <span>“The Effects of Pre-Trial Detention on Conviction, Future Crime, and Employment: Evidence from Randomly Assigned Judges.”</span> <em>American Economic Review</em> 108 (2): 201–40. <a href="https://doi.org/10.1257/aer.20161503">https://doi.org/10.1257/aer.20161503</a>.
+</div>
+<div id="ref-gauri2015costa" class="csl-entry" role="listitem">
+Gauri, Varun, Jeffrey K. Staton, and Jorge Vargas Cullell. 2015. <span>“The Costa Rican Supreme Court’s Compliance Monitoring System.”</span> <em>The Journal of Politics</em> 77 (3): 774–86. <a href="https://doi.org/10.1086/681260">https://doi.org/10.1086/681260</a>.
+</div>
+<div id="ref-gibson2024" class="csl-entry" role="listitem">
+Gibson, James L. 2024. <span>“Losing Legitimacy: The Challenges of the Dobbs Ruling to Conventional Legitimacy Theory.”</span> <em>American Journal of Political Science</em> 68 (3): 1041–56. <a href="https://doi.org/10.1111/ajps.12834">https://doi.org/10.1111/ajps.12834</a>.
+</div>
+<div id="ref-gibson2025" class="csl-entry" role="listitem">
+———. 2025. <span>“Do the Effects of Unpopular Supreme Court Rulings Linger? The Dobbs Decision Rescinding Abortion Rights.”</span> <em>American Political Science Review</em> 119 (1): 500–507. <a href="https://doi.org/10.1017/S0003055424000169">https://doi.org/10.1017/S0003055424000169</a>.
+</div>
+<div id="ref-grewal2015" class="csl-entry" role="listitem">
+Grewal, Sharanbir, and Erik Voeten. 2015. <span>“Are New Democracies Better Human Rights Compliers?”</span> <em>International Organization</em> 69 (2): 497–518. <a href="https://doi.org/10.1017/S0020818314000435">https://doi.org/10.1017/S0020818314000435</a>.
+</div>
+<div id="ref-hillebrecht2014" class="csl-entry" role="listitem">
+Hillebrecht, Courtney. 2014. <span>“The Power of Human Rights Tribunals: Compliance with the European Court of Human Rights and Domestic Policy Change.”</span> <em>European Journal of International Relations</em> 20 (4): 1100–1123. <a href="https://doi.org/10.1177/1354066113508591">https://doi.org/10.1177/1354066113508591</a>.
+</div>
+<div id="ref-kapiszewski2013compliance" class="csl-entry" role="listitem">
+Kapiszewski, Diana, and Matthew M. Taylor. 2013. <span>“Compliance: Conceptualizing, Measuring, and Explaining Adherence to Judicial Rulings.”</span> <em>Law &amp; Social Inquiry</em> 38 (4): 803–35. <a href="https://doi.org/10.1111/j.1747-4469.2012.01320.x">https://doi.org/10.1111/j.1747-4469.2012.01320.x</a>.
+</div>
+<div id="ref-klarman1994" class="csl-entry" role="listitem">
+Klarman, Michael J. 1994. <span>“How Brown Changed Race Relations: The Backlash Thesis.”</span> <em>The Journal of American History</em> 81 (1): 81–118. <a href="https://doi.org/10.2307/2080994">https://doi.org/10.2307/2080994</a>.
+</div>
+<div id="ref-klumpp2016" class="csl-entry" role="listitem">
+Klumpp, Tilman, Hugo M. Mialon, and Michael A. Williams. 2016. <span>“The Business of American Democracy: Citizens United, Independent Spending, and Elections.”</span> <em>The Journal of Law and Economics</em> 59 (1): 1–43. <a href="https://doi.org/10.1086/685691">https://doi.org/10.1086/685691</a>.
+</div>
+<div id="ref-krehbiel2016" class="csl-entry" role="listitem">
+Krehbiel, Jay N. 2016. <span>“The Politics of Judicial Procedures: The Role of Public Oral Hearings in the German Constitutional Court.”</span> <em>American Journal of Political Science</em> 60 (4). <a href="https://doi.org/10.1111/ajps.12229">https://doi.org/10.1111/ajps.12229</a>.
+</div>
+<div id="ref-kreitzer2014" class="csl-entry" role="listitem">
+Kreitzer, Rebecca J., Allison J. Hamilton, and Caroline J. Tolbert. 2014. <span>“Does Policy Adoption Change Opinions on Minority Rights? The Effects of Legalizing Same-Sex Marriage.”</span> <em>Political Research Quarterly</em> 67 (4): 795–808. <a href="https://doi.org/10.1177/1065912914540483">https://doi.org/10.1177/1065912914540483</a>.
+</div>
+<div id="ref-levendusky2024" class="csl-entry" role="listitem">
+Levendusky, Matthew, Shawn PattersonJr, Michele Margolis, Josh Pasek, Kenneth Winneg, and Kathleen H. Jamieson. 2024. <span>“Has the Supreme Court Become Just Another Political Branch? Public Perceptions of Court Approval and Legitimacy in a Post-Dobbs World.”</span> <em>Science Advances</em>. <a href="https://doi.org/10.1126/sciadv.adk9590">https://doi.org/10.1126/sciadv.adk9590</a>.
+</div>
+<div id="ref-linos2016" class="csl-entry" role="listitem">
+Linos, Katerina, and Kimberly Twist. 2016. <span>“The Supreme Court, the Media, and Public Opinion: Comparing Experimental and Observational Methods.”</span> <em>The Journal of Legal Studies</em> 45 (2): 223–54. <a href="https://doi.org/10.1086/687365">https://doi.org/10.1086/687365</a>.
+</div>
+<div id="ref-mccann1992" class="csl-entry" role="listitem">
+McCann, Michael W. 1992. <span>“Reform Litigation on Trial.”</span> <em>Law &amp; Social Inquiry</em> 17 (4): 715–43. <a href="https://doi.org/10.1111/j.1747-4469.1992.tb00637.x">https://doi.org/10.1111/j.1747-4469.1992.tb00637.x</a>.
+</div>
+<div id="ref-north1989" class="csl-entry" role="listitem">
+North, Douglass C., and Barry R. Weingast. 1989. <span>“Constitutions and Commitment: The Evolution of Institutions Governing Public Choice in Seventeenth-Century England.”</span> <em>The Journal of Economic History</em> 49 (4): 803–32. <a href="https://doi.org/10.1017/s0022050700009451">https://doi.org/10.1017/s0022050700009451</a>.
+</div>
+<div id="ref-ofosu2019" class="csl-entry" role="listitem">
+Ofosu, Eugene K., Michelle K. Chambers, Jacqueline M. Chen, and Eric Hehman. 2019. <span>“Same-Sex Marriage Legalization Associated with Reduced Implicit and Explicit Antigay Bias.”</span> <em>Proceedings of the National Academy of Sciences</em> 116 (18): 8846–51. <a href="https://doi.org/10.1073/pnas.1806000116">https://doi.org/10.1073/pnas.1806000116</a>.
+</div>
+<div id="ref-ovadek2026contagion" class="csl-entry" role="listitem">
+Ovádek, Michal, and Stuart Perrett. 2026. <span>“Contagion or Substitution? Experimental Evidence on Spillovers in Trust Between Legislative and Judicial Institutions.”</span>
+</div>
+<div id="ref-parente2025" class="csl-entry" role="listitem">
+Parente, Francesca. 2025. <span>“Domestic Accountability and Non-Compliance with International Law: Evidence from the Inter-American Court of Human Rights.”</span> <em>Journal of Peace Research</em> 62 (1): 119–33. <a href="https://doi.org/10.1177/00223433231200924">https://doi.org/10.1177/00223433231200924</a>.
+</div>
+<div id="ref-ponticelli2016" class="csl-entry" role="listitem">
+Ponticelli, Jacopo, and Leonardo S. Alencar. 2016. <span>“Court Enforcement, Bank Loans, and Firm Investment: Evidence from a Bankruptcy Reform in Brazil.”</span> <em>The Quarterly Journal of Economics</em> 131 (3): 1365–1413. <a href="https://doi.org/10.1093/qje/qjw015">https://doi.org/10.1093/qje/qjw015</a>.
+</div>
+<div id="ref-reis2025media" class="csl-entry" role="listitem">
+Reis, José M., and Marcel Garz. 2025. <span>“Media Attention and Compliance with the European Court of Human Rights.”</span> <em>Journal of Conflict Resolution</em> 69 (5): 814–38. <a href="https://doi.org/10.1177/00220027241269897">https://doi.org/10.1177/00220027241269897</a>.
+</div>
+<div id="ref-rodriguezgaravito2015" class="csl-entry" role="listitem">
+Rodríguez-Garavito, César, and Diana Rodríguez-Franco. 2015. <em>Radical Deprivation on Trial: The Impact of Judicial Activism on Socioeconomic Rights in the Global South</em>. Cambridge University Press. <a href="https://doi.org/10.1017/CBO9781139940849">https://doi.org/10.1017/CBO9781139940849</a>.
+</div>
+<div id="ref-rosenberg2023hollow" class="csl-entry" role="listitem">
+Rosenberg, Gerald N. 2023. <em>The Hollow Hope: Can Courts Bring about Social Change?</em> 3rd ed. University of Chicago Press. <a href="https://doi.org/10.7208/chicago/9780226312507.001.0001">https://doi.org/10.7208/chicago/9780226312507.001.0001</a>.
+</div>
+<div id="ref-staton2008" class="csl-entry" role="listitem">
+Staton, Jeffrey K., and Georg Vanberg. 2008. <span>“The Value of Vagueness: Delegation, Defiance, and Judicial Opinions.”</span> <em>American Journal of Political Science</em> 52 (3): 504–19. <a href="https://doi.org/10.1111/j.1540-5907.2008.00326.x">https://doi.org/10.1111/j.1540-5907.2008.00326.x</a>.
+</div>
+<div id="ref-tankard2017" class="csl-entry" role="listitem">
+Tankard, Margaret E., and Elizabeth Levy Paluck. 2017. <span>“The Effect of a Supreme Court Decision Regarding Gay Marriage on Social Norms and Personal Attitudes.”</span> <em>Psychological Science</em> 28 (9): 1334–44. <a href="https://doi.org/10.1177/0956797617709594">https://doi.org/10.1177/0956797617709594</a>.
+</div>
+<div id="ref-turnbull-dugarte2022" class="csl-entry" role="listitem">
+Turnbull-Dugarte, Stuart J., and Daniel Devine. 2022. <span>“Can EU Judicial Intervention Increase Polity Scepticism? Quasi-Experimental Evidence from Spain.”</span> <em>Journal of European Public Policy</em> 29 (6): 865–90. <a href="https://doi.org/10.1080/13501763.2021.1901963">https://doi.org/10.1080/13501763.2021.1901963</a>.
+</div>
+<div id="ref-ura2014" class="csl-entry" role="listitem">
+Ura, Joseph Daniel. 2014. <span>“Backlash and Legitimation: Macro Political Responses to Supreme Court Decisions.”</span> <em>American Journal of Political Science</em> 58 (1): 110–26. <a href="https://doi.org/10.1111/ajps.12048">https://doi.org/10.1111/ajps.12048</a>.
+</div>
+<div id="ref-voigt2015" class="csl-entry" role="listitem">
+Voigt, Stefan, Jerg Gutmann, and Lars P. Feld. 2015. <span>“Economic Growth and Judicial Independence, a Dozen Years on: Cross-Country Evidence Using an Updated Set of Indicators.”</span> <em>European Journal of Political Economy</em> 38: 197–211. <a href="https://doi.org/10.1016/j.ejpoleco.2015.01.004">https://doi.org/10.1016/j.ejpoleco.2015.01.004</a>.
+</div>
+</div>
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="img/ucl-logo.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>POLS0113: Judicial Politics</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+
+    <script>
+
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
+      // slide changes (different for each slide format).
+
+      (function () {
+
+        // dispatch for htmlwidgets
+
+        function fireSlideEnter() {
+
+          const event = window.document.createEvent("Event");
+
+          event.initEvent("slideenter", true, true);
+
+          window.document.dispatchEvent(event);
+
+        }
+
+    
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          fireSlideEnter();
+
+    
+
+          // dispatch for shiny
+
+          if (window.jQuery) {
+
+            if (previousSlide) {
+
+              window.jQuery(previousSlide).trigger("hidden");
+
+            }
+
+            if (currentSlide) {
+
+              window.jQuery(currentSlide).trigger("shown");
+
+            }
+
+          }
+
+        }
+
+    
+
+        // hookup for slidy
+
+        if (window.w3c_slidy) {
+
+          window.w3c_slidy.add_observer(function (slide_num) {
+
+            // slide_num starts at position 1
+
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
+          });
+
+        }
+
+    
+
+      })();
+
+    </script>
+
+    
+
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
+              }
+            }
+            return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

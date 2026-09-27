@@ -10,13 +10,12 @@ published-title: "Last Modified"
 This is a website for the module `{{< meta title >}}` convened at the [Department of Political Science](https://www.ucl.ac.uk/political-science/), University College London by [{{< meta author >}}](https://michalovadek.github.io/).
 
 ```{r global}
-# current date
-now_date <- Sys.Date()
-now_year <- substr(now_date, 1, 4)
+# academic year (pinned so re-rendering in a later calendar year doesn't shift the displayed dates)
+now_year <- "2026"
 
 # first and last lecture dates
-first_lecture <- "29 September"
-last_lecture <- "8 December"
+first_lecture <- "5 October"
+last_lecture <- "14 December"
 
 # day time
 day <- "Monday"
@@ -25,11 +24,11 @@ time_2 <- "16:00--17:00"
 time_3 <- "17:00--18:00"
 
 # weeks
-weeks <- ifelse(grepl("Sept", first_lecture), "6--10, 12--16", "21--25, 27--31")
+weeks <- ifelse(grepl("Sept|Oct", first_lecture), "6--10, 12--16", "21--25, 27--31")
 
 # rooms
-room_1 <- "UCL ICH, Wolfson Centre, F11"
-room_2 <- "UCL ICH, Wellcome Trust Building, Levinsky Room, 30 Guildford St"
+room_1 <- "IOE, 20 Bedford Way, Room W3.05"
+room_2 <- "40 Bernard Street, Room 408"
 ```
 
 ## Description
@@ -56,4 +55,4 @@ The first lecture takes place on `r paste(first_lecture, now_year)`. The last le
 | `r weeks` | Seminar 1 | `r day`, `r time_2` | `r room_2` |
 | `r weeks` | Seminar 2 | `r day`, `r time_3` | `r room_2` |
 
-Student support and feedback hours take place before the lecture on Mondays between 1.30pm and 2.30pm in Room 202, 36 Gordon Square.
+Student support and feedback hours take place in Room 202, 36 Gordon Square. Until 19 October (inclusive) they are held on Mondays between 1.30pm and 2.30pm; thereafter they move to Tuesdays between 3pm and 4pm.

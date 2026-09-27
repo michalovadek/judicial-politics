@@ -4,9 +4,6 @@ title: "Frequently Asked Questions"
 
 Before reaching out over email please make sure your question is not already answered below or elsewhere on this website.
 
-**Can my final paper reuse some of the research done for the presentation?**\
-Yes.
-
 **Can my final paper reuse some of the research done for other coursework at UCL?**\
 Only to an extent. The final paper for this module needs to be substantially different from any previously submitted work. If you are planning on reusing previous work, you must flag this to the instructor.
 
@@ -17,7 +14,7 @@ No.
 No.
 
 **Are the lecture slides available?**\
-Yes. They can be found after the lecture on the week's course page.
+Yes. They are published on the week's course page shortly before each lecture.
 
 **Is class attendance compulsory?**\
 Seminar attendance is mandatory and monitored by the Department of Political Science. You need to tap your student card when entering the room to register attendance.
