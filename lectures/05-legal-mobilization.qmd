@@ -1,5 +1,5 @@
 ---
-title: "How Cases Reach Courts: Legal Mobilization"
+title: "Legal Mobilization"
 subtitle: "Week 5"
 author: "Dr Michal Ovádek"
 search: false

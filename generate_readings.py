@@ -220,7 +220,7 @@ def format_citation(entry):
         out = f"{lead}\"{title}{tp}\" {loc}."
     url = _doi_url(entry)
     if url:
-        out += f" {url}"
+        out += f" <{url}>"
     return out
 
 

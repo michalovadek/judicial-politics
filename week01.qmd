@@ -1,8 +1,8 @@
 ---
-title: "1: Why Courts Exist and Where They Come From"
+title: "1: The Origins of Courts"
 ---
 
-What are courts and what is their purpose in society and politics? In this session we reflect on the intended functions of courts in societies, their history, common typologies of courts and why they are relevant for the study of politics. We also trace where the institutions we recognise today came from, from ancient dispute settlement to the medieval origins of the common and civil law traditions. Finally we ask why constitutional review has spread across the world and why courts have come to decide some of the biggest questions in politics, from election outcomes to the survival of governments.
+What are courts and what is their purpose in society and politics? In this session we reflect on the intended functions of courts in societies, their history, common typologies of courts and why they are relevant for the study of politics. We also trace where the institutions we recognise today came from, from ancient dispute settlement to the medieval origins of the common and civil law traditions.
 
 {{< include _readings/week01.md >}}
 

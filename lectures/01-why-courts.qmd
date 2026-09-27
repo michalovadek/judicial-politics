@@ -1,5 +1,5 @@
 ---
-title: "Why Courts Exist and Where They Come From"
+title: "The Origins of Courts"
 subtitle: "Week 1"
 author: "Dr Michal Ovádek"
 search: false
