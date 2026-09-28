@@ -18,11 +18,9 @@ Krehbiel, Jay N. "Public Awareness and the Behavior of Unpopular Courts." *Briti
 
 Bartels, Brandon L., and Eric Kramon. "Does Public Support for Judicial Power Depend on Who is in Political Power? Testing a Theory of Partisan Alignment in Africa." *American Political Science Review* 114, no. 1 (2020): 144-163. <https://doi.org/10.1017/S0003055419000704>
 
-Micheli, David De, and Whitney K. Taylor. "Public Trust in Latin America's Courts: Do Institutions Matter?" *Government and Opposition* 59, no. 1 (2024): 146-167. <https://doi.org/10.1017/gov.2022.6>
+De Micheli, David, and Whitney K. Taylor. "Public Trust in Latin America's Courts: Do Institutions Matter?" *Government and Opposition* 59, no. 1 (2024): 146-167. <https://doi.org/10.1017/gov.2022.6>
 
 Hemrajani, Rahul. "Trust in the (Measures of Legitimacy of) Courts." *Political Research Quarterly* 79, no. 3 (2026): 765-780. <https://doi.org/10.1177/10659129261435391>
-
-Claassen, Christopher. "Estimating Smooth Country–Year Panels of Public Opinion." *Political Analysis* 27, no. 1 (2019): 1-20. <https://doi.org/10.1017/pan.2018.32>
 
 Castillo-Ortiz, Pablo, and Rosa M. Navarrete. "Citizens’ trust in constitutional courts: evidence from Spain." *European Political Science Review* 18, no. 2 (2026): 317-331. <https://doi.org/10.1017/S1755773925100180>
 

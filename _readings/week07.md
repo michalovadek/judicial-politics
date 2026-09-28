@@ -1,10 +1,10 @@
 ## Mandatory readings
 
-Pavone, Tommaso, and Øyvind Stiansen. "The Shadow Effect of Courts: Judicial Review and the Politics of Preemptive Reform." *American Political Science Review* 116, no. 1 (2022): 322-336. <https://doi.org/10.1017/S0003055421000873>
-
 Stiansen, Øyvind, and Erik Voeten. "Backlash and Judicial Restraint: Evidence From the European Court of Human Rights." *International Studies Quarterly* 64, no. 4 (2020): 770-784. <https://doi.org/10.1093/isq/sqaa047>
 
-Driscoll, Amanda, and Michael J. Nelson. "The Costs of Court Curbing: Evidence from the United States." *The Journal of Politics* 85, no. 2 (2023): 609-624. <https://doi.org/10.1086/723021>
+Lambais, Guilherme, and Henrik Sigstad. "Judicial subversion: The effects of political power on court outcomes." *Journal of Public Economics* 217 (2023): 104788. <https://doi.org/10.1016/j.jpubeco.2022.104788>
+
+Mehmood, Sultan, and Bakhtawar Ali. "Judicial capture." *The Economic Journal* 134, no. 659 (2024): 1287-1301. <https://doi.org/10.1093/ej/uead106>
 
 ## Optional readings
 
@@ -31,3 +31,7 @@ Voeten, Erik. "Populism and Backlashes against International Courts." *Perspecti
 Abebe, Daniel, and Tom Ginsburg. "The Dejudicialization of International Politics?" *International Studies Quarterly* 63, no. 3 (2019): 521-530. <https://doi.org/10.1093/isq/sqz032>
 
 Botero, Sandra, Daniel Brinks, and Ezequiel Gonzalez-Ocantos. *The Limits of Judicialization: From Progress to Backlash in Latin America*. Cambridge University Press, 2022. <https://doi.org/10.1017/9781009093859>
+
+Driscoll, Amanda, and Michael J. Nelson. "The Costs of Court Curbing: Evidence from the United States." *The Journal of Politics* 85, no. 2 (2023): 609-624. <https://doi.org/10.1086/723021>
+
+Pavone, Tommaso, and Øyvind Stiansen. "The Shadow Effect of Courts: Judicial Review and the Politics of Preemptive Reform." *American Political Science Review* 116, no. 1 (2022): 322-336. <https://doi.org/10.1017/S0003055421000873>

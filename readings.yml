@@ -2,40 +2,40 @@ weeks:
   - num: "01"
     title: "The Origins of Courts"
     mandatory: [messick2002origins, ginsburg2014why, hirschl2008judicialization]
-    optional: [shapiro1981courts, carugati2015building, fleck2025emergence, milgrom1990role, kapiszewski2008doing, mohr1976organizations, frank1931what, ferejohn2002]
+    optional: [shapiro1981courts, carugati2015building, fleck2026emergence, milgrom1990role, kapiszewski2008doing, mohr1976organizations, frank1931what, ferejohn2002judicializing]
   - num: "02"
     title: "Courts in Liberal Democracy"
-    mandatory: [waldron2021rule, vanberg2015, melton2014]
-    optional: [epstein2001role, dahl1957decision, helmke2009regimes, popova2010political, hayo2007]
+    mandatory: [waldron2021rule, vanberg2015constitutional, melton2014does]
+    optional: [epstein2001role, dahl1957decisionmaking, helmke2009regimes, popova2010political, hayo2007explaining]
   - num: "03"
     title: "How Judges Decide I: Theories and Preferences"
     mandatory: [harris2019bias, riaz2025antiimmigrant, spamann2021judges]
-    optional: [bonica2021estimating, hanretty2012dissent, posner1993what, ash2026ideas, glynn2015, ash2025, choi2022ethnic, ash2024gender, boyd2010untangling, spirig2023, miwa2025assessing, guthrie2001]
+    optional: [bonica2021estimating, hanretty2012dissent, posner1993what, ash2026ideas, glynn2015identifying, ash2025ingroup, choi2022ethnic, ash2024gender, boyd2010untangling, spirig2023when, miwa2025assessing, guthrie2001inside]
   - num: "04"
     title: "How Judges Decide II: Juries, Panels and Hierarchy"
-    mandatory: [anwar2019politics, kastellec2013, masood2023hierarchical]
-    optional: [bindler2020persistence, bindler2019path, hangartner2025, beim2017learning, carrubba2012, bhuller2025, songer1994hierarchy, fjelstul2023]
+    mandatory: [anwar2019politics, kastellec2013racial, masood2023hierarchical]
+    optional: [bindler2020persistence, bindler2019path, hangartner2025inferring, beim2017learning, carrubba2012rule, bhuller2025feedback, songer1994hierarchy, fjelstul2023how]
   - num: "05"
     title: "Legal Mobilization"
-    mandatory: [galanter1974, lehoucq2020conceptualizing, vanhala2018]
-    optional: [epp1998rights, defazio2012, kahraman2023what, gallagher2017last, pavone2019, hermansen2025leveling]
+    mandatory: [galanter1974why, lehoucq2020conceptualizing, vanhala2018is]
+    optional: [epp1998rights, defazio2012legal, kahraman2023what, gallagher2017last, pavone2019marx, hermansen2025leveling]
   - num: "06"
     title: "Appointing and Monitoring Judges"
-    mandatory: [stiansen2022, mehmood2022, arrington2021constitutional]
-    optional: [dunoff2017, voeten2007politics, hanretty2015appointment, kastellec2010public, brett2023new, stolzenberg2022, larsson2023selection, elsig2014agents]
+    mandatory: [stiansen2022nonrenewable, hermansen2026shaping, arrington2021constitutional]
+    optional: [dunoff2017judicial, voeten2007politics, hanretty2015appointment, kastellec2010public, brett2023new, stolzenberg2022judges, larsson2023selection, elsig2014agents]
   - num: "07"
-    title: "Court Curbing, Backlash and Backsliding"
-    mandatory: [pavone2022, stiansen2020, driscoll2023costs]
-    optional: [bartels2020curbing, ginsburg2018how, aydin-cakir2025motives, schwartz2025court, helmke2002logic, larsson2016judicial, whittington2005, clark2009separation, peffley2024populism, voeten2020, abebe2019, botero2022]
+    title: "Court Curbing, Backlash and Capture"
+    mandatory: [stiansen2020backlash, lambais2023judicial, mehmood2024judicial]
+    optional: [bartels2020curbing, ginsburg2018how, aydincakir2025motives, schwartz2025court, helmke2002logic, larsson2016judicial, whittington2005interpose, clark2009separation, peffley2024populism, voeten2020populism, abebe2019dejudicialization, botero2022limits, driscoll2023costs, pavone2022shadow]
   - num: "08"
     title: "How the Public Perceives Courts"
     mandatory: [gibson2017reconsidering, bartels2013ideological, gandur2025trust]
-    optional: [gibson1998legitimacy, caldeira1992, garoupa2020public, krehbiel2021public, bartels2020, micheli2024public, hemrajani2026trust, claassen2019estimating, castillo-ortiz2025citizens, acheampong2025assessing]
+    optional: [gibson1998legitimacy, caldeira1992etiology, garoupa2020public, krehbiel2021public, bartels2020does, demicheli2024public, hemrajani2026trust, castilloortiz2026citizens, acheampong2025assessing]
   - num: "09"
     title: "The Impact of Judicial Decisions"
     mandatory: [sternberg2022legitimacyconferring, casas2024judicial, martinsen2015judicial]
-    optional: [rosenberg2023hollow, kapiszewski2013compliance, helfer2014, brinks2014law, gauri2015costa, cohen2024judicialization, hall2014semiconstrained, casillas2011how, madsen2022sovereignty, reis2025media, bailey2025effect, bhuller2020incarceration, chemin2021]
+    optional: [rosenberg2023hollow, kapiszewski2013compliance, helfer2014international, brinks2014law, gauri2015costa, cohen2024judicialization, hall2014semiconstrained, casillas2011how, madsen2022sovereignty, reis2025media, bailey2025effect, bhuller2020incarceration, chemin2021can]
   - num: "10"
     title: "Courts in Authoritarian Regimes"
-    mandatory: [moustafa2003law, shenbayh2018strategies, harvey2022]
-    optional: [staton2011judicial, moustafa2014law, ginsburg2008rule, finkel2005, north1989, kureshi2021when, cao2023, mehmood2024judicial, lambais2023, riosfigueroa2025courts]
+    mandatory: [moustafa2003law, shenbayh2018strategies, harvey2022can]
+    optional: [staton2011judicial, moustafa2014law, ginsburg2008rule, finkel2005judicial, north1989constitutions, kureshi2021when, cao2023suing, riosfigueroa2025courts]

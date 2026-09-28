@@ -97,17 +97,39 @@ The Court of Justice of the European Union has developed its own definition of a
 
     -   <https://michalovadek.github.io/judicial-politics/>
 
--   lectures + discussion seminars (no presentations)
-
-    -   three mandatory readings a week, chosen to disagree with one another
-
-    -   a randomly selected student opens each seminar with a short summary of the readings
+-   lectures + discussion seminars
 
 -   3000-word research paper (100%)
 
 -   think, read, speak (to each other + to me) and write about courts for several hours each week
 
     -   how do courts relate to your existing interests? geographically, temporally, thematically
+
+## No devices
+
+-   no laptops, tablets or phones in lectures or seminars
+
+-   bad for concentration, yours and that of the people around you
+
+-   bad for retention, as we remember less of what we only half attend to
+
+-   technology and distractions are everywhere, so this gives us two hours a week of protected time and space
+
+-   the only exception is where your SORA requires a device
+
+## Seminars
+
+-   three mandatory readings a week
+
+-   prepare following the instructions on the website
+
+    -   <https://michalovadek.github.io/judicial-politics/seminars.html>
+
+-   bring printed copies of the readings with your own annotations, plus hand-written or printed notes
+
+-   a randomly selected student introduces the readings and kicks off the discussion
+
+    -   your normal discussion notes are enough to do this
 
 ## Assessment {.smaller}
 
@@ -446,7 +468,7 @@ The person failing to deliver the commissions in time was John Marshall in the r
 
 ## Judicialization
 
--   three ways courts have become empowered vis-a-vis the legislatures [@ferejohn2002]:
+-   three ways courts have become empowered vis-a-vis the legislatures [@ferejohn2002judicializing]:
 
     1.  creation of **substantive limits** on legislative power
     2.  **policy-making** through litigation and judicial precedent
@@ -486,22 +508,22 @@ another example of electoral is Bush v Gore (2000) where 5 judges decided to sto
 
 -   at the most abstract level the creation and maintenance of a powerful judiciary has been argued to be about **credible commitments**
 
--   by empowering actors (i.e. courts) outside their direct and immediate control, governments signal willingness to be bound by constitutional rules (e.g. respecting property rights) [@north1989]
+-   by empowering actors (i.e. courts) outside their direct and immediate control, governments signal willingness to be bound by constitutional rules (e.g. respecting property rights) [@north1989constitutions]
 
-    -   in the international context, governments signal commitment to jointly negotiated rules (e.g. treaties), which new democracies use to **lock in** their preferences against future political alternatives [@moravcsik2000]
+    -   in the international context, governments signal commitment to jointly negotiated rules (e.g. treaties), which new democracies use to **lock in** their preferences against future political alternatives [@moravcsik2000origins]
 
 ## Why would anyone empower a court? {.smaller}
 
 | theory | mechanism | who empowers courts | evidence |
 |------|------|------|------|
-| credible commitment | binding oneself reassures investors and creditors | rulers seeking credit or investment | @north1989 |
-| insurance | losing power tomorrow makes courts attractive today | incumbents expecting defeat | @ginsburg2003 |
-| hegemonic preservation | threatened elites lock in their values | dominant but declining elites | @hirschl2004 |
-| lock-in | new democracies tie the hands of future governments | fresh democracies | @moravcsik2000 |
+| credible commitment | binding oneself reassures investors and creditors | rulers seeking credit or investment | @north1989constitutions |
+| insurance | losing power tomorrow makes courts attractive today | incumbents expecting defeat | @ginsburg2003judicial |
+| hegemonic preservation | threatened elites lock in their values | dominant but declining elites | @hirschl2004political |
+| lock-in | new democracies tie the hands of future governments | fresh democracies | @moravcsik2000origins |
 | diffusion | copying neighbours and models | constitution drafters | this week's reading |
 | functionalist | complex governance needs adjudication | nobody in particular | |
 | rights revolution | litigants and support structures push from below | civil society | @epp1998rights |
-| policy entrenchment | parties insulate policies from elections | governing parties | @gillman2002 |
+| policy entrenchment | parties insulate policies from elections | governing parties | @gillman2002how |
 
 ::: notes
 Insurance and hegemonic preservation predict opposite empowerers: those about to lose power vs those still dominant but worried about the future. Ginsburg and Versteeg test several of these against each other; leave the details to the seminar.

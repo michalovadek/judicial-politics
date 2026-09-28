@@ -29,7 +29,7 @@ source("utils/globals.R")
 
 ## *Ex ante* and *ex post* control
 
--   we can generally divide tools of political control in two categories [@helfer2005]
+-   we can generally divide tools of political control in two categories [@helfer2005why]
 
     -   *ex ante*: mechanisms of control designed prior to the court's operation
 
@@ -91,7 +91,7 @@ source("utils/globals.R")
 
 ## Women in the Czech judiciary {.smaller}
 
--   @havelková2022 illustrate the impact of institutional factors on gender representation in the Czech judiciary
+-   @havelkova2022family illustrate the impact of institutional factors on gender representation in the Czech judiciary
 
 -   low importance and prestige under socialism resulted in many female judges (60+%)
 
@@ -101,7 +101,7 @@ source("utils/globals.R")
 
 -   despite higher overall numbers, the most important positions are occupied by men
 
-    -   the childcare penalty hampers career progression but female judges largely accept their situation as given [@urbániková2024]
+    -   the childcare penalty hampers career progression but female judges largely accept their situation as given [@urbanikova2024art]
 
 ## Who ends up on the bench? {.smaller}
 
@@ -119,7 +119,7 @@ source("utils/globals.R")
 
 -   the most salient *ex ante* mechanism
 
--   the institutional designer and appointer balance their preferences for judicial independence and accountability [@dunoff2017]
+-   the institutional designer and appointer balance their preferences for judicial independence and accountability [@dunoff2017judicial]
 
 -   there is considerable variety in how judges are appointed around the world
 
@@ -161,7 +161,7 @@ comp |>
 
 -   mixed systems encourage a tendency for each appointing branch to select judges most closely aligned with its interests
 
-    -   this cleavage may supersede partisan preferences [@tiede2020; @brasheartiede2024]
+    -   this cleavage may supersede partisan preferences [@tiede2020mixed; @tiede2024selecting]
 
 -   mixed systems can hinder the functioning of collegial courts
 
@@ -177,7 +177,7 @@ comp |>
 
 -   strongly promoted by international organizations in the 2000s
 
--   trade-off between insulation and external accountability [@garoupa2009]
+-   trade-off between insulation and external accountability [@garoupa2009guarding]
 
 ::: notes
 talk about composition:
@@ -231,11 +231,13 @@ ECtHR judges had their tenures increased from 6 to 9 but made non-renewable
 
 ## Reappointment
 
--   the prospect of **reappointment** influences judicial behaviour [@hall2014]
+-   the prospect of **reappointment** influences judicial behaviour [@hall2014representation]
 
     -   judges who are up for reappointment are more responsive to the preferences of their principal
 
     -   the cleanest test is this week's ECtHR reading
+
+    -   whom governments reappoint, and why, is this week's CJEU reading
 
 -   non-renewable terms can however damage a court's effectiveness
 
@@ -280,19 +282,19 @@ ECtHR judges had their tenures increased from 6 to 9 but made non-renewable
 
 ## Judicial exits
 
-![Source: @pérez-liñán2024](img/jud-exits.png)
+![Source: @perezlinan2024judicial](img/jud-exits.png)
 
 ## Strategic retirements {.smaller}
 
--   hypothesis: federal judges in the US prefer to retire under presidents of the same political party that first appointed them [@stolzenberg2022; @nixon2000]
+-   hypothesis: federal judges in the US prefer to retire under presidents of the same political party that first appointed them [@stolzenberg2022judges; @nixon2000judicial]
 
-    -   @stolzenberg2022 argue that this behaviour is driven more by reciprocity norms (giving back to appointing party) than ideology
+    -   @stolzenberg2022judges argue that this behaviour is driven more by reciprocity norms (giving back to appointing party) than ideology
 
-    -   in contrast, @deschler2024 show that recently, moderate Republican judges have withheld retirement under more conservative presidents such as Trump (ideology \> partisanship/reciprocity)
+    -   in contrast, @deschler2024role show that recently, moderate Republican judges have withheld retirement under more conservative presidents such as Trump (ideology \> partisanship/reciprocity)
 
--   older judges are more inclined to retire strategically [@hansford2010]
+-   older judges are more inclined to retire strategically [@hansford2010politics]
 
--   understudied outside the US [@pérez-liñán2017]
+-   understudied outside the US [@perezlinan2017strategic]
 
 # Elections
 
@@ -302,7 +304,7 @@ ECtHR judges had their tenures increased from 6 to 9 but made non-renewable
 
 -   tried out in revolutionary France (1790) and Central America post Spanish independence
 
--   38 US states (as of 2024) elect judges to state supreme courts [@lim2013; @lim2015; @besley2013]
+-   38 US states (as of 2024) elect judges to state supreme courts [@lim2013preferences; @lim2015judge; @besley2013implementation]
 
     -   the 2023 Wisconsin Supreme Court election saw 51 million USD in campaign spending
 
@@ -312,7 +314,7 @@ the Wisconsin figure is only slightly less than total party spending in the 2019
 
 ## Electing judges outside the US: Bolivia {.smaller}
 
--   @driscoll2015 show the impact of Bolivia introducing judicial elections in 2011
+-   @driscoll2015judicial show the impact of Bolivia introducing judicial elections in 2011
 
     -   judges became much more diverse as a result (in contrast to the US)
 
@@ -346,7 +348,7 @@ the Wisconsin figure is only slightly less than total party spending in the 2019
 
     -   the CJEU found the cut discriminatory within the year; few returned to their posts
 
--   Bolivia 2011: the first popular election of high court judges changed who sat on the bench and how the public rated it [@driscoll2015]
+-   Bolivia 2011: the first popular election of high court judges changed who sat on the bench and how the public rated it [@driscoll2015judicial]
 
 -   the requirement is that nothing else changed at the same time for the treated group only; in Hungary that is exactly what is in doubt
 

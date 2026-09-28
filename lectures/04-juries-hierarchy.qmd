@@ -69,15 +69,15 @@ source("utils/globals.R")
 
     -   **group polarization**: deliberating groups end up more extreme than their median member
 
-    -   the first ballot predicts the verdict in about nine juries in ten [@kalven1966]
+    -   the first ballot predicts the verdict in about nine juries in ten [@kalven1966american]
 
 -   whether a group decides better depends on who is in the room and how they interact
 
 ## Who sits on the jury matters {.smaller}
 
--   Florida jury pools: with no Black member, Black defendants were convicted far more often than white defendants; one Black member in the pool closed the gap [@anwar2012]
+-   Florida jury pools: with no Black member, Black defendants were convicted far more often than white defendants; one Black member in the pool closed the gap [@anwar2012impact]
 
--   jurors of the defendant's own gender are more lenient, so the gender mix of the pool moves conviction rates [@hoekstra2021]
+-   jurors of the defendant's own gender are more lenient, so the gender mix of the pool moves conviction rates [@hoekstra2021effect]
 
 -   the political affiliation of randomly assigned Swedish lay judges is this week's reading
 
@@ -85,7 +85,7 @@ source("utils/globals.R")
 
 ## Deliberation and history {.smaller}
 
--   racially mixed mock juries deliberated longer, discussed more of the facts and made fewer factual errors than all-white juries [@sommers2006]
+-   racially mixed mock juries deliberated longer, discussed more of the facts and made fewer factual errors than all-white juries [@sommers2006racial]
 
 -   Old Bailey, 1715 to 1900: juries were less likely to convict a defendant right after convicting the previous one, a path dependency in sequential decisions [@bindler2019path]
 
@@ -101,11 +101,11 @@ source("utils/globals.R")
 
 -   if opinion amendments by judges are costless, the result will align with the median judge's preferences
 
-    -   if they are not, the opinion writer can pull the judgment slightly away from the median judge [@hangartner2025]
+    -   if they are not, the opinion writer can pull the judgment slightly away from the median judge [@hangartner2025inferring]
 
 ## Chair or median? {.smaller}
 
--   Swiss Federal Administrative Court, 1,739 asylum appeals in 2007, panels of three drawn from about 30 judges elected by parliament under party quotas, no published votes or dissents [@hangartner2025]
+-   Swiss Federal Administrative Court, 1,739 asylum appeals in 2007, panels of three drawn from about 30 judges elected by parliament under party quotas, no published votes or dissents [@hangartner2025inferring]
 
 -   the model infers judges' preferences from panel outcomes and lets the data pick the **aggregation rule**: majority (median judge decisive), unanimity or chair-as-dictator
 
@@ -117,15 +117,15 @@ source("utils/globals.R")
 
 ## Collegial courts
 
--   judges are affected by the ideology, gender and race of the judges they co-decide with [@boyd2010untangling; @grossman2016]
+-   judges are affected by the ideology, gender and race of the judges they co-decide with [@boyd2010untangling; @grossman2016descriptive]
 
--   judges' mutual familiarity fosters openness and more extensive deliberation [@swalve2022]
+-   judges' mutual familiarity fosters openness and more extensive deliberation [@swalve2022does]
 
 ## Panel effects {.smaller}
 
--   on US three-judge panels, a judge sitting with two co-partisans votes more ideologically than the same judge sitting with two judges from the other party – **amplification** and **dampening** [@sunstein2004]
+-   on US three-judge panels, a judge sitting with two co-partisans votes more ideologically than the same judge sitting with two judges from the other party – **amplification** and **dampening** [@sunstein2004ideological]
 
--   one judge from the minority party on the panel is enough to make the majority follow doctrine more closely: the **whistleblower** effect, because a dissent invites review [@cross1998]
+-   one judge from the minority party on the panel is enough to make the majority follow doctrine more closely: the **whistleblower** effect, because a dissent invites review [@cross1998judicial]
 
 -   panel composition is both a treatment (who influences whom) and a threat of exposure
 
@@ -133,11 +133,11 @@ source("utils/globals.R")
 
 ![](img/agg_paradox.png){width="500"}
 
--   @landa2009 highlight how aggregation of decisions on panels by majority might deviate from individual decisions on case components
+-   @landa2009legal highlight how aggregation of decisions on panels by majority might deviate from individual decisions on case components
 
 -   if both considerations are absent, the decision should be upheld; judges decide by majority
 
--   there is evidence that judges who sit together on panels are capable of influencing each other [@grossman2016; @boyd2010untangling]
+-   there is evidence that judges who sit together on panels are capable of influencing each other [@grossman2016descriptive; @boyd2010untangling]
 
 ## Role of chambers
 
@@ -145,7 +145,7 @@ source("utils/globals.R")
 
 -   their composition can be more or less permanent and stable
 
--   but they undermine the court's consistency in applying rules [@fjelstul2023]
+-   but they undermine the court's consistency in applying rules [@fjelstul2023how]
 
 ## Case assignment
 
@@ -153,15 +153,15 @@ source("utils/globals.R")
 
 -   in some courts (e.g. CJEU), the president chooses the opinion writer (judge-rapporteur)
 
-    -   a source of power to steer decisions in a desired direction [@hermansen2020]
+    -   a source of power to steer decisions in a desired direction [@hermansen2020building]
 
-    -   at SCOTUS, the initial majority also gets the pen-holder [@lax2007]
+    -   at SCOTUS, the initial majority also gets the pen-holder [@lax2007bargaining]
 
 ## Case assignment
 
--   automatic systems of random case assignment as an anti-corruption measure [@marcondes2019]
+-   automatic systems of random case assignment as an anti-corruption measure [@marcondes2019assessing]
 
--   in some settings assignment of cases is plausibly quasi-random in expectation [@goldsmith-pinkham2025]
+-   in some settings assignment of cases is plausibly quasi-random in expectation [@goldsmithpinkham2025leniency]
 
     -   conditional on some covariates, judges are assigned cases as if randomly
 
@@ -191,7 +191,7 @@ the random or otherwise assignment of cases to judges is a critical element in r
 
 -   judges do not work alone – they are assisted by law clerks
 
-    -   their influence can be considerable and their selection is not random [@badas2024]
+    -   their influence can be considerable and their selection is not random [@badas2024role]
 
 -   judges, similar to politicians have different styles
 
@@ -255,11 +255,11 @@ German Constitutional Court, Judgment of the Second Senate of 5 May 2020, press 
 
     -   at the bottom, the range of goals is the widest (e.g. routines, workload, promotion, policy)
 
-    -   at the top, judges are mostly concerned with policy considerations and ideological influence is therefore the strongest [@zorn2010]
+    -   at the top, judges are mostly concerned with policy considerations and ideological influence is therefore the strongest [@zorn2010ideological]
 
 ## Judicial motivation
 
--   @goto2026 presents evidence of judicial pandering in Indian courts
+-   @goto2026career presents evidence of judicial pandering in Indian courts
 
     -   judicial leaders hold power over lower courts' judges promotion prospects
 
@@ -285,11 +285,11 @@ German Constitutional Court, Judgment of the Second Senate of 5 May 2020, press 
 
 -   in the standard account, lower courts implement the doctrines developed by peak courts
 
-    -   they may try to make use of ambiguity to create room for their own preferences [@cameron2000]
+    -   they may try to make use of ambiguity to create room for their own preferences [@cameron2000strategic]
 
     -   upper courts correct their "errors"
 
--   in the 'reversed' account, lower courts make their own doctrines [@carrubba2012]
+-   in the 'reversed' account, lower courts make their own doctrines [@carrubba2012rule]
 
     -   they have a first-mover advantage and are closer to case facts
 
@@ -305,7 +305,7 @@ German Constitutional Court, Judgment of the Second Senate of 5 May 2020, press 
 
 -   upper courts care about lower courts' dispositions and rules
 
-    -   lower courts choose rules to avoid review [@carrubba2012]
+    -   lower courts choose rules to avoid review [@carrubba2012rule]
 
 ::: notes
 the ideal situation for the lower court is one like the following:
@@ -325,11 +325,11 @@ suppose the lower court is liberal and wants a liberal rule. The Supreme Court i
 
     -   reputation
 
-    -   belief in legal principles [@cross2005]
+    -   belief in legal principles [@cross2005appellate]
 
-    -   they want to have influence over the law [@carrubba2012]
+    -   they want to have influence over the law [@carrubba2012rule]
 
--   interpersonal contacts between lower and appeal judges dampen the effect of ideological distance [@nelson2022]
+-   interpersonal contacts between lower and appeal judges dampen the effect of ideological distance [@nelson2022how]
 
     -   when the lower and appeal judges work in the same courthouse, ideological distance becomes irrelevant
 
@@ -341,7 +341,7 @@ suppose the lower court is liberal and wants a liberal rule. The Supreme Court i
 
     -   interest groups filing amici curiae briefs
 
-    -   lower court judges dissenting [@beim2014]
+    -   lower court judges dissenting [@beim2014whistleblowing]
 
 ::: notes
 if the whistle is blown too often, the signal becomes less informative and easier to ignore for the lower court, leading to lower compliance with upper court doctrine
@@ -349,7 +349,7 @@ if the whistle is blown too often, the signal becomes less informative and easie
 
 ## The effect of reversal
 
--   trial judges in Norway who had their ruling overturned on appeal shift their behaviour in the corresponding direction [@bhuller2025]
+-   trial judges in Norway who had their ruling overturned on appeal shift their behaviour in the corresponding direction [@bhuller2025feedback]
     -   "Following a decision reversal, trial judges who receive a sentence increase have almost 40 percentage points higher probability of incarcerating in the next case, compared to judges receiving a sentence affirmance"
     -   judges do not merely "learn" from reversals but overreact to them
 
@@ -357,7 +357,7 @@ if the whistle is blown too often, the signal becomes less informative and easie
 
 -   in the European Union, national courts submit cases to the Court of Justice of the EU (CJEU). What happens these cases are rejected by the CJEU?
 
--   national courts receiving such a negative result are more likely to submit another case [@dyevre2022]
+-   national courts receiving such a negative result are more likely to submit another case [@dyevre2022chilling]
 
     -   the CJEU is more likely to accept requests from national courts that previously experienced rejection
 

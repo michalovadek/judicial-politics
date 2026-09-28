@@ -1,5 +1,5 @@
 ---
-title: "Court Curbing, Backlash and Backsliding"
+title: "Court Curbing, Backlash and Capture"
 subtitle: "Week 7"
 author: "Dr Michal Ovádek"
 search: false
@@ -25,7 +25,9 @@ source("utils/globals.R")
 
 -   How does strategic anticipation of mutual preferences affect how they behave?
 
--   And what happens when elected politicians decide to push back against courts?
+-   What happens when elected politicians decide to push back against courts?
+
+-   And can those in power capture courts without formal control over them?
 
 # Anticipation
 
@@ -59,7 +61,7 @@ source("utils/globals.R")
 
     -   in the EU, if all political actors agree, there is very low chance of review
 
-    -   whether review happens at all can depend on how policy makers write the policy – this week's reading on the shadow effect
+    -   whether review happens at all can depend on how policy makers write the policy [@pavone2022shadow]
 
 ## Anticipating judicial review
 
@@ -85,9 +87,9 @@ source("utils/globals.R")
 
 ## Anticipating judicial review
 
--   in some cases, the legislator will not shy away from judicial conflict [@schroeder2022]
+-   in some cases, the legislator will not shy away from judicial conflict [@schroeder2022pushing]
 
-    -   when they have strong public support [@vanberg2001; @krehbiel2016]
+    -   when they have strong public support [@vanberg2001legislativejudicial; @krehbiel2016politics]
 
     -   when they signal intention to not comply
 
@@ -109,23 +111,23 @@ source("utils/globals.R")
 
 -   in most cases it is less costly for the government/legislator to evade compliance implicitly
 
-    -   e.g. creating a parliamentary working group but never delivering [@vanberg2001]
+    -   e.g. creating a parliamentary working group but never delivering [@vanberg2001legislativejudicial]
 
 ## Threat of override
 
--   courts may also take into account whether their decision is likely to be overridden by the legislature [@meernik1997; @larsson2021]
+-   courts may also take into account whether their decision is likely to be overridden by the legislature [@meernik1997judicial; @larsson2021political]
 
-    -   though the empirical evidence of override anticipation by courts is mixed [@segal1997; @segal2010]
+    -   though the empirical evidence of override anticipation by courts is mixed [@segal1997separationofpowers; @segal2011congress]
 
 -   courts are looking for judgments which are as close as possible to their ideal point but not so far as to get overridden
 
 ## Threat of override
 
-![US Override Game from @dyevre2010](img/congress-override-game.png)
+![US Override Game from @dyevre2010unifying](img/congress-override-game.png)
 
 ## Threat of override
 
-![EU Override Game from @dyevre2010](img/eu-override-game.png)
+![EU Override Game from @dyevre2010unifying](img/eu-override-game.png)
 
 ## The override incongruity {.smaller}
 
@@ -135,7 +137,7 @@ source("utils/globals.R")
 
     -   in EU social policy, codification and override are both rare
 
--   the US is the mirror image: Congress overrode Supreme Court statutory decisions routinely in the 1970s and 1980s [@eskridge1991; @uribe2014], a record that has thinned since (Christiansen and Eskridge 2014)
+-   the US is the mirror image: Congress overrode Supreme Court statutory decisions routinely in the 1970s and 1980s [@eskridge1991overriding; @uribe2014influence], a record that has thinned since (Christiansen and Eskridge 2014)
 
 -   so the system where override is least feasible is the one where the court looks most responsive to it
 
@@ -143,11 +145,11 @@ source("utils/globals.R")
 
 ## The friendly court
 
--   consistent with the idea of the majoritarian court is evidence of courts ruling against policies of previous governments [@segal2010; @gillman2002]
+-   consistent with the idea of the majoritarian court is evidence of courts ruling against policies of previous governments [@segal2011congress; @gillman2002how]
 
     -   a "friendly" judicial intervention can be particularly valuable when it concerns constitutional interpretation that would be otherwise difficult to legislate away (e.g. *Roe* and *Dobbs*)
 
-    -   also helps explain why governments might sometimes appear to support "activist" judiciaries [@whittington2005]
+    -   also helps explain why governments might sometimes appear to support "activist" judiciaries [@whittington2005interpose]
 
 # Curbing
 
@@ -200,33 +202,19 @@ The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2
 
     -   to signal to the court that its legitimacy is at risk and induce restraint [@clark2009separation]
 
-    -   to remove a check on the way to power or survival: abusive constitutionalism [@landau2013] and autocratic legalism [@scheppele2018] use legal forms to dismantle legal limits [@castilloortiz2019; @bugaric2016]
+    -   to remove a check on the way to power or survival: abusive constitutionalism [@landau2013abusive] and autocratic legalism [@scheppele2018autocratic] use legal forms to dismantle legal limits [@castilloortiz2019illiberal; @bugaric2016assault]
 
-    -   to retaliate against judges who defect from a weakening government [@helmke2002logic]; populism supplies the vocabulary [@voeten2020]
+    -   to retaliate against judges who defect from a weakening government [@helmke2002logic]; populism supplies the vocabulary [@voeten2020populism]
 
 -   **why refrain**
 
-    -   electoral costs, if voters punish attacks (this week's reading)
+    -   electoral costs, if voters punish attacks [@driscoll2023costs; @aydincakir2025motives]
 
     -   international audiences: the EU's tools below, the ECtHR, investors
 
     -   insurance: today's majority is tomorrow's minority
 
 -   **how courts respond**: defect from a weakening government [@helmke2002logic]; restrain themselves (this week's ECtHR reading); resist openly (Polish judges' associations, Kenya's 2017 election annulment); exit through resignations and early retirements
-
-## Reading a conjoint experiment {.smaller}
-
--   how do we know whether voters punish attacks on courts? ask them, but not directly
-
--   a **vignette** experiment shows respondents a short scenario, say a government proposal to cut a court's jurisdiction, with one detail randomized, such as which party proposes it
-
--   a **conjoint** randomizes several attributes at once (tool, justification, proposer, the court's popularity) and asks respondents to choose between two profiles
-
-    -   the average marginal effect of each attribute is the causal estimate
-
--   @aydin-cakir2025motives use survey experiments to show that how a court-curbing measure is justified, and the approach taken, change how much public trust it costs
-
--   the design isolates causal effects at the cost of realism: respondents react to hypothetical proposals with nothing at stake
 
 # Backlash and backsliding
 
@@ -240,7 +228,7 @@ The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2
 
     -   probably the same thing that drives backlash against domestic courts: disagreement with outcomes
 
-    -   populism is at best a partial explanation [@voeten2020]
+    -   populism is at best a partial explanation [@voeten2020populism]
 
 -   this week's backlash is *political* backlash against courts, not backlash in public opinion
 
@@ -248,7 +236,7 @@ The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2
 
 -   evidence of greater **self-restraint** in response to backlash
 
-    -   the ECtHR restricted the scope of human rights and increased governments' margin of appreciation (discretion) [@helfer2020]
+    -   the ECtHR restricted the scope of human rights and increased governments' margin of appreciation (discretion) [@helfer2020walking]
 
     -   whether it also rules less often against its critics is this week's reading
 
@@ -284,7 +272,7 @@ The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2
 
 ## Dejudicialization {.smaller}
 
--   is the era of increasing judicialization over? [@abebe2019]
+-   is the era of increasing judicialization over? [@abebe2019dejudicialization]
 
     -   most obvious in the backlash against international courts, e.g. dejudicialization of the WTO
 
@@ -306,6 +294,36 @@ The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2
 -   the ECtHR joined in: in *Xero Flor* (2021) it found the Polish Constitutional Tribunal no longer a "tribunal established by law"
 
 -   the tools bite slowly, mostly after the capture is complete
+
+# Capture
+
+## Capture without formal control {.smaller}
+
+-   many interactions between courts and representatives of other branches can occur outside formal contexts
+
+-   as members of the elite with access to power and resources, both judges and politicians can face incentives to confer special treatment
+
+    -   e.g. judges may shield corrupt politicians from prosecution in exchange for bribes or career progress
+
+    -   governments can also pay judges in kind, as with housing in Pakistan (this week's reading)
+
+-   (narrowly) winning a seat in Indian state legislature decreases the chance of criminal conviction by \~20 pp, but only for ruling party co-partisans [@pobletecazenave2025do]
+
+-   mayors in Brazil have no formal power over local judges; whether winning office still helps them in court is this week's reading
+
+-   de jure separation is not sufficient to capture intended benefits of judicial independence – and these are democracies
+
+## Regression discontinuity {.smaller}
+
+-   when a treatment switches on at a threshold, units just above and just below it are comparable; the jump in outcomes at the threshold is the effect
+
+-   close elections are the classic case: a mayor who won by a handful of votes and one who lost by a handful are alike in everything but office
+
+-   that is how the Indian result on the previous slide is identified [@pobletecazenave2025do]; this week's Brazilian reading uses the same design
+
+-   what to check: are there enough close races? does anything else change at the threshold? can candidates manipulate who wins narrowly?
+
+-   the design shows whether holding power bends courts without observing the bending
 
 ## Four puzzles
 

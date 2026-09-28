@@ -22,8 +22,4 @@ Kureshi, Yasser. "When Judges Defy Dictators: An Audience-Based Framework to Exp
 
 Cao, Guangyu, Chenran Liu, and Li-An Zhou. "Suing the government under weak rule of law: Evidence from administrative litigation reform in China." *Journal of Public Economics* 222 (2023): 104895. <https://doi.org/10.1016/j.jpubeco.2023.104895>
 
-Mehmood, Sultan, and Bakhtawar Ali. "Judicial capture." *The Economic Journal* 134, no. 659 (2024): 1287-1301. <https://doi.org/10.1093/ej/uead106>
-
-Lambais, Guilherme, and Henrik Sigstad. "Judicial subversion: The effects of political power on court outcomes." *Journal of Public Economics* 217 (2023): 104788. <https://doi.org/10.1016/j.jpubeco.2022.104788>
-
 Ríos-Figueroa, Julio, and Fiona Shen-Bayh. "Courts in the Global South." *Annual Review of Political Science* 28, no. 1 (2025): 151-171. <https://doi.org/10.1146/annurev-polisci-040623-113225>

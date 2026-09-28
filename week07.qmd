@@ -1,8 +1,8 @@
 ---
-title: "7: Court Curbing, Backlash and Backsliding"
+title: "7: Court Curbing, Backlash and Capture"
 ---
 
-What is the relationship between courts, legislatures and executives, and what happens when politicians decide to push back against courts? This week we look at the politics of court curbing and democratic backsliding, including how courts anticipate and adapt to threats such as legislative override, court-packing and jurisdiction-stripping.
+What is the relationship between courts, legislatures and executives, and what happens when politicians decide to push back against courts? This week we look at the politics of court curbing, backlash and capture, including how courts anticipate and adapt to threats such as legislative override, court-packing and jurisdiction-stripping.
 
 {{< include _readings/week07.md >}}
 

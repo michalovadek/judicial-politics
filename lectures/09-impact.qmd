@@ -84,13 +84,13 @@ flowchart LR
 
 ## How courts secure compliance {.smaller}
 
--   **vagueness**: judges write vaguer opinions where they fear defiance, trading clarity for the appearance of compliance [@staton2008]
+-   **vagueness**: judges write vaguer opinions where they fear defiance, trading clarity for the appearance of compliance [@staton2008value]
 
--   **publicity**: public hearings and press work raise the cost of ignoring a ruling [@krehbiel2016]
+-   **publicity**: public hearings and press work raise the cost of ignoring a ruling [@krehbiel2016politics]
 
 -   **monitoring**: the Costa Rican Supreme Court built a compliance monitoring system with follow-up orders [@gauri2015costa]
 
--   **domestic politics**, for international courts: new democracies comply faster with the ECtHR [@grewal2015]; compliance depends on domestic institutions and coalitions [@hillebrecht2014]; media attention to a ruling predicts whether it is complied with [@reis2025media]; leaders defy the Inter-American Court when their publics oppose the remedy [@parente2025]
+-   **domestic politics**, for international courts: new democracies comply faster with the ECtHR [@grewal2015are]; compliance depends on domestic institutions and coalitions [@hillebrecht2014power]; media attention to a ruling predicts whether it is complied with [@reis2025media]; leaders defy the Inter-American Court when their publics oppose the remedy [@parente2025domestic]
 
 -   in the conveyor-belt stream compliance depends on the bureaucracy, not on these tools
 
@@ -112,9 +112,9 @@ flowchart LR
 
 -   **the constrained court**: courts lack the tools to produce social change; *Brown* did little for desegregation until Congress and the executive acted a decade later [@rosenberg2023hollow]
 
--   **the dynamic court**: litigation works indirectly, by legitimizing claims, mobilizing movements and raising rights consciousness [@mccann1992]
+-   **the dynamic court**: litigation works indirectly, by legitimizing claims, mobilizing movements and raising rights consciousness [@mccann1992reform]
 
--   **the backlash thesis**: *Brown* mattered, but by radicalizing Southern politics and provoking the violence that made civil rights legislation possible [@klarman1994]
+-   **the backlash thesis**: *Brown* mattered, but by radicalizing Southern politics and provoking the violence that made civil rights legislation possible [@klarman1994how]
 
 -   three claims about the same ruling; the disagreement is partly about which outcome counts as impact and over what horizon
 
@@ -125,7 +125,7 @@ flowchart LR
 | **direct** | the addressees do what the ruling orders: policy adopted, prisoners released, payments made | the parties and the public come to frame the issue as a matter of rights |
 | **indirect** | actors not addressed change behaviour: agencies, firms, other courts; mobilization is triggered | the wider public debate and the media reframe the problem |
 
--   the typology comes from the study of the Colombian Constitutional Court's 2004 ruling on internally displaced people (T-025), which ordered a national policy and kept jurisdiction to monitor it for years [@rodriguezgaravito2015]
+-   the typology comes from the study of the Colombian Constitutional Court's 2004 ruling on internally displaced people (T-025), which ordered a national policy and kept jurisdiction to monitor it for years [@rodriguezgaravito2015radical]
 
 -   most impact studies measure the top-left cell; the other three cells are where Rosenberg and McCann disagree
 
@@ -139,13 +139,13 @@ flowchart LR
 
 -   implementation runs through ministries and budgets, so these rulings sit in the contested stream from the start
 
--   the evidence on their effects is mixed: large symbolic and indirect effects, slow and partial material ones [@rodriguezgaravito2015]
+-   the evidence on their effects is mixed: large symbolic and indirect effects, slow and partial material ones [@rodriguezgaravito2015radical]
 
 ## The limits of judicialization {.smaller}
 
 -   judicial empowerment is usually pursued with the hope of increasing government accountability and individual right protection
 
--   @botero2022 argue that in Latin America, judicialization mostly failed to deliver on these promises due to
+-   @botero2022limits argue that in Latin America, judicialization mostly failed to deliver on these promises due to
 
     -   weak state capacity limiting the desired positive impact of courts
 
@@ -165,14 +165,14 @@ in Lava Jato Brazilian prosecutors and judges were coming up with creative legal
 
 | ruling or decision | outcome | finding | source |
 |------|------|------|------|
-| *Dobbs* (2022) | births | up about 2.3 percent in states that banned abortion, relative to a synthetic comparison | @dench2024 |
-| *Dobbs* | trust in the Supreme Court | a large fall in legitimacy that lingered at least six months | @gibson2025 |
-| *Shelby County* (2013) | turnout | fell for Black relative to white registered voters in formerly covered areas | @billings2024 |
-| *Citizens United* (2010) | elections | Republican candidates gained in states whose spending bans were struck down | @klumpp2016 |
-| *Obergefell* (2015) | social norms | perceived norms shifted towards approval, personal attitudes did not | @tankard2017 |
-| same-sex marriage legalization | implicit bias | anti-gay bias declined faster after legalization | @ofosu2019 |
-| CJEU *Junqueras* (2019) | euroscepticism in Spain | rose among those interviewed after the ruling | @turnbull-dugarte2022 |
-| a stricter judge | a defendant's life | prison in Norway cut reoffending; pretrial detention in the US raised convictions and cut employment | @bhuller2020incarceration; @dobbie2018 |
+| *Dobbs* (2022) | births | up about 2.3 percent in states that banned abortion, relative to a synthetic comparison | @dench2024effects |
+| *Dobbs* | trust in the Supreme Court | a large fall in legitimacy that lingered at least six months | @gibson2025do |
+| *Shelby County* (2013) | turnout | fell for Black relative to white registered voters in formerly covered areas | @billings2024disparate |
+| *Citizens United* (2010) | elections | Republican candidates gained in states whose spending bans were struck down | @klumpp2016business |
+| *Obergefell* (2015) | social norms | perceived norms shifted towards approval, personal attitudes did not | @tankard2017effect |
+| same-sex marriage legalization | implicit bias | anti-gay bias declined faster after legalization | @ofosu2019samesex |
+| CJEU *Junqueras* (2019) | euroscepticism in Spain | rose among those interviewed after the ruling | @turnbulldugarte2022can |
+| a stricter judge | a defendant's life | prison in Norway cut reoffending; pretrial detention in the US raised convictions and cut employment | @bhuller2020incarceration; @dobbie2018effects |
 
 ## Outside spending before and after *Citizens United*
 
@@ -198,7 +198,7 @@ read_csv("data/outside_spending.csv", show_col_types = FALSE) |>
 
 -   outside spending by non-party groups went from a few hundred million dollars per cycle to billions; part of the rise is money that would have flowed through other channels anyway, part of it is new
 
--   the ruling struck down bans in about half the states, which supplies a comparison: Republican candidates gained in the states that had bans relative to those that did not [@klumpp2016]
+-   the ruling struck down bans in about half the states, which supplies a comparison: Republican candidates gained in the states that had bans relative to those that did not [@klumpp2016business]
 
 -   caveats for the chart: nominal dollars, definitions of outside spending differ between sources, and the 2024 figure covers only part of the cycle
 
@@ -210,19 +210,19 @@ read_csv("data/outside_spending.csv", show_col_types = FALSE) |>
 
     -   Norway: incarceration reduced reoffending and raised employment, through training and treatment in prison [@bhuller2020incarceration]
 
-    -   US: pretrial detention raised the probability of conviction and lowered employment years later [@dobbie2018]
+    -   US: pretrial detention raised the probability of conviction and lowered employment years later [@dobbie2018effects]
 
 -   the same design gives opposite results; what a sentence does depends on what the sentence is
 
 ## Courts and the economy {.smaller}
 
--   in the classic narrative, independent courts constrain the executive's discretion, including to engage in arbitrary coercive acts, which benefits economic development [@north1989]
+-   in the classic narrative, independent courts constrain the executive's discretion, including to engage in arbitrary coercive acts, which benefits economic development [@north1989constitutions]
 
-    -   across a sample of 104 countries, de facto (but not de jure) judicial independence is associated with higher growth rates [@voigt2015]
+    -   across a sample of 104 countries, de facto (but not de jure) judicial independence is associated with higher growth rates [@voigt2015economic]
 
-    -   externally funded judicial reforms in African countries improved perception of the rule of law among relatively powerless groups [@chemin2021]
+    -   externally funded judicial reforms in African countries improved perception of the rule of law among relatively powerless groups [@chemin2021can]
 
--   court quality has firm-level effects: comprehensive judicial reforms raise the productivity of firms in contract-intensive sectors [@chemin2020]; less congested courts amplified the effect of Brazil's bankruptcy reform on credit and investment [@ponticelli2016]
+-   court quality has firm-level effects: comprehensive judicial reforms raise the productivity of firms in contract-intensive sectors [@chemin2020judicial]; less congested courts amplified the effect of Brazil's bankruptcy reform on credit and investment [@ponticelli2016court]
 
 -   these are effects of judicial institutions rather than of particular rulings
 
@@ -230,37 +230,37 @@ read_csv("data/outside_spending.csv", show_col_types = FALSE) |>
 
 ## Four public reactions to a ruling {.smaller}
 
--   **acceptance and legitimation**: a trusted court moves opinion towards the policy it upheld (this week's first reading), helped by legalistic media framing [@linos2016]; courts may be no better at this than other institutions [@cohen2024judicialization]
+-   **acceptance and legitimation**: a trusted court moves opinion towards the policy it upheld (this week's first reading), helped by legalistic media framing [@linos2016supreme]; courts may be no better at this than other institutions [@cohen2024judicialization]
 
--   **backlash**: the ruling moves opinion against it (this week's Catalan reading); *Brown* [@klarman1994]; yet opinion backlash is rarer than assumed and gay-rights advances did not provoke it [@bishin2016]
+-   **backlash**: the ruling moves opinion against it (this week's Catalan reading); *Brown* [@klarman1994how]; yet opinion backlash is rarer than assumed and gay-rights advances did not provoke it [@bishin2016opinion]
 
--   **nothing**: *Bush v Gore* left the Court's legitimacy intact [@gibson2024]; public mood responds to the Court's direction thermostatically at best [@ura2014]
+-   **nothing**: *Bush v Gore* left the Court's legitimacy intact [@gibson2024losing]; public mood responds to the Court's direction thermostatically at best [@ura2014backlash]
 
--   **spillover**: the ruling changes what people think of the court or the polity rather than of the policy, as after *Dobbs* [@levendusky2024; @gibson2025], *Junqueras* [@turnbull-dugarte2022] and unpopular UK Supreme Court rulings [@ovadek2026contagion]
+-   **spillover**: the ruling changes what people think of the court or the polity rather than of the policy, as after *Dobbs* [@levendusky2024has; @gibson2025do], *Junqueras* [@turnbulldugarte2022can] and unpopular UK Supreme Court rulings [@ovadek2026contagion]
 
 -   legitimation is studied with survey experiments, backlash and spillover with unexpected events, durability with panels
 
 ## Support for SCOTUS after *Dobbs* {.smaller}
 
--   seemingly even controversial decisions such as *Bush v. Gore* did not significantly reduce diffuse support for SCOTUS [@gibson2024]
+-   seemingly even controversial decisions such as *Bush v. Gore* did not significantly reduce diffuse support for SCOTUS [@gibson2024losing]
 
--   ... that is until *Dobbs* [@levendusky2024]
+-   ... that is until *Dobbs* [@levendusky2024has]
 
--   the fall in legitimacy lingered at least six months, though it weakened over time [@gibson2025]
+-   the fall in legitimacy lingered at least six months, though it weakened over time [@gibson2025do]
 
 -   the incongruity for positivity theory: legitimacy was supposed to be resilient to unpopular rulings
 
 ## Support for SCOTUS post-*Dobbs*
 
-![Effect of the Dobbs ruling on trust in SCOTUS [@levendusky2024]](img/levendusky-dobbs.jpg)
+![Effect of the Dobbs ruling on trust in SCOTUS [@levendusky2024has]](img/levendusky-dobbs.jpg)
 
 ## Rulings and attitudes {.smaller}
 
--   legalization of same-sex marriage reduced anti-gay bias in the states that legalized it [@kreitzer2014; @ofosu2019]
+-   legalization of same-sex marriage reduced anti-gay bias in the states that legalized it [@kreitzer2014does; @ofosu2019samesex]
 
--   *Obergefell* moved what people believed others thought, not what they themselves thought: rulings can shift **norms** without shifting attitudes [@tankard2017]
+-   *Obergefell* moved what people believed others thought, not what they themselves thought: rulings can shift **norms** without shifting attitudes [@tankard2017effect]
 
--   the opinion backlash that many predicted after gay-rights advances did not materialize [@bishin2016]
+-   the opinion backlash that many predicted after gay-rights advances did not materialize [@bishin2016opinion]
 
 -   the durable effects of rulings on attitudes run through norms and behaviour more than through persuasion
 
@@ -270,7 +270,7 @@ read_csv("data/outside_spending.csv", show_col_types = FALSE) |>
 
 -   ordinary difference-in-differences assumes the two groups would have moved in parallel; the **synthetic** version builds a weighted composite of untreated states that matches the treated states before the shock and compares against that
 
--   @dench2024: births in ban states rose about 2.3 percent above the synthetic comparison in the first half of 2023, most for women in their early twenties and for Hispanic women
+-   @dench2024effects: births in ban states rose about 2.3 percent above the synthetic comparison in the first half of 2023, most for women in their early twenties and for Hispanic women
 
 -   what to check: does the composite track the treated states well before the shock? are there spillovers (travel for abortions) that contaminate the controls? is the window after the shock long enough?
 

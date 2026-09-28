@@ -98,11 +98,11 @@ vdemdata::plot_indicator("v2x_rule",
 
 ## *Ex ante* v *ex post* review
 
--   one type of indirect effect of judicialization is legislator moral hazard [@fox2011; @ward2019]
+-   one type of indirect effect of judicialization is legislator moral hazard [@fox2011judicial; @ward2019judicial]
 
     -   knowledge that courts will correct ill-advised policies makes legislators behave more recklessly
 
--   this type of moral hazard is more common with *ex ante* judicial review [@gabel2024]
+-   this type of moral hazard is more common with *ex ante* judicial review [@gabel2024complaw]
 
 ::: notes
 French Constitutional Council is the archetype of the ex ante review effect on legislative recklessness
@@ -125,11 +125,11 @@ legislators promising unconstitutional policies can make it harder for voters to
 
 ## Is the court counter-majoritarian in practice? {.smaller}
 
--   Dahl's answer in 1957: the US Supreme Court rarely blocks a lawmaking majority for long, because appointments bring it back into line [@dahl1957decision]
+-   Dahl's answer in 1957: the US Supreme Court rarely blocks a lawmaking majority for long, because appointments bring it back into line [@dahl1957decisionmaking]
 
--   public opinion and the Court's decisions move together over time [@mishler1993]
+-   public opinion and the Court's decisions move together over time [@mishler1993supreme]
 
--   when courts fear non-implementation, they side with majorities – "judicial majoritarianism" [@hall2015]
+-   when courts fear non-implementation, they side with majorities – "judicial majoritarianism" [@hall2015judicial]
 
 -   the difficulty may be smaller in practice than in theory
 
@@ -189,11 +189,11 @@ vdemdata::plot_indicator("v2x_jucon",
 
 ## What independent courts are for {.smaller}
 
--   in the classic narrative, independent courts constrain the executive's discretion, including to engage in arbitrary coercive acts, which benefits economic development [@north1989]
+-   in the classic narrative, independent courts constrain the executive's discretion, including to engage in arbitrary coercive acts, which benefits economic development [@north1989constitutions]
 
-    -   across a sample of 104 countries, de facto (but not de jure) judicial independence is associated with higher growth rates [@voigt2015]
+    -   across a sample of 104 countries, de facto (but not de jure) judicial independence is associated with higher growth rates [@voigt2015economic]
 
-    -   externally funded judicial reforms in African countries improved perception of the rule of law among relatively powerless groups [@chemin2021]
+    -   externally funded judicial reforms in African countries improved perception of the rule of law among relatively powerless groups [@chemin2021can]
 
 -   the mechanism is credible commitment: a government that cannot expropriate at will gets cheaper credit and more investment
 
@@ -207,7 +207,7 @@ vdemdata::plot_indicator("v2x_jucon",
 
 ## Judicial independence
 
-> the degree to which judges actually decide cases in accordance with their own determinations of the evidence, the law and justice, free from the coercion, blandishments, interference, or threats from governmental authorities or private citizens. [@rosenn1987, p. 8]
+> the degree to which judges actually decide cases in accordance with their own determinations of the evidence, the law and justice, free from the coercion, blandishments, interference, or threats from governmental authorities or private citizens. [@rosenn1987protection, p. 8]
 
 ## What is(n't) judicial independence
 
@@ -227,7 +227,7 @@ vdemdata::plot_indicator("v2x_jucon",
 
 ## De jure vs de facto independence
 
--   many scholars distinguish between "paper" or institutional guarantees of independence and what happens in practice [@melton2014; @hayo2007]
+-   many scholars distinguish between "paper" or institutional guarantees of independence and what happens in practice [@melton2014does; @hayo2007explaining]
 
 -   the most common *de jure* guarantees are:
 
@@ -237,7 +237,7 @@ vdemdata::plot_indicator("v2x_jucon",
 
 -   there is mixed evidence on the importance of *de jure* guarantees of independence on *de facto* levels
 
-    -   some find *de jure* independence to matter little in the aggregate (this week's reading), others find it to be the most important predictor of *de facto* independence [@hayo2007]
+    -   some find *de jure* independence to matter little in the aggregate (this week's reading), others find it to be the most important predictor of *de facto* independence [@hayo2007explaining]
 
 -   specific guarantees nonetheless seem to change behaviour when they change, tenure and reappointment rules in particular
 
@@ -245,7 +245,7 @@ vdemdata::plot_indicator("v2x_jucon",
 
 -   there is doubt whether judicial autonomy can be measured in isolation due to anticipation effects
 
-    -   judges' decisions are affected by the likelihood of compliance [@linzer2015]
+    -   judges' decisions are affected by the likelihood of compliance [@linzer2015global]
 
 ## Measuring judicial independence {.smaller}
 
@@ -255,9 +255,9 @@ vdemdata::plot_indicator("v2x_jucon",
 
     -   **de facto**: ask experts (V-Dem, CIRI) or read behaviour (rulings against the government) – closer to reality, but subjective or contaminated
 
-    -   **latent**: combine many noisy indicators into one estimate with a measurement model [@linzer2015]
+    -   **latent**: combine many noisy indicators into one estimate with a measurement model [@linzer2015global]
 
--   the available measures disagree with each other more than their users assume [@riosfigueroa2014]
+-   the available measures disagree with each other more than their users assume [@riosfigueroa2014evaluation]
 
 -   behaviour is a treacherous indicator: a court that never rules against the government may be captured, or may never be asked to
 
@@ -265,11 +265,11 @@ vdemdata::plot_indicator("v2x_jucon",
 
 ## Public support as a source of judicial power
 
--   one reason why courts' autonomy and effectiveness can be high is **public support** [@carrubba2010]
+-   one reason why courts' autonomy and effectiveness can be high is **public support** [@carrubba2010executive]
 
--   in general, people hold courts in high regard [@vanberg2015]
+-   in general, people hold courts in high regard [@vanberg2015constitutional]
 
-    -   this is helped by the fact that courts are often responsive to public preferences [@mishler1993]
+    -   this is helped by the fact that courts are often responsive to public preferences [@mishler1993supreme]
 
 -   attacking courts and non-compliance is usually politically costly
 

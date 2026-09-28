@@ -193,17 +193,17 @@ scotus_mq |>
 
 ## Attitudinal explanations {.smaller}
 
--   SCOTUS votes can be predicted from newspaper descriptions of the nominees [@segal1989; @cameron2009]
+-   SCOTUS votes can be predicted from newspaper descriptions of the nominees [@segal1989ideological; @cameron2009how]
 
--   with some exceptions [@weinshall-margel2011], partisan identification predicts how judges decide
+-   with some exceptions [@weinshallmargel2011attitudinal], partisan identification predicts how judges decide
 
 -   many judicial attitudes can be mapped onto a left-right dimension of political conflict; variation in attitudes stems from a number of sources, including judges' background characteristics
 
-> "judges’ decisions are a function of what they prefer to do, tempered by what they think they ought to do, but constrained by what they perceive is feasible to do" [@gibson1983, p. 9]
+> "judges’ decisions are a function of what they prefer to do, tempered by what they think they ought to do, but constrained by what they perceive is feasible to do" [@gibson1983simplicity, p. 9]
 
 -   attitudinal explanations are most relevant in "policy" cases, i.e. when matters of public policy play a role in the dispute
 
--   judicial preferences and decision-making are multidimensional – the identity of the median justice might vary by issue area [@lauderdale2012]; the power of the unidimensional explanation tends to be lower outside the US context
+-   judicial preferences and decision-making are multidimensional – the identity of the median justice might vary by issue area [@lauderdale2012supreme]; the power of the unidimensional explanation tends to be lower outside the US context
 
 # Strategic explanations
 
@@ -283,13 +283,13 @@ Judges are willing to substitute quality for leisure time and vice versa. Each c
 
 ## Economic explanations {.smaller}
 
--   (peak-court) judges prefer writing better researched rulings over producing more of them [@ash2015; @engel2020], which is also why they like docket control [@skiple2021]
+-   (peak-court) judges prefer writing better researched rulings over producing more of them [@ash2015intrinsic; @engel2020manna], which is also why they like docket control [@skiple2021how]
 
--   judges have strong intrinsic motivation to perform well, which reduces the effectiveness of extrinsic measures [@ash2015; @engel2017]
+-   judges have strong intrinsic motivation to perform well, which reduces the effectiveness of extrinsic measures [@ash2015intrinsic; @engel2017you]
 
--   making leisure time more attractive (e.g. basketball tournament) makes judges do less and worse work [@clark2018]
+-   making leisure time more attractive (e.g. basketball tournament) makes judges do less and worse work [@clark2018estimating]
 
--   promotion prospects motivate judges to avoid having their decisions overturned on appeal [@salzberger1999] and to be deferential towards the government or politically popular causes [@sisk1998; @ramseyer2001]
+-   promotion prospects motivate judges to avoid having their decisions overturned on appeal [@salzberger1999judicial] and to be deferential towards the government or politically popular causes [@sisk1998charting; @ramseyer2001why]
 
 # Cognitive explanations
 
@@ -299,39 +299,39 @@ Judges are willing to substitute quality for leisure time and vice versa. Each c
 
 -   people are only boundedly rational and instead of conducting strictly rational calculations rely on (biased) heuristics
 
--   there are a number of common cognitive heuristics, e.g. anchoring, framing, hindsight bias, which have been shown to affect judges [@guthrie2001; @guthrie2002]
+-   there are a number of common cognitive heuristics, e.g. anchoring, framing, hindsight bias, which have been shown to affect judges [@guthrie2001inside; @guthrie2002judging]
 
 ## Cognitive explanations {.smaller}
 
 **Anchoring**: an initial value influences one's perception of a reasonable estimate of a value.
 
--   @guthrie2001 ask judges to award damages in a personal injury case – those exposed to an irrelevant low number awarded 30% less in damages on average
+-   @guthrie2001inside ask judges to award damages in a personal injury case – those exposed to an irrelevant low number awarded 30% less in damages on average
 
--   "municipal court judges fined a nightclub three times as much when its name (after its street address) was Club 11,866 rather than Club 58" [@rachlinski2017]
+-   "municipal court judges fined a nightclub three times as much when its name (after its street address) was Club 11,866 rather than Club 58" [@rachlinski2017judging]
 
--   German judges who rolled dice before sentencing recommended longer sentences after a high roll [@englich2006]
+-   German judges who rolled dice before sentencing recommended longer sentences after a high roll [@englich2006playing]
 
 ## Cognitive explanations {.smaller}
 
 **Framing**: categorization of decision options as more or less positive. Most people are risk-averse when looking at potential gains and risk-seeking when choosing between options representing losses.
 
--   when framing a (sure) settlement as a gain, judges were more likely to endorse it than when framed as a loss [@guthrie2001]
+-   when framing a (sure) settlement as a gain, judges were more likely to endorse it than when framed as a loss [@guthrie2001inside]
 
--   bankruptcy reorganization plans with certain outcomes were more likely to be approved by judges when framed in terms of gains than losses [@rachlinski2006]
+-   bankruptcy reorganization plans with certain outcomes were more likely to be approved by judges when framed in terms of gains than losses [@rachlinski2006inside]
 
 ## Cognitive explanations {.smaller}
 
--   decision-making bias can be driven by in-group favoritism [@kantorowicz-reznichenko2022]
+-   decision-making bias can be driven by in-group favoritism [@kantorowiczreznichenko2022ideological]
 
-    -   including ethnic [@grossman2016] and place-based (e.g. Minnesota) in-groups [@wistrich2014]
+    -   including ethnic [@grossman2016descriptive] and place-based (e.g. Minnesota) in-groups [@wistrich2015heart]
 
-    -   but this finding is likely exaggerated by publication bias [@ash2025]
+    -   but this finding is likely exaggerated by publication bias [@ash2025ingroup]
 
--   judges give away their preferences through emotional arousal in oral hearings [@dietrich2019]
+-   judges give away their preferences through emotional arousal in oral hearings [@dietrich2019emotional]
 
--   legal training rarely attenuates bias in legal decision-making [@braman2007]
+-   legal training rarely attenuates bias in legal decision-making [@braman2007mechanism]
 
--   legally irrelevant information influences how judges decide [@wistrich2005] and is almost never acknowledged in the written reasons
+-   legally irrelevant information influences how judges decide [@wistrich2005can] and is almost never acknowledged in the written reasons
 
     -   lab experiments with real judges are this week's seminar
 
@@ -347,7 +347,7 @@ Judges are willing to substitute quality for leisure time and vice versa. Each c
 
 -   the sources of judicial preferences are manifold: background characteristics, experience, legal and political context
 
-![Ideology of Democratic and Republican State Supreme Court Justices [@gibson2022]](img/dem-con-state-scs-ideo.png){width="55%"}
+![Ideology of Democratic and Republican State Supreme Court Justices [@gibson2022judging]](img/dem-con-state-scs-ideo.png){width="55%"}
 
 ## Realizing judicial preferences {.smaller}
 
@@ -365,31 +365,31 @@ Judges are willing to substitute quality for leisure time and vice versa. Each c
 
 ## Empirical evidence
 
--   US Courts of Appeals judges apply different standards in comparable capital punishment cases depending on whether they were appointed by D or R president [@beim2021]
+-   US Courts of Appeals judges apply different standards in comparable capital punishment cases depending on whether they were appointed by D or R president [@beim2021republicanmajority]
 
 -   a law and economics training programme for US judges made them decide more conservatively [@ash2026ideas]
 
--   Fox News viewership causes elected judges to impose harsher sentences [@ash2024]
+-   Fox News viewership causes elected judges to impose harsher sentences [@ash2024conservative]
 
 ## Empirical evidence
 
--   judges socialized in Nazi Germany were more lenient towards Nazi criminals than other judges [@kern2024]
+-   judges socialized in Nazi Germany were more lenient towards Nazi criminals than other judges [@kern2024transitional]
 
--   high salience and politicization of immigration is related to lower asylum appeal success [@spirig2023]
+-   high salience and politicization of immigration is related to lower asylum appeal success [@spirig2023when]
 
--   judges with daughters are more feminist than judges who only have sons [@glynn2015]
+-   judges with daughters are more feminist than judges who only have sons [@glynn2015identifying]
 
 ## What moves judges? {.smaller}
 
 | shock | setting | what happened | source |
 |------|------|------|------|
-| an upset loss by the state's college football team | juvenile courts, Louisiana | longer sentences in the week after the game | @eren2018 |
-| the defendant's birthday | French courts and US federal courts | shorter sentences when the hearing falls on the birthday | @chen2023birthdays |
-| time since the last food break | Israeli parole boards | favourable decisions drop towards zero before each break | @danziger2011 |
+| an upset loss by the state's college football team | juvenile courts, Louisiana | longer sentences in the week after the game | @eren2018emotional |
+| the defendant's birthday | French courts and US federal courts | shorter sentences when the hearing falls on the birthday | @chen2023clash |
+| time since the last food break | Israeli parole boards | favourable decisions drop towards zero before each break | @danziger2011extraneous |
 | ... or the order in which cases are scheduled | same data | unrepresented prisoners are heard last; the effect shrinks | @weinshallmargel2011overlooked |
-| a hot day | US immigration courts | fewer asylum grants in the original estimate; a coding error and a critique cut it down | @heyes2019; @heyes2022 |
+| a hot day | US immigration courts | fewer asylum grants in the original estimate; a coding error and a critique cut it down | @heyes2019temperature; @heyes2022correction |
 | a two-week economics course | US federal judges | more conservative economic rulings, harsher sentences | @ash2026ideas |
-| Fox News arriving on local cable | elected state judges | harsher sentences | @ash2024 |
+| Fox News arriving on local cable | elected state judges | harsher sentences | @ash2024conservative |
 
 # Learning about judicial preferences
 
@@ -445,7 +445,7 @@ The intermediate builds (case-space-3 to case-space-8) are in img/ if the step-b
 
     -   not all cases are equally "difficult" to decide for a judge
 
--   scholars have therefore adapted item-response theory models from psychometrics to solve these issues [@bafumi2005]
+-   scholars have therefore adapted item-response theory models from psychometrics to solve these issues [@bafumi2005practical]
 
 -   there are generally three parameters in these models:
 
@@ -484,7 +484,7 @@ The discrimination parameter reflects how strongly the case's response probabili
 
 ## Ideal point estimation {.smaller}
 
-![Ideal points of judges on the International Court of Justice [@dyevre2024]](img/dyevre-icj-ideal.png){width="488"}
+![Ideal points of judges on the International Court of Justice [@dyevre2025decision]](img/dyevre-icj-ideal.png){width="488"}
 
 -   the recovered dimension could in principle be anything; researchers need to validate it against additional information about cases and judges to establish what it captures (e.g. left-right, or geopolitical alignment as here)
 

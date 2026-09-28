@@ -2,7 +2,7 @@
 
 Stiansen, Øyvind. "(Non)renewable Terms and Judicial Independence in the European Court of Human Rights." *The Journal of Politics* 84, no. 2 (2022): 992-1006. <https://doi.org/10.1086/715253>
 
-Mehmood, Sultan. "The Impact of Presidential Appointment of Judges: Montesquieu or the Federalists?" *American Economic Journal: Applied Economics* 14, no. 4 (2022): 411-445. <https://doi.org/10.1257/app.20210176>
+Hermansen, Silje Synnøve Lyder, and Daniel Naurin. "Shaping the Bench: The Effect of Ideology and Influence on Judicial Reappointments." *The Journal of Politics* (2026). <https://doi.org/10.1086/740169>
 
 Arrington, Nancy, Leeann Bass, Adam Glynn, Jeffrey K. Staton, Brian Delgado, and Staffan I. Lindberg. "Constitutional reform and the gender diversification of peak courts." *American Political Science Review* 115, no. 3 (2021): 851-868. <https://doi.org/10.1017/S0003055421000071>
 
