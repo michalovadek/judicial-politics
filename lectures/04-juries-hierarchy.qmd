@@ -36,18 +36,18 @@ source("utils/globals.R")
 ## Who decides besides judges? {.smaller}
 
 | system | who decides | how chosen | decision rule |
-|------|------|------|------|
-| jury (US, UK, Canada) | 6 to 12 citizens decide the facts, the judge the law and the sentence | drawn at random from electoral rolls, then challenges | unanimity or near-unanimity (England allows 10 to 2) |
-| mixed tribunal (Germany, France, Sweden) | lay judges sit and vote with professional judges | nominated by local councils (Germany), by political parties (Sweden), drawn at random (France) | majority, often qualified to convict |
-| lay judges by lot (Japan, since 2009) | 6 citizens and 3 judges on serious crimes | drawn at random from voter rolls | majority that includes at least one professional judge |
-| lay magistrates (England) | volunteer magistrates on minor crime | appointed | majority |
-| professionals only (the Netherlands, most civil cases everywhere) | judges | | |
+|---------------------------|---------------------------------|--------------------|--------------------|
+| jury (US, UK, Canada) | 6-12 citizens decide facts, the judge the law | at random from electoral rolls | (near-)unanimity |
+| mixed tribunal (Germany, France, Sweden) | lay judges vote with professionals | by councils, parties or lot | majority, often qualified |
+| lay judges (Japan, since 2009) | 6 citizens and 3 judges on serious crimes | at random | majority incl. a professional |
+| lay magistrates (England) | volunteers on minor crime | appointed | majority |
+| professionals only (Netherlands) | judges | | |
 
--   civil juries have all but disappeared outside the US; criminal lay participation is the norm in most of Europe, but rarely in the form of a jury
+-   civil juries are rare outside the US; most of Europe uses lay judges rather than juries
 
 ## The Condorcet jury theorem
 
--   Condorcet (1785): a group deciding by majority vote is more likely to get the right answer than any one of its members, provided two conditions hold
+-   Condorcet (1785): a majority is more likely right than any one member, if
 
     -   **competence**: each member is more likely right than wrong
 
@@ -55,23 +55,23 @@ source("utils/globals.R")
 
 -   the larger the group, the more likely the majority is right
 
-    -   with each juror right 60% of the time, a majority of three is right 65% of the time, of eleven 75%, of fifty-one 93%
+    -   with jurors each right 60% of the time, a majority of 3 is right 65%, of 11 75%, of 51 93%
 
--   this is the standard argument for deciding in groups: juries, panels of judges, larger benches
+-   the standard argument for juries, panels and larger benches
 
 ## Real juries are not Condorcet juries
 
--   competence varies: some jurors follow the evidence better than others
+-   competence varies between jurors
 
--   votes are not independent: jurors deliberate before they vote
+-   votes are not independent: jurors deliberate first
 
-    -   deliberation lets the informed persuade, or the confident dominate
+    -   the informed persuade, or the confident dominate
 
-    -   **group polarization**: deliberating groups end up more extreme than their median member
+    -   **group polarization**: groups end up more extreme than their median member
 
     -   the first ballot predicts the verdict in about nine juries in ten [@kalven1966american]
 
--   whether a group decides better depends on who is in the room and how they interact
+-   group decisions depend on who is in the room
 
 ## Who sits on the jury matters {.smaller}
 
@@ -79,7 +79,7 @@ source("utils/globals.R")
 
 -   jurors of the defendant's own gender are more lenient, so the gender mix of the pool moves conviction rates [@hoekstra2021effect]
 
--   the political affiliation of randomly assigned Swedish lay judges is this week's reading
+-   randomly assigned Swedish lay judges from the far right convict young and Arabic-named defendants more often [@anwar2019politics]
 
 -   in all three studies who ends up in the pool is as good as random, so differences in verdicts cannot come from the cases
 
@@ -361,14 +361,6 @@ if the whistle is blown too often, the signal becomes less informative and easie
 
     -   the CJEU is more likely to accept requests from national courts that previously experienced rejection
 
-## Four puzzles
-
--   a panel can reject each of two objections by majority and still have to uphold on the whole – majority rule is not transitive across the parts of a case
-
--   lower courts are supposed to implement doctrine, yet they see the facts first and shape the rules the upper court has to react to
-
--   reversed judges overshoot rather than learn; is that fear, reputation or updating?
-
--   national courts rebuffed by the CJEU refer more cases afterwards, not fewer
+## When judges decide together, whose preferences end up in the ruling?
 
 ## References

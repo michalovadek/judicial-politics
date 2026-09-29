@@ -82,6 +82,16 @@ flowchart LR
 
 -   and compliance is endogenous: courts write the rulings they expect to be obeyed, so observed compliance rates overstate judicial power
 
+## (Non-)Compliance
+
+-   due to courts' enforcement-dependency, non-compliance is an attractive strategy for other actors (especially other branches of power)
+
+    -   but non-compliance can itself generate more litigation
+
+-   in most cases it is less costly for the government/legislator to evade compliance implicitly
+
+    -   e.g. creating a parliamentary working group but never delivering [@vanberg2001legislativejudicial]
+
 ## How courts secure compliance {.smaller}
 
 -   **vagueness**: judges write vaguer opinions where they fear defiance, trading clarity for the appearance of compliance [@staton2008value]
@@ -125,9 +135,25 @@ flowchart LR
 | **direct** | the addressees do what the ruling orders: policy adopted, prisoners released, payments made | the parties and the public come to frame the issue as a matter of rights |
 | **indirect** | actors not addressed change behaviour: agencies, firms, other courts; mobilization is triggered | the wider public debate and the media reframe the problem |
 
--   the typology comes from the study of the Colombian Constitutional Court's 2004 ruling on internally displaced people (T-025), which ordered a national policy and kept jurisdiction to monitor it for years [@rodriguezgaravito2015radical]
+-   typology from the study of Colombia's T-025 ruling on displaced people [@rodriguezgaravito2015radical]
 
--   most impact studies measure the top-left cell; the other three cells are where Rosenberg and McCann disagree
+-   most impact studies measure the top-left cell; the other three are where Rosenberg and McCann disagree
+
+## Process tracing {.smaller}
+
+-   some effects of courts leave no ruling behind
+
+    -   e.g. policy changed in anticipation of review (the **shadow effect**)
+
+-   **process tracing** follows one case step by step through documents, interviews and timing
+
+    -   a Norwegian welfare reform preempted review by a little-known international court [@pavone2022shadow]
+
+    -   political entrepreneurs captured Guatemala's courts through the nomination process [@moralesforte2025entrepreneurial]
+
+-   does each step leave the predicted evidence? does a rival explanation fit too?
+
+-   one case reveals a mechanism; @martinsen2015judicial pairs case studies with a dataset
 
 ## Structural rulings {.smaller}
 
@@ -163,16 +189,14 @@ in Lava Jato Brazilian prosecutors and judges were coming up with creative legal
 
 ## What rulings do {.smaller}
 
-| ruling or decision | outcome | finding | source |
-|------|------|------|------|
-| *Dobbs* (2022) | births | up about 2.3 percent in states that banned abortion, relative to a synthetic comparison | @dench2024effects |
-| *Dobbs* | trust in the Supreme Court | a large fall in legitimacy that lingered at least six months | @gibson2025do |
-| *Shelby County* (2013) | turnout | fell for Black relative to white registered voters in formerly covered areas | @billings2024disparate |
-| *Citizens United* (2010) | elections | Republican candidates gained in states whose spending bans were struck down | @klumpp2016business |
-| *Obergefell* (2015) | social norms | perceived norms shifted towards approval, personal attitudes did not | @tankard2017effect |
-| same-sex marriage legalization | implicit bias | anti-gay bias declined faster after legalization | @ofosu2019samesex |
-| CJEU *Junqueras* (2019) | euroscepticism in Spain | rose among those interviewed after the ruling | @turnbulldugarte2022can |
-| a stricter judge | a defendant's life | prison in Norway cut reoffending; pretrial detention in the US raised convictions and cut employment | @bhuller2020incarceration; @dobbie2018effects |
+| ruling or decision | outcome | effect |
+|----------------------------|------------------------|------------------------------------------------|
+| *Dobbs* (2022) | births | up about 2.3% in states that banned abortion [@dench2024effects] |
+| *Dobbs* | trust in the Supreme Court | a lasting fall |
+| *Shelby County* (2013) | Black turnout | fell relative to white turnout in formerly covered areas [@billings2024disparate] |
+| *Citizens United* (2010) | elections | Republican gains |
+| *Obergefell* (2015) | social norms | shifted; personal attitudes did not |
+| CJEU *Junqueras* (2019) | euroscepticism in Spain | rose |
 
 ## Outside spending before and after *Citizens United*
 
@@ -230,15 +254,14 @@ read_csv("data/outside_spending.csv", show_col_types = FALSE) |>
 
 ## Four public reactions to a ruling {.smaller}
 
--   **acceptance and legitimation**: a trusted court moves opinion towards the policy it upheld (this week's first reading), helped by legalistic media framing [@linos2016supreme]; courts may be no better at this than other institutions [@cohen2024judicialization]
+-   **acceptance and legitimation**: a trusted court moves opinion towards the policy it upheld [@sternberg2022legitimacyconferring], helped by legalistic media framing [@linos2016supreme]; courts may be no better at this than other institutions [@cohen2024judicialization]
 
--   **backlash**: the ruling moves opinion against it (this week's Catalan reading); *Brown* [@klarman1994how]; yet opinion backlash is rarer than assumed and gay-rights advances did not provoke it [@bishin2016opinion]
+-   **backlash**: the ruling moves opinion against it, as in Catalonia [@casas2024judicial]; *Brown* [@klarman1994how]; yet opinion backlash is rarer than assumed [@bishin2016opinion]
 
 -   **nothing**: *Bush v Gore* left the Court's legitimacy intact [@gibson2024losing]; public mood responds to the Court's direction thermostatically at best [@ura2014backlash]
 
 -   **spillover**: the ruling changes what people think of the court or the polity rather than of the policy, as after *Dobbs* [@levendusky2024has; @gibson2025do], *Junqueras* [@turnbulldugarte2022can] and unpopular UK Supreme Court rulings [@ovadek2026contagion]
 
--   legitimation is studied with survey experiments, backlash and spillover with unexpected events, durability with panels
 
 ## Support for SCOTUS after *Dobbs* {.smaller}
 
@@ -264,26 +287,6 @@ read_csv("data/outside_spending.csv", show_col_types = FALSE) |>
 
 -   the durable effects of rulings on attitudes run through norms and behaviour more than through persuasion
 
-## Synthetic difference-in-differences {.smaller}
-
--   a policy shock hits some units (states that banned abortion after *Dobbs*) and not others; the untreated units supply the counterfactual
-
--   ordinary difference-in-differences assumes the two groups would have moved in parallel; the **synthetic** version builds a weighted composite of untreated states that matches the treated states before the shock and compares against that
-
--   @dench2024effects: births in ban states rose about 2.3 percent above the synthetic comparison in the first half of 2023, most for women in their early twenties and for Hispanic women
-
--   what to check: does the composite track the treated states well before the shock? are there spillovers (travel for abortions) that contaminate the controls? is the window after the shock long enough?
-
--   this is the workhorse design for the policy effects of rulings; the unexpected-event design is its cousin for opinion
-
-## Four puzzles
-
--   births, turnout and campaign spending move after rulings; through which of the two streams?
-
--   a ruling confers legitimacy on a policy only if the court is trusted, and politicized rulings are exactly what erodes trust
-
--   *Brown* changed little directly and a great deal indirectly – success or failure for the court?
-
--   new democracies comply with Strasbourg faster than old ones
+## Do rulings change society, or follow changes already under way?
 
 ## References

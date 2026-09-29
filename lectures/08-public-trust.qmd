@@ -51,19 +51,19 @@ source("utils/globals.R")
 
 ## Is trust in courts its own thing? {.smaller}
 
--   trust in parliaments and trust in courts move together across countries and over time; two readings of that co-movement
+-   trust in parliaments and in courts moves together; two readings
 
-    -   **elite contagion**: citizens see one governing establishment, so dissatisfaction with one branch lowers trust in the others
+    -   **elite contagion**: one governing establishment, so distrust of one branch spreads to the others
 
-    -   **institutional substitution**: citizens see checks and balances, so dissatisfaction with one branch raises trust in the branch that constrains it
+    -   **institutional substitution**: checks and balances, so distrust of one branch raises trust in the branch that constrains it
 
--   a survey experiment in the British Election Study varied information about Parliament, the UK Supreme Court and the ECtHR and measured trust in all of them [@ovadek2026contagion]
+-   a British Election Study experiment on Parliament, the UK Supreme Court and the ECtHR [@ovadek2026contagion]
 
-    -   an unpopular parliamentary decision lowered trust in the courts by more than in Parliament itself
+    -   an unpopular parliamentary decision lowered trust in the courts more than in Parliament
 
-    -   an unpopular court ruling lowered trust in the court and in other courts, but not in Parliament
+    -   an unpopular ruling lowered trust in that court and others, not in Parliament
 
-    -   only unpopular decisions moved trust; popular ones, party cues and information about judges' conduct did not
+    -   popular decisions, party cues and information on judges' conduct did not move trust
 
 -   the reservoir of goodwill can be drained by decisions the courts never made
 
@@ -71,11 +71,11 @@ source("utils/globals.R")
 
 -   public support makes enforcement more likely and makes legislators wary of open defiance [@vanberg2001legislativejudicial]
 
--   courts know it: the German Constitutional Court holds public oral hearings in the cases where it most needs the public to notice a government losing [@krehbiel2016politics]
-
 -   does support deter court curbing?
 
-    -   survey experiments measure the electoral cost of attacks directly
+    -   in experiments, US voters punish incumbents who attack courts, especially those who esteem the court [@driscoll2023costs]
+
+    -   co-partisans punish less, and party and issue positions matter more
 
     -   but the public supports curbing when it disagrees with the court [@bartels2020curbing], and populist voters in Germany back limiting the constitutional court's power [@peffley2024populism]
 
@@ -129,29 +129,29 @@ source("utils/globals.R")
 
 -   particularly important when constituents disagree over a policy decision
 
-## Sources of judicial legitimacy
+## Sources of judicial legitimacy {.smaller}
 
--   traditionally, belief in legalism and exposure to **legal symbols** is seen as a major source of judicial legitimacy [@caldeira1992etiology] – positivity theory, this week's first reading
+-   traditionally, legalism and **legal symbols** are seen as the main source of legitimacy [@caldeira1992etiology] – positivity theory [@gibson2017reconsidering]
 
-    -   legal symbols make individuals believe that what courts do is fairer and **different from politics**
+    -   symbols make courts seem fairer and **different from politics**
 
-    -   more awareness of courts leads to more exposure to its legitimizing symbols and a build up of a "repository of goodwill"
+    -   awareness means more exposure to symbols and a "repository of goodwill"
 
-    -   legalistic (compared to partisan) framing of a ruling induces specific support [@magalhaes2023beyond]
+    -   legalistic framing of a ruling induces specific support [@magalhaes2023beyond]
 
--   the **ideological** rival, this week's second reading: people ascribe less legitimacy to a court they think they disagree with
+-   the **ideological** rival: people ascribe less legitimacy to a court they think they disagree with [@bartels2013ideological]
 
 ## Where does support come from? {.smaller}
 
-| source of support | claim | evidence beyond this week's readings |
-|------|------|------|
-| legal symbols and positivity | exposure to courts' symbols builds a reservoir of goodwill | @caldeira1992etiology; @gibson2014losing; legalistic framing [@magalhaes2023beyond] |
-| policy and ideological agreement | people support courts they agree with | the reaction to *Dobbs* |
-| partisan alignment with power | support for judicial power depends on whom it constrains | 34 African countries [@bartels2020does]; Argentina is this week's third reading |
-| performance, corruption, efficiency | courts earn trust by working | Latin America [@demicheli2024public]; Europe [@garoupa2020public] |
-| awareness and exposure | to know courts is to love them, or not | US yes [@gibson2014losing]; Poland and Hungary conditional [@gandur2025awareness]; Latin America no [@demicheli2024public] |
-| democratic and illiberal values | commitment to democracy supports independent courts | Hungary yes [@cheruvu2025partisanship], Kenya no [@bartels2023can]; illiberal views and distrust [@voeten2022is; @arzheimer2024identification] |
-| identity cues | judges' identities signal fairness | @bracic2023because |
+| source of support | claim |
+|----------------------------|------------------------------------------------------------------------|
+| legal symbols | exposure to courts builds a reservoir of goodwill |
+| ideological agreement | people support courts they agree with, as after *Dobbs* |
+| partisan alignment | support for judicial power depends on whom it constrains [@gandur2025trust] |
+| performance | courts earn trust by working [@garoupa2020public] |
+| awareness | to know courts is to love them, or not |
+| democratic values | commitment to democracy supports independent courts, or not |
+| identity cues | judges' identities signal fairness |
 
 ## Political foundations {.smaller}
 
@@ -261,9 +261,7 @@ Zvobgo and Chaudoin (2025) do not find evidence that arguments about ICC's compl
 
 -   the assumptions: the event was not anticipated, who gets interviewed on which day is unrelated to it, and nothing else happened at the same time
 
--   example: the CJEU's December 2019 ruling that the jailed Catalan leader Oriol Junqueras had parliamentary immunity landed while the European Social Survey was in the field in Spain; euroscepticism rose and satisfaction with democracy fell among those interviewed afterwards [@turnbulldugarte2022can]
-
--   this week's Argentine reading uses the same design with a domestic ruling
+-   applied to Argentine rulings by @gandur2025trust
 
 -   checks for any such study
 
@@ -273,14 +271,6 @@ Zvobgo and Chaudoin (2025) do not find evidence that arguments about ICC's compl
 
     -   could the timing of interviews have shifted because of the event?
 
-## Four puzzles
-
--   courts are more trusted than parliaments and governments nearly everywhere, despite being the branch nobody elected
-
--   knowing more about courts raises support for them in the US, but not in Latin America, and only under some conditions in Poland and Hungary
-
--   support for judicial power depends on who is in power, yet diffuse support is supposed to be stable by definition
-
--   courts are trusted more than parliaments, yet an unpopular parliamentary decision damages trust in the courts more than in parliament itself
+## Why do people trust the one branch they never vote for?
 
 ## References

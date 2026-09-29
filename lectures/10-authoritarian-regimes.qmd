@@ -27,7 +27,7 @@ source("utils/globals.R")
 
     -   read the FAQ page on the website
 
-    -   consult slides from previous weeks (eg week 5)
+    -   consult the lecture slides on the research paper
 
 ## Assessment: write clearly {.smaller}
 
@@ -37,7 +37,7 @@ source("utils/globals.R")
 
 ## Courts without democracy
 
--   the module so far assumed a liberal democracy: elected politicians, an independent judiciary, a public that can punish
+-   most theories of courts assume a liberal democracy: elected politicians, an independent judiciary, a public that can punish
 
 -   most of the world's courts operate without at least one of those
 
@@ -47,30 +47,18 @@ source("utils/globals.R")
 
 # Why autocrats build courts
 
-## Why empower courts in autocracies?
-
--   authoritarian regimes want to keep low-level corruption in check
-
--   courts can share the blame for unpopular policies [@ginsburg2008rule]
-
--   independent enforcement of property rights as a credible commitment to investors
-
--   courts are useful for controlling opposition movements
-
--   courts can provide regime-friendly interpretations of the law, including the constitution
-
 ## What are courts for in an autocracy? {.smaller}
 
 | function | what the ruler gets | examples |
-|------|------|------|
-| social control | dissent processed through courts looks like law rather than repression | Singapore's defamation suits; Russia's "extremism" prosecutions |
-| legitimation | rule by law dresses power as legality | constitutional courts across the Arab world and post-Soviet space |
-| administrative discipline | courts monitor lower officials the centre cannot see | China's administrative litigation [@cao2023suing] |
-| credible commitment | investors trust contracts and property | Egypt's constitutional court, created to reassure investors (this week's reading); Mexico under the PRI |
-| delegating controversial questions | let judges take the blame | privatization, family law, religion |
-| repressing elite rivals | trials discipline insiders and signal strength | this week's reading on judicial repression |
+|------------------------|----------------------------------|------------------------------------------|
+| social control | dissent handled as law, not repression | Singapore's defamation suits |
+| legitimation | power dressed as legality | post-Soviet constitutional courts |
+| administrative discipline | courts watch local officials | China's administrative litigation [@cao2023suing] |
+| credible commitment | investors trust property rights | Egypt [@moustafa2003law] |
+| blame-shifting | judges take the blame | privatization, family law, religion |
+| repressing rivals | trials discipline insiders | @shenbayh2018strategies |
 
--   the functions come from @ginsburg2008rule and @moustafa2014law; the tension is that each of them requires a court that is at least somewhat believable
+-   each function needs a court that is somewhat believable [@ginsburg2008rule; @moustafa2014law]
 
 ## Insurance theory of court power
 
@@ -145,7 +133,7 @@ vdemdata::plot_indicator("v2x_jucon",
 
 -   the boundary between the two is drawn by the regime, case by case, and the normative state keeps working precisely because the prerogative state exists
 
--   the concept travels: Francoist Spain (next slides), Russia [@hendley2022legal], China's environmental litigation that works until a state enterprise is the defendant [@stern2013environmental], Singapore's meticulous legality in the service of one-party rule [@rajah2012authoritarian]
+-   the concept travels: Francoist Spain, Russia [@hendley2022legal], China's environmental litigation that works until a state enterprise is the defendant [@stern2013environmental], Singapore's meticulous legality in the service of one-party rule [@rajah2012authoritarian]
 
 -   for the study of courts it means that country-level independence scores average over two very different things
 
@@ -196,13 +184,13 @@ vdemdata::plot_indicator("v2x_jucon",
 ## When do courts in autocracies bite? {.smaller}
 
 | condition | mechanism | evidence |
-|------|------|------|
-| audiences | judges assert themselves when a bar, a press or a public will back them | Pakistan's lawyers' movement [@ghias2010miscarriage]; an audience-based framework [@kureshi2021when] |
-| competition | rulers interfere when the opposition might win, and leave courts alone when it cannot | Russia and Ukraine [@popova2010political]; election fraud is this week's reading |
-| fragmentation | divided rulers cannot coordinate on punishing judges | [@helmke2009regimes] |
-| elections | electoral disputes give courts cover to act | Kenya's 2017 annulment [@gerzso2023judicial] |
-| international audiences | investors, donors, accession talks | Turkey before 2010, EU candidate states |
-| the dual state boundary | independence survives in the normative state, not the prerogative one | Spain, Russia, China |
+|----------------------|----------------------------------------|--------------------------------------|
+| audiences | a bar, press or public backs the judges | Pakistan's lawyers [@ghias2010miscarriage; @kureshi2021when] |
+| competition | rulers interfere when the opposition might win | Russia, Ukraine [@popova2010political]; election fraud [@harvey2022can] |
+| fragmentation | divided rulers cannot punish judges | [@helmke2009regimes] |
+| elections | electoral disputes give courts cover | Kenya 2017 [@gerzso2023judicial] |
+| international audiences | investors, donors, accession talks | Turkey before 2010 |
+| dual state | independence survives in the normative state only | Spain, Russia, China |
 
 ## Lawyers against the regime {.smaller}
 
@@ -226,7 +214,7 @@ vdemdata::plot_indicator("v2x_jucon",
 
 ## Courts in the Global South {.smaller}
 
--   most of the module's evidence comes from the US and Europe; most of the world's courts sit elsewhere, in states with legal pluralism, customary and religious courts, weak enforcement and personalist politics
+-   most research on courts comes from the US and Europe; most of the world's courts sit elsewhere, in states with legal pluralism, customary and religious courts, weak enforcement and personalist politics
 
 -   independence and compliance mean something different when the ruling party is the state and the state barely reaches the village
 
@@ -234,16 +222,8 @@ vdemdata::plot_indicator("v2x_jucon",
 
 -   the field's map is being redrawn from South Africa, Colombia, India and Kenya outward [@riosfigueroa2025courts]
 
--   which of the module's findings would you expect to hold in Lagos, Lahore or Lima?
+-   which findings about courts would you expect to hold in Lagos, Lahore or Lima?
 
-## Four puzzles
-
--   autocrats build courts to serve them and the courts sometimes turn on them – the more successful the court at its intended job, the more dangerous it becomes
-
--   some autocracies score higher on judicial independence than some democracies – what are the indices measuring?
-
--   courts in Brazil and India bend towards those in power without any formal control; courts in Kenya and, in administrative cases, China constrain it – regime type is a poor guide
-
--   special political tribunals are the exception; ordinary judges who decide ordinary cases impartially and political cases as told are the rule
+## Can a court be independent in an undemocratic state?
 
 ## References

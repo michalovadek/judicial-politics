@@ -87,7 +87,7 @@ source("utils/globals.R")
 
     -   over 70% in some post-socialist countries
 
--   how appointment reforms change the gender balance of peak courts is this week's reading
+-   reforming the selection process speeds up the appointment of the first woman to a peak court [@arrington2021constitutional]
 
 ## Women in the Czech judiciary {.smaller}
 
@@ -149,13 +149,13 @@ comp |>
 ## How can judges be chosen? {.smaller}
 
 | who chooses | examples | predicted effects |
-|------|------|------|
-| executive alone | many presidential systems, Pakistan before 2010 | loyal or aligned judges; fast, politicized |
-| executive with legislative confirmation | US federal courts | politicized confirmations; vacancies under divided government |
-| legislative supermajority | German Federal Constitutional Court (two thirds) | consensus candidates; informal party quotas |
-| judicial council | Italy, Spain, much of Latin America and post-2000 Eastern Europe | insulation from politics; risk of corporatism, and of capture of the council itself |
-| mixed, each branch appoints a share | Spanish and Italian constitutional courts | each appointer picks allies; the cleavage runs between appointers |
-| election | 38 US states, Bolivia, Mexico | accountability to voters; campaign money and populism |
+|--------------------------------|--------------------------------|------------------------------------|
+| executive alone | many presidential systems | loyal judges; fast, politicized |
+| executive with legislative confirmation | US federal courts | confirmation fights; vacancies under divided government |
+| legislative supermajority | German Constitutional Court | consensus candidates; party quotas |
+| judicial council | Italy, Spain, much of Latin America | insulation; risk of corporatism or capture |
+| mixed, each branch appoints a share | Spanish and Italian constitutional courts | each appointer picks allies |
+| election | 38 US states, Bolivia, Mexico | accountability; campaign money |
 
 ## Appointment procedures {.smaller}
 
@@ -235,9 +235,7 @@ ECtHR judges had their tenures increased from 6 to 9 but made non-renewable
 
     -   judges who are up for reappointment are more responsive to the preferences of their principal
 
-    -   the cleanest test is this week's ECtHR reading
-
-    -   whom governments reappoint, and why, is this week's CJEU reading
+    -   tested at the ECtHR [@stiansen2022nonrenewable] and the CJEU [@hermansen2026shaping]
 
 -   non-renewable terms can however damage a court's effectiveness
 
@@ -267,16 +265,14 @@ ECtHR judges had their tenures increased from 6 to 9 but made non-renewable
 | tool | who uses it | what it reveals or punishes |
 |------|------|------|
 | reappointment and promotion | governments, court presidents, councils | rewards deference |
-| transparency of votes and dissents | everyone | who voted how: no dissents at the CJEU or the Italian Constitutional Court, dissents at the ECtHR and, since 1970, the German Constitutional Court |
-| performance evaluation and case statistics | councils, ministries | speed and output rather than direction |
-| disciplinary regimes | councils, special chambers | misconduct, and in Poland after 2017 the content of rulings |
-| budgets and staffing | legislatures, ministries | capacity; a blunt instrument that hits the whole institution |
+| transparency of votes and dissents | everyone | who voted how; dissents at the ECtHR, none at the CJEU |
+| performance evaluation and case statistics | councils, ministries | speed and output, not direction |
+| disciplinary regimes | councils, special chambers | misconduct |
+| budgets and staffing | legislatures, ministries | capacity; hits the whole institution |
 
 ## Judicial exits
 
 -   judges are rarely forced out of office through removal procedures
-
-    -   court curbing governments prefer lowering the mandatory retirement age (e.g. Hungary in 2012, Poland in 2017, El Salvador in 2021)
 
 -   the motivations behind a judge quitting can be more varied however
 
@@ -344,22 +340,10 @@ the Wisconsin figure is only slightly less than total party spending in the 2019
 
 -   the logic of a difference-in-differences: compare judges or courts exposed to the reform with those not exposed, before and after; the untouched group supplies the counterfactual trend
 
--   Hungary 2012: judges' retirement age cut from 70 to 62, removing about a tenth of the judiciary at once, court presidents first
-
-    -   the CJEU found the cut discriminatory within the year; few returned to their posts
-
 -   Bolivia 2011: the first popular election of high court judges changed who sat on the bench and how the public rated it [@driscoll2015judicial]
 
--   the requirement is that nothing else changed at the same time for the treated group only; in Hungary that is exactly what is in doubt
+-   the requirement is that nothing else changed at the same time for the treated group only
 
-## Four puzzles
-
--   reappointment buys accountability at the price of independence, while life tenure produces strategic retirement and a gerontocracy
-
--   sharing the appointment power moderates judges only when the sharers must agree; otherwise it produces vacancies and confirmation wars
-
--   judicial councils were promoted to insulate judges from politics and became a target for politicians (Poland's KRS) and for the judges' own guild (Italy's CSM)
-
--   post-socialist judiciaries are majority female and led by men; elected judiciaries become more diverse and less trusted
+## Can judges be made accountable without being made dependent?
 
 ## References

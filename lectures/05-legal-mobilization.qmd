@@ -53,7 +53,7 @@ source("utils/globals.R")
 
     -   which cases will offer leverage on your research problem?
 
-    -   how do you operationalize your theory (variables) in data? What is the unit of analysis?
+    -   how do you operationalize your variables? What is the unit of analysis?
 
     -   what measurement choices were made in the construction of the dataset?
 
@@ -61,11 +61,11 @@ source("utils/globals.R")
 
     -   even in qualitative research keep meticulous track of your sources (transparency appendix)
 
--   **Methods/research design**: the empirical strategy applied to your data in order to test your hypothesis
+-   **Methods/research design**: the empirical strategy used to test your hypothesis
 
     -   how do you analyse your data?
 
-    -   what valid inferences can be made based on your method? e.g. average treatment effects vs mechanistic evidence
+    -   what inferences does your method allow? e.g. average treatment effects vs mechanistic evidence
 
     -   what are the assumptions and limitations of the method?
 
@@ -113,7 +113,7 @@ source("utils/globals.R")
 
     -   "claims" not strictly invoking formal institutional mechanisms
 
-    -   what exactly counts as legal mobilization is this week's conceptual reading
+    -   what exactly counts as legal mobilization is contested [@lehoucq2020conceptualizing]
 
 ## Why mobilize the law?
 
@@ -210,13 +210,13 @@ As an example, there was a successful suit resulting from a handwritten complain
 
 ## Legal opportunity structure (dynamic)
 
--   the text of a law is just the starting the point of law construction
+-   the text of a law is only the starting point
 
     -   rules need to be interpreted in the process of being applied
 
 -   actors attempt to mould LOS to their advantage by advancing new interpretations
 
-    -   most commonly they are targeting judges but there are other options (e.g. MPs, ombudsmen)
+    -   mostly before judges, but also e.g. MPs, ombudsmen
 
     -   some might not see an opportunity where there is one [@vanderpas2024all]
 
@@ -284,7 +284,7 @@ As an example, there was a successful suit resulting from a handwritten complain
 
 -   does having a lawyer matter? in a randomized experiment in New York's housing court, tenants offered free counsel were far less likely to be evicted [@seron2001impact]
 
--   lawyers are repeat players even when their clients are not – this week's Galanter reading
+-   lawyers are repeat players even when their clients are not [@galanter1974why]
 
 # Who litigates and who wins
 
@@ -302,7 +302,7 @@ As an example, there was a successful suit resulting from a handwritten complain
 
 ## Who litigates?
 
--   the equalizing potential of the law is limited in practice by resource inequality – this week's Galanter reading
+-   the equalizing potential of the law is limited in practice by resource inequality [@galanter1974why]
 
 -   more resourceful actors litigate more [@hofmann2021explaining]
 
@@ -354,20 +354,8 @@ role of US SG somewhat similar to role of the Commission in the EU system - also
 
 -   observed litigation is a **selected sample** of disputes, selected by the parties' expectations
 
-    -   a court that rules for the government 90% of the time may be captured, or may face a government that only litigates when it expects to win
-
     -   win rates are not bias rates
 
--   the selection curve on legal ambiguity is the same idea seen from the judge's side
-
-## Four puzzles
-
--   plaintiffs win about half the time almost everywhere – is the law that balanced, or are we only seeing the close calls?
-
--   the haves come out ahead in domestic courts, yet the ECJ appears to favour the weak
-
--   the US literature says rights revolutions need support structures; Costa Rica and Colombia got theirs from a cheap procedure and no organization
-
--   Europe was supposed to go American with more adversarial legalism; its bureaucracies kept implementing instead
+## What kinds of questions make it to court, and who brings them?
 
 ## References

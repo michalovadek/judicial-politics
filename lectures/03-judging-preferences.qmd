@@ -121,13 +121,13 @@ ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
 ## Six paths to a decision {.smaller}
 
 | path | core assumption | best evidence | where it struggles |
-|------|------|------|------|
-| legal | rules and facts determine outcomes | unanimity on most cases; lower courts follow precedent | discretion, ambiguity, ideological voting patterns |
-| attitudinal | judges vote their policy preferences | SCOTUS votes predicted from pre-appointment editorials | outside the US and outside peak courts |
-| strategic | preferences pursued subject to what others will do | anticipation of reversal and override | hard to distinguish from sincere moderation |
-| economic | judges maximize utility, including leisure | effort responds to workload and promotion prospects | strong intrinsic motivation blunts incentives |
-| cognitive | judges are boundedly rational like everyone else | anchoring, framing and irrelevant cues in experiments | small stakes and hypothetical cases in the lab |
-| identity and socialization | who the judge is shapes how they see cases | gender, race, upbringing and training effects | mechanisms are rarely observed directly |
+|--------------|----------------------------|------------------------------|----------------------------|
+| legal | rules and facts decide | unanimity; precedent followed | discretion, ambiguity |
+| attitudinal | judges vote their preferences | editorials predict votes | outside SCOTUS |
+| strategic | preferences constrained by others | anticipating reversal, override | hard to tell from sincere moderation |
+| economic | judges maximize utility, incl. leisure | effort tracks workload and promotion | intrinsic motivation |
+| cognitive | judges are boundedly rational | anchoring and framing in experiments | low stakes in the lab |
+| identity and socialization | who the judge is shapes decisions | gender, race and training effects | mechanisms rarely observed |
 
 # Attitudinal explanations
 
@@ -197,23 +197,23 @@ scotus_mq |>
 
 -   with some exceptions [@weinshallmargel2011attitudinal], partisan identification predicts how judges decide
 
--   many judicial attitudes can be mapped onto a left-right dimension of political conflict; variation in attitudes stems from a number of sources, including judges' background characteristics
+-   many judicial attitudes map onto a left-right dimension
 
 > "judges’ decisions are a function of what they prefer to do, tempered by what they think they ought to do, but constrained by what they perceive is feasible to do" [@gibson1983simplicity, p. 9]
 
--   attitudinal explanations are most relevant in "policy" cases, i.e. when matters of public policy play a role in the dispute
+-   most relevant in "policy" cases
 
--   judicial preferences and decision-making are multidimensional – the identity of the median justice might vary by issue area [@lauderdale2012supreme]; the power of the unidimensional explanation tends to be lower outside the US context
+-   preferences are multidimensional: the median justice can vary by issue area [@lauderdale2012supreme]
 
 # Strategic explanations
 
 ## Strategic explanations
 
--   judges want outcomes, but they get them only through other people: colleagues on a panel, the courts above them, a legislature that can override and an executive that has to comply
+-   judges want outcomes but depend on others to get them
 
--   so they vote, write and time their decisions with an eye to what the others will do
+-   so they vote, write and time decisions with an eye to what others will do
 
--   the attitudinal and strategic models share the premise that preferences matter; they disagree on whether judges act on them sincerely
+-   attitudinal and strategic models agree that preferences matter, but disagree on whether judges act on them sincerely
 
 -   the constraints come from panels, the judicial hierarchy, the elected branches and the public
 
@@ -333,8 +333,6 @@ Judges are willing to substitute quality for leisure time and vice versa. Each c
 
 -   legally irrelevant information influences how judges decide [@wistrich2005can] and is almost never acknowledged in the written reasons
 
-    -   lab experiments with real judges are this week's seminar
-
 # Identity and socialization
 
 ## Variation in judicial preferences
@@ -382,14 +380,12 @@ Judges are willing to substitute quality for leisure time and vice versa. Each c
 ## What moves judges? {.smaller}
 
 | shock | setting | what happened | source |
-|------|------|------|------|
-| an upset loss by the state's college football team | juvenile courts, Louisiana | longer sentences in the week after the game | @eren2018emotional |
-| the defendant's birthday | French courts and US federal courts | shorter sentences when the hearing falls on the birthday | @chen2023clash |
-| time since the last food break | Israeli parole boards | favourable decisions drop towards zero before each break | @danziger2011extraneous |
-| ... or the order in which cases are scheduled | same data | unrepresented prisoners are heard last; the effect shrinks | @weinshallmargel2011overlooked |
-| a hot day | US immigration courts | fewer asylum grants in the original estimate; a coding error and a critique cut it down | @heyes2019temperature; @heyes2022correction |
-| a two-week economics course | US federal judges | more conservative economic rulings, harsher sentences | @ash2026ideas |
-| Fox News arriving on local cable | elected state judges | harsher sentences | @ash2024conservative |
+|--------------------|----------------------|--------------------------------|--------------------------|
+| college football upset | Louisiana juvenile courts | longer sentences that week | @eren2018emotional |
+| defendant's birthday | French and US federal courts | shorter sentences | @chen2023clash |
+| time since food break | Israeli parole boards | favourable decisions fall before each break | @danziger2011extraneous |
+| ... or case order | same data | unrepresented prisoners heard last; the effect shrinks | @weinshallmargel2011overlooked |
+| a hot day | US immigration courts | fewer asylum grants; a coding error and a critique cut it down | @heyes2019temperature; @heyes2022correction |
 
 # Learning about judicial preferences
 
@@ -437,65 +433,36 @@ Judges are willing to substitute quality for leisure time and vice versa. Each c
 The intermediate builds (case-space-3 to case-space-8) are in img/ if the step-by-step version is preferred.
 :::
 
-## Ideal point estimation {.smaller}
+# Experiments
 
--   aggregating judicial preferences from decisions is not as straightforward as taking the average of yes/no votes
+## Why randomize? {.smaller}
 
-    -   a vote in favour of the plaintiff might be associated with both ends of the policy spectrum
+-   **randomization**: chance alone decides who gets the treatment
 
-    -   not all cases are equally "difficult" to decide for a judge
+-   treated and control groups are then **balanced** before treatment
 
--   scholars have therefore adapted item-response theory models from psychometrics to solve these issues [@bafumi2005practical]
+    -   on what we observe, e.g. experience or party
 
--   there are generally three parameters in these models:
+    -   and on what we cannot, e.g. motivation or attitudes
 
-    -   the judge's ideal point ($\theta_j$) or "ability"
+-   the groups are comparable, so differences in outcomes are due to the treatment
 
-    -   the case's location or "difficulty" ($\alpha_i$)
+-   without randomization, **self-selection**
 
-    -   the case's discrimination sensitivity ($\gamma_i$)
+    -   e.g. judges who opt into training may be more curious to begin with
 
-## Ideal point estimation
+## Lab, survey and field experiments {.smaller}
 
-```{r idealsigma2}
-generate_sigmoid <- function(alpha, gamma) {
-  x <- seq(-5, 5, length.out = 100)
-  sigmoid <- function(x) {
-    1 / (1 + exp(-(gamma * (x - alpha))))
-  }
-  y <- sigmoid(x)
-  plot(x, y, type = "l", col = "blue", lwd = 2,
-       xlab = "Latent dimension", ylab = "Probability of voting in favour",
-       main = paste("Case (item) with α =", alpha, "and γ =", gamma))
-  abline(h = 0.5, lty = 2, col = "black")
-  abline(v = alpha, lty = 2, col = "black")
-  points(x = 1, y = 1, col = "black", pch = 16)
-  points(x = 0.5, y = 1, col = "black", pch = 16)
-  points(x = -3, y = 0, col = "black", pch = 16)
-}
+| type | what is randomized | example |
+|------|------|------|
+| lab | case materials | precedent, defendant and sentence anchor for 299 judges [@spamann2021judges] |
+| survey | a scenario (vignette) | a court backing or opposing a government bill [@sternberg2022legitimacyconferring] |
+| field | a real-world intervention | free counsel for tenants in New York's housing court [@seron2001impact] |
 
-# plot
-generate_sigmoid(alpha = 0.7, gamma = 3)
-```
+-   more control in the lab, more realism in the field
 
-::: notes
-The discrimination parameter reflects how strongly the case's response probabilities are influenced by small changes in the distance between the judge's ideal point and the case's location. High gamma: a polarizing case that sharply separates judges. Low gamma: a case unrelated to the latent dimension.
-:::
+-   lotteries and rotas that randomize without a researcher create **natural experiments**
 
-## Ideal point estimation {.smaller}
-
-![Ideal points of judges on the International Court of Justice [@dyevre2025decision]](img/dyevre-icj-ideal.png){width="488"}
-
--   the recovered dimension could in principle be anything; researchers need to validate it against additional information about cases and judges to establish what it captures (e.g. left-right, or geopolitical alignment as here)
-
-## Four puzzles
-
--   judges insist they apply the law, yet their votes can be predicted from newspaper editorials written before they took office
-
--   the attitudinal model works at SCOTUS and, on a left-right axis, in Spain and Portugal [@hanretty2012dissent], but poorly in many other courts; is that about the judges or about the cases they get?
-
--   pay and promotion barely move judges, but a basketball tournament does
-
--   the hungry-judges effect has been cited thousands of times and explained away by case ordering
+## If judges' votes can be predicted from their politics, what is left of law?
 
 ## References

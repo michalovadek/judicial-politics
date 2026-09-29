@@ -27,7 +27,7 @@ source("utils/globals.R")
 
 -   What happens when elected politicians decide to push back against courts?
 
--   And can those in power capture courts without formal control over them?
+-   And can courts be captured without formal control?
 
 # Anticipation
 
@@ -60,8 +60,6 @@ source("utils/globals.R")
 -   in some countries this is virtually guaranteed (e.g. US), while elsewhere there will be more uncertainty
 
     -   in the EU, if all political actors agree, there is very low chance of review
-
-    -   whether review happens at all can depend on how policy makers write the policy [@pavone2022shadow]
 
 ## Anticipating judicial review
 
@@ -102,16 +100,6 @@ source("utils/globals.R")
     -   may trigger **court curbing** by the other branches
 
     -   just like legislatures do not want to be censored by courts, courts do not want to be **overridden** by legislatures
-
-## (Non-)Compliance
-
--   due to courts' enforcement-dependency, non-compliance is an attractive strategy for other actors (especially other branches of power)
-
-    -   but non-compliance can itself generate more litigation
-
--   in most cases it is less costly for the government/legislator to evade compliance implicitly
-
-    -   e.g. creating a parliamentary working group but never delivering [@vanberg2001legislativejudicial]
 
 ## Threat of override
 
@@ -171,50 +159,55 @@ source("utils/globals.R")
 
 | target | tools |
 |------|------|
-| composition | adding seats (packing), retirement-age cuts, captured appointment bodies, transfers and reassignments |
-| jurisdiction | stripping subject matter, restricting standing, ouster clauses, moving disputes to special tribunals |
-| operation | budget and staff cuts, disciplinary regimes, powers of court presidents, caseload manipulation |
-| decisions | legislative override, constitutional amendment, non-compliance, refusal to publish rulings |
-| legitimacy | rhetoric ("enemies of the people"), delegitimization campaigns, judicial elections, leaks |
+| composition | packing, retirement-age cuts, captured appointment bodies, transfers |
+| jurisdiction | stripping subject matter, restricting standing, special tribunals |
+| operation | budget cuts, disciplinary regimes, court presidents' powers, caseload manipulation |
+| decisions | override, constitutional amendment, non-compliance, unpublished rulings |
+| legitimacy | "enemies of the people" rhetoric, smear campaigns, judicial elections |
 
 -   the tools are old; in the 2010s they were used together and openly
 
 ## Ten years of attacks on courts {.smaller}
 
 | case | tools | outcome |
-|------|------|------|
-| Hungary 2010-13 | budget-law jurisdiction stripped, court enlarged, retirement age cut, earlier case law annulled | captured |
-| Poland 2015-23 | judges left unseated, judicial council captured, disciplinary chamber, retirement age cut | tribunal captured, Supreme Court contested, EU sanctions |
-| Turkey 2010, 2016 on | referendum reshaped court and council; over 4,000 judges and prosecutors dismissed | captured |
+|--------------------|----------------------------------------------------|----------------------------|
+| Hungary 2010-13 | jurisdiction stripped, court enlarged, retirement age cut | captured |
+| Poland 2015-23 | elected judges not sworn in, council captured, disciplinary chamber | tribunal captured, EU sanctions |
+| Turkey 2010, 2016 on | court and council reshaped; 4,000+ judges and prosecutors dismissed | captured |
 | Venezuela 2004 | Supreme Tribunal enlarged from 20 to 32 | captured |
-| El Salvador 2021 | constitutional chamber removed on the new majority's first day | captured |
-| Israel 2023 | reasonableness standard abolished | struck down in 2024 after mass protests |
-| United States 1937, 2020s | plan to add six justices; expansion commission | failed; no expansion |
-| United Kingdom 2016-22 | "enemies of the people" campaign; limits on judicial review remedies | rhetoric loud, curbing modest |
+| El Salvador 2021 | constitutional chamber removed on the new assembly's first day | captured |
 
 ::: notes
 The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2019) and the postcommunist cases by Bugarič and Ginsburg (2016): capture composition first, then jurisdiction, and use ordinary legislation wherever a supermajority is not available.
 :::
 
+## Ten years of attacks on courts {.smaller}
+
+| case | tools | outcome |
+|--------------------|----------------------------------------------------|----------------------------|
+| Israel 2023 | reasonableness standard abolished | struck down after mass protests |
+| United States 1937, 2020s | court-packing plan; expansion commission | failed |
+| United Kingdom 2016-22 | "enemies of the people"; limits on review remedies | rhetoric loud, curbing modest |
+
 ## Why attack, why refrain, how courts respond {.smaller}
 
 -   **why attack**
 
-    -   to signal to the court that its legitimacy is at risk and induce restraint [@clark2009separation]
+    -   to signal a risk to the court's legitimacy and induce restraint [@clark2009separation]
 
-    -   to remove a check on the way to power or survival: abusive constitutionalism [@landau2013abusive] and autocratic legalism [@scheppele2018autocratic] use legal forms to dismantle legal limits [@castilloortiz2019illiberal; @bugaric2016assault]
+    -   to remove a check on power: abusive constitutionalism [@landau2013abusive], autocratic legalism [@scheppele2018autocratic; @castilloortiz2019illiberal; @bugaric2016assault]
 
-    -   to retaliate against judges who defect from a weakening government [@helmke2002logic]; populism supplies the vocabulary [@voeten2020populism]
+    -   to punish defecting judges [@helmke2002logic], often in populist terms [@voeten2020populism]
 
 -   **why refrain**
 
-    -   electoral costs, if voters punish attacks [@driscoll2023costs; @aydincakir2025motives]
+    -   electoral costs, if voters punish attacks [@driscoll2023costs]
 
-    -   international audiences: the EU's tools below, the ECtHR, investors
+    -   international audiences: the EU, the ECtHR, investors
 
     -   insurance: today's majority is tomorrow's minority
 
--   **how courts respond**: defect from a weakening government [@helmke2002logic]; restrain themselves (this week's ECtHR reading); resist openly (Polish judges' associations, Kenya's 2017 election annulment); exit through resignations and early retirements
+-   **how courts respond**: defect, restrain themselves [@stiansen2020backlash], resist openly or exit
 
 # Backlash and backsliding
 
@@ -230,7 +223,7 @@ The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2
 
     -   populism is at best a partial explanation [@voeten2020populism]
 
--   this week's backlash is *political* backlash against courts, not backlash in public opinion
+-   *political* backlash against courts is distinct from backlash in public opinion
 
 ## Backlash against courts
 
@@ -238,7 +231,7 @@ The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2
 
     -   the ECtHR restricted the scope of human rights and increased governments' margin of appreciation (discretion) [@helfer2020walking]
 
-    -   whether it also rules less often against its critics is this week's reading
+    -   it also finds fewer violations by democracies that criticized it [@stiansen2020backlash]
 
 ## Declining UK ECHR violations
 
@@ -305,11 +298,11 @@ The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2
 
     -   e.g. judges may shield corrupt politicians from prosecution in exchange for bribes or career progress
 
-    -   governments can also pay judges in kind, as with housing in Pakistan (this week's reading)
+    -   governments can reward judges with housing, as in Pakistan [@mehmood2024judicial]
 
 -   (narrowly) winning a seat in Indian state legislature decreases the chance of criminal conviction by \~20 pp, but only for ruling party co-partisans [@pobletecazenave2025do]
 
--   mayors in Brazil have no formal power over local judges; whether winning office still helps them in court is this week's reading
+-   narrowly winning a mayoral election in Brazil cuts the chance of conviction by \~11 pp, though mayors have no formal power over judges [@lambais2023judicial]
 
 -   de jure separation is not sufficient to capture intended benefits of judicial independence – and these are democracies
 
@@ -319,20 +312,12 @@ The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2
 
 -   close elections are the classic case: a mayor who won by a handful of votes and one who lost by a handful are alike in everything but office
 
--   that is how the Indian result on the previous slide is identified [@pobletecazenave2025do]; this week's Brazilian reading uses the same design
+-   used for the Indian and Brazilian results [@pobletecazenave2025do; @lambais2023judicial]
 
 -   what to check: are there enough close races? does anything else change at the threshold? can candidates manipulate who wins narrowly?
 
 -   the design shows whether holding power bends courts without observing the bending
 
-## Four puzzles
-
--   publics say they punish attacks on courts, yet the governments that captured the Hungarian and Polish courts were re-elected, in Hungary three times
-
--   courts that restrain themselves under backlash do not make the backlash go away
-
--   governments back "activist" courts when the activism entrenches their own policies, and call the same courts enemies of the people a decade later
-
--   international courts get attacked for doing what the states that built them designed them to do
+## Why do governments that could ignore courts bother to capture them?
 
 ## References

@@ -147,7 +147,7 @@ The Court of Justice of the European Union has developed its own definition of a
 
     -   worst mark 19: AI slop, vague research question, poor theory, poor methods, undocumented analysis
 
-## Assessment
+## Assessment {.smaller}
 
 -   research-oriented =\> suitable for expanding into your dissertation
 
@@ -438,22 +438,6 @@ The person failing to deliver the commissions in time was John Marshall in the r
 
     -   seeking to strengthen the Court's authority
 
-## Models of judicial review {.smaller}
-
--   **diffuse** (American): any court can set aside a statute in a concrete case, the peak court has the last word
-
-    -   US (1803), Argentina, Japan, the Nordic countries
-
--   **centralized** (Kelsenian): a single constitutional court, often reviewing statutes in the abstract on referral by politicians or lower courts
-
-    -   Austria (1920), Germany (1951), Italy (1956), most of post-1989 Europe
-
--   **weak-form**: courts flag the incompatibility but parliament keeps the last word
-
-    -   UK Human Rights Act 1998 (declarations of incompatibility), Canada's notwithstanding clause, New Zealand
-
--   who can bring a case differs as much as who decides
-
 # Judicialization of politics
 
 ## Judicialization of politics
@@ -484,7 +468,7 @@ The person failing to deliver the commissions in time was John Marshall in the r
 
 1.  **Policy**: e.g. rulings on the "pesification" of the Argentinian economy (2003-4)
 
-2.  **Electoral**: Romania's Constitutional Court annulled the first round of the 2024 presidential election; Kenya's Supreme Court annulled the 2017 election; Brazil's electoral court barred Bolsonaro from office until 2030 (2023)
+2.  **Electoral**: Romania's Constitutional Court annulled the first round of the 2024 presidential election; Brazil's electoral court barred Bolsonaro from office until 2030 (2023)
 
 3.  **Constitutional**: SA CC demanding amendments to the constitution (1996); Israel's Supreme Court struck down the 2023 amendment removing the reasonableness standard (2024)
 
@@ -502,39 +486,6 @@ Argentinian SC declared unconstitutional the forced conversion of US dollars to 
 another example of electoral is Bush v Gore (2000) where 5 judges decided to stop the recount in Florida. The recount could have overturned the result in Gore's favour
 :::
 
-# Why courts get power
-
-## Why would anyone empower a court?
-
--   at the most abstract level the creation and maintenance of a powerful judiciary has been argued to be about **credible commitments**
-
--   by empowering actors (i.e. courts) outside their direct and immediate control, governments signal willingness to be bound by constitutional rules (e.g. respecting property rights) [@north1989constitutions]
-
-    -   in the international context, governments signal commitment to jointly negotiated rules (e.g. treaties), which new democracies use to **lock in** their preferences against future political alternatives [@moravcsik2000origins]
-
-## Why would anyone empower a court? {.smaller}
-
-| theory | mechanism | who empowers courts | evidence |
-|------|------|------|------|
-| credible commitment | binding oneself reassures investors and creditors | rulers seeking credit or investment | @north1989constitutions |
-| insurance | losing power tomorrow makes courts attractive today | incumbents expecting defeat | @ginsburg2003judicial |
-| hegemonic preservation | threatened elites lock in their values | dominant but declining elites | @hirschl2004political |
-| lock-in | new democracies tie the hands of future governments | fresh democracies | @moravcsik2000origins |
-| diffusion | copying neighbours and models | constitution drafters | this week's reading |
-| functionalist | complex governance needs adjudication | nobody in particular | |
-| rights revolution | litigants and support structures push from below | civil society | @epp1998rights |
-| policy entrenchment | parties insulate policies from elections | governing parties | @gillman2002how |
-
-::: notes
-Insurance and hegemonic preservation predict opposite empowerers: those about to lose power vs those still dominant but worried about the future. Ginsburg and Versteeg test several of these against each other; leave the details to the seminar.
-:::
-
-## Three puzzles to carry through the module
-
--   most states had a written constitution long before they had constitutional review, which only became common after 1945 – why the lag?
-
--   why would incumbents build institutions that constrain them? insurance says the losers do it, hegemonic preservation says the winners do
-
--   courts have neither sword nor purse, yet they decide elections and impeachments; why does anyone comply?
+## Why would the losing side accept the verdict of a third party?
 
 ## References

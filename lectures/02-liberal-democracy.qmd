@@ -21,9 +21,47 @@ source("utils/globals.R")
 
 ## Why should unelected judges have the last word?
 
--   this week: the political theory that frames the module (rule of law, separation of powers, judicial review) and the concept doing most of the work, **judicial independence**
+-   this week:
+
+    -   why anyone would empower a court
+
+    -   the political theory that frames the module: rule of law, separation of powers, judicial review
+
+    -   the concept doing most of the work, **judicial independence**
 
 -   what does it take for a court to constrain a government that could simply ignore it?
+
+# Why courts get power
+
+## Why would anyone empower a court?
+
+-   the creation and maintenance of powerful courts is often explained by **credible commitments**
+
+-   by empowering courts outside their control, governments signal willingness to be bound by constitutional rules (e.g. property rights) [@north1989constitutions]
+
+    -   internationally, governments signal commitment to treaties, which new democracies use to **lock in** their preferences [@moravcsik2000origins]
+
+## Why would anyone empower a court? {.smaller}
+
+| theory | mechanism | who empowers courts | evidence |
+|------|------|------|------|
+| credible commitment | binding oneself reassures investors | rulers seeking investment | @north1989constitutions |
+| insurance | courts protect tomorrow's losers | incumbents expecting defeat | @ginsburg2003judicial |
+| hegemonic preservation | threatened elites lock in their values | dominant but declining elites | @hirschl2004political |
+| lock-in | tying the hands of future governments | new democracies | @moravcsik2000origins |
+
+::: notes
+Insurance and hegemonic preservation predict opposite empowerers: those about to lose power vs those still dominant but worried about the future. Ginsburg and Versteeg (2014) test several of these against each other.
+:::
+
+## Why would anyone empower a court? {.smaller}
+
+| theory | mechanism | who empowers courts | evidence |
+|------|------|------|------|
+| diffusion | copying neighbours and models | constitution drafters | @ginsburg2014why |
+| functionalist | complex governance needs adjudication | nobody in particular | |
+| rights revolution | litigants push from below | civil society | @epp1998rights |
+| policy entrenchment | parties insulate policies from elections | governing parties | @gillman2002how |
 
 # The rule of law
 
@@ -39,7 +77,7 @@ source("utils/globals.R")
 
 -   courts feature in both: as the guarantee of consistent application (thin) and as the guardians of rights (thick)
 
--   this week's Waldron reading takes a procedural view: what matters is the hearing and the argument
+-   @waldron2021rule takes a procedural view: what matters is the hearing and the argument
 
 ## Rule of law in comparative perspective
 
@@ -86,6 +124,8 @@ vdemdata::plot_indicator("v2x_rule",
 
 -   **who reviews**: one constitutional court (centralized) or every court (diffuse)
 
+    -   centralized: Austria, Germany, Italy, most of post-1989 Europe; diffuse: US, Argentina, Japan, the Nordic countries
+
 -   **when**: before promulgation (*a priori*, France until 2008) or after (*a posteriori*, almost everywhere else)
 
 -   **how**: in the abstract, detached from any case (referral by politicians), or concretely, in a dispute between parties
@@ -93,6 +133,8 @@ vdemdata::plot_indicator("v2x_rule",
 -   **who can trigger it**: politicians, courts, ombudsmen, individuals (constitutional complaint in Germany, Spain or Hungary; the *tutela* in Colombia)
 
 -   **how strong**: strike down (strong form) or declare incompatible and leave parliament to act (weak form)
+
+    -   weak form: UK Human Rights Act 1998, Canada, New Zealand
 
 -   each dimension changes which cases arrive and who can be blamed for the result
 
@@ -112,24 +154,20 @@ legislators promising unconstitutional policies can make it harder for voters to
 
 ## The counter-majoritarian difficulty {.smaller}
 
--   Bickel (1962) named it: an unelected court striking down the acts of elected majorities
+-   Bickel (1962): an unelected court striking down the acts of elected majorities
 
 | position | core claim | who |
 |------|------|------|
-| rights as trumps | some questions should be beyond the reach of majorities | Dworkin |
-| process theory | review is legitimate when it polices the democratic process itself | Ely (1980) |
-| the uneasy case | review reduces the risk of rights violations even if it is not democratic | Fallon (2008) |
-| the case against | disagreement about rights should be settled by legislatures | Waldron (this week) |
+| rights as trumps | some questions are beyond the reach of majorities | Dworkin |
+| process theory | review polices the democratic process | Ely (1980) |
+| the uneasy case | review reduces rights violations, even if undemocratic | Fallon (2008) |
+| the case against | legislatures should settle disagreements about rights | @waldron2021rule |
 
 -   all four are about what courts *should* do; most of this module is about what they *do*
 
 ## Is the court counter-majoritarian in practice? {.smaller}
 
 -   Dahl's answer in 1957: the US Supreme Court rarely blocks a lawmaking majority for long, because appointments bring it back into line [@dahl1957decisionmaking]
-
--   public opinion and the Court's decisions move together over time [@mishler1993supreme]
-
--   when courts fear non-implementation, they side with majorities – "judicial majoritarianism" [@hall2015judicial]
 
 -   the difficulty may be smaller in practice than in theory
 
@@ -187,16 +225,6 @@ vdemdata::plot_indicator("v2x_jucon",
   guides(linetype = "none")
 ```
 
-## What independent courts are for {.smaller}
-
--   in the classic narrative, independent courts constrain the executive's discretion, including to engage in arbitrary coercive acts, which benefits economic development [@north1989constitutions]
-
-    -   across a sample of 104 countries, de facto (but not de jure) judicial independence is associated with higher growth rates [@voigt2015economic]
-
-    -   externally funded judicial reforms in African countries improved perception of the rule of law among relatively powerless groups [@chemin2021can]
-
--   the mechanism is credible commitment: a government that cannot expropriate at will gets cheaper credit and more investment
-
 ## What makes judges autonomous?
 
 -   **judicial independence** is the single most important attribute associated with modern judiciaries
@@ -237,7 +265,7 @@ vdemdata::plot_indicator("v2x_jucon",
 
 -   there is mixed evidence on the importance of *de jure* guarantees of independence on *de facto* levels
 
-    -   some find *de jure* independence to matter little in the aggregate (this week's reading), others find it to be the most important predictor of *de facto* independence [@hayo2007explaining]
+    -   some find *de jure* independence to matter little in the aggregate [@melton2014does], others find it to be the most important predictor of *de facto* independence [@hayo2007explaining]
 
 -   specific guarantees nonetheless seem to change behaviour when they change, tenure and reappointment rules in particular
 
@@ -263,16 +291,6 @@ vdemdata::plot_indicator("v2x_jucon",
 
     -   and a government that expects to lose may not legislate at all
 
-## Public support as a source of judicial power
-
--   one reason why courts' autonomy and effectiveness can be high is **public support** [@carrubba2010executive]
-
--   in general, people hold courts in high regard [@vanberg2015constitutional]
-
-    -   this is helped by the fact that courts are often responsive to public preferences [@mishler1993supreme]
-
--   attacking courts and non-compliance is usually politically costly
-
 ## How can courts increase their power?
 
 -   new courts consolidate power by not antagonizing the government for an initial period
@@ -281,12 +299,6 @@ vdemdata::plot_indicator("v2x_jucon",
 
 -   a common strategy is to first create the power-expanding principle without applying it in the initial case to mitigate costs of compliance (*Marbury*)
 
-## Three puzzles
-
--   guarantees on paper predict little in the aggregate, yet changing a specific guarantee (a term limit, a retirement age) visibly changes behaviour – what exactly is being measured?
-
--   *ex ante* review, designed to catch unconstitutional laws early, makes legislators more reckless
-
--   the least democratic branch is, almost everywhere, the most trusted one
+## Why would anyone in power build a court that can rule against them?
 
 ## References
