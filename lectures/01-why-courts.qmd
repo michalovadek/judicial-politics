@@ -23,11 +23,10 @@ source("utils/globals.R")
 
 ## What are courts?
 
-Mohr defines courts as
+@mohr1976organizations [p. 623] defines courts as
 
-> a family of passive governmental institutions one of whose prominent functions is the settlement of disputes, distinguished from other governmental institutions by a commitment to decide impartially, after presentation of proofs and arguments by contending parties, and to be able to justify decisions according to pre-existing rule.[^1]
+> a family of passive governmental institutions one of whose prominent functions is the settlement of disputes, distinguished from other governmental institutions by a commitment to decide impartially, after presentation of proofs and arguments by contending parties, and to be able to justify decisions according to pre-existing rule.
 
-[^1]: Mohr, Lawrence B. “Organizations, decisions, and courts.” *Law & Society Review* 10, no. 4 (1976): 621-642, p. 623.
 
 ## What are courts?
 
@@ -131,6 +130,39 @@ The Court of Justice of the European Union has developed its own definition of a
 
     -   your normal discussion notes are enough to do this
 
+## Methods
+
+-   much cutting-edge work uses sophisticated methods you will be unfamiliar with
+
+-   grappling with difficult texts is a great learning opportunity and a valuable skill in itself
+
+-   the point is not to understand every detail of every model and statistical procedure
+
+    -   but to distil the key points from difficult readings
+
+## Methods {.smaller}
+
+-   much of social science is about the impact of policies and decisions (**treatments**), while grappling with **selection**
+
+$$
+\begin{aligned}
+X &= g(Z) \\
+Y &= f(X, Z)
+\end{aligned}
+$$
+
+-   $X$ treatment, $Y$ outcome, $Z$ everything else shaping both, observed or not
+
+-   selection can be resolved
+
+    -   by **design**, e.g. experiments, with fewer assumptions
+
+    -   by **adjustment**, e.g. matching, with more assumptions
+
+-   we care less about the detail of $g$ and $f$ than about research designs
+
+    -   designs determine the quality of the evidence on a given question
+
 ## Assessment {.smaller}
 
 -   you should start working on your research paper *right now*
@@ -141,7 +173,7 @@ The Court of Justice of the European Union has developed its own definition of a
 
     -   if you do it properly, you will learn a lot
 
--   previous year:
+-   previous years:
 
     -   best mark 80: relevant question, grounded in literature, original data collection, appropriate analytical methods, meticulous attention to detail
 
@@ -167,115 +199,31 @@ The Court of Justice of the European Union has developed its own definition of a
 
 ## Brief history of courts {.smaller}
 
--   the behaviour of a third-party arbiter mediating disputes long pre-dates the invention of syntactic language (\~ 70 000 BCE) and has been also observed among non-human primates[^3]
+-   third-party arbiters mediating disputes pre-date syntactic language and appear among non-human primates [@vonrohr2012impartial]
 
--   it is a type of pro-social behaviour which can arise from a concern for the community or as a non-violent avenue to power
+-   a key concern of early societies was the regulation of retaliation and blood feuds [@wolff1946origin]
 
--   the development of religious practices and the role of priests were among the earliest forms of 'law' (at first purely oral/physical) and 'judges', possibly as early as 50 000 BCE
+    -   institutionalized retribution, most famously the Code of Hammurabi ("eye for an eye")
 
-## Brief history of courts {.smaller}
+-   codified laws brought sophisticated judicial institutions to Mesopotamia by 2100 BCE
 
--   in early societies a key concern was the regulation of retaliation[^4]
+    -   multiple jurisdictions, widespread arbitration, public trials with evidence and witnesses
 
-    -   submission to arbitration or a community "judge" requires coordination
 
-    -   risk of blood-feud spirals at family level
 
-    -   similarities with 20th century international law (state retaliation)
+::: notes
+Third-party mediation (pre-dating syntactic language, ~70 000 BCE) is pro-social behaviour that can arise from concern for the community or as a non-violent avenue to power. Religious practices and priests were among the earliest forms of 'law' and 'judges', possibly as early as 50 000 BCE.
 
--   emergence of institutionalized retribution
+Submission to arbitration or a community "judge" requires coordination; the risk was blood-feud spirals at family level, with similarities to 20th-century international law (state retaliation).
 
-    -   most famously in the Babylonian Code of Hammurabi ("eye for an eye")
-
-[^3]: Von Rohr, Claudia Rudolf, Sonja E. Koski, Judith M. Burkart, Clare Caws, Orlaith N. Fraser, Angela Ziltener, and Carel P. Van Schaik. "Impartial third-party interventions in captive chimpanzees: a reflection of community concern." PloS one 7, no. 3 (2012): e32494.
-
-[^4]: Wolff, Hans Julius. "The origin of judicial litigation among the Greeks." *Traditio* (1946): 31-87.
-
-## Brief history of courts
-
--   the creation of codified laws meant that sophisticated judicial institutions were in place in Mesopotamia at least as early as 2100 BCE
-
-    -   multiple jurisdictions, professional judges only one kind of judges
-
-    -   widespread use of arbitration (private justice institutions) limited recourse to court litigation
-
-    -   public trials (criminal and civil) with evidence, witnesses and adversarial parties, some supernatural elements
+In Mesopotamia professional judges were only one kind of judge, widespread arbitration (private justice institutions) limited recourse to litigation, and trials had some supernatural elements.
+:::
 
 ## Lawsuit in 19th century BCE
 
 ![Record of a lawsuit on a cuneiform tablet: two merchants accuse each other of stealing the contents of a private archive (Met Museum)](img/meso-tablet.jpg){width="80%"}
 
-## Ancient Greece
-
--   coexistence of voluntary private arbitration and emergence of compulsory *polis* jurisdiction
-
--   court jurisdiction was to some extent separate from enforcement (public justice, private enforcement)
-
-    -   a judgment could for example certify one party's right of retribution (e.g. enslavement of the offender)
-
-    -   judgments were frequently difficult to enforce as a result, but NB the social function of trials
-
-::: notes
-Mostly drawing on Wolff (1946) who makes the point that Greek courts were merely settling disputes but not ordering litigants to do anything. Litigants would request the court to certify their private enforcement action (self-help).
-:::
-
-## Ancient Greece {.smaller}
-
--   the most important disputes were litigated as public trials before a significant number (100s to 1000s) of jurors, but geographical and temporal variation
-
--   written laws were generally sparser and more vague than in the Roman world
-
--   a notable element of ancient Greek judiciary is the absence of a professional legal class
-
-    -   litigants largely represented themselves before lay jurors who also decided the dispute (but they could hire speechwriters)
-
-    -   rhetorical skills were nonetheless a central element of the trial
-
-::: notes
-This is a great source: https://www.unpredictableblog.com/blog/Athens Also: https://acoup.blog/2023/04/07/collections-how-to-polis-101-part-iic-the-courts/
-
-Greek jurors were very independent from the "government", but the government itself was mostly weak because direct democracy with elected officials for everything every year
-:::
-
-## "Supreme Court" of Ancient Athens {.smaller}
-
--   Heliaia, founded in the middle of the 500s BCE
-
--   at its largest consisted of 6001 members chosen annually by lot from men over 30
-
--   public, transparent gatherings where oral arguments were presented and informally discussed
-
--   at the end of the trial, jurors[^5] cast their ballot regarding the decision which was by majority
-
--   magistrates handled the administration of the procedure (e.g. court calendar), but also decided minor (and homicide) cases in smaller courts
-
-[^5]: *The Wasps* by Aristophanes is a Greek play about an old man who is addicted to jury service.
-
-::: notes
-Most of our knowledge of ancient Greek judiciary comes from Athens starting in about 600 BCE. From the time of Pericles (5th century BCE), jurors were paid for service. The trial of Socrates (399 BCE) is the famous example: The Death of Socrates by Jacques-Louis David (1787) is in img/socrates-death.jpg if wanted.
-:::
-
-## Ancient Rome {.smaller}
-
--   during the Roman Kingdom era (753-509 BCE), the king had absolute power and was thus the ultimate judge
-
--   proliferation of Roman law (public and private) from about 300 BCE in response to territorial and economic growth
-
--   magistrates (public officials) organized the first (pre-trial) stage of a trial
-
-    -   plaintiffs would come to them to request a remedy for a perceived infringement
-
-    -   defendants needed to consent to the litigation (but could be compelled)
-
-    -   the magistrate would describe the action and pass it onto the judge
-
-    -   the judge(s) was jointly agreed on by the parties
-
--   lay judges heard witnesses and made decisions in public
-
--   a powerful class of *jurists* -- law experts -- advised on what (they argued) the law was and *advocates* who argued on behalf of their clients
-
-## Quick overview
+## Ancient and modern courts
 
 |              | Greece       | Rome    | Modern  |
 |--------------|--------------|---------|---------|
@@ -287,19 +235,27 @@ Most of our knowledge of ancient Greek judiciary comes from Athens starting in a
 | *Form*       | Oral         | Oral    | Written |
 | *Precedents* | Very limited | Limited | Common  |
 
-## Pre-modern "trials" {.smaller}
+::: notes
+Greece: voluntary private arbitration coexisted with compulsory *polis* jurisdiction. Courts were separate from enforcement: a judgment could certify one party's right of retribution (e.g. enslavement of the offender) rather than order anything, so judgments were often hard to enforce, but NB the social function of trials (Wolff 1946). The most important disputes were public trials before hundreds or thousands of lay jurors; written laws were sparser and vaguer than in Rome; there was no professional legal class, litigants represented themselves (they could hire speechwriters) and rhetoric was central. Greek jurors were very independent from the "government", which was itself weak.
 
--   there were decidedly pre-modern types of "trial" in the Middle Ages and before, typically mixing law, courts and religious beliefs
+Athens' Heliaia, founded in the mid-500s BCE, had up to 6001 members chosen annually by lot from men over 30; public oral arguments, majority ballot; magistrates ran the procedure and decided minor (and homicide) cases. Jurors were paid from the time of Pericles. Aristophanes' *The Wasps* is about an old man addicted to jury service. The trial of Socrates (399 BCE): The Death of Socrates by Jacques-Louis David (1787) is in img/socrates-death.jpg if wanted. Sources: https://www.unpredictableblog.com/blog/Athens and https://acoup.blog/2023/04/07/collections-how-to-polis-101-part-iic-the-courts/
 
-    -   **trial by oath**: defendants could establish their innocence by taking an oath and getting a required number of people (often 12 in Europe, up to 50 in early Islamic law) to swear they believed the oath. Found in some countries as late as the 19th century
+Rome: in the Kingdom era (753-509 BCE) the king was the ultimate judge. Roman law proliferated from about 300 BCE with territorial and economic growth. Magistrates ran the pre-trial stage (plaintiffs requested a remedy, defendants had to consent but could be compelled, the magistrate described the action and passed it to a judge agreed by the parties); lay judges heard witnesses and decided in public; jurists advised on what the law was and advocates argued for clients.
+:::
 
-    -   **trial by ordeal**: the accused was subjected to an (extremely) unpleasant experience to establish their innocence/guilt, most commonly by fire (walking on red-hot metal) or water (retrieving an item from boiling water). Abolished in England after 1219
+## Pre-modern "trials"
 
-    -   **trial by combat**: the winner of the fight was presumed to be legally "right"
+-   trial by oath, by ordeal and by combat mixed law with religious belief
 
--   [Peter Leeson makes the argument](https://aeon.co/ideas/why-the-trial-by-ordeal-was-actually-an-effective-test-of-guilt) that ordeals were actually effective judicial tools
+-   @leeson2012ordeals argues that ordeals were effective judicial tools
+
+![Trial by boiling water, Sachsenspiegel law book (between 1220 and 1235)](img/trial-by-water.png){width="45%"}
 
 ::: notes
+Oath: defendants established their innocence by taking an oath and getting a required number of people (often 12 in Europe, up to 50 in early Islamic law) to swear they believed it; found in some countries as late as the 19th century. Ordeal: most commonly fire (walking on red-hot metal) or water (retrieving an item from boiling water); abolished in England after 1219. Combat: the winner was presumed to be legally "right".
+
+Leeson's accessible version: https://aeon.co/ideas/why-the-trial-by-ordeal-was-actually-an-effective-test-of-guilt
+
 the guilty knew they would not pass the ordeal -\> admitted guilt
 
 the innocent expected God to intervene (eg not be burned by boiling water) -\> took the ordeal
@@ -307,47 +263,35 @@ the innocent expected God to intervene (eg not be burned by boiling water) -\> t
 the ordeal was gamed by priests, so that many of those taking it would pass. The issue with the argument is that the priest was the de facto judge by choosing whether to make water hot or cold and subsequently evaluating the injury
 :::
 
-## Trial by boiling water
+## Common and civil law {.smaller}
 
-![Trial by boiling water, Sachsenspiegel law book (between 1220 and 1235)](img/trial-by-water.png)
+-   **common law**: from the 1150s royal judges sent across England built a body of binding precedent
 
-## Emergence of common law in England {.smaller}
+    -   it **empowered judges** and made them a **distinct professional class**, though independence was guaranteed only in 1701
 
--   body of law developed by judges through precedent (case law)
+-   **civil law**: primacy of codified rules, from the *Corpus Juris Civilis* (534 CE) to the *Napoleonic Code* (1804)
 
--   in the 1150s, Henry II (King of England) began sending judges from the royal court in London to the rest of the country to decide disputes
+    -   no binding precedent – the judge as "the mouthpiece of the law" [@montesquieu1748spirit]
 
--   over time, the judges built up a corpus of decisions which they perceived as binding (*precedent*) when a similar factual situation arose in a new case
-
--   this "common" law gradually replaced divergent local laws and customs throughout the kingdom, and originally served by far the most the interests of the king
-
--   it **empowered judges**, who could invoke the king's authority, to an unprecedented degree
-
--   the rule of binding precedent solidified the sense of judges' belonging to a **distinct and autonomous professional class** (though guarantees of judicial independence were lacking until 1701)
-
-## Civil law systems
-
--   legal systems emerging from the idea of the primacy of codified written rules, notably the civil code
-
--   much of European (and beyond) law has its roots in the *Corpus Juris Civilis* (534 CE, aka Code of Justinian) and in the related *Napoleonic Code* (1804)
-
--   no binding precedent and judge-made principles – the judge as "the mouthpiece of the law" (Montesquieu)
+::: notes
+Henry II began sending judges from the royal court in London to decide disputes across the country in the 1150s. Their decisions came to be treated as binding when similar facts arose, and this "common" law gradually replaced divergent local laws and customs, originally serving mostly the interests of the king.
+:::
 
 ## Modern courts {.smaller}
 
--   considerable convergence between civil and common law traditions over the last two centuries
+-   civil and common law traditions have converged
 
-    -   even if not formally binding, civil law judges aim for consistency with previous decisions which are often de facto treated as precedents
+    -   civil law judges treat previous decisions as de facto precedents
 
-    -   statutory law made by parliaments is nowadays the most important source of new rules in common law countries and feature heavily in judicial decisions
+    -   statutes are now the main source of new rules in common law countries
 
--   the principle of **judicial independence** as the cornerstone of the modern judiciary; variation in the prevalence of juries and **judicial review**
+-   **judicial independence** is the cornerstone of the modern judiciary; juries and **judicial review** vary
 
--   the court system in democratic regimes is seen as central to upholding **the rule of law**
+-   courts are central to **the rule of law** in democracies
 
-    -   vertical disputes between the state and individuals (e.g. administrative law) and horizontal disputes between individuals (e.g. contract law)
+    -   vertical disputes (state v individuals) and horizontal ones (between individuals)
 
-    -   should ensure respect for the **constitution**, whatever form the latter might take, as well as individual's **fundamental rights**
+    -   upholding the **constitution** and **fundamental rights**
 
 # From constitutions to judicial review
 
@@ -462,7 +406,7 @@ The person failing to deliver the commissions in time was John Marshall in the r
 
 > There is **hardly any political question in the United States that sooner or later does not turn into a judicial question**. From that, the obligation that the parties find in their daily polemics to borrow ideas and language from the judicial system. Since most public men are or have formerly been jurists, they make the habits and the turn of ideas that belong to jurists pass into the handling of public affairs. The jury ends up by familiarizing all classes with them. Thus, judicial language becomes, in a way, the common language; so **the spirit of the jurist, born inside the schools and courtrooms, spreads little by little beyond their confines**; it infiltrates all of society, so to speak; it descends to the lowest ranks, and the entire people finishes by acquiring a part of the habits and tastes of the magistrate.
 >
-> Alexis de Tocqueville, *Democracy in America* (1835)
+> Alexis de Tocqueville, *Democracy in America* [-@tocqueville1835democracy]
 
 ## What courts decide today {.smaller}
 

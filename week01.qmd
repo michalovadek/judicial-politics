@@ -6,8 +6,6 @@ What are courts and what is their purpose in society and politics? In this sessi
 
 {{< include _readings/week01.md >}}
 
-<!--
 ## Lecture slides
 
 [Week 1](lectures/01-why-courts.html)
--->
