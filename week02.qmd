@@ -2,12 +2,10 @@
 title: "2: Courts in Liberal Democracy"
 ---
 
-Why should unelected judges be able to overturn the decisions of elected governments? And what does it actually mean for a court to be independent? This week we situate courts in the normative frameworks of liberal democracy: the rule of law, the separation of powers and counter-majoritarianism.
+Why should unelected judges be able to overturn the decisions of elected governments? And what does it actually mean for a court to be independent? This week we ask why anyone would empower courts and situate them in the normative frameworks of liberal democracy: the rule of law, the separation of powers and counter-majoritarianism.
 
 {{< include _readings/week02.md >}}
 
-<!--
 ## Lecture slides
 
 [Week 2](lectures/02-liberal-democracy.html)
--->

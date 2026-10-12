@@ -125,7 +125,7 @@ source("utils/globals.R")
 
     -   in EU social policy, codification and override are both rare
 
--   the US is the mirror image: Congress overrode Supreme Court statutory decisions routinely in the 1970s and 1980s [@eskridge1991overriding; @uribe2014influence], a record that has thinned since (Christiansen and Eskridge 2014)
+-   the US is the mirror image: Congress overrode Supreme Court statutory decisions routinely in the 1970s and 1980s [@eskridge1991overriding; @uribe2014influence], a record that has thinned since [@christiansen2014congressional]
 
 -   so the system where override is least feasible is the one where the court looks most responsive to it
 
@@ -290,6 +290,18 @@ The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2
 
 # Capture
 
+## What is capture?
+
+-   **capture**: an institution meant to constrain an actor comes to serve it [@stigler1971theory; @dalbo2006regulatory]
+
+    -   the term comes from regulators and the industries they regulate
+
+-   **judicial capture**: courts end up serving those they should check
+
+    -   formally, through composition, appointments and jurisdiction
+
+    -   informally, through favours, careers and perks
+
 ## Capture without formal control {.smaller}
 
 -   many interactions between courts and representatives of other branches can occur outside formal contexts
@@ -308,15 +320,15 @@ The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2
 
 ## Regression discontinuity {.smaller}
 
--   when a treatment switches on at a threshold, units just above and just below it are comparable; the jump in outcomes at the threshold is the effect
+-   when a treatment switches on at a threshold, units just either side of it are comparable
 
--   close elections are the classic case: a mayor who won by a handful of votes and one who lost by a handful are alike in everything but office
+    -   the jump in outcomes at the threshold is the effect
+
+-   close elections are the classic case: narrow winners and narrow losers are alike in everything but office
 
 -   used for the Indian and Brazilian results [@pobletecazenave2025do; @lambais2023judicial]
 
--   what to check: are there enough close races? does anything else change at the threshold? can candidates manipulate who wins narrowly?
-
--   the design shows whether holding power bends courts without observing the bending
+-   what to check: enough close races? anything else changing at the threshold? manipulation of who wins?
 
 ## Why do governments that could ignore courts bother to capture them?
 

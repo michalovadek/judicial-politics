@@ -196,7 +196,7 @@ vdemdata::plot_indicator("v2x_jucon",
 
 -   Pakistan 2007: General Musharraf suspended Chief Justice Chaudhry; the bar went on strike, marched and boycotted the courts for two years, and the judges were restored in 2009 once Musharraf had gone [@ghias2010miscarriage]
 
--   the **legal complex**, lawyers and judges acting together, has carried political liberalism in more cases than the bench alone (Halliday, Karpik and Feeley 2007)
+-   the **legal complex**, lawyers and judges acting together, has carried political liberalism in more cases than the bench alone [@halliday2007fighting]
 
 -   the same complex can be captured: bar associations packed, licences revoked, lawyers prosecuted, as in Turkey after 2016 and Belarus after 2020
 

@@ -25,7 +25,7 @@ source("utils/globals.R")
 
     -   why anyone would empower a court
 
-    -   the political theory that frames the module: rule of law, separation of powers, judicial review
+    -   the problem this creates: who governs?
 
     -   the concept doing most of the work, **judicial independence**
 
@@ -33,51 +33,63 @@ source("utils/globals.R")
 
 # Why courts get power
 
-## Why would anyone empower a court?
+## Why would states establish courts?
 
--   the creation and maintenance of powerful courts is often explained by **credible commitments**
+-   someone needs to adjudicate disputes
 
--   by empowering courts outside their control, governments signal willingness to be bound by constitutional rules (e.g. property rights) [@north1989constitutions]
+-   this could be the ruler, or a person appointed by the executive
 
-    -   internationally, governments signal commitment to treaties, which new democracies use to **lock in** their preferences [@moravcsik2000origins]
+    -   but other actors would not perceive the ruler as an impartial adjudicator [@shapiro1981courts]
 
-## Why would anyone empower a court? {.smaller}
+-   committing to an **independent** court instead makes adjudication more credible
 
-| theory | mechanism | who empowers courts | evidence |
-|------|------|------|------|
-| credible commitment | binding oneself reassures investors | rulers seeking investment | @north1989constitutions |
-| insurance | courts protect tomorrow's losers | incumbents expecting defeat | @ginsburg2003judicial |
-| hegemonic preservation | threatened elites lock in their values | dominant but declining elites | @hirschl2004political |
-| lock-in | tying the hands of future governments | new democracies | @moravcsik2000origins |
+    -   and more attractive to other actors
 
-::: notes
-Insurance and hegemonic preservation predict opposite empowerers: those about to lose power vs those still dominant but worried about the future. Ginsburg and Versteeg (2014) test several of these against each other.
-:::
+## Credible commitments
 
-## Why would anyone empower a court? {.smaller}
+-   an independent court is a signal: the executive pledges to abide by its decisions
 
-| theory | mechanism | who empowers courts | evidence |
-|------|------|------|------|
-| diffusion | copying neighbours and models | constitution drafters | @ginsburg2014why |
-| functionalist | complex governance needs adjudication | nobody in particular | |
-| rights revolution | litigants push from below | civil society | @epp1998rights |
-| policy entrenchment | parties insulate policies from elections | governing parties | @gillman2002how |
+-   **credible commitments** benefit the government
 
-# The rule of law
+    -   the English crown could borrow more cheaply after the Glorious Revolution [@north1989constitutions]
+
+    -   secure property rights help the economy develop
+
+-   internationally, treaties and courts work in a similar way
+
+    -   but also **lock in** their own, other governments' and future governments' preferences [@moravcsik2000origins]
+
+# Who governs?
+
+## Who ultimately governs?
+
+-   empowering courts raises the question of who ultimately governs
+
+-   if governments must abide by what courts say, and courts have the last word, aren't courts the real rulers?
+
+-   for Hobbes, whoever has the last word is the **sovereign**
+
+    -   setting a judge above the sovereign "is to make a new sovereign" [@hobbes1651leviathan, ch. 29]
+
+## How do liberal democracies manage the tension?
+
+-   independent courts on one side, representative government enacting the will of the people on the other
+
+-   liberal democracies manage the tension through **constitutionalism** and the **separation of powers**
+
+-   quite successful at maintaining the illusion that everyone is subject to the law (the **rule of law**)
+
+-   yet subjecting legislative to judicial power is perhaps particularly normatively objectionable [@waldron2006core; @waldron2021rule]
 
 ## What is the rule of law? {.smaller}
 
--   **thin** (formal) conceptions: law must be general, public, prospective, clear, consistent, possible to comply with, stable and actually applied (Fuller's eight desiderata, 1964)
+-   **thin** (formal) conceptions: law must be general, public, prospective, clear, consistent, possible to comply with, stable and actually applied, the eight desiderata of @fuller1964morality
 
     -   says nothing about the content of the law; an unjust law can satisfy all eight
 
 -   **thick** (substantive) conceptions add rights, democracy or social justice
 
-    -   the more you pack in, the less the concept can explain
-
 -   courts feature in both: as the guarantee of consistent application (thin) and as the guardians of rights (thick)
-
--   @waldron2021rule takes a procedural view: what matters is the hearing and the argument
 
 ## Rule of law in comparative perspective
 
@@ -110,6 +122,14 @@ vdemdata::plot_indicator("v2x_rule",
 
 ## Separation of powers
 
+-   **separation of powers**: legislative, executive and judicial functions sit with separate branches, staffed by different people, each confined to its own function [@vile1967constitutionalism]
+
+-   there is no liberty if the power of judging is not separated from legislative and executive power [@montesquieu1748spirit]
+
+-   in practice, **checks and balances**: the branches overlap so that each can restrain the others
+
+## Separation of powers
+
 -   even in systems where judicial independence is strong, there are many formal points of contact between the judiciary, the legislature and the executive
 
     -   appointment of judges
@@ -126,15 +146,15 @@ vdemdata::plot_indicator("v2x_rule",
 
     -   centralized: Austria, Germany, Italy, most of post-1989 Europe; diffuse: US, Argentina, Japan, the Nordic countries
 
--   **when**: before promulgation (*a priori*, France until 2008) or after (*a posteriori*, almost everywhere else)
+-   **when**: before the law takes effect (*ex ante* or *a priori*, France only until 2010) or after (*ex post* or *a posteriori*, almost everywhere else)
 
--   **how**: in the abstract, detached from any case (referral by politicians), or concretely, in a dispute between parties
+-   **how**: in the abstract, detached from any case (usually referral by politicians), or concretely, in a dispute between parties
 
--   **who can trigger it**: politicians, courts, ombudsmen, individuals (constitutional complaint in Germany, Spain or Hungary; the *tutela* in Colombia)
+-   **who can trigger it**: politicians, courts, ombudsmen, individuals (directly challenging a law in Germany or Colombia)
 
--   **how strong**: strike down (strong form) or declare incompatible and leave parliament to act (weak form)
+-   **how strong**: strike down (strong form) or leave parliament the last word (weak form)
 
-    -   weak form: UK Human Rights Act 1998, Canada, New Zealand
+    -   weak form: declaration of incompatibility (UK Human Rights Act 1998, New Zealand) or legislative override (Canada)
 
 -   each dimension changes which cases arrive and who can be blamed for the result
 
@@ -144,7 +164,7 @@ vdemdata::plot_indicator("v2x_rule",
 
     -   knowledge that courts will correct ill-advised policies makes legislators behave more recklessly
 
--   this type of moral hazard is more common with *ex ante* judicial review [@gabel2024complaw]
+-   this type of moral hazard is more common with *ex ante* judicial review [@ward2019judicial]
 
 ::: notes
 French Constitutional Council is the archetype of the ex ante review effect on legislative recklessness
@@ -154,22 +174,16 @@ legislators promising unconstitutional policies can make it harder for voters to
 
 ## The counter-majoritarian difficulty {.smaller}
 
--   Bickel (1962): an unelected court striking down the acts of elected majorities
+-   @bickel1962least: an unelected court striking down the acts of elected majorities
 
 | position | core claim | who |
-|------|------|------|
-| rights as trumps | some questions are beyond the reach of majorities | Dworkin |
-| process theory | review polices the democratic process | Ely (1980) |
-| the uneasy case | review reduces rights violations, even if undemocratic | Fallon (2008) |
-| the case against | legislatures should settle disagreements about rights | @waldron2021rule |
+|------------------|------------------------------------------|--------------------|
+| rights as trumps | individual rights trump the preferences of the majority | @dworkin1977taking |
+| process theory | review should police the democratic process, not its outcomes | @ely1980democracy |
+| the uneasy case | review adds a veto point against rights violations, at some democratic cost | @fallon2008core |
+| the case against | where democracy works, legislatures should settle disagreements about rights | @waldron2006core |
 
--   all four are about what courts *should* do; most of this module is about what they *do*
-
-## Is the court counter-majoritarian in practice? {.smaller}
-
--   Dahl's answer in 1957: the US Supreme Court rarely blocks a lawmaking majority for long, because appointments bring it back into line [@dahl1957decisionmaking]
-
--   the difficulty may be smaller in practice than in theory
+-   all four are about what courts *should* do; in practice, appointments mean the US Supreme Court is rarely out of line with lawmaking majorities for long [@dahl1957decisionmaking]
 
 # Judicial power and independence
 
@@ -225,6 +239,14 @@ vdemdata::plot_indicator("v2x_jucon",
   guides(linetype = "none")
 ```
 
+## How can courts increase their power?
+
+-   new courts consolidate power by not antagonizing the government for an initial period
+
+-   expand jurisdiction through broad interpretation of access rules and legal domains
+
+-   a common strategy is to first create the power-expanding principle without applying it in the initial case to mitigate costs of compliance (*Marbury*)
+
 ## What makes judges autonomous?
 
 -   **judicial independence** is the single most important attribute associated with modern judiciaries
@@ -253,52 +275,22 @@ vdemdata::plot_indicator("v2x_jucon",
 
 -   rulings based on "own determinations of ... the law" vs "the law"
 
-## De jure vs de facto independence
-
--   many scholars distinguish between "paper" or institutional guarantees of independence and what happens in practice [@melton2014does; @hayo2007explaining]
-
--   the most common *de jure* guarantees are:
-
-    -   commitment to judicial independence, life tenure, depoliticized selection procedure, constrained removal procedure, salary non-regression
-
-## De jure vs de facto independence
-
--   there is mixed evidence on the importance of *de jure* guarantees of independence on *de facto* levels
-
-    -   some find *de jure* independence to matter little in the aggregate [@melton2014does], others find it to be the most important predictor of *de facto* independence [@hayo2007explaining]
-
--   specific guarantees nonetheless seem to change behaviour when they change, tenure and reappointment rules in particular
-
-## De jure vs de facto independence
-
--   there is doubt whether judicial autonomy can be measured in isolation due to anticipation effects
-
-    -   judges' decisions are affected by the likelihood of compliance [@linzer2015global]
-
 ## Measuring judicial independence {.smaller}
 
--   three families of measures:
+-   there are three main ways of measuring judicial independence
 
-    -   **de jure**: code the constitution and statutes (tenure, appointment, removal, salary) – cheap and comparable, but paper
+    -   **de jure** measures code formal guarantees such as tenure and removal rules, so they are easy to compare but may not reflect practice
 
-    -   **de facto**: ask experts (V-Dem, CIRI) or read behaviour (rulings against the government) – closer to reality, but subjective or contaminated
+    -   **de facto** measures rely on expert surveys (V-Dem), human rights reports (CIRI) or court rulings, so they are closer to practice but more subjective
 
-    -   **latent**: combine many noisy indicators into one estimate with a measurement model [@linzer2015global]
+    -   **latent** measures combine many imperfect indicators into a single estimate [@linzer2015global]
 
--   the available measures disagree with each other more than their users assume [@riosfigueroa2014evaluation]
+-   different measures often disagree with each other [@riosfigueroa2014evaluation]
 
--   behaviour is a treacherous indicator: a court that never rules against the government may be captured, or may never be asked to
+-   court rulings are a misleading indicator
 
-    -   and a government that expects to lose may not legislate at all
+    -   a court that never rules against the government may be captured, or it may never have been asked to
 
-## How can courts increase their power?
-
--   new courts consolidate power by not antagonizing the government for an initial period
-
--   expand jurisdiction through broad interpretation of access rules and legal domains
-
--   a common strategy is to first create the power-expanding principle without applying it in the initial case to mitigate costs of compliance (*Marbury*)
-
-## Why would anyone in power build a court that can rule against them?
+    -   a government that expects to lose in court may not legislate in the first place
 
 ## References

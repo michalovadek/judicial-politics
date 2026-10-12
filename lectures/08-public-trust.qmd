@@ -41,7 +41,7 @@ source("utils/globals.R")
 
 ## Trust across institutions {.smaller}
 
--   across 30 OECD countries in late 2023, 54% reported high or moderately high trust in the courts and legal system, against 39% for the national government (OECD Trust Survey 2024)
+-   across 30 OECD countries in late 2023, 54% reported high or moderately high trust in the courts and legal system, against 39% for the national government [@oecd2024oecd]
 
     -   Denmark: 75% for the courts, 44% for the government
 
@@ -257,19 +257,15 @@ Zvobgo and Chaudoin (2025) do not find evidence that arguments about ICC's compl
 
 ## Rulings that land mid-survey {.smaller}
 
--   surveys take weeks to field; if a ruling drops in the middle, respondents interviewed before and after can be compared as if randomly assigned to "before" and "after" – the **unexpected event during survey design** [@munoz2020unexpected]
+-   surveys take weeks to field; if a ruling drops in the middle, respondents interviewed before and after can be compared as if randomly assigned
 
--   the assumptions: the event was not anticipated, who gets interviewed on which day is unrelated to it, and nothing else happened at the same time
+    -   the **unexpected event during survey design** [@munoz2020unexpected]
+
+-   assumptions: the event was not anticipated, interview timing is unrelated to it, nothing else happened at the same time
 
 -   applied to Argentine rulings by @gandur2025trust
 
--   checks for any such study
-
-    -   are the before and after samples alike?
-
-    -   does the effect fade within days?
-
-    -   could the timing of interviews have shifted because of the event?
+-   checks: are the before and after samples alike? does the effect fade within days?
 
 ## Why do people trust the one branch they never vote for?
 

@@ -126,6 +126,7 @@ source("utils/globals.R")
 ## Variation in appointment procedures
 
 ```{r appointvar}
+#| fig-cap: "Based on @tiede2024selecting"
 
 # data from Oxf handbook
 comp <- tribble(
@@ -142,8 +143,7 @@ comp |>
   ggplot(aes(x = n, y = reorder(dominant, n))) +
   geom_col() +
   theme_minimal() +
-  labs(x = "Number of courts", y = "Dominant influence in selection",
-       caption = "Based on Tiede (2024)")
+  labs(x = "Number of courts", y = "Dominant influence in selection")
 ```
 
 ## How can judges be chosen? {.smaller}
@@ -338,11 +338,13 @@ the Wisconsin figure is only slightly less than total party spending in the 2019
 
 -   appointment and tenure rules rarely change; when they do, the change is a **shock** we can learn from
 
--   the logic of a difference-in-differences: compare judges or courts exposed to the reform with those not exposed, before and after; the untouched group supplies the counterfactual trend
+-   **difference-in-differences**: compare courts exposed to the reform with those not exposed, before and after
 
--   Bolivia 2011: the first popular election of high court judges changed who sat on the bench and how the public rated it [@driscoll2015judicial]
+    -   the untouched group supplies the counterfactual trend
 
--   the requirement is that nothing else changed at the same time for the treated group only
+-   e.g. Bolivia's first popular election of high court judges (2011) changed who sat on the bench and how the public rated it [@driscoll2015judicial]
+
+-   the requirement: nothing else changed at the same time for the treated group only
 
 ## Can judges be made accountable without being made dependent?
 

@@ -142,6 +142,7 @@ source("utils/globals.R")
 -   each step is subjective, unstable and shaped by lawyers, insurers, family and the media
 
 ```{r pyramid, fig.height=3.5}
+#| fig-cap: "Source: @miller1981grievances"
 tibble(stage = c("grievances", "claims", "disputes", "lawyer consulted", "court filings"),
        n = c(1000, 718, 449, 103, 50)) |>
   mutate(stage = factor(stage, levels = rev(stage))) |>
@@ -152,8 +153,7 @@ tibble(stage = c("grievances", "claims", "disputes", "lawyer consulted", "court 
   theme_minimal() +
   labs(x = NULL, y = NULL,
        title = "The dispute pyramid",
-       subtitle = "Per 1,000 grievances, US households, 1980",
-       caption = "Source: Miller and Sarat (1981)")
+       subtitle = "Per 1,000 grievances, US households, 1980")
 ```
 
 ## Legal mobilization in Costa Rica
@@ -280,7 +280,7 @@ As an example, there was a successful suit resulting from a handwritten complain
 
     -   in fact a handful of **Euro-lawyers** found the clients, built the test cases and ghostwrote the referrals reluctant national judges sent to Luxembourg [@pavone2022ghostwriters]
 
--   **cause lawyers** put a political commitment before the client's case (Sarat and Scheingold 1998); the tension is with professional norms of neutrality
+-   **cause lawyers** put a political commitment before the client's case [@sarat1998cause]; the tension is with professional norms of neutrality
 
 -   does having a lawyer matter? in a randomized experiment in New York's housing court, tenants offered free counsel were far less likely to be evicted [@seron2001impact]
 

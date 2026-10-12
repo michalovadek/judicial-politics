@@ -2,7 +2,7 @@
 
 Messick, Richard E. "The origins and development of courts." *Judicature* 85, no. 4 (2002): 175-181.
 
-Ginsburg, Tom, and Mila Versteeg. "Why do countries adopt constitutional review?" *The Journal of Law, Economics, and Organization* 30, no. 3 (2014): 587-622. <https://doi.org/10.1093/jleo/ewt008>
+Ginsburg, Tom, and Mila Versteeg. "Why do countries adopt constitutional review?" *Journal of Law, Economics, and Organization* 30, no. 3 (2014): 587-622. <https://doi.org/10.1093/jleo/ewt008>
 
 Hirschl, Ran. "The Judicialization of Mega-Politics and the Rise of Political Courts." *Annual Review of Political Science* 11, no. 1 (2008): 93-118. <https://doi.org/10.1146/annurev.polisci.11.053006.183906>
 

@@ -47,7 +47,7 @@ source("utils/globals.R")
 
 ## The Condorcet jury theorem
 
--   Condorcet (1785): a majority is more likely right than any one member, if
+-   @condorcet1785essai: a majority is more likely right than any one member, if
 
     -   **competence**: each member is more likely right than wrong
 
@@ -173,19 +173,19 @@ the random or otherwise assignment of cases to judges is a critical element in r
 
 ## Random assignment as a research design {.smaller}
 
--   the recurring identification strategy in this literature: jurors drawn by lot, lay judges rotated by schedule, cases allocated to judges by rota or lottery
+-   the recurring design in this literature: jurors drawn by lot, lay judges rotated by schedule, cases allocated by rota or lottery
 
--   if assignment is as good as random, differences in outcomes across juries, panels or judges cannot be due to the cases they got
+-   if assignment is as good as random, differences in outcomes cannot be due to the cases
 
--   three things to check before believing it:
+-   what to check:
 
-    -   was assignment actually random, or only "as if", conditional on court, time and case type?
+    -   was assignment actually random, or only "as if"?
 
     -   can judges or parties opt out (recusal, forum shopping, plea deals)?
 
-    -   are there enough cases per judge to estimate anything?
+    -   are there enough cases per judge?
 
--   the same design lets a judge's leniency serve as an instrument for what happens to defendants afterwards
+-   a judge's leniency can then serve as an instrument for what happens to defendants
 
 ## Role of clerks
 
