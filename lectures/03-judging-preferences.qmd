@@ -25,6 +25,18 @@ source("utils/globals.R")
 -   in the process of doing so, they are frequently the ultimate authority deciding what the law "is" (and isn't)
 -   in this module we will be more concerned with how judges make decisions rather than how they *should* make decisions
 
+## This week
+
+-   this week we look at
+
+    -   why the law alone does not decide cases
+
+    -   attitudinal explanations and how we measure judicial preferences
+
+    -   economic and cognitive explanations
+
+    -   where judicial preferences come from
+
 ## How do judges make decisions?
 
 -   the **legalist** perspective
@@ -118,16 +130,17 @@ ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
 
 ![Dyevre, Arthur. “Unifying the field of comparative judicial politics: towards a general theory of judicial behaviour.” European Political Science Review 2, no. 2 (2010): p. 313](img/dyevre-indeterminacy.png){width="400"}
 
-## Six paths to a decision {.smaller}
+## Judges in the lab {.smaller}
 
-| path | core assumption | best evidence | where it struggles |
-|--------------|----------------------------|------------------------------|----------------------------|
-| legal | rules and facts decide | unanimity; precedent followed | discretion, ambiguity |
-| attitudinal | judges vote their preferences | editorials predict votes | outside SCOTUS |
-| strategic | preferences constrained by others | anticipating reversal, override | hard to tell from sincere moderation |
-| economic | judges maximize utility, incl. leisure | effort tracks workload and promotion | intrinsic motivation |
-| cognitive | judges are boundedly rational | anchoring and framing in experiments | low stakes in the lab |
-| identity and socialization | who the judge is shapes decisions | gender, race and training effects | mechanisms rarely observed |
+-   @spamann2021judges gave 299 judges from seven countries the same war crimes appeal
+
+    -   randomly varying the precedent, how sympathetic the defendant was and a sentencing anchor
+
+-   because the variation was random, any difference in decisions must come from what was varied
+
+-   precedent barely made a difference, while the defendant and the anchor did
+
+-   judges differed by country but not between common law and civil law
 
 # Attitudinal explanations
 
@@ -169,53 +182,111 @@ usjustices |>
        caption = "Data source: The U.S. Supreme Court Justices Database")
 ```
 
-## Attitudinal explanations
+## Attitudinal explanations {.smaller}
+
+-   SCOTUS votes can be predicted from newspaper editorials about the nominees [@segal1989ideological; @cameron2009how]
+
+-   partisan identification predicts how US judges decide
+
+    -   elsewhere other attitudes matter, e.g. religiosity in Israel [@weinshallmargel2011attitudinal]
+
+-   many judicial attitudes can be mapped onto a left-right dimension of political conflict
+
+-   variation in attitudes stems from a number of sources, including judges' background characteristics
+
+## Attitudinal explanations {.smaller}
+
+> "judges’ decisions are a function of what they prefer to do, tempered by what they think they ought to do, but constrained by what they perceive is feasible to do" [@gibson1983simplicity, p. 9]
+
+-   attitudinal explanations are most relevant in "policy" cases, i.e. when matters of public policy play a role in the dispute
+
+-   judicial preferences and decision-making are multidimensional – the identity of the median justice might vary by issue area [@lauderdale2012supreme]
+
+    -   the power of the unidimensional explanation tends to be lower outside the US context
+
+# Learning about judicial preferences
+
+## Learning about judicial preferences {.smaller}
+
+-   one of the most challenging tasks in the study of judicial behaviour is **measuring** judicial preferences
+
+-   judges operate much more secretively than politicians and are therefore more difficult to approach (for interviews, surveys, experiments)
+
+    -   even if we could ask judges about their preferences, it is unlikely they would answer sincerely (**social desirability bias**)
+
+-   the most common way of learning about judicial preferences is by looking at what judges decide
+
+    -   **pros**: real behaviour (vs experimental hypotheticals); revealed (vs stated) preferences
+
+    -   **cons**: "post-treatment"; motivated reasoning; requires individual positions (on panels); comparability requires random case assignment
+
+## The case space model
+
+![](img/case-space-1.png)
+
+-   imagine a one-dimensional space mapping countries by how dangerous they are to live in
+
+## The case space model
+
+![](img/case-space-2.png)
+
+-   imagine each case concerns an asylum application from a different country of origin
+
+## The case space model
+
+![](img/case-space-5.png)
+
+-   the judge prefers to **grant** all applications to the left of their ideal point and to **deny** all applications to the right of it
+
+## The case space model
+
+![](img/case-space-9.png)
+
+-   which judge is the most conservative?
+
+-   which judge is the median judge?
+
+::: notes
+The intermediate builds (case-space-3 to case-space-8) are in img/ if the step-by-step version is preferred.
+:::
+
+## From votes to ideal points {.smaller}
+
+-   aggregating judicial preferences from decisions is not as straightforward as taking the average of yes/no votes
+
+    -   a vote in favour of the plaintiff might be associated with both ends of the policy spectrum
+
+-   ideal point models use many votes at once to estimate each judge's position and where each case splits the judges [@martin2002dynamic]
+
+-   the recovered dimension could in principle be anything
+
+    -   researchers need to validate it against additional information about cases and judges (e.g. left-right)
+
+## Do ideal points capture ideology?
 
 ```{r mquinn}
 # data
 scotus_mq <- read_csv("data/justices_mquinn.csv")
 
 # plot
-scotus_mq |>
+mq_sc <- scotus_mq |>
   mutate(justice = as.character(justice)) |>
   summarise(mean = mean(post_mn, na.rm = T), .by = c(justiceName, justice)) |>
   left_join(usjustices, by = c("justice"="spaethid")) |>
   mutate(ideo = as.numeric(ideo)) |>
-  filter(ideo < 1.01) |>
+  filter(ideo < 1.01)
+
+mq_sc_cor <- cor(mq_sc$mean, 1 - mq_sc$ideo, use = "complete.obs")
+
+mq_sc |>
   ggplot(aes(y = mean, x = 1-ideo)) +
   geom_point() +
   geom_smooth(method = "lm") +
   theme_minimal() +
   labs(y = "Martin-Quinn Score", x = "Segal-Cover Score (reversed)",
        title = "Ideology and voting on SCOTUS",
-       subtitle = "The correlation between estimated ideology and voting is ~0.6")
+       subtitle = paste0("The correlation between estimated ideology and voting is ", round(mq_sc_cor, 2)))
 ```
-
-## Attitudinal explanations {.smaller}
-
--   SCOTUS votes can be predicted from newspaper descriptions of the nominees [@segal1989ideological; @cameron2009how]
-
--   with some exceptions [@weinshallmargel2011attitudinal], partisan identification predicts how judges decide
-
--   many judicial attitudes map onto a left-right dimension
-
-> "judges’ decisions are a function of what they prefer to do, tempered by what they think they ought to do, but constrained by what they perceive is feasible to do" [@gibson1983simplicity, p. 9]
-
--   most relevant in "policy" cases
-
--   preferences are multidimensional: the median justice can vary by issue area [@lauderdale2012supreme]
-
-# Strategic explanations
-
-## Strategic explanations
-
--   judges want outcomes but depend on others to get them
-
--   so they vote, write and time decisions with an eye to what others will do
-
--   attitudinal and strategic models agree that preferences matter, but disagree on whether judges act on them sincerely
-
--   the constraints come from panels, the judicial hierarchy, the elected branches and the public
 
 # Economic explanations
 
@@ -283,13 +354,15 @@ Judges are willing to substitute quality for leisure time and vice versa. Each c
 
 ## Economic explanations {.smaller}
 
--   (peak-court) judges prefer writing better researched rulings over producing more of them [@ash2015intrinsic; @engel2020manna], which is also why they like docket control [@skiple2021how]
+-   judges prefer writing better researched rulings over producing more of them [@ash2015intrinsic; @engel2020manna]
 
--   judges have strong intrinsic motivation to perform well, which reduces the effectiveness of extrinsic measures [@ash2015intrinsic; @engel2017you]
+-   judges have strong intrinsic motivation to perform well [@ash2015intrinsic; @engel2017you]
+
+    -   facing elections lowers rather than raises their performance [@ash2015intrinsic]
 
 -   making leisure time more attractive (e.g. basketball tournament) makes judges do less and worse work [@clark2018estimating]
 
--   promotion prospects motivate judges to avoid having their decisions overturned on appeal [@salzberger1999judicial] and to be deferential towards the government or politically popular causes [@sisk1998charting; @ramseyer2001why]
+-   career incentives reward judges who are rarely overturned [@salzberger1999judicial] and who defer to the government [@sisk1998charting; @ramseyer2001why]
 
 # Cognitive explanations
 
@@ -305,11 +378,11 @@ Judges are willing to substitute quality for leisure time and vice versa. Each c
 
 **Anchoring**: an initial value influences one's perception of a reasonable estimate of a value.
 
--   @guthrie2001inside ask judges to award damages in a personal injury case – those exposed to an irrelevant low number awarded 30% less in damages on average
+-   @guthrie2001inside ask judges to award damages in a personal injury case – those exposed to an irrelevant low number awarded 29% less in damages on average
 
--   "municipal court judges fined a nightclub three times as much when its name (after its street address) was Club 11,866 rather than Club 58" [@rachlinski2017judging]
+-   judges fined a nightclub more when its name (after its street address) was Club 11,866 rather than Club 58 [@rachlinski2017judging]
 
--   German judges who rolled dice before sentencing recommended longer sentences after a high roll [@englich2006playing]
+-   young German lawyers gave longer sentences when loaded dice set a higher prosecution demand [@englich2006playing]
 
 ## Cognitive explanations {.smaller}
 
@@ -317,21 +390,43 @@ Judges are willing to substitute quality for leisure time and vice versa. Each c
 
 -   when framing a (sure) settlement as a gain, judges were more likely to endorse it than when framed as a loss [@guthrie2001inside]
 
--   bankruptcy reorganization plans with certain outcomes were more likely to be approved by judges when framed in terms of gains than losses [@rachlinski2006inside]
+-   choosing between reorganization plans, bankruptcy judges favoured the certain plan more when it was framed as a gain [@rachlinski2006inside]
 
 ## Cognitive explanations {.smaller}
 
--   decision-making bias can be driven by in-group favoritism [@kantorowiczreznichenko2022ideological]
+-   in experiments with the public, ideological bias is driven by in-group favoritism [@kantorowiczreznichenko2022ideological]
 
-    -   including ethnic [@grossman2016descriptive] and place-based (e.g. Minnesota) in-groups [@wistrich2015heart]
+    -   Arab defendants in Israel get lighter sentences on appeal when an Arab judge sits on the panel [@grossman2016descriptive]
 
-    -   but this finding is likely exaggerated by publication bias [@ash2025ingroup]
+    -   judges punish out-of-state defendants more [@wistrich2015heart]
 
--   judges give away their preferences through emotional arousal in oral hearings [@dietrich2019emotional]
+    -   but in-group bias findings are likely exaggerated by publication bias [@ash2025ingroup]
 
--   legal training rarely attenuates bias in legal decision-making [@braman2007mechanism]
+## Cognitive explanations {.smaller}
 
--   legally irrelevant information influences how judges decide [@wistrich2005can] and is almost never acknowledged in the written reasons
+-   US Supreme Court justices give away their preferences through emotional arousal in oral arguments [@dietrich2019emotional]
+
+-   legal training did not reduce motivated reasoning when law students judged how similar precedents were [@braman2007mechanism]
+
+-   judges struggle to ignore inadmissible information [@wistrich2005can]
+
+    -   and their written reasons rarely mention the extralegal factors that swayed them [@spamann2016justice; @liu2019legal]
+
+## Cognitive explanations {.smaller}
+
+-   events unrelated to the case can also affect decisions
+
+    -   Louisiana juvenile court judges gave longer sentences in the week after an unexpected LSU football loss [@eren2018emotional]
+
+    -   defendants receive shorter sentences on their birthday [@chen2023clash]
+
+    -   parole boards granted fewer requests as each session went on, recovering after a food break [@danziger2011extraneous]
+
+-   some of these findings have been challenged
+
+    -   critics argue case order was not random, as prisoners without lawyers usually went last in each session [@weinshallmargel2011overlooked]
+
+    -   fewer asylum grants on hot days [@heyes2019temperature] largely disappear once coding errors are fixed [@spamann2022comment]
 
 # Identity and socialization
 
@@ -355,6 +450,8 @@ Judges are willing to substitute quality for leisure time and vice versa. Each c
 
     -   by the facts of the case, the law, the preferences of other deciding judges (panel decisions) and of other actors (e.g. the legislature)
 
+    -   judges who anticipate these constraints are acting **strategically**, which we look at next week
+
 -   a common objection to non-legal analyses of judicial behaviour is that disagreement between judges (or courts) is misrepresented as ideological
 
     -   if this objection holds, disagreements about the law should not correlate with disagreements about policy
@@ -363,106 +460,18 @@ Judges are willing to substitute quality for leisure time and vice versa. Each c
 
 ## Empirical evidence
 
--   US Courts of Appeals judges apply different standards in comparable capital punishment cases depending on whether they were appointed by D or R president [@beim2021republicanmajority]
+-   US appeals panels with a majority of Republican appointees apply different standards in capital cases, raising execution rates [@beim2021republicanmajority]
 
 -   a law and economics training programme for US judges made them decide more conservatively [@ash2026ideas]
 
--   Fox News viewership causes elected judges to impose harsher sentences [@ash2024conservative]
+-   local Fox News viewership causes elected judges to impose harsher sentences [@ash2024conservative]
 
 ## Empirical evidence
 
--   judges socialized in Nazi Germany were more lenient towards Nazi criminals than other judges [@kern2024transitional]
+-   West German courts with more Nazi-tainted judges convicted fewer accused Nazi criminals [@kern2024transitional]
 
--   high salience and politicization of immigration is related to lower asylum appeal success [@spirig2023when]
+-   high salience of immigration leads judges to decide asylum appeals less favourably [@spirig2023when]
 
--   judges with daughters are more feminist than judges who only have sons [@glynn2015identifying]
-
-## What moves judges? {.smaller}
-
-| shock | setting | what happened | source |
-|--------------------|----------------------|--------------------------------|--------------------------|
-| college football upset | Louisiana juvenile courts | longer sentences that week | @eren2018emotional |
-| defendant's birthday | French and US federal courts | shorter sentences | @chen2023clash |
-| time since food break | Israeli parole boards | favourable decisions fall before each break | @danziger2011extraneous |
-| ... or case order | same data | unrepresented prisoners heard last; the effect shrinks | @weinshallmargel2011overlooked |
-| a hot day | US immigration courts | fewer asylum grants; a coding error and a critique cut it down | @heyes2019temperature; @heyes2022correction |
-
-# Learning about judicial preferences
-
-## Learning about judicial preferences {.smaller}
-
--   one of the most challenging tasks in the study of judicial behaviour is **measuring** judicial preferences
-
--   judges operate much more secretively than politicians and are therefore more difficult to approach (for interviews, surveys, experiments)
-
-    -   even if we could ask judges about their preferences, it is unlikely they would answer sincerely (**social desirability bias**)
-
--   the most common way of learning about judicial preferences is by looking at what judges decide
-
-    -   **pros**: real behaviour (vs experimental hypotheticals); revealed (vs stated) preferences
-
-    -   **cons**: "post-treatment"; motivated reasoning; requires individual positions (on panels); comparability requires random case assignment
-
-## The case space model
-
-![](img/case-space-1.png)
-
--   imagine a one-dimensional space mapping countries by how dangerous they are to live in
-
-## The case space model
-
-![](img/case-space-2.png)
-
--   imagine each case concerns an asylum application from a different country of origin
-
-## The case space model
-
-![](img/case-space-5.png)
-
--   the judge prefers to **grant** all applications to the left of their ideal point and to **deny** all applications to the right of it
-
-## The case space model
-
-![](img/case-space-9.png)
-
--   which judge is the most conservative?
-
--   which judge is the median judge?
-
-::: notes
-The intermediate builds (case-space-3 to case-space-8) are in img/ if the step-by-step version is preferred.
-:::
-
-# Experiments
-
-## Why randomize? {.smaller}
-
--   **randomization**: chance alone decides who gets the treatment
-
--   treated and control groups are then **balanced** before treatment
-
-    -   on what we observe, e.g. experience or party
-
-    -   and on what we cannot, e.g. motivation or attitudes
-
--   the groups are comparable, so differences in outcomes are due to the treatment
-
--   without randomization, **self-selection**
-
-    -   e.g. judges who opt into training may be more curious to begin with
-
-## Lab, survey and field experiments {.smaller}
-
-| type | what is randomized | example |
-|------|------|------|
-| lab | case materials | precedent, defendant and sentence anchor for 299 judges [@spamann2021judges] |
-| survey | a scenario (vignette) | a court backing or opposing a government bill [@sternberg2022legitimacyconferring] |
-| field | a real-world intervention | free counsel for tenants in New York's housing court [@seron2001impact] |
-
--   more control in the lab, more realism in the field
-
--   lotteries and rotas that randomize without a researcher create **natural experiments**
-
-## If judges' votes can be predicted from their politics, what is left of law?
+-   US appeals judges with a daughter vote in a more feminist way on gender issues than those with only sons [@glynn2015identifying]
 
 ## References
