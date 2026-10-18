@@ -31,13 +31,13 @@ source("utils/globals.R")
 
     -   why the law alone does not decide cases
 
-    -   attitudinal explanations and how we measure judicial preferences
+    -   attitudinal explanations and judicial preferences
 
     -   economic and cognitive explanations
 
-    -   where judicial preferences come from
+# Legalism
 
-## How do judges make decisions?
+## Legalism
 
 -   the **legalist** perspective
 
@@ -88,7 +88,7 @@ Rule 1: The government can force foreign companies to sell their assets if they 
 A company based in a rival country wields a lot of influence in the Country. Its service facilitates the freedom of expression of millions of people. It collects data about its users. It does not share the data with the rival government. The Government invokes Rule 1 and orders a sale of the company's assets. The company disputes the legality of the order.
 
 ::: notes
-Build the slide up in class: start with Rule 1 alone, then add Rule 2, then Rule 3, asking each time how the case should be decided.
+add the rules one at a time and ask each time how the case should be decided
 :::
 
 ## Complexity of rules
@@ -128,19 +128,7 @@ ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
 
 ## Ambiguity and disputes
 
-![Dyevre, Arthur. “Unifying the field of comparative judicial politics: towards a general theory of judicial behaviour.” European Political Science Review 2, no. 2 (2010): p. 313](img/dyevre-indeterminacy.png){width="400"}
-
-## Judges in the lab {.smaller}
-
--   @spamann2021judges gave 299 judges from seven countries the same war crimes appeal
-
-    -   randomly varying the precedent, how sympathetic the defendant was and a sentencing anchor
-
--   because the variation was random, any difference in decisions must come from what was varied
-
--   precedent barely made a difference, while the defendant and the anchor did
-
--   judges differed by country but not between common law and civil law
+![Source: @dyevre2010unifying [p. 313]](img/dyevre-indeterminacy.png){width="400"}
 
 # Attitudinal explanations
 
@@ -153,72 +141,6 @@ ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
 -   judges have political preferences which can be ideological or even partisan
 
 -   judges might seek desired policy outcomes consciously or subconsciously
-
-## Attitudinal explanations
-
-```{r scotusnews}
-# data from Epstein et al
-usjustices <- read_csv("data/justicesdata2022.csv")
-
-# plot
-usjustices |>
-  filter(!str_detect(ideo, "^8")) |>
-  distinct(name, .keep_all = T) |>
-  mutate(ideo = as.numeric(ideo),
-         name = str_extract(name, ".*?(?=,)")) |>
-  filter(ideo < 1.01) |>
-  ggplot(aes(y = ideo, x = yrnom)) +
-  geom_text(aes(label = name), alpha = 0.8,
-            position = position_jitter(width = 5, height = 0.03)) +
-  geom_smooth(fill = "grey80") +
-  scale_x_continuous(n.breaks = 10) +
-  theme_minimal() +
-  theme(
-    axis.title.x = element_text(face = "bold"),
-  ) +
-  labs(x = "Year of nomination", y = "Conservative - Liberal",
-       title = "Ideology scores for SCOTUS justices",
-       subtitle = "Segal & Cover score of nominee's ideology based on newspaper editorials",
-       caption = "Data source: The U.S. Supreme Court Justices Database")
-```
-
-## Attitudinal explanations {.smaller}
-
--   SCOTUS votes can be predicted from newspaper editorials about the nominees [@segal1989ideological; @cameron2009how]
-
--   partisan identification predicts how US judges decide
-
-    -   elsewhere other attitudes matter, e.g. religiosity in Israel [@weinshallmargel2011attitudinal]
-
--   many judicial attitudes can be mapped onto a left-right dimension of political conflict
-
--   variation in attitudes stems from a number of sources, including judges' background characteristics
-
-## Attitudinal explanations {.smaller}
-
-> "judges’ decisions are a function of what they prefer to do, tempered by what they think they ought to do, but constrained by what they perceive is feasible to do" [@gibson1983simplicity, p. 9]
-
--   attitudinal explanations are most relevant in "policy" cases, i.e. when matters of public policy play a role in the dispute
-
--   judicial preferences and decision-making are multidimensional – the identity of the median justice might vary by issue area [@lauderdale2012supreme]
-
-    -   the power of the unidimensional explanation tends to be lower outside the US context
-
-# Learning about judicial preferences
-
-## Learning about judicial preferences {.smaller}
-
--   one of the most challenging tasks in the study of judicial behaviour is **measuring** judicial preferences
-
--   judges operate much more secretively than politicians and are therefore more difficult to approach (for interviews, surveys, experiments)
-
-    -   even if we could ask judges about their preferences, it is unlikely they would answer sincerely (**social desirability bias**)
-
--   the most common way of learning about judicial preferences is by looking at what judges decide
-
-    -   **pros**: real behaviour (vs experimental hypotheticals); revealed (vs stated) preferences
-
-    -   **cons**: "post-treatment"; motivated reasoning; requires individual positions (on panels); comparability requires random case assignment
 
 ## The case space model
 
@@ -246,47 +168,69 @@ usjustices |>
 
 -   which judge is the median judge?
 
-::: notes
-The intermediate builds (case-space-3 to case-space-8) are in img/ if the step-by-step version is preferred.
-:::
+## Attitudinal explanations {.smaller}
 
-## From votes to ideal points {.smaller}
+-   SCOTUS votes can be predicted from newspaper editorials about the nominees [@segal1989ideological; @cameron2009how]
 
--   aggregating judicial preferences from decisions is not as straightforward as taking the average of yes/no votes
+-   partisan identification predicts how US judges decide
 
-    -   a vote in favour of the plaintiff might be associated with both ends of the policy spectrum
+    -   elsewhere other attitudes matter, e.g. religiosity in Israel [@weinshallmargel2011attitudinal]
 
--   ideal point models use many votes at once to estimate each judge's position and where each case splits the judges [@martin2002dynamic]
+-   many judicial attitudes can be mapped onto a left-right dimension of political conflict
 
--   the recovered dimension could in principle be anything
+-   decisions may also reflect who the judge and the defendant are
 
-    -   researchers need to validate it against additional information about cases and judges (e.g. left-right)
+    -   judges' gender, race or ethnicity sometimes predict how they decide [@harris2019bias]
 
-## Do ideal points capture ideology?
+    -   attitudes towards groups such as immigrants may shape how defendants are treated [@riaz2025antiimmigrant]
 
-```{r mquinn}
-# data
-scotus_mq <- read_csv("data/justices_mquinn.csv")
+## Attitudinal explanations {.smaller}
 
-# plot
-mq_sc <- scotus_mq |>
-  mutate(justice = as.character(justice)) |>
-  summarise(mean = mean(post_mn, na.rm = T), .by = c(justiceName, justice)) |>
-  left_join(usjustices, by = c("justice"="spaethid")) |>
-  mutate(ideo = as.numeric(ideo)) |>
-  filter(ideo < 1.01)
+> "judges’ decisions are a function of what they prefer to do, tempered by what they think they ought to do, but constrained by what they perceive is feasible to do" [@gibson1983simplicity, p. 9]
 
-mq_sc_cor <- cor(mq_sc$mean, 1 - mq_sc$ideo, use = "complete.obs")
+-   attitudinal explanations are most relevant in "policy" cases, i.e. when matters of public policy play a role in the dispute
 
-mq_sc |>
-  ggplot(aes(y = mean, x = 1-ideo)) +
-  geom_point() +
-  geom_smooth(method = "lm") +
-  theme_minimal() +
-  labs(y = "Martin-Quinn Score", x = "Segal-Cover Score (reversed)",
-       title = "Ideology and voting on SCOTUS",
-       subtitle = paste0("The correlation between estimated ideology and voting is ", round(mq_sc_cor, 2)))
-```
+-   judicial preferences and decision-making are multidimensional – the identity of the median justice might vary by issue area [@lauderdale2012supreme]
+
+    -   the power of the unidimensional explanation tends to be lower outside the US context
+
+## Attitudinal explanations
+
+-   a common objection to non-legal analyses of judicial behaviour is that disagreement between judges (or courts) is misrepresented as ideological
+
+    -   if this objection holds, disagreements about the law should not correlate with disagreements about policy
+
+    -   but e.g. almost all proponents of originalist interpretation of the US constitution also prefer conservative policies
+
+# Learning about judicial preferences
+
+## Learning about judicial preferences {.smaller}
+
+-   one of the most challenging tasks in the study of judicial behaviour is **measuring** judicial preferences
+
+-   judges operate much more secretively than politicians and are therefore more difficult to approach (for interviews, surveys, experiments)
+
+    -   even if we could ask judges about their preferences, it is unlikely they would answer sincerely (**social desirability bias**)
+
+-   the most common way of learning about judicial preferences is by looking at what judges decide
+
+    -   **pros**: real behaviour (vs experimental hypotheticals); revealed (vs stated) preferences
+
+    -   **cons**: "post-treatment"; motivated reasoning; requires individual positions (on panels); comparability requires random case assignment
+
+-   researchers also use the pitch of justices' voices in oral argument [@dietrich2019emotional]
+
+## Random assignment {.smaller}
+
+-   judges rarely decide the same cases, so differences in their decisions may reflect differences in their cases
+
+-   when cases are assigned at **random**, each judge gets a similar mix of cases on average
+
+    -   e.g. if asylum appeals are allocated by lottery, a judge who grants fewer of them is likely to be stricter
+
+-   **experiments** follow the same logic by randomly varying one feature of a case and keeping the rest the same
+
+-   the logic breaks down if judges or parties can influence who hears a case
 
 # Economic explanations
 
@@ -298,69 +242,15 @@ mq_sc |>
 
 -   on the other hand, judges care about having free time
 
-## Economic explanations
-
-```{r utility1}
-
-# Define utility functions
-utility_linear <- function(U, quality) U - quality
-utility_cobb_douglas <- function(U, quality) U / sqrt(quality)
-utility_perfect_complements <- function(U, quality) pmax(0, U - quality)
-
-# Generate data for utility functions
-generate_utility_data <- function(U_levels, quality_vals, utility_func, name) {
-  data_list <- lapply(U_levels, function(U) {
-    leisure_vals <- utility_func(U, quality_vals)
-    data.frame(
-      QualityOfWork = quality_vals[leisure_vals >= 0 & !is.infinite(leisure_vals)],
-      Leisure = leisure_vals[leisure_vals >= 0 & !is.infinite(leisure_vals)],
-      Utility = sprintf("%s (U = %d)", name, U)
-    )
-  })
-  do.call(rbind, data_list)
-}
-
-# Parameters
-quality_vals <- seq(0, 10, by = 0.1)
-U_levels <- c(5, 10, 15)
-
-# Create data for each utility function
-data_linear <- generate_utility_data(U_levels, quality_vals, utility_linear, "Linear")
-data_cobb <- generate_utility_data(U_levels, quality_vals, utility_cobb_douglas, "Cobb-Douglas")
-data_complements <- generate_utility_data(U_levels, quality_vals, utility_perfect_complements, "Perfect Complements")
-
-# Combine all data
-data <- rbind(data_cobb, data_linear)
-
-# Plot the utility functions
-data |>
-  filter(str_detect(Utility, "Cobb")) |>
-  ggplot(aes(x = QualityOfWork, y = Leisure, color = Utility)) +
-  geom_line(size = 1, show.legend = FALSE) +
-  labs(
-    title = "Utility functions with diminishing returns",
-    subtitle = "Judges with different levels of productivity",
-    x = "Quality of Work",
-    y = "Leisure Time",
-    color = "Utility Function"
-  ) +
-  scale_color_brewer(palette = "Set2") +
-  theme_arrows()
-```
-
-::: notes
-Judges are willing to substitute quality for leisure time and vice versa. Each curve offers a fixed amount of utility – sliding along the curve is just changing the trade-off. Curve further from the origin means more total utility (= higher productivity). Some judges are more productive than others (as shown in the graph). In reality, some judges value leisure, relative to quality, more than others as well (but this is not very much captured here).
-:::
-
 ## Economic explanations {.smaller}
+
+-   making leisure time more attractive (e.g. basketball tournament) makes judges do less and worse work [@clark2018estimating]
 
 -   judges prefer writing better researched rulings over producing more of them [@ash2015intrinsic; @engel2020manna]
 
 -   judges have strong intrinsic motivation to perform well [@ash2015intrinsic; @engel2017you]
 
-    -   facing elections lowers rather than raises their performance [@ash2015intrinsic]
-
--   making leisure time more attractive (e.g. basketball tournament) makes judges do less and worse work [@clark2018estimating]
+    -   judges perform worse when they face elections [@ash2015intrinsic]
 
 -   career incentives reward judges who are rarely overturned [@salzberger1999judicial] and who defer to the government [@sisk1998charting; @ramseyer2001why]
 
@@ -390,27 +280,15 @@ Judges are willing to substitute quality for leisure time and vice versa. Each c
 
 -   when framing a (sure) settlement as a gain, judges were more likely to endorse it than when framed as a loss [@guthrie2001inside]
 
--   choosing between reorganization plans, bankruptcy judges favoured the certain plan more when it was framed as a gain [@rachlinski2006inside]
+-   bankruptcy judges were more likely to choose a reorganization plan with a certain outcome when it was framed as a gain [@rachlinski2006inside]
 
 ## Cognitive explanations {.smaller}
-
--   in experiments with the public, ideological bias is driven by in-group favoritism [@kantorowiczreznichenko2022ideological]
-
-    -   Arab defendants in Israel get lighter sentences on appeal when an Arab judge sits on the panel [@grossman2016descriptive]
-
-    -   judges punish out-of-state defendants more [@wistrich2015heart]
-
-    -   but in-group bias findings are likely exaggerated by publication bias [@ash2025ingroup]
-
-## Cognitive explanations {.smaller}
-
--   US Supreme Court justices give away their preferences through emotional arousal in oral arguments [@dietrich2019emotional]
 
 -   legal training did not reduce motivated reasoning when law students judged how similar precedents were [@braman2007mechanism]
 
 -   judges struggle to ignore inadmissible information [@wistrich2005can]
 
-    -   and their written reasons rarely mention the extralegal factors that swayed them [@spamann2016justice; @liu2019legal]
+    -   and their written reasons rarely mention the extralegal factors that influenced them [@spamann2016justice; @liu2019legal]
 
 ## Cognitive explanations {.smaller}
 
@@ -420,29 +298,15 @@ Judges are willing to substitute quality for leisure time and vice versa. Each c
 
     -   defendants receive shorter sentences on their birthday [@chen2023clash]
 
-    -   parole boards granted fewer requests as each session went on, recovering after a food break [@danziger2011extraneous]
+    -   parole boards granted fewer requests as each session went on and more again after a food break [@danziger2011extraneous]
 
 -   some of these findings have been challenged
 
     -   critics argue case order was not random, as prisoners without lawyers usually went last in each session [@weinshallmargel2011overlooked]
 
-    -   fewer asylum grants on hot days [@heyes2019temperature] largely disappear once coding errors are fixed [@spamann2022comment]
+    -   US immigration judges appeared to grant less asylum on hot days [@heyes2019temperature], but the effect largely disappears once coding errors are fixed [@spamann2022comment]
 
-# Identity and socialization
-
-## Variation in judicial preferences
-
--   some judges are more ...
-
-    -   ideological, partisan, competent, power-hungry, lazy, independent, ambitious, etc.
-
-... than others
-
--   the sources of judicial preferences are manifold: background characteristics, experience, legal and political context
-
-![Ideology of Democratic and Republican State Supreme Court Justices [@gibson2022judging]](img/dem-con-state-scs-ideo.png){width="55%"}
-
-## Realizing judicial preferences {.smaller}
+## Realizing judicial preferences
 
 -   judicial preferences manifest most importantly in decisions
 
@@ -450,28 +314,6 @@ Judges are willing to substitute quality for leisure time and vice versa. Each c
 
     -   by the facts of the case, the law, the preferences of other deciding judges (panel decisions) and of other actors (e.g. the legislature)
 
-    -   judges who anticipate these constraints are acting **strategically**, which we look at next week
-
--   a common objection to non-legal analyses of judicial behaviour is that disagreement between judges (or courts) is misrepresented as ideological
-
-    -   if this objection holds, disagreements about the law should not correlate with disagreements about policy
-
-    -   but e.g. almost all proponents of originalist interpretation of the US constitution also prefer conservative policies
-
-## Empirical evidence
-
--   US appeals panels with a majority of Republican appointees apply different standards in capital cases, raising execution rates [@beim2021republicanmajority]
-
--   a law and economics training programme for US judges made them decide more conservatively [@ash2026ideas]
-
--   local Fox News viewership causes elected judges to impose harsher sentences [@ash2024conservative]
-
-## Empirical evidence
-
--   West German courts with more Nazi-tainted judges convicted fewer accused Nazi criminals [@kern2024transitional]
-
--   high salience of immigration leads judges to decide asylum appeals less favourably [@spirig2023when]
-
--   US appeals judges with a daughter vote in a more feminist way on gender issues than those with only sons [@glynn2015identifying]
+    -   judges who anticipate these constraints are acting **strategically**
 
 ## References

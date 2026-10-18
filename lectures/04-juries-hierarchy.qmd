@@ -19,11 +19,57 @@ bibliography: ../references.bib
 source("utils/globals.R")
 ```
 
+## This week
+
+-   this week we look at
+
+    -   where judicial preferences come from
+
+    -   juries, panels and the judicial hierarchy
+
+# Identity and socialization
+
+## Variation in judicial preferences
+
+-   some judges are more ...
+
+    -   ideological, partisan, competent, power-hungry, lazy, independent, ambitious, etc.
+
+... than others
+
+-   the sources of judicial preferences are manifold: background characteristics, experience, legal and political context
+
+## Variation in judicial preferences
+
+![Ideology of Democratic and Republican State Supreme Court Justices [@gibson2022judging]](img/dem-con-state-scs-ideo.png)
+
+## In-group bias
+
+-   in experiments with the public, ideological bias is driven by in-group favouritism [@kantorowiczreznichenko2022ideological]
+
+    -   judges punish out-of-state defendants more [@wistrich2015heart]
+
+    -   but across 5 million Indian criminal cases, judges show no in-group bias by gender or religion [@ash2025ingroup]
+
+## Empirical evidence
+
+-   a law and economics training programme for US judges made them decide more conservatively [@ash2026ideas]
+
+-   local Fox News viewership causes elected judges to impose harsher sentences [@ash2024conservative]
+
+## Empirical evidence
+
+-   West German courts with more Nazi-tainted judges convicted fewer accused Nazi criminals [@kern2024transitional]
+
+-   high salience of immigration leads judges to decide asylum appeals less favourably [@spirig2023when]
+
+-   US appeals judges with a daughter vote in a more feminist way on gender issues than those with only sons [@glynn2015identifying]
+
 ## Deciding together
 
 -   most consequential decisions are not made by a single judge acting alone
 
--   this week: three settings in which the decision runs through other people
+-   the decision often runs through other people
 
     -   **juries** and lay judges: citizens deciding next to or instead of professionals
 
@@ -170,22 +216,6 @@ source("utils/globals.R")
 ::: notes
 the random or otherwise assignment of cases to judges is a critical element in research design
 :::
-
-## Random assignment as a research design {.smaller}
-
--   the recurring design in this literature: jurors drawn by lot, lay judges rotated by schedule, cases allocated by rota or lottery
-
--   if assignment is as good as random, differences in outcomes cannot be due to the cases
-
--   what to check:
-
-    -   was assignment actually random, or only "as if"?
-
-    -   can judges or parties opt out (recusal, forum shopping, plea deals)?
-
-    -   are there enough cases per judge?
-
--   a judge's leniency can then serve as an instrument for what happens to defendants
 
 ## Role of clerks
 

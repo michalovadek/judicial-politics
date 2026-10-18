@@ -2,12 +2,10 @@
 title: "3: How Judges Decide I: Theories and Preferences"
 ---
 
-Court rulings have an impact on individuals, economies and political systems. In principle, judgments follow from legal rules. But how do judges make decisions in practice? This week we review the most influential theories of judicial behaviour, the conditions under which they apply and the evidence produced in their support. We also look at how judges' preferences are measured and how they manifest in decisions across a variety of political and judicial contexts.
+Court rulings have an impact on individuals, economies and political systems. In principle, judgments follow from legal rules. But how do judges make decisions in practice? This week we review the most influential theories of judicial behaviour, the conditions under which they apply and the evidence produced in their support. We also look at judges' preferences and how they manifest in their decisions.
 
 {{< include _readings/week03.md >}}
 
-<!--
 ## Lecture slides
 
 [Week 3](lectures/03-judging-preferences.html)
--->

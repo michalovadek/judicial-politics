@@ -101,6 +101,8 @@ source("utils/globals.R")
 
     -   just like legislatures do not want to be censored by courts, courts do not want to be **overridden** by legislatures
 
+-   judges who adjust their rulings to the expected reactions of other actors are acting **strategically** [@epstein1998choices]
+
 ## Threat of override
 
 -   courts may also take into account whether their decision is likely to be overridden by the legislature [@meernik1997judicial; @larsson2021political]
