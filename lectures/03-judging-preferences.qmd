@@ -120,7 +120,7 @@ ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
 
 ## Ambiguity and disputes
 
--   where the law is perceived as unambiguous, it is less likely that a plaintiff would sue
+-   where the law is perceived as unambiguous, the parties are more likely to settle than litigate [@priest1984selection]
 
     -   there will be exceptions, e.g. criminal trials (but settlements)
 
@@ -134,7 +134,7 @@ ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
 
 ## Attitudinal explanations
 
--   the law alone does not determine case outcomes; judges' attitudinal preferences matter more
+-   the law alone does not determine case outcomes; judges' attitudinal preferences matter more [@segal2002supreme]
 
 -   originally motivated by the study of the US Supreme Court (SCOTUS)
 
@@ -170,13 +170,13 @@ ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
 
 ## Attitudinal explanations {.smaller}
 
--   SCOTUS votes can be predicted from newspaper editorials about the nominees [@segal1989ideological; @cameron2009how]
+-   SCOTUS votes can be predicted from newspaper editorials and other information about the nominees [@segal1989ideological; @cameron2009how]
 
--   partisan identification predicts how US judges decide
+-   partisan identification predicts how US judges decide [@harris2019bias]
 
-    -   elsewhere other attitudes matter, e.g. religiosity in Israel [@weinshallmargel2011attitudinal]
+    -   elsewhere other attitudes matter, e.g. religiosity in Israeli freedom of religion cases [@weinshallmargel2011attitudinal]
 
--   many judicial attitudes can be mapped onto a left-right dimension of political conflict
+-   many judicial attitudes can be mapped onto a left-right dimension of political conflict [@bonica2021estimating; @hanretty2012dissent]
 
 -   decisions may also reflect who the judge and the defendant are
 
@@ -192,15 +192,13 @@ ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
 
 -   judicial preferences and decision-making are multidimensional – the identity of the median justice might vary by issue area [@lauderdale2012supreme]
 
-    -   the power of the unidimensional explanation tends to be lower outside the US context
-
 ## Attitudinal explanations
 
 -   a common objection to non-legal analyses of judicial behaviour is that disagreement between judges (or courts) is misrepresented as ideological
 
     -   if this objection holds, disagreements about the law should not correlate with disagreements about policy
 
-    -   but e.g. almost all proponents of originalist interpretation of the US constitution also prefer conservative policies
+    -   but e.g. Americans who prefer originalist interpretation of the constitution also tend to hold conservative policy views [@greene2011profiling]
 
 # Learning about judicial preferences
 
@@ -236,7 +234,7 @@ ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
 
 ## Economic explanations
 
--   judges are **self-interested** agents who want to maximize their utility
+-   judges are **self-interested** agents who want to maximize their utility [@posner1993what]
 
 -   on the one hand, judges care about reputation, salary, career progress and personal satisfaction
 
@@ -244,15 +242,17 @@ ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
 
 ## Economic explanations {.smaller}
 
--   making leisure time more attractive (e.g. basketball tournament) makes judges do less and worse work [@clark2018estimating]
+-   making leisure time more attractive (e.g. basketball tournament) makes US appeals judges draft opinions more slowly and less well [@clark2018estimating]
 
--   judges prefer writing better researched rulings over producing more of them [@ash2015intrinsic; @engel2020manna]
+-   judges put quality before quantity and use spare time to handle each case more thoroughly [@ash2015intrinsic; @engel2020manna]
 
--   judges have strong intrinsic motivation to perform well [@ash2015intrinsic; @engel2017you]
+-   judges seem intrinsically motivated to perform well [@ash2015intrinsic]
 
-    -   judges perform worse when they face elections [@ash2015intrinsic]
+    -   students given the role of judge in a lab game also take the office seriously [@engel2017you]
 
--   career incentives reward judges who are rarely overturned [@salzberger1999judicial] and who defer to the government [@sisk1998charting; @ramseyer2001why]
+    -   judges write fewer opinions in years when they face contested elections [@ash2015intrinsic]
+
+-   career incentives reward English judges who are rarely overturned and Japanese judges who defer to the government [@salzberger1999judicial; @ramseyer2001why]
 
 # Cognitive explanations
 
@@ -260,7 +260,7 @@ ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
 
 -   less fully formed theories of decision-making and more studies of various types of cognitive 'biases'
 
--   people are only boundedly rational and instead of conducting strictly rational calculations rely on (biased) heuristics
+-   people are only boundedly rational and instead of conducting strictly rational calculations rely on (biased) heuristics [@tversky1974judgment]
 
 -   there are a number of common cognitive heuristics, e.g. anchoring, framing, hindsight bias, which have been shown to affect judges [@guthrie2001inside; @guthrie2002judging]
 
@@ -270,13 +270,13 @@ ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
 
 -   @guthrie2001inside ask judges to award damages in a personal injury case – those exposed to an irrelevant low number awarded 29% less in damages on average
 
--   judges fined a nightclub more when its name (after its street address) was Club 11,866 rather than Club 58 [@rachlinski2017judging]
+-   judges fined a nightclub more when its name (after its street address) was Club 11,866 rather than Club 58 [@rachlinski2026anchoring]
 
 -   young German lawyers gave longer sentences when loaded dice set a higher prosecution demand [@englich2006playing]
 
 ## Cognitive explanations {.smaller}
 
-**Framing**: categorization of decision options as more or less positive. Most people are risk-averse when looking at potential gains and risk-seeking when choosing between options representing losses.
+**Framing**: categorization of decision options as more or less positive. Most people are risk-averse when looking at potential gains and risk-seeking when choosing between options representing losses [@tversky1981framing].
 
 -   when framing a (sure) settlement as a gain, judges were more likely to endorse it than when framed as a loss [@guthrie2001inside]
 
@@ -288,21 +288,19 @@ ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
 
 -   judges struggle to ignore inadmissible information [@wistrich2005can]
 
-    -   and their written reasons rarely mention the extralegal factors that influenced them [@spamann2016justice; @liu2019legal]
+    -   and their written reasons justify the outcome with legal arguments instead [@spamann2016justice; @liu2019legal]
 
 ## Cognitive explanations {.smaller}
 
 -   events unrelated to the case can also affect decisions
 
-    -   Louisiana juvenile court judges gave longer sentences in the week after an unexpected LSU football loss [@eren2018emotional]
+    -   Louisiana juvenile judges with LSU undergraduate degrees gave longer sentences after an unexpected LSU football loss [@eren2018emotional]
 
-    -   defendants receive shorter sentences on their birthday [@chen2023clash]
+    -   French and US federal judges give slightly shorter sentences on defendants' birthdays [@chen2023clash]
 
-    -   parole boards granted fewer requests as each session went on and more again after a food break [@danziger2011extraneous]
+-   some findings have been challenged
 
--   some of these findings have been challenged
-
-    -   critics argue case order was not random, as prisoners without lawyers usually went last in each session [@weinshallmargel2011overlooked]
+    -   parole boards granted fewer requests the longer they went without a food break [@danziger2011extraneous], but critics attribute this to case order and time management [@weinshallmargel2011overlooked; @glockner2016irrational]
 
     -   US immigration judges appeared to grant less asylum on hot days [@heyes2019temperature], but the effect largely disappears once coding errors are fixed [@spamann2022comment]
 
@@ -314,6 +312,6 @@ ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
 
     -   by the facts of the case, the law, the preferences of other deciding judges (panel decisions) and of other actors (e.g. the legislature)
 
-    -   judges who anticipate these constraints are acting **strategically**
+    -   judges who anticipate these constraints are acting **strategically** [@epstein1998choices]
 
 ## References
