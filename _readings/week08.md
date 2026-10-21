@@ -12,7 +12,7 @@ Gibson, James L., Gregory A. Caldeira, and Vanessa A. Baird. "On the Legitimacy 
 
 Caldeira, Gregory A., and James L. Gibson. "The Etiology of Public Support for the Supreme Court." *American Journal of Political Science* 36, no. 3 (1992): 635-664. <https://doi.org/10.2307/2111585>
 
-Garoupa, Nuno, and Pedro C. Magalhães. "Public trust in the European legal systems: independence, accountability and awareness." *West European Politics* 44, no. 3 (2020): 690-713. <https://doi.org/10.1080/01402382.2020.1715605>
+Garoupa, Nuno, and Pedro C. Magalhães. "Public trust in the European legal systems: independence, accountability and awareness." *West European Politics* 44, no. 3 (2021): 690-713. <https://doi.org/10.1080/01402382.2020.1715605>
 
 Krehbiel, Jay N. "Public Awareness and the Behavior of Unpopular Courts." *British Journal of Political Science* 51, no. 4 (2021): 1601-1619. <https://doi.org/10.1017/S0007123419000723>
 

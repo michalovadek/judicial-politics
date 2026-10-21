@@ -30,7 +30,7 @@ Voeten, Erik. "Populism and Backlashes against International Courts." *Perspecti
 
 Abebe, Daniel, and Tom Ginsburg. "The Dejudicialization of International Politics?" *International Studies Quarterly* 63, no. 3 (2019): 521-530. <https://doi.org/10.1093/isq/sqz032>
 
-Botero, Sandra, Daniel Brinks, and Ezequiel Gonzalez-Ocantos. *The Limits of Judicialization: From Progress to Backlash in Latin America*. Cambridge University Press, 2022. <https://doi.org/10.1017/9781009093859>
+Botero, Sandra, Daniel M. Brinks, and Ezequiel A. Gonzalez-Ocantos, eds. *The Limits of Judicialization: From Progress to Backlash in Latin America*. Cambridge University Press, 2022. <https://doi.org/10.1017/9781009093859>
 
 Driscoll, Amanda, and Michael J. Nelson. "The Costs of Court Curbing: Evidence from the United States." *The Journal of Politics* 85, no. 2 (2023): 609-624. <https://doi.org/10.1086/723021>
 

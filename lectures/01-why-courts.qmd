@@ -37,7 +37,7 @@ Let's distil the main elements from this definition:
 
 -   "institutions" (= organizations)
 
--   core function = dispute settlement
+-   prominent function = dispute settlement
 
 -   impartiality
 
@@ -70,7 +70,7 @@ Let's distil the main elements from this definition:
 
     -   normative requirement to decide impartially, practical requirement to also *appear* impartial
 
--   court procedure is principally **adversarial**
+-   courts decide after hearing evidence and arguments from **contending parties**
 
     -   the parties present evidence and argue their side of the case; the court decides the case as it is presented to it
 
@@ -108,9 +108,9 @@ The Court of Justice of the European Union has developed its own definition of a
 
 -   no laptops, tablets or phones in lectures or seminars
 
--   bad for concentration, yours and that of the people around you
+-   bad for concentration, yours and that of the people around you [@sana2013laptop]
 
--   bad for retention, as we remember less of what we only half attend to
+-   bad for retention, as we remember less of what we only half attend to [@glass2019dividing]
 
 -   technology and distractions are everywhere, so this gives us two hours a week of protected time and space
 
@@ -199,27 +199,27 @@ $$
 
 ## Brief history of courts {.smaller}
 
--   third-party arbiters mediating disputes pre-date syntactic language and appear among non-human primates [@vonrohr2012impartial]
+-   impartial third-party arbiters who stop conflicts appear among captive chimpanzees [@vonrohr2012impartial]
 
--   a key concern of early societies was the regulation of retaliation and blood feuds [@wolff1946origin]
+-   a key concern of early societies such as ancient Greece was the regulation of retaliation and blood feuds [@wolff1946origin]
 
-    -   institutionalized retribution, most famously the Code of Hammurabi ("eye for an eye")
+    -   institutionalized retribution, most famously the Code of Hammurabi ("eye for an eye") [@slanski2012law]
 
--   codified laws brought sophisticated judicial institutions to Mesopotamia by 2100 BCE
+-   Mesopotamia had written law collections by 2100 BCE and sophisticated judicial institutions [@slanski2012law]
 
     -   multiple jurisdictions, widespread arbitration, public trials with evidence and witnesses
 
 
 
 ::: notes
-Third-party mediation (pre-dating syntactic language, ~70 000 BCE) is pro-social behaviour that can arise from concern for the community or as a non-violent avenue to power. Religious practices and priests were among the earliest forms of 'law' and 'judges', possibly as early as 50 000 BCE.
+Third-party mediation (likely pre-dating syntactic language) is pro-social behaviour that can arise from concern for the community or as a non-violent avenue to power. Religious practices and priests were among the earliest forms of 'law' and 'judges'.
 
 Submission to arbitration or a community "judge" requires coordination; the risk was blood-feud spirals at family level, with similarities to 20th-century international law (state retaliation).
 
 In Mesopotamia professional judges were only one kind of judge, widespread arbitration (private justice institutions) limited recourse to litigation, and trials had some supernatural elements.
 :::
 
-## Lawsuit in 19th century BCE
+## Lawsuit in 20th–19th century BCE
 
 ![Record of a lawsuit on a cuneiform tablet: two merchants accuse each other of stealing the contents of a private archive (Met Museum)](img/meso-tablet.jpg){width="80%"}
 
@@ -229,7 +229,7 @@ In Mesopotamia professional judges were only one kind of judge, widespread arbit
 |--------------|--------------|---------|---------|
 | *Judges*     | ❌           | ✅      | ✅✅✅  |
 | *Juries*     | ✅✅         | ✅      | ✅      |
-| *Appeals*    | ❌           | ❌      | ✅      |
+| *Appeals*    | Limited      | ✅      | ✅      |
 | *Lawyers*    | ❌           | ✅      | ✅✅    |
 | *Oratory*    | ✅✅         | ✅      | ✅      |
 | *Form*       | Oral         | Oral    | Written |
@@ -238,7 +238,7 @@ In Mesopotamia professional judges were only one kind of judge, widespread arbit
 ::: notes
 Greece: voluntary private arbitration coexisted with compulsory *polis* jurisdiction. Courts were separate from enforcement: a judgment could certify one party's right of retribution (e.g. enslavement of the offender) rather than order anything, so judgments were often hard to enforce, but NB the social function of trials (Wolff 1946). The most important disputes were public trials before hundreds or thousands of lay jurors; written laws were sparser and vaguer than in Rome; there was no professional legal class, litigants represented themselves (they could hire speechwriters) and rhetoric was central. Greek jurors were very independent from the "government", which was itself weak.
 
-Athens' Heliaia, founded in the mid-500s BCE, had up to 6001 members chosen annually by lot from men over 30; public oral arguments, majority ballot; magistrates ran the procedure and decided minor (and homicide) cases. Jurors were paid from the time of Pericles. Aristophanes' *The Wasps* is about an old man addicted to jury service. The trial of Socrates (399 BCE): The Death of Socrates by Jacques-Louis David (1787) is in img/socrates-death.jpg if wanted. Sources: https://www.unpredictableblog.com/blog/Athens and https://acoup.blog/2023/04/07/collections-how-to-polis-101-part-iic-the-courts/
+Athens' Heliaia, traditionally traced to Solon's reforms (c. 594 BCE), had up to 6000 members chosen annually by lot from men over 30; public oral arguments, majority ballot; magistrates ran the procedure and decided minor cases, while the Areopagus and other special courts tried homicide. Jurors were paid from the time of Pericles. Aristophanes' *The Wasps* is about an old man addicted to jury service. The trial of Socrates (399 BCE): The Death of Socrates by Jacques-Louis David (1787) is in img/socrates-death.jpg if wanted. Sources: @carugati2015building, https://www.unpredictableblog.com/blog/Athens and https://acoup.blog/2023/04/07/collections-how-to-polis-101-part-iic-the-courts/
 
 Rome: in the Kingdom era (753-509 BCE) the king was the ultimate judge. Roman law proliferated from about 300 BCE with territorial and economic growth. Magistrates ran the pre-trial stage (plaintiffs requested a remedy, defendants had to consent but could be compelled, the magistrate described the action and passed it to a judge agreed by the parties); lay judges heard witnesses and decided in public; jurists advised on what the law was and advocates argued for clients.
 :::
@@ -249,10 +249,10 @@ Rome: in the Kingdom era (753-509 BCE) the king was the ultimate judge. Roman la
 
 -   @leeson2012ordeals argues that ordeals were effective judicial tools
 
-![Trial by boiling water, Sachsenspiegel law book (between 1220 and 1235)](img/trial-by-water.png){width="45%"}
+![Trial by boiling water, illustration from a Sachsenspiegel manuscript](img/trial-by-water.png){width="45%"}
 
 ::: notes
-Oath: defendants established their innocence by taking an oath and getting a required number of people (often 12 in Europe, up to 50 in early Islamic law) to swear they believed it; found in some countries as late as the 19th century. Ordeal: most commonly fire (walking on red-hot metal) or water (retrieving an item from boiling water); abolished in England after 1219. Combat: the winner was presumed to be legally "right".
+Oath: defendants established their innocence by taking an oath and getting a required number of people (often 12 in Europe, up to 50 in early Islamic law) to swear they believed it; found in some countries as late as the 19th century. Ordeal: most commonly fire (walking on red-hot metal) or water (retrieving an item from boiling water); abolished in England in 1219. Combat: the winner was presumed to be legally "right".
 
 Leeson's accessible version: https://aeon.co/ideas/why-the-trial-by-ordeal-was-actually-an-effective-test-of-guilt
 
@@ -265,16 +265,16 @@ the ordeal was gamed by priests, so that many of those taking it would pass. The
 
 ## Common and civil law {.smaller}
 
--   **common law**: from the 1150s royal judges sent across England built a body of binding precedent
+-   **common law**: from the 1160s royal judges sent across England replaced many local customs with law common to the whole kingdom
 
     -   it **empowered judges** and made them a **distinct professional class**, though independence was guaranteed only in 1701
 
 -   **civil law**: primacy of codified rules, from the *Corpus Juris Civilis* (534 CE) to the *Napoleonic Code* (1804)
 
-    -   no binding precedent – the judge as "the mouthpiece of the law" [@montesquieu1748spirit]
+    -   no binding precedent – the judge as "the mouth that pronounces the words of the law" [@montesquieu1748spirit]
 
 ::: notes
-Henry II began sending judges from the royal court in London to decide disputes across the country in the 1150s. Their decisions came to be treated as binding when similar facts arose, and this "common" law gradually replaced divergent local laws and customs, originally serving mostly the interests of the king.
+Henry II began sending judges from the royal court in London to decide disputes across the country after the Assize of Clarendon (1166). The law they applied replaced many local customs with national law that applied to everyone, the "common" law, originally serving mostly the interests of the king.
 :::
 
 ## Modern courts {.smaller}
@@ -324,13 +324,13 @@ ccp_year |>
   theme(axis.text = element_text(face = "bold")) +
   labs(x = NULL, y = NULL,
        title = "Proportion of countries with a constitution",
-       subtitle = "Histogram of the number of countries at the bottom",
+       subtitle = "Bars at the bottom show the number of countries (not to scale)",
        caption = "Source: Comparative Constitutions Project v4.0")
 ```
 
 ## Judicial review {.smaller}
 
--   the proliferation of constitutions and rights was accompanied by an expansion in (peak) courts' power through **judicial review**
+-   the proliferation of constitutions and rights was accompanied by an expansion in (peak) courts' power through **judicial review** [@ginsburg2014why]
 
     -   the idea of distinguishing "higher" rules – historically often tied to religion (natural law) – and "lower" rules dates back to at least ancient Greece
 
@@ -346,29 +346,29 @@ French judges pre-revolution were big supporters of the ancien regime, which mad
 In contrast, in England judges were seen as relatively anti-monarchy and many of them would view judge-made common law as more important than statutes and decrees, which was a political problem for the King and the Parliament
 :::
 
-## *Marbury vs Madison* (1803) {.smaller}
+## *Marbury v Madison* (1803) {.smaller}
 
 -   outgoing president John Adams appointed judges days before his term was over
 
--   the appointment documents were failed to be delivered to half of the judges before the arrival of Thomas Jefferson to the presidency
+-   some of the appointment documents were not delivered before Thomas Jefferson took office
 
--   the new Secretary of State, James Madison, was told by Jefferson to not deliver them
+-   the new Secretary of State, James Madison, was told by Jefferson not to deliver them
 
--   one of the refused judges, William Marbury, filed a lawsuit in late 1801
+-   one of the appointees, William Marbury, filed a lawsuit in late 1801
 
--   the Supreme Court established it had the power to invalidate statutes deemed unconstitutional (but also found to have had no jurisdiction to force the government to deliver)
+-   the Supreme Court established its power to invalidate unconstitutional statutes but found it lacked jurisdiction to order delivery
 
 ::: notes
-The person failing to deliver the commissions in time was John Marshall in the role of Secretary of State. He subsequently became the Chief Justice of the Supreme Court before the end of Adams' term, which enabled him to rule on the case. Unanimous 4-0 decision. Portrait of Marshall (1832) is in img/john-marshall.jpg if wanted.
+The person responsible for delivering the commissions in time was John Marshall as acting Secretary of State. He had already been named Chief Justice in January 1801 and held both posts until the end of Adams' term, which enabled him to rule on the case. Unanimous 4-0 decision. Portrait of Marshall (1832) is in img/john-marshall.jpg if wanted.
 :::
 
-## *Marbury vs Madison* (1803)
+## *Marbury v Madison* (1803)
 
 > It is emphatically the province and duty of the judicial department to say what the law is.[^6]
 
-[^6]: *Marbury*, 5 U.S. at 177.
+[^6]: *Marbury v Madison*, 5 U.S. (1 Cranch) 137, 177 (1803).
 
-## *Marbury vs Madison* (1803) {.smaller}
+## *Marbury v Madison* (1803) {.smaller}
 
 -   judicial politics on many fronts
 
@@ -386,7 +386,7 @@ The person failing to deliver the commissions in time was John Marshall in the r
 
 ## Judicialization of politics
 
--   the process of power shifting towards courts (and legal institutions) from other branches of government, especially the legislature
+-   the process of power shifting towards courts (and legal institutions) from other branches of government, especially the legislature [@ferejohn2002judicializing]
 
 -   courts become an important site for settling issues of public policy
 
@@ -396,7 +396,7 @@ The person failing to deliver the commissions in time was John Marshall in the r
 
 ## Judicialization
 
--   three ways courts have become empowered vis-a-vis the legislatures [@ferejohn2002judicializing]:
+-   three ways courts have become empowered vis-à-vis the legislatures [@ferejohn2002judicializing]:
 
     1.  creation of **substantive limits** on legislative power
     2.  **policy-making** through litigation and judicial precedent
@@ -414,9 +414,9 @@ The person failing to deliver the commissions in time was John Marshall in the r
 
 2.  **Electoral**: Romania's Constitutional Court annulled the first round of the 2024 presidential election; Brazil's electoral court barred Bolsonaro from office until 2030 (2023)
 
-3.  **Constitutional**: SA CC demanding amendments to the constitution (1996); Israel's Supreme Court struck down the 2023 amendment removing the reasonableness standard (2024)
+3.  **Constitutional**: South Africa's Constitutional Court refused to certify the new constitution until it was amended (1996); Israel's Supreme Court struck down the 2023 amendment barring reasonableness review of government decisions (2024)
 
-4.  **Identity**: the Turkish Constitutional Court's party bans (1998-2008); India's Supreme Court on Ayodhya (2019)
+4.  **Identity**: the Turkish Constitutional Court's party bans (1998-2009); India's Supreme Court on Ayodhya (2019)
 
 5.  **Executives**: South Korea's Constitutional Court upheld the impeachment of President Yoon (2025)
 

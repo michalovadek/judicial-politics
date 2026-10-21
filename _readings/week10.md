@@ -12,7 +12,7 @@ Staton, Jeffrey K., and Will H. Moore. "Judicial Power in Domestic and Internati
 
 Moustafa, Tamir. "Law and courts in authoritarian regimes." *Annual Review of Law and Social Science* 10, no. 1 (2014): 281-299. <https://doi.org/10.1146/annurev-lawsocsci-110413-030532>
 
-Ginsburg, Tom, and Tamir Moustafa. *Rule by Law: The Politics of Courts in Authoritarian Regimes*. Cambridge University Press, 2008. <https://doi.org/10.1017/cbo9780511814822>
+Ginsburg, Tom, and Tamir Moustafa, eds. *Rule by Law: The Politics of Courts in Authoritarian Regimes*. Cambridge University Press, 2008. <https://doi.org/10.1017/cbo9780511814822>
 
 Finkel, Jodi. "Judicial Reform as Insurance Policy: Mexico in the 1990s." *Latin American Politics and Society* 47, no. 1 (2005): 87-113. <https://doi.org/10.1111/j.1548-2456.2005.tb00302.x>
 

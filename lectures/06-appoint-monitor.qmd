@@ -49,11 +49,11 @@ source("utils/globals.R")
 
     -   substantive (e.g. UK Supreme Court re Scottish criminal law; higher courts ruling on "points of law only")
 
-    -   personal (e.g. ECJ rules on standing)
+    -   personal (e.g. CJEU rules on standing)
 
 ## Jurisdiction (personal)
 
--   the CJEU has famously restrictive access rules for private litigants
+-   the CJEU has famously restrictive access rules for private litigants (Art. 263(4) TFEU)
 
 > Any natural or legal person may \[...\] institute proceedings against an act **addressed to that person** or which is of **direct** and **individual** **concern** to them, and against a regulatory act which is of direct concern to them and does not entail implementing measures.
 
@@ -79,13 +79,13 @@ source("utils/globals.R")
 
 ## Gender variation on the bench
 
--   judges' gender systematically influences judicial preferences, at least for some types of cases
+-   US appellate judges' gender influences their votes in sex discrimination cases [@boyd2010untangling]
 
 -   the proportion of female judges varies greatly between countries
 
-    -   around 30% in common law countries
+    -   between a third and a half in common law countries
 
-    -   over 70% in some post-socialist countries
+    -   over 70% in some post-socialist countries [@havelkova2022family]
 
 -   reforming the selection process speeds up the appointment of the first woman to a peak court [@arrington2021constitutional]
 
@@ -93,25 +93,27 @@ source("utils/globals.R")
 
 -   @havelkova2022family illustrate the impact of institutional factors on gender representation in the Czech judiciary
 
--   low importance and prestige under socialism resulted in many female judges (60+%)
+-   low pay and prestige under socialism drew many women to the bench
 
-    -   low salary (relative to lawyers) perpetuate the inequality post-socialism
+    -   many male judges left for private practice after 1989 and low trainee pay still deters men
 
-    -   standard working hours (relative to lawyers) attract more women due to childcare
+    -   judging is easier to combine with family life than other legal jobs, which attracts women
 
--   despite higher overall numbers, the most important positions are occupied by men
+-   despite higher overall numbers (61% of judges), the most important positions are occupied by men
 
     -   the childcare penalty hampers career progression but female judges largely accept their situation as given [@urbanikova2024art]
 
 ## Who ends up on the bench? {.smaller}
 
--   gender is the visible dimension; class and education are the quiet ones
+-   class and education also shape who becomes a judge
 
--   senior judges in England and Wales: 62% privately educated (7% of the population), 75% went to Oxford or Cambridge, and over half did both (Sutton Trust 2025)
+-   62% of senior UK judges went to private school, compared with 7% of the population [@suttontrust2025elitist]
 
-    -   barely changed since 2019; the bench turns over slowly and its pipeline runs through a handful of chambers
+    -   75% of them went to Oxford or Cambridge
 
--   the mechanism is the *internal* selection effect: who can afford the unpaid years at the bar, who gets the pupillage, who is asked to apply
+    -   these shares have barely changed since 2019, partly because the bench turns over slowly
+
+-   both selection effects are at work, from who can afford bar training to who is asked to apply
 
 # Appointments
 
@@ -119,14 +121,14 @@ source("utils/globals.R")
 
 -   the most salient *ex ante* mechanism
 
--   the institutional designer and appointer balance their preferences for judicial independence and accountability [@dunoff2017judicial]
+-   the designers of international courts trade off judicial independence, accountability and transparency [@dunoff2017judicial]
 
 -   there is considerable variety in how judges are appointed around the world
 
 ## Variation in appointment procedures
 
 ```{r appointvar}
-#| fig-cap: "Based on @tiede2024selecting"
+#| fig-cap: "Constitutional and supreme courts, based on @tiede2024selecting"
 
 # data from Oxf handbook
 comp <- tribble(
@@ -150,12 +152,12 @@ comp |>
 
 | who chooses | examples | predicted effects |
 |--------------------------------|--------------------------------|------------------------------------|
-| executive alone | many presidential systems | loyal judges; fast, politicized |
+| executive alone | Canada, Japan | loyal judges; fast, politicized |
 | executive with legislative confirmation | US federal courts | confirmation fights; vacancies under divided government |
 | legislative supermajority | German Constitutional Court | consensus candidates; party quotas |
 | judicial council | Italy, Spain, much of Latin America | insulation; risk of corporatism or capture |
 | mixed, each branch appoints a share | Spanish and Italian constitutional courts | each appointer picks allies |
-| election | 38 US states, Bolivia, Mexico | accountability; campaign money |
+| election | 38 US states incl. retention votes, Bolivia, Mexico | accountability; campaign money |
 
 ## Appointment procedures {.smaller}
 
@@ -165,7 +167,7 @@ comp |>
 
 -   mixed systems can hinder the functioning of collegial courts
 
-    -   but greater diversity can also improve the quality of decisions
+    -   but judges with different selectors bring distinct voices, which can enhance deliberation [@tiede2020mixed]
 
 -   more veto players =\> more moderate judges
 
@@ -173,9 +175,9 @@ comp |>
 
 -   institutional vehicle for judicial self-governance
 
--   in charge of appointing judges, managing budgets, promotions and discipline
+-   in charge of appointing judges, promotions, discipline and sometimes budgets
 
--   strongly promoted by international organizations in the 2000s
+-   strongly promoted by international organizations in the 2000s [@bobek2014global]
 
 -   trade-off between insulation and external accountability [@garoupa2009guarding]
 
@@ -189,27 +191,35 @@ talk about composition:
 
 ## Appointing international judges {.smaller}
 
--   most international benches are filled in two steps: governments **nominate**, an assembly **elects**
+-   most international judges are **nominated** by governments and then **elected** by an assembly
 
     -   ECtHR: each state sends three names, the Parliamentary Assembly of the Council of Europe elects one
 
     -   ICJ: elected by the UN General Assembly and the Security Council from national-group nominations
 
-    -   CJEU: governments appoint by common accord after a hearing before the Article 255 panel
+    -   CJEU: governments appoint by common accord after consulting the Article 255 panel
 
--   the Article 255 panel has found about one in five first-time candidates unsuitable since 2010, and governments have followed every opinion; renewals are never rejected
+## Appointing international judges {.smaller}
 
--   governments nominate judges whose views match theirs [@voeten2007politics]; the politics of selection across international courts is reviewed by @larsson2023selection
+-   the Article 255 panel found about one in five first-time candidates unsuitable between 2010 and 2026 [@articlepanel2026work]
+
+    -   governments followed every opinion between 2010 and 2022 [@articlepanel2022seventh]
+
+    -   no candidate for renewal received a negative opinion
+
+-   aspiring EU members and pro-integration governments appoint more activist ECtHR judges [@voeten2007politics]
+
+-   the politics of selection across international courts is reviewed by @larsson2023selection
 
 ## Confirmation wars {.smaller}
 
--   US Supreme Court confirmations have turned into national campaigns: senators' votes follow their constituents' opinion of the nominee [@kastellec2010public]
+-   US senators are more likely to vote for a Supreme Court nominee who is popular in their state [@kastellec2010public]
 
 -   when the branches are divided, the appointment power becomes the power not to appoint
 
-    -   the Senate left Merrick Garland's 2016 nomination without a hearing for nine months, then confirmed Amy Coney Barrett in five weeks in 2020
+    -   the Senate left Merrick Garland's 2016 nomination without a hearing for over nine months, then confirmed Amy Coney Barrett within a month in 2020
 
--   shared appointment power moderates judges only when the sharers must agree; when they can wait each other out, it produces vacancies and escalation
+-   shared appointment power can moderate judges, but sharers who wait each other out leave long vacancies
 
 # Tenure and monitoring
 
@@ -224,18 +234,22 @@ talk about composition:
 ::: notes
 UK Supreme Court has mandatory retirement at 75
 
-ICJ judges have 9-year tenure
+ICJ judges have 9-year renewable terms
 
 ECtHR judges had their tenures increased from 6 to 9 but made non-renewable
 :::
 
-## Reappointment
+## Reappointment {.smaller}
 
--   the prospect of **reappointment** influences judicial behaviour [@hall2014representation]
+-   the prospect of **reappointment** or re-election influences judicial behaviour
 
     -   judges who are up for reappointment are more responsive to the preferences of their principal
 
-    -   tested at the ECtHR [@stiansen2022nonrenewable] and the CJEU [@hermansen2026shaping]
+    -   US state supreme court justices facing re-election make more popular decisions than in their final term [@hall2014representation]
+
+    -   ending renewable terms at the ECtHR reduced judges' tendency to favour their nominating state [@stiansen2022nonrenewable]
+
+    -   secret voting at the CJEU does not shield judges from ideological deselection by governments [@hermansen2026shaping]
 
 -   non-renewable terms can however damage a court's effectiveness
 
@@ -245,7 +259,7 @@ ECtHR judges had their tenures increased from 6 to 9 but made non-renewable
 
 -   the principals' ability to monitor (and therefore punish/reward) judicial behaviour is conditional on **transparency**
 
--   while decisions are always public, individual votes and dissents are not
+-   while decisions are always public, individual votes and dissents often are not
 
 -   do principals have other means of obtaining information about the voting of judges?
 
@@ -258,21 +272,23 @@ ECtHR judges had their tenures increased from 6 to 9 but made non-renewable
 | *Renewable fixed term*     | Low incentive        | High incentive        |
 | *Non-renewable fixed term* | Low incentive        | Low incentive         |
 
-: Interaction of renewal opportunities and transparency for judges' incentives to appease principals
+: Interaction of renewal opportunities and transparency for judges' incentives to appease principals [@dunoff2017judicial]
 
 ## The monitoring toolkit {.smaller}
 
 | tool | who uses it | what it reveals or punishes |
 |------|------|------|
-| reappointment and promotion | governments, court presidents, councils | rewards deference |
+| reappointment and promotion | governments, court presidents, councils | rewards deference [@ramseyer2001why] |
 | transparency of votes and dissents | everyone | who voted how; dissents at the ECtHR, none at the CJEU |
 | performance evaluation and case statistics | councils, ministries | speed and output, not direction |
-| disciplinary regimes | councils, special chambers | misconduct |
+| disciplinary regimes | councils, special chambers | misconduct and sometimes the content of rulings |
 | budgets and staffing | legislatures, ministries | capacity; hits the whole institution |
 
 ## Judicial exits
 
--   judges are rarely forced out of office through removal procedures
+-   in established democracies judges are rarely forced out of office through removal procedures
+
+    -   elsewhere politicians use removal procedures and informal pressure to purge courts [@perezlinan2024judicial]
 
 -   the motivations behind a judge quitting can be more varied however
 
@@ -286,31 +302,35 @@ ECtHR judges had their tenures increased from 6 to 9 but made non-renewable
 
     -   @stolzenberg2022judges argue that this behaviour is driven more by reciprocity norms (giving back to appointing party) than ideology
 
-    -   in contrast, @deschler2024role show that recently, moderate Republican judges have withheld retirement under more conservative presidents such as Trump (ideology \> partisanship/reciprocity)
+    -   in contrast, @deschler2024role find that moderate Republican appointees appear to wait out conservative presidents such as Trump (ideology matters, not just party)
 
--   older judges are more inclined to retire strategically [@hansford2010politics]
+-   US district judges weigh their ideological fit with the president only once eligible for a pension [@hansford2010politics]
 
--   understudied outside the US [@perezlinan2017strategic]
+-   understudied outside the US, and the theory finds limited support across the Americas [@perezlinan2017strategic]
 
 # Elections
 
-## Judicial elections
+## Judicial elections {.smaller}
 
 -   perceived rejection of "elite-driven" judicial selection
 
--   tried out in revolutionary France (1790) and Central America post Spanish independence
+-   tried out in revolutionary France (1790) and Central America post Spanish independence [@driscoll2015judicial]
 
--   38 US states (as of 2024) elect judges to state supreme courts [@lim2013preferences; @lim2015judge; @besley2013implementation]
+-   38 US states hold elections, including retention elections, for their supreme courts [@brusgard2025only]
 
-    -   the 2023 Wisconsin Supreme Court election saw 51 million USD in campaign spending
+    -   elected and appointed state judges behave differently in sentencing and discrimination cases [@lim2013preferences; @lim2015judge; @besley2013implementation]
+
+    -   the 2025 Wisconsin Supreme Court election saw over 100 million USD in campaign spending [@bauer2025billionaires]
+
+    -   Kansas voters rejected direct elections for supreme court justices in August 2026 [@kansassecretaryofstate20262026]
 
 ::: notes
-the Wisconsin figure is only slightly less than total party spending in the 2019 UK general election. Wisconsin has a population of less than 6 million (cf UK almost 70)
+the 2025 Wisconsin figure was roughly double the previous record of 51 million USD, set in Wisconsin in 2023. Wisconsin has a population of less than 6 million (cf UK almost 70)
 :::
 
 ## Electing judges outside the US: Bolivia {.smaller}
 
--   @driscoll2015judicial show the impact of Bolivia introducing judicial elections in 2011
+-   @driscoll2015judicial evaluate Bolivia introducing judicial elections in 2011
 
     -   judges became much more diverse as a result (in contrast to the US)
 
@@ -318,33 +338,39 @@ the Wisconsin figure is only slightly less than total party spending in the 2019
 
 -   in both 2011 and 2017 more than half of the ballots cast were blank or spoilt
 
--   the 2024 election was delayed for years by disputes over candidate screening and held only in part
+-   the 2024 election came a year late after disputes over candidate screening and was only partial [@internationalidea2024bolivia]
 
 ## Electing judges outside the US: Mexico {.smaller}
 
--   1 June 2025: the first election of an entire national judiciary anywhere, following the 2024 constitutional reform
+-   1 June 2025: the first of two rounds electing the whole federal judiciary under the 2024 reform
 
-    -   all nine Supreme Court seats, the electoral tribunal, a new judicial disciplinary tribunal and hundreds of federal judgeships on one ballot
+    -   all nine Supreme Court seats, part of the electoral tribunal, a new disciplinary tribunal and hundreds of federal judgeships
 
     -   candidates pre-screened by evaluation committees of the three branches; no party labels on the ballot
 
--   turnout around 13 percent, the lowest of any federal vote in Mexico's democratic history
+-   turnout was only around 13 percent of eligible voters [@aljazeera2025turnout]
 
--   the winners overwhelmingly aligned with the governing party Morena; the remaining posts are up in 2027
+## Electing judges outside the US: Mexico {.smaller}
 
--   the stated aims were to democratize an elitist judiciary and end corruption; the effect is a judiciary chosen under one party's dominance
+-   the winners overwhelmingly aligned with the governing party Morena
+
+-   a 2026 reform moved the election of the remaining posts from 2027 to 2028 [@presidenciadelarepublica2026decreto]
+
+-   the stated aims were to democratize an elitist judiciary and end corruption
+
+    -   the result is a judiciary chosen under one party's dominance
 
 ## Reforms as natural experiments {.smaller}
 
--   appointment and tenure rules rarely change; when they do, the change is a **shock** we can learn from
+-   when appointment or tenure rules change, the change is a **shock** we can learn from
 
 -   **difference-in-differences**: compare courts exposed to the reform with those not exposed, before and after
 
     -   the untouched group supplies the counterfactual trend
 
--   e.g. Bolivia's first popular election of high court judges (2011) changed who sat on the bench and how the public rated it [@driscoll2015judicial]
+-   Bolivia's 2011 reform left no untouched comparison group, so @driscoll2015judicial compare surveys before and after
 
--   the requirement: nothing else changed at the same time for the treated group only
+-   this requires that nothing else changed at the same time for the treated group only
 
 ## Can judges be made accountable without being made dependent?
 

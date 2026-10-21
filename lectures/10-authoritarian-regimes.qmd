@@ -21,7 +21,7 @@ source("utils/globals.R")
 
 ## Assessment
 
--   before starting writing, make sure to:
+-   before you start writing, make sure to:
 
     -   read the Assessment page on the website extremely carefully
 
@@ -39,7 +39,7 @@ source("utils/globals.R")
 
 -   most theories of courts assume a liberal democracy: elected politicians, an independent judiciary, a public that can punish
 
--   most of the world's courts operate without at least one of those
+-   most of the world's courts operate without at least one of those [@coppedge2026vdem]
 
 -   this week: why autocrats build courts, what those courts do and when they turn on their makers
 
@@ -52,33 +52,37 @@ source("utils/globals.R")
 | function | what the ruler gets | examples |
 |------------------------|----------------------------------|------------------------------------------|
 | social control | dissent handled as law, not repression | Singapore's defamation suits |
-| legitimation | power dressed as legality | post-Soviet constitutional courts |
+| legitimation | power dressed as legality | Marcos's Philippines, Sadat's Egypt [@ginsburg2008rule] |
 | administrative discipline | courts watch local officials | China's administrative litigation [@cao2023suing] |
 | credible commitment | investors trust property rights | Egypt [@moustafa2003law] |
-| blame-shifting | judges take the blame | privatization, family law, religion |
+| blame-shifting | judges take the blame | Egypt's privatization and rent control [@moustafa2003law] |
 | repressing rivals | trials discipline insiders | @shenbayh2018strategies |
 
--   each function needs a court that is somewhat believable [@ginsburg2008rule; @moustafa2014law]
+-   each function needs a somewhat believable court [@ginsburg2008rule; @moustafa2014law]
 
 ## Insurance theory of court power
 
 -   empowering courts comes at a cost to executives and legislators
 
--   courts are more stable than governments – empowering courts can **insure** incumbents against loss of power [@finkel2005judicial]
+-   empowering courts can **insure** incumbents who expect to lose power against their successors [@ginsburg2003judicial; @finkel2005judicial]
 
     -   powerful courts can make it harder to change policy direction
 
-    -   they can also help protect former leaders and their assets
+    -   they can also protect the former ruling party once it is in opposition
 
-## 1994 judicial reform in Mexico
+## 1994 judicial reform in Mexico {.smaller}
 
 -   after winning elections in 1994 president Ernesto Zedillo decided to make the Mexican judiciary more independent and powerful – why?
 
 -   @finkel2005judicial explains this counterintuitive move as a form of insurance policy
 
-    -   the ruling Institutional Revolutionary Party was losing support and anticipated loss of power
+    -   the ruling Institutional Revolutionary Party was losing support and feared losing national power
 
     -   the reform gave the Mexican Supreme Court more power to circumscribe (federal and state) government policy
+
+-   the 2024 reform replaced the court with nine justices elected by popular vote in 2025
+
+    -   V-Dem's score for Mexico's high court independence fell by more than half in 2025 [@coppedge2026vdem]
 
 ## 1994 judicial reform in Mexico
 
@@ -87,6 +91,7 @@ source("utils/globals.R")
 ## Independence by regime type
 
 ```{r vdemregime, warning=FALSE, message=FALSE}
+#| fig-cap: "Source: @coppedge2026vdem"
 vdemdata::vdem |>
   filter(year == max(year)) |>
   select(country_name, v2x_regime, v2juhcind_osp) |>
@@ -102,20 +107,20 @@ vdemdata::vdem |>
   theme_minimal() +
   labs(x = NULL, y = "High court independence (0-4)",
        title = "Judicial independence by regime type",
-       subtitle = "V-Dem, latest year; Regimes of the World classification",
-       caption = "Source: V-Dem via vdemdata")
+       subtitle = "V-Dem, latest year; Regimes of the World classification")
 ```
 
-## Judicial power in autocracies over time
+## Judicial power over time
 
 ```{r vdemautocracies}
+#| fig-cap: "Source: @coppedge2026vdem"
 vdemdata::plot_indicator("v2x_jucon",
                          min_year = 1970,
                          countries = c("Egypt", "China", "Russia", "Venezuela", "Hungary")) +
   theme_minimal() +
   theme(legend.position = "bottom") +
   scale_x_continuous() +
-  labs(y = "Judicial Power",
+  labs(y = "Judicial constraints (0-1)",
        title = "Judicial constraints on the executive",
        subtitle = "V-Dem index 'judicial constraints on the executive'") +
   guides(linetype = "none")
@@ -131,17 +136,19 @@ vdemdata::plot_indicator("v2x_jucon",
 
     -   the **prerogative state**: power acting without legal limits whenever it decides a matter is political
 
--   the boundary between the two is drawn by the regime, case by case, and the normative state keeps working precisely because the prerogative state exists
+-   the regime draws the boundary case by case and can override ordinary law at will [@fraenkel2017dual]
 
--   the concept travels: Francoist Spain, Russia [@hendley2022legal], China's environmental litigation that works until a state enterprise is the defendant [@stern2013environmental], Singapore's meticulous legality in the service of one-party rule [@rajah2012authoritarian]
+-   scholars have applied the concept to Francoist Spain, Russia, China and Singapore [@hendley2022legal]
+
+    -   in China environmental litigation lets lawyers probe the boundary of what is politically possible [@stern2013environmental]
 
 -   for the study of courts it means that country-level independence scores average over two very different things
 
 ## Judicial independence in Francoist Spain
 
--   @toharia1975judicial documents that in the authoritarian Spain of the 1970s, judges held diverse opinions different from the regime
+-   @toharia1975judicial finds that judges in Franco's Spain held remarkably diverse political views
 
--   ordinary judges were by and large insulated from threat of removal or punishment by the government
+-   ordinary judges were by and large insulated from the threat of removal or punishment by the government
 
 -   however, the regime interfered with independence in politically sensitive cases by creating and staffing a host of special tribunals
 
@@ -153,52 +160,62 @@ vdemdata::plot_indicator("v2x_jucon",
 
 -   @hendley2022legal argues that the creation of special tribunals for political issues is the exception in authoritarian regimes
 
-    -   instead, the "normative" and "prerogative" states coexist side-by-side, often relying on informal institutions
+    -   instead, the "normative" and "prerogative" states coexist side by side, often relying on informal institutions
 
     -   e.g. the same judge handling ordinary cases can be twisting the law to enable the persecution of dissidents
 
 ## China {.smaller}
 
--   the largest court system in the world, run by a party that has never pretended it stands outside the law it makes
-
--   **tying the autocrat's hands**: the party built commercial and property law, and courts to apply it, where it needed the cooperation of business elites it could not simply coerce [@wang2015tying]
+-   **tying the autocrat's hands**: courts treat commercial cases more fairly where the party needs foreign investors [@wang2015tying]
 
 -   **suing the government**: administrative litigation lets citizens challenge local officials; transferring such cases outside the local county raised the chance of the local government losing by about 4 percentage points [@cao2023suing]
 
--   **anti-corruption and court bias**: politically connected firms won more often in commercial disputes until the anti-corruption campaign after 2012 weakened the advantage [@zhang2023anticorruption]
+-   **anti-corruption and court bias**: politically connected listed firms won more often in commercial disputes until the anti-corruption campaign after 2012 weakened the advantage [@zhang2023anticorruption]
 
 -   courts work for the centre against local officials and connected firms, and stop where the centre's own power begins
 
 ## Rule by law in Singapore {.smaller}
 
--   Singapore has no show trials or special tribunals, and a judiciary ranked among the most efficient in the world
+-   Singapore has no special tribunals, and its courts rank highly for efficiency and reliability [@silverstein2008singapore]
 
--   the same courts have bankrupted opposition politicians through defamation suits brought by ministers, upheld detention without trial and enforced the restrictions on assembly and speech [@rajah2012authoritarian]
+-   the same courts have bankrupted opposition politicians through defamation suits brought by ministers
 
--   **authoritarian rule of law**: legality as a source of legitimacy for a regime that never needs to break its own laws, because it writes them
+-   the regime uses legislation to police the press, lawyers, religion and public order [@rajah2012authoritarian]
 
--   by every procedural measure these courts are independent
+-   **authoritarian rule of law** uses legislation and legal procedure to make illiberal rule look legitimate [@rajah2012authoritarian]
+
+-   Singapore's courts score well on formal independence but do not constrain the government politically [@ginsburg2008rule]
 
 # When courts bite
 
 ## When do courts in autocracies bite? {.smaller}
 
 | condition | mechanism | evidence |
-|----------------------|----------------------------------------|--------------------------------------|
+|-------------------|------------------------------------|--------------------------------------------|
 | audiences | a bar, press or public backs the judges | Pakistan's lawyers [@ghias2010miscarriage; @kureshi2021when] |
-| competition | rulers interfere when the opposition might win | Russia, Ukraine [@popova2010political]; election fraud [@harvey2022can] |
+| low competition | rulers interfere when the opposition might win | Russia and Ukraine [@popova2010political], election fraud [@harvey2022can] |
 | fragmentation | divided rulers cannot punish judges | [@helmke2009regimes] |
-| elections | electoral disputes give courts cover | Kenya 2017 [@gerzso2023judicial] |
-| international audiences | investors, donors, accession talks | Turkey before 2010 |
+| elections | independence reforms and support networks back judges | Kenya 2017 [@gerzso2023judicial] |
+| international audiences | investors, donors, accession talks | Egypt's investors [@moustafa2003law] |
 | dual state | independence survives in the normative state only | Spain, Russia, China |
 
 ## Lawyers against the regime {.smaller}
 
--   Pakistan 2007: General Musharraf suspended Chief Justice Chaudhry; the bar went on strike, marched and boycotted the courts for two years, and the judges were restored in 2009 once Musharraf had gone [@ghias2010miscarriage]
+-   in 2007 lawyers protested for two years after Musharraf suspended Pakistan's chief justice [@ghias2010miscarriage]
 
--   the **legal complex**, lawyers and judges acting together, has carried political liberalism in more cases than the bench alone [@halliday2007fighting]
+    -   the chief justice was restored in 2009 after a lawyers' long march
 
--   the same complex can be captured: bar associations packed, licences revoked, lawyers prosecuted, as in Turkey after 2016 and Belarus after 2020
+    -   in 2025 the 27th Amendment moved constitutional cases to a new Federal Constitutional Court [@malik2025shifting]
+
+-   the **legal complex** of lawyers and judges drives advances or retreats from political liberalism [@halliday2007fighting]
+
+## Lawyers against the regime {.smaller}
+
+-   the same complex can be captured when regimes prosecute or disbar lawyers
+
+    -   Turkey has prosecuted more than a thousand lawyers since the 2016 coup attempt [@humanrightswatch2019lawyers]
+
+    -   Belarus has disbarred lawyers for apparently political reasons since 2020 [@helsinkifoundationforhumanrights2021public]
 
 -   audiences matter because a judge who rules against the regime needs someone to notice
 
@@ -206,21 +223,27 @@ vdemdata::plot_indicator("v2x_jucon",
 
 -   courts in competitive authoritarian and hybrid regimes are most exposed when they rule on elections, and that is also when they are most watched
 
--   Kenya 2017: the Supreme Court annulled the presidential election for irregularities, the first such annulment in Africa; the opposition boycotted the rerun and the president attacked the judges [@gerzso2023judicial]
+-   in 2017 Kenya's Supreme Court annulled the presidential election, a first in Africa [@gerzso2023judicial]
 
--   Malawi 2020: the Constitutional Court annulled the 2019 presidential election over correction fluid on tally sheets, the Supreme Court upheld it, and the opposition won the rerun
+    -   the opposition boycotted the rerun and the president attacked the judges
+
+-   in 2020 Malawi's Constitutional Court annulled the 2019 presidential election over widespread irregularities
+
+    -   the Supreme Court of Appeal upheld the ruling and the opposition won the rerun
 
 -   in both cases the outcome depended on whether the government complied and how the opposition and voters responded
 
 ## Courts in the Global South {.smaller}
 
--   most research on courts comes from the US and Europe; most of the world's courts sit elsewhere, in states with legal pluralism, customary and religious courts, weak enforcement and personalist politics
+-   most research on courts takes North American and Western European democracies as its baseline [@riosfigueroa2025courts]
+
+-   most of the world's courts sit in weaker states alongside customary and religious forums [@riosfigueroa2025courts]
 
 -   independence and compliance mean something different when the ruling party is the state and the state barely reaches the village
 
--   research designs travel badly too, since cases are steered and dockets kept on paper
+-   research designs travel badly too, since court archives are patchy and records can vanish [@riosfigueroa2025courts]
 
--   the field's map is being redrawn from South Africa, Colombia, India and Kenya outward [@riosfigueroa2025courts]
+-   research on the Global South finds courts often effective by standards different from the North [@riosfigueroa2025courts]
 
 -   which findings about courts would you expect to hold in Lagos, Lahore or Lima?
 

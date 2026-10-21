@@ -8,7 +8,7 @@ Vanhala, Lisa. "Is Legal Mobilization for the Birds? Legal Opportunity Structure
 
 ## Optional readings
 
-Epp, Charles. *The rights revolution: Lawyers, activists, and supreme courts in comparative perspective*. University of Chicago Press, 1998. <https://doi.org/10.7208/chicago/9780226772424.001.0001>
+Epp, Charles R. *The rights revolution: Lawyers, activists, and supreme courts in comparative perspective*. University of Chicago Press, 1998. <https://doi.org/10.7208/chicago/9780226772424.001.0001>
 
 De Fazio, Gianluca. "Legal opportunity structure and social movement strategy in Northern Ireland and southern United States." *International Journal of Comparative Sociology* 53, no. 1 (2012): 3-22. <https://doi.org/10.1177/0020715212439311>
 

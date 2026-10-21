@@ -276,11 +276,15 @@ ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
 
 ## Cognitive explanations {.smaller}
 
-**Framing**: categorization of decision options as more or less positive. Most people are risk-averse when looking at potential gains and risk-seeking when choosing between options representing losses [@tversky1981framing].
+**Framing**: describing the same choice as a gain or as a loss changes what people choose.
 
--   when framing a (sure) settlement as a gain, judges were more likely to endorse it than when framed as a loss [@guthrie2001inside]
+-   people prefer a sure gain, but gamble to avoid a sure loss [@tversky1981framing]
 
--   bankruptcy judges were more likely to choose a reorganization plan with a certain outcome when it was framed as a gain [@rachlinski2006inside]
+    -   e.g. a disease plan described as saving 200 of 600 people is chosen far more often than the identical plan described as 400 of 600 dying
+
+-   judges advised plaintiffs to accept a sure gain more often than defendants to accept a sure loss, though both settlements were equally good deals [@guthrie2001inside]
+
+-   bankruptcy judges more often picked the safe reorganization plan when it was described as a gain [@rachlinski2006inside]
 
 ## Cognitive explanations {.smaller}
 

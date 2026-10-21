@@ -21,7 +21,7 @@ source("utils/globals.R")
 
 ## Legitimacy and public support
 
--   what are the determinants of public support of courts?
+-   what are the determinants of public support for courts?
 
 -   to what extent are courts immune from changes in public opinion?
 
@@ -29,29 +29,29 @@ source("utils/globals.R")
 
 # Why support matters for courts
 
-## Public support as a source of judicial power
+## Public support as a source of judicial power {.smaller}
 
--   one reason why courts' autonomy and effectiveness can be high is **public support** [@carrubba2010executive]
+-   the US Supreme Court's power over the executive depends on **the public** being aware of the case [@carrubba2010executive]
 
--   in general, people hold courts in high regard [@vanberg2015constitutional]
+-   in democracies, people generally hold courts in high regard [@vanberg2015constitutional]
 
-    -   this is helped by the fact that courts are often responsive to public preferences [@mishler1993supreme]
+    -   the US Supreme Court followed long-term trends in public opinion until the early 1980s [@mishler1993supreme]
 
--   attacking courts and non-compliance is usually politically costly
+-   attacking courts or ignoring their rulings can be politically costly [@vanberg2015constitutional]
 
 ## Trust across institutions {.smaller}
 
--   across 30 OECD countries in late 2023, 54% reported high or moderately high trust in the courts and legal system, against 39% for the national government [@oecd2024oecd]
+-   across 33 OECD countries in late 2025, 54% reported high or moderately high trust in the courts and judicial system, against 40% for the national government [@oecd2026oecd]
 
-    -   Denmark: 75% for the courts, 44% for the government
+    -   Denmark: 77% for the courts, 44% for the government
 
 -   the same ordering holds in Britain: in a 2026 British Election Study sample, the Supreme Court was the most trusted of six institutions and political parties the least [@ovadek2026contagion]
 
--   courts are trusted more than parliaments and governments in almost every survey
+-   in 30 of 33 OECD countries, courts are trusted more than parliament and government [@oecd2026oecd]
 
 ## Is trust in courts its own thing? {.smaller}
 
--   trust in parliaments and in courts moves together; two readings
+-   trust in parliaments and in courts tends to move together [@oecd2024oecd], which has two readings
 
     -   **elite contagion**: one governing establishment, so distrust of one branch spreads to the others
 
@@ -73,25 +73,27 @@ source("utils/globals.R")
 
 -   does support deter court curbing?
 
-    -   in experiments, US voters punish incumbents who attack courts, especially those who esteem the court [@driscoll2023costs]
+    -   in experiments, US voters punish incumbents who attack courts, and court supporters punish most [@driscoll2023costs]
 
     -   co-partisans punish less, and party and issue positions matter more
 
-    -   but the public supports curbing when it disagrees with the court [@bartels2020curbing], and populist voters in Germany back limiting the constitutional court's power [@peffley2024populism]
+    -   but Americans back curbing the Supreme Court when they disagree with its rulings [@bartels2020curbing]
+
+    -   Germans with populist attitudes would curb the constitutional court like any other institution [@peffley2024populism]
 
     -   the shield holds only where the public values the institution over the outcome
 
 ## Courts track public opinion {.smaller}
 
--   if support is a resource, courts should protect it; the evidence that they do:
+-   if support is a resource, courts should protect it, and the evidence suggests they do
 
     -   the US Supreme Court's decisions move with public mood over time [@mishler1993supreme; @casillas2011how]
 
-    -   when courts fear non-implementation, they side with majorities – "judicial majoritarianism" [@hall2015judicial]
+    -   the US Supreme Court is most constrained by outside pressure when others must implement its rulings [@hall2014semiconstrained]
 
     -   unpopular courts behave differently when the public is paying attention [@krehbiel2021public]
 
--   a court that tracks opinion keeps its support and gives up the counter-majoritarian role that justified it
+-   a court that tracks opinion may keep its support but gives up the counter-majoritarian role that justified it
 
 ## Maintaining public support {.smaller}
 
@@ -127,39 +129,39 @@ source("utils/globals.R")
 
 -   at the same time, courts rely on diffuse support for effectiveness more than other branches
 
--   particularly important when constituents disagree over a policy decision
+-   particularly important when constituents disagree over a policy decision [@gibson2014losing]
 
 ## Sources of judicial legitimacy {.smaller}
 
--   traditionally, legalism and **legal symbols** are seen as the main source of legitimacy [@caldeira1992etiology] – positivity theory [@gibson2017reconsidering]
+-   traditionally, legalism and **legal symbols** are seen as the main source of legitimacy, as in positivity theory [@gibson2014losing; @gibson2017reconsidering]
 
     -   symbols make courts seem fairer and **different from politics**
 
-    -   awareness means more exposure to symbols and a "repository of goodwill"
+    -   awareness means more exposure to symbols and a "reservoir of goodwill"
 
-    -   legalistic framing of a ruling induces specific support [@magalhaes2023beyond]
+    -   but in Norway and Portugal, partisan framing of a ruling lowers acceptance while policy framing does not [@magalhaes2023beyond]
 
--   the **ideological** rival: people ascribe less legitimacy to a court they think they disagree with [@bartels2013ideological]
+-   on the rival **ideological** account, Americans ascribe less legitimacy to the Supreme Court when they think they disagree with it [@bartels2013ideological]
 
 ## Where does support come from? {.smaller}
 
 | source of support | claim |
 |----------------------------|------------------------------------------------------------------------|
 | legal symbols | exposure to courts builds a reservoir of goodwill |
-| ideological agreement | people support courts they agree with, as after *Dobbs* |
-| partisan alignment | support for judicial power depends on whom it constrains [@gandur2025trust] |
-| performance | courts earn trust by working [@garoupa2020public] |
-| awareness | to know courts is to love them, or not |
+| ideological agreement | people support courts they agree with, as after *Dobbs* [@gibson2024losing] |
+| partisan alignment | in Argentina, trust in courts fell among government supporters after rulings checked the government [@gandur2025trust] |
+| institutional quality | in Europe, independent and accountable judiciaries are trusted more [@garoupa2021public] |
+| awareness | to know courts is to love them, or not [@levendusky2024has] |
 | democratic values | commitment to democracy supports independent courts, or not |
 | identity cues | judges' identities signal fairness |
 
 ## Political foundations {.smaller}
 
--   we would expect that individuals holding **democratic values** are more supportive of judicial independence
+-   we would expect that individuals holding **democratic values** are more supportive of judicial independence [@caldeira1992etiology]
 
-    -   @bartels2023can find no evidence of this in the context of 2017 Kenyan elections
+    -   @bartels2023can find no evidence that democratic values softened partisan backlash after Kenya's 2017 election rulings
 
-    -   @cheruvu2025partisanship find less support for anti-court backlash among more democratically minded Hungarians
+    -   @cheruvu2025partisanship find that Hungarian opposition voters' support for backlash against the CJEU depends on their commitment to democracy
 
 -   a study of 34 African countries shows that presidential **co-partisanship decreases support** for horizontal judicial power and increases it for vertical [@bartels2020does]
 
@@ -171,17 +173,19 @@ source("utils/globals.R")
 
 -   @gandur2025awareness show that this relationship is affected by the political context
 
-    -   in Poland and Hungary, the perception of **executive influence** on courts creates even more demand for judicial independence than in US and Germany, but awareness alone does not
+    -   in Poland and Hungary, perceived **executive influence**, not awareness, goes with demand for judicial independence
 
-    -   @demicheli2024public similarly show that knowledge alone of Latin American courts does not increase trust
+    -   @demicheli2024public similarly find that more educated Latin Americans trust courts more only where institutions are strong
 
--   identification with anti-system parties may reduce trust in courts [@arzheimer2024identification], and individual-level illiberal views about justice are negatively correlated with trust in the EU, the ECtHR and domestic judiciaries [@voeten2022is]
+-   identification with the AfD lowers trust in Germany's Federal Constitutional Court [@arzheimer2025identification]
+
+-   illiberal views about justice go with lower trust in the EU, the ECtHR and national courts [@voeten2022is]
 
 ## Anti-system parties
 
-![Decline in trust in the German Constitutional Court among AfD voters [@arzheimer2024identification]](img/afd-trust-fcc.jpg)
+![Trust in the Federal Constitutional Court among AfD identifiers and others, 2013–2017 [@arzheimer2025identification]](img/afd-trust-fcc.jpg)
 
-## Perceptions of judicial fairness
+## Perceptions of judicial fairness {.smaller}
 
 -   judges' identity categories operate as ideological cues affecting perceptions of judicial fairness [@bracic2023because]
 
@@ -189,41 +193,41 @@ source("utils/globals.R")
 
     -   Republicans see gay judges as less fair and impartial than straight judges
 
--   descriptive representation seems to matter little
+-   the public does not seek descriptive representation as such [@bracic2023because]
 
-    -   people prefer judges who (they assume) will think like them, not look like them
+    -   people prefer judges who (they assume) will think like them, not just look like them
 
 ## Descriptive representation and trust {.smaller}
 
 -   does a bench that looks like the public earn more trust from it?
 
--   Black respondents rated the US federal courts as more legitimate when told about Black judges on the bench, white respondents less so [@scherer2010does]
+-   Black respondents rated the US federal courts as more legitimate when told about Black judges, and white respondents as less legitimate [@scherer2010does]
 
--   whether the same holds for women on the bench is the question tested by @moyer2025does
+-   @moyer2026does finds women on the federal bench raise trust only slightly, briefly and among Democrats
 
--   representation adds legitimacy with the group represented and can cost it with others
+-   race representation splits Black and white respondents, while gender representation barely moves trust
 
 ## International courts and public opinion
 
 -   support for international courts is context dependent
 
-    -   which court, which country, which narratives [@zvobgo2025complementarity]
+    -   evidence that complementarity arguments raise support for the ICC is modest and varies by country [@zvobgo2025complementarity]
 
--   but generally tends to be correlated with trust in national courts and adjacent international organizations at the individual level [@stappert2025between]
+-   but public confidence in the ICC goes with confidence in national courts and the UN [@stappert2025between]
 
 ::: notes
-Zvobgo and Chaudoin (2025) do not find evidence that arguments about ICC's complementarity are convincing to global public
+Zvobgo and Chaudoin (2025) find only modest evidence that complementarity arguments raise support for the ICC in five countries
 :::
 
 ## Measuring legitimacy {.smaller}
 
--   **diffuse support** (legitimacy): loyalty to the institution regardless of what it does; **specific support**: approval of its recent decisions
+-   **diffuse support** (legitimacy) is loyalty to the institution regardless of what it does, while **specific support** is approval of its recent decisions
 
--   the standard battery asks whether the court should be abolished or its jurisdiction reduced if it kept making unpopular decisions, whether it can be trusted to decide in the country's interest, whether it gets too mixed up in politics
+-   the standard battery asks about abolishing the court, curbing its jurisdiction, trusting it and its involvement in politics [@gibson2003measuring]
 
--   most cross-national surveys have a single item, "trust in the courts", which mixes the two and tracks the news cycle
+-   most cross-national surveys have a single item, "trust in the courts", which critics say mixes the two [@gibson2003measuring]
 
--   the battery itself is under fire: it may measure attitudes to the court's recent output as much as loyalty [@hemrajani2026trust]
+-   @hemrajani2026trust finds the trust item is a valid and comparable measure of legitimacy
 
 -   cross-national comparison needs the same questions asked at the same time; smoothing across surveys is one workaround [@claassen2019estimating]
 
@@ -241,32 +245,32 @@ Zvobgo and Chaudoin (2025) do not find evidence that arguments about ICC's compl
 
 ## How courts reach the public {.smaller}
 
--   what the public knows of courts arrives through the media, and courts manage that
+-   what the public knows of courts mostly arrives through the media, and courts manage that
 
--   constitutional courts issue press releases selectively, more for salient and politically sensitive rulings [@meyer2020judicial]
+-   Germany's Federal Constitutional Court issues press releases more often for rulings that change the status quo [@meyer2020judicial]
 
--   the Mexican Supreme Court began promoting its rulings to the press to build the support it lacked, choosing which decisions to publicize [@staton2006constitutional]
+-   the Mexican Supreme Court promoted its rulings to the press selectively, believing this would build its authority [@staton2006constitutional]
 
 -   the UK Supreme Court streams its hearings and hands down judgments on camera; the US Supreme Court still refuses cameras
 
--   being elected adds to a court's legitimacy, while campaign contributions and attack advertising reduce it [@gibson2012electing]
+-   being elected adds to US state courts' legitimacy, while campaign contributions reduce it and attack ads matter little [@gibson2012electing]
 
--   majorities in most countries cannot name a judge of their highest court
+-   many Americans cannot name a Supreme Court justice, though recall questions understate what they know [@gibson2009knowing]
 
 # Rulings that land mid-survey
 
 ## Rulings that land mid-survey {.smaller}
 
--   surveys take weeks to field; if a ruling drops in the middle, respondents interviewed before and after can be compared as if randomly assigned
+-   surveys take weeks to field, and if a ruling drops in the middle, respondents interviewed before and after can be compared as if randomly assigned
 
     -   the **unexpected event during survey design** [@munoz2020unexpected]
 
--   assumptions: the event was not anticipated, interview timing is unrelated to it, nothing else happened at the same time
+-   the design assumes the ruling was unexpected, interview timing is as good as random and nothing else changed
 
 -   applied to Argentine rulings by @gandur2025trust
 
--   checks: are the before and after samples alike? does the effect fade within days?
+-   checks ask whether the before and after samples are alike and whether opinion was already trending
 
-## Why do people trust the one branch they never vote for?
+## Why do people trust the branch most of them never vote for?
 
 ## References

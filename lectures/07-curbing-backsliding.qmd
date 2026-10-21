@@ -59,7 +59,7 @@ source("utils/globals.R")
 
 -   in some countries this is virtually guaranteed (e.g. US), while elsewhere there will be more uncertainty
 
-    -   in the EU, if all political actors agree, there is very low chance of review
+    -   in the EU, review is less likely when all institutions agree, though national courts can still refer
 
 ## Anticipating judicial review
 
@@ -87,9 +87,9 @@ source("utils/globals.R")
 
 -   in some cases, the legislator will not shy away from judicial conflict [@schroeder2022pushing]
 
-    -   when they have strong public support [@vanberg2001legislativejudicial; @krehbiel2016politics]
+    -   when they expect the public not to notice if they evade a ruling [@krehbiel2016politics]
 
-    -   when they signal intention to not comply
+    -   when they signal intention to not comply [@schroeder2022pushing]
 
 ## Anticipating reactions
 
@@ -99,21 +99,21 @@ source("utils/globals.R")
 
     -   may trigger **court curbing** by the other branches
 
-    -   just like legislatures do not want to be censored by courts, courts do not want to be **overridden** by legislatures
+    -   just like legislatures do not want to be censured by courts, courts do not want to be **overridden** by legislatures
 
 -   judges who adjust their rulings to the expected reactions of other actors are acting **strategically** [@epstein1998choices]
 
 ## Threat of override
 
--   courts may also take into account whether their decision is likely to be overridden by the legislature [@meernik1997judicial; @larsson2021political]
+-   courts may anticipate overrides because legislatures do sometimes reverse their decisions [@meernik1997judicial; @larsson2021political]
 
-    -   though the empirical evidence of override anticipation by courts is mixed [@segal1997separationofpowers; @segal2011congress]
+    -   though US studies find little evidence that justices anticipate overrides [@segal1997separationofpowers; @segal2011congress]
 
 -   courts are looking for judgments which are as close as possible to their ideal point but not so far as to get overridden
 
 ## Threat of override
 
-![US Override Game from @dyevre2010unifying](img/congress-override-game.png)
+![US Override Game from @dyevre2010unifying, adapted from @eskridge1991overriding](img/congress-override-game.png)
 
 ## Threat of override
 
@@ -121,23 +121,31 @@ source("utils/globals.R")
 
 ## The override incongruity {.smaller}
 
--   the literature leans heavily on the **threat** of override: courts anticipate it, and the CJEU visibly responds to member-state signals of displeasure [@larsson2016judicial]
+-   the literature stresses the **threat** of override, and CJEU rulings closely track member-state observations [@larsson2016judicial]
 
--   yet actual overrides of CJEU rulings are close to non-existent: treaty-based rulings need treaty change, the rest a coalition that rarely forms (the joint-decision trap)
+-   yet no override has revised the Court's mandate, though seven of 27 strongly opposed rulings were politically overridden [@larsson2021political]
 
-    -   in EU social policy, codification and override are both rare
+    -   treaty change needs unanimous governments, a setting prone to the **joint-decision trap** [@larsson2021political; @scharpf1988jointdecision]
 
--   the US is the mirror image: Congress overrode Supreme Court statutory decisions routinely in the 1970s and 1980s [@eskridge1991overriding; @uribe2014influence], a record that has thinned since [@christiansen2014congressional]
+    -   in today's EU social policy, codification and override of rulings have both become unlikely [@martinsen2015judicial]
+
+## The override incongruity {.smaller}
+
+-   in the US, by contrast, Congress overrode Supreme Court statutory decisions routinely in the 1970s and 1980s [@eskridge1991overriding; @uribe2014influence]
+
+    -   overrides peaked in the 1990s and have fallen off sharply since 1998 [@christiansen2014congressional]
 
 -   so the system where override is least feasible is the one where the court looks most responsive to it
 
 -   **observational equivalence**: zero observed overrides is consistent with perfect anticipation and with no constraint at all; only variation in signals, or the rare off-path case, can tell them apart
 
-## The friendly court
+## The friendly court {.smaller}
 
--   consistent with the idea of the majoritarian court is evidence of courts ruling against policies of previous governments [@segal2011congress; @gillman2002how]
+-   consistent with the majoritarian court, the US Supreme Court strikes fewer laws when distant from Congress [@segal2011congress]
 
     -   a "friendly" judicial intervention can be particularly valuable when it concerns constitutional interpretation that would be otherwise difficult to legislate away (e.g. *Roe* and *Dobbs*)
+
+    -   parties can also use courts to entrench their agenda against future majorities [@gillman2002how]
 
     -   also helps explain why governments might sometimes appear to support "activist" judiciaries [@whittington2005interpose]
 
@@ -145,7 +153,7 @@ source("utils/globals.R")
 
 ## Court curbing
 
--   the legislator signaling intent to engage in court curbing is likely to lead to judicial self-restraint
+-   the legislator signalling intent to engage in court curbing is likely to lead to judicial self-restraint [@clark2009separation]
 
 -   a number of possible measures:
 
@@ -169,27 +177,39 @@ source("utils/globals.R")
 
 -   the tools are old; in the 2010s they were used together and openly
 
-## Ten years of attacks on courts {.smaller}
+## Attacks on courts {.smaller}
 
 | case | tools | outcome |
 |--------------------|----------------------------------------------------|----------------------------|
-| Hungary 2010-13 | jurisdiction stripped, court enlarged, retirement age cut | captured |
-| Poland 2015-23 | elected judges not sworn in, council captured, disciplinary chamber | tribunal captured, EU sanctions |
+| Hungary 2010-13 | jurisdiction stripped, court enlarged, retirement age cut | captured, partly reversed in 2026 |
+| Poland 2015-23 | elected judges not sworn in, council captured, disciplinary chamber | tribunal captured, CJEU fines, frozen funds |
 | Turkey 2010, 2016 on | court and council reshaped; 4,000+ judges and prosecutors dismissed | captured |
 | Venezuela 2004 | Supreme Tribunal enlarged from 20 to 32 | captured |
 | El Salvador 2021 | constitutional chamber removed on the new assembly's first day | captured |
 
 ::: notes
-The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2019) and the postcommunist cases by Bugarič and Ginsburg (2016): capture composition first, then jurisdiction, and use ordinary legislation wherever a supermajority is not available.
+Castillo-Ortiz (2019) shows how illiberal governments in Hungary, Poland and Turkey gained leverage over constitutional judges and limited the courts' powers. In Poland, where the government lacked a constitutional majority, this took more complex and legally dubious strategies, such as amending the Constitutional Tribunal Act. Bugarič and Ginsburg (2016) describe how several postcommunist governments moved to pack their courts.
+
+Hungary: after Tisza won a two-thirds majority in April 2026, the 17th Amendment (July 2026) restored the pre-2012 Constitutional Court rules, lifted limits on review of public finance laws and reinstated the age limit of 70, ending four judges' mandates.
+
+Poland: President Nawrocki vetoed the judicial council reform in February 2026. The Sejm elected eight Tribunal judges in 2026, but Nawrocki swore in only three, and the Tribunal's president has refused entry to four who took their oath without him.
 :::
 
-## Ten years of attacks on courts {.smaller}
+## Attacks on courts {.smaller}
 
 | case | tools | outcome |
 |--------------------|----------------------------------------------------|----------------------------|
-| Israel 2023 | reasonableness standard abolished | struck down after mass protests |
-| United States 1937, 2020s | court-packing plan; expansion commission | failed |
-| United Kingdom 2016-22 | "enemies of the people"; limits on review remedies | rhetoric loud, curbing modest |
+| Israel 2023-25 | reasonableness standard abolished, selection committee reshaped | first struck down in 2024, second not yet in force |
+| United States 1937, 2025-26 | court-packing plan; injunction limits, impeachment calls | 1937 plan failed, 2025 bill passed House |
+| United Kingdom 2016-24 | "enemies of the people"; limits on review remedies; Rwanda Act ouster | rhetoric loud, curbing modest |
+
+::: notes
+Israel: the Supreme Court struck down the reasonableness amendment 8-7 on 1 January 2024. The March 2025 law giving politicians more seats on the Judicial Selection Committee takes effect with the next Knesset. In December 2025 the court unanimously annulled the dismissal of the Attorney General.
+
+United States: the House passed the No Rogue Rulings Act 219-213 in April 2025, and Republicans filed impeachment articles against Judge Boasberg. In Trump v. CASA (June 2025) the Supreme Court itself curbed universal injunctions by lower courts.
+
+United Kingdom: the Safety of Rwanda Act 2024 told courts to treat Rwanda as safe and barred challenges on that ground. It was repealed in December 2025.
+:::
 
 ## Why attack, why refrain, how courts respond {.smaller}
 
@@ -199,7 +219,11 @@ The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2
 
     -   to remove a check on power: abusive constitutionalism [@landau2013abusive], autocratic legalism [@scheppele2018autocratic; @castilloortiz2019illiberal; @bugaric2016assault]
 
-    -   to punish defecting judges [@helmke2002logic], often in populist terms [@voeten2020populism]
+    -   to punish judges loyal to the previous government, so judges defect as it weakens [@helmke2002logic]
+
+    -   attacks often come from populist leaders and use populist rhetoric [@voeten2020populism]
+
+## Why attack, why refrain, how courts respond {.smaller}
 
 -   **why refrain**
 
@@ -207,9 +231,9 @@ The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2
 
     -   international audiences: the EU, the ECtHR, investors
 
-    -   insurance: today's majority is tomorrow's minority
+    -   insurance, since parties that may lose power value courts as a forum to challenge the winners [@ginsburg2003judicial]
 
--   **how courts respond**: defect, restrain themselves [@stiansen2020backlash], resist openly or exit
+-   **how courts respond**: defect [@helmke2002logic], restrain themselves [@stiansen2020backlash], resist openly or exit
 
 # Backlash and backsliding
 
@@ -223,7 +247,7 @@ The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2
 
     -   probably the same thing that drives backlash against domestic courts: disagreement with outcomes
 
-    -   populism is at best a partial explanation [@voeten2020populism]
+    -   populist leaders started most backlashes against international courts but not all of them [@voeten2020populism]
 
 -   *political* backlash against courts is distinct from backlash in public opinion
 
@@ -231,19 +255,23 @@ The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2
 
 -   evidence of greater **self-restraint** in response to backlash
 
-    -   the ECtHR restricted the scope of human rights and increased governments' margin of appreciation (discretion) [@helfer2020walking]
+    -   dissenting ECtHR judges increasingly say the Grand Chamber is quietly walking back rights [@helfer2020walking]
 
     -   it also finds fewer violations by democracies that criticized it [@stiansen2020backlash]
 
 ## Declining UK ECHR violations
 
-![Donald and Grogan (2025)](img/ukice-echr-24.jpg)
+![ECtHR judgments against the UK from @donald2025compliance](img/ukice-echr-24.jpg)
+
+::: notes
+The ECtHR found at least one violation in 4 of its 10 UK judgments in 2025, up from 1 in 2024.
+:::
 
 ## Judicialization and politicization {.smaller}
 
 -   courts expand their power through decisions on **public** policy and state institutions
 
-    -   such matters naturally invite *politicization* which can lead to decline of trust in the long-run
+    -   such matters naturally invite *politicization* which can lead to decline of trust in the long run
 
 -   as courts grow in importance, they also become more interesting to the public and attractive to **politicians**
 
@@ -269,24 +297,34 @@ The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2
 
 -   is the era of increasing judicialization over? [@abebe2019dejudicialization]
 
-    -   most obvious in the backlash against international courts, e.g. dejudicialization of the WTO
+    -   most obvious in the backlash against international courts, e.g. the WTO Appellate Body, paralysed since 2019
 
 -   but there are also signs in domestic politics
 
-    -   e.g. the near total de-legitimization of the Polish Constitutional Court in recent years, conservative backlash in Israel, Turkey and elsewhere
+    -   e.g. the near total delegitimization of the Polish Constitutional Court in recent years, conservative backlash in Israel, Turkey and elsewhere
     -   open question whether backlash and counter movements will sustain judicialization or reverse it through institutional attacks
 
 ## The EU's rule-of-law toolbox {.smaller}
 
--   **Article 7 TEU**: the political procedure, triggered against Poland (2017) and Hungary (2018), never reached sanctions because the final step needs unanimity minus the target
+-   **Article 7 TEU** was triggered against Poland (2017) and Hungary (2018) but never reached sanctions
+
+    -   finding a breach needs unanimity minus the target, and the Polish procedure was closed in 2024
+
+    -   the Hungarian procedure remains open after the 2026 change of government
 
 -   **infringement actions**: the Commission takes the member state to the CJEU – Hungary's retirement-age cut (2012), Poland's Supreme Court law (2019) and disciplinary regime (2021)
 
+## The EU's rule-of-law toolbox {.smaller}
+
 -   **preliminary references**: national judges ask the CJEU whether their own country's judicial reforms are compatible with EU law, turning Luxembourg into an ally of domestic courts
 
--   **conditionality**: since 2021 EU funds can be withheld for rule-of-law breaches; Hungary lost access to billions, Poland's recovery funds stayed frozen until 2024
+-   **conditionality** has let the EU withhold funds for rule-of-law breaches since 2021
 
--   the ECtHR joined in: in *Xero Flor* (2021) it found the Polish Constitutional Tribunal no longer a "tribunal established by law"
+    -   Hungary lost access to billions until the measures were lifted in October 2026
+
+    -   Poland's recovery funds were frozen under separate conditions until 2024
+
+-   in *Xero Flor* (2021) the ECtHR found a Tribunal bench with an irregularly elected judge was not "established by law"
 
 -   the tools bite slowly, mostly after the capture is complete
 
@@ -310,13 +348,17 @@ The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2
 
 -   as members of the elite with access to power and resources, both judges and politicians can face incentives to confer special treatment
 
-    -   e.g. judges may shield corrupt politicians from prosecution in exchange for bribes or career progress
+    -   e.g. judges may shield corrupt politicians from conviction in exchange for bribes or career progress
 
     -   governments can reward judges with housing, as in Pakistan [@mehmood2024judicial]
 
--   (narrowly) winning a seat in Indian state legislature decreases the chance of criminal conviction by \~20 pp, but only for ruling party co-partisans [@pobletecazenave2025do]
+## Capture without formal control {.smaller}
 
--   narrowly winning a mayoral election in Brazil cuts the chance of conviction by \~11 pp, though mayors have no formal power over judges [@lambais2023judicial]
+-   ruling-party Indian state legislators who narrowly win see more cases closed without conviction [@pobletecazenave2025do]
+
+-   narrowly elected Brazilian mayors are about two thirds less likely to be convicted [@lambais2023judicial]
+
+    -   mayors play no direct role in judges' careers
 
 -   de jure separation is not sufficient to capture intended benefits of judicial independence – and these are democracies
 
@@ -324,9 +366,9 @@ The illiberal playbook for constitutional courts is set out by Castillo-Ortiz (2
 
 -   when a treatment switches on at a threshold, units just either side of it are comparable
 
-    -   the jump in outcomes at the threshold is the effect
+    -   the jump in outcomes at the threshold estimates the effect for units near it
 
--   close elections are the classic case: narrow winners and narrow losers are alike in everything but office
+-   close elections are the classic case because narrow winners and losers should differ only in taking office
 
 -   used for the Indian and Brazilian results [@pobletecazenave2025do; @lambais2023judicial]
 

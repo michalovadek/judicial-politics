@@ -47,19 +47,19 @@ source("utils/globals.R")
 
     -   and more attractive to other actors
 
-## Credible commitments
+## Credible commitments {.smaller}
 
--   an independent court is a signal: the executive pledges to abide by its decisions
+-   an independent court is a signal that the executive pledges to abide by its decisions
 
 -   **credible commitments** benefit the government
 
     -   the English crown could borrow more cheaply after the Glorious Revolution [@north1989constitutions]
 
-    -   secure property rights help the economy develop
+    -   secure property rights help the economy develop [@north1989constitutions]
 
 -   internationally, treaties and courts work in a similar way
 
-    -   but also **lock in** their own, other governments' and future governments' preferences [@moravcsik2000origins]
+    -   but new democracies also use them to **lock in** democracy against future governments [@moravcsik2000origins]
 
 # Who governs?
 
@@ -81,17 +81,17 @@ source("utils/globals.R")
 
 -   quite successful at maintaining the illusion that everyone is subject to the law (the **rule of law**)
 
--   yet subjecting legislative to judicial power is perhaps particularly normatively objectionable [@waldron2006core; @waldron2021rule]
+-   yet subjecting legislative power to judicial power is perhaps particularly normatively objectionable [@waldron2006core; @waldron2021rule]
 
 ## What is the rule of law? {.smaller}
 
 -   **thin** (formal) conceptions: law must be general, public, prospective, clear, consistent, possible to comply with, stable and actually applied, the eight desiderata of @fuller1964morality
 
-    -   says nothing about the content of the law; an unjust law can satisfy all eight
+    -   they say nothing about the content of law, so regimes with morally objectionable laws can satisfy them [@craig2017formal]
 
--   **thick** (substantive) conceptions add rights, democracy or social justice
+-   **thick** (substantive) conceptions add rights that distinguish good laws from bad ones [@craig2017formal]
 
--   courts feature in both: as the guarantee of consistent application (thin) and as the guardians of rights (thick)
+-   courts feature in both, guaranteeing consistent application (thin) and guarding rights (thick)
 
 ## Rule of law in comparative perspective
 
@@ -102,7 +102,7 @@ vdemdata::plot_indicator("v2x_rule") +
   scale_x_continuous() +
   labs(y = "Rule of law",
        title = "Rule of law",
-       subtitle = "V-Dem index 'rule of law'")
+       subtitle = "V-Dem index 'rule of law', unweighted average across countries")
 ```
 
 ## Rule of law in comparative perspective
@@ -144,19 +144,21 @@ vdemdata::plot_indicator("v2x_rule",
 
 ## Designs of constitutional review {.smaller}
 
--   **who reviews**: one constitutional court (centralized) or every court (diffuse)
+-   **who reviews**: one constitutional court (centralized) or every court (diffuse) [@stonesweet2000governing]
 
-    -   centralized: Austria, Germany, Italy, most of post-1989 Europe; diffuse: US, Argentina, Japan, the Nordic countries
+    -   centralized: Austria, Germany, Italy, most of post-communist Europe; diffuse: US, Argentina, Japan, the Nordic countries
 
--   **when**: before the law takes effect (*ex ante* or *a priori*, France only until 2010) or after (*ex post* or *a posteriori*, almost everywhere else)
+-   **when**: before the law takes effect (*ex ante* or *a priori*, the only form in France until 2010) or after (*ex post* or *a posteriori*)
 
 -   **how**: in the abstract, detached from any case (usually referral by politicians), or concretely, in a dispute between parties
 
+## Designs of constitutional review {.smaller}
+
 -   **who can trigger it**: politicians, courts, ombudsmen, individuals (directly challenging a law in Germany or Colombia)
 
--   **how strong**: strike down (strong form) or leave parliament the last word (weak form)
+-   **how strong**: strike down (strong form) or leave parliament the last word (weak form) [@tushnet2008weak]
 
-    -   weak form: declaration of incompatibility (UK Human Rights Act 1998, New Zealand) or legislative override (Canada)
+    -   weak form: declaration of incompatibility or inconsistency (UK Human Rights Act 1998, New Zealand) or legislative override (Canada) [@gardbaum2013new]
 
 -   each dimension changes which cases arrive and who can be blamed for the result
 
@@ -164,12 +166,12 @@ vdemdata::plot_indicator("v2x_rule",
 
 -   one type of indirect effect of judicialization is legislator moral hazard [@fox2011judicial; @ward2019judicial]
 
-    -   knowledge that courts will correct ill-advised policies makes legislators behave more recklessly
+    -   knowledge that courts may correct ill-advised policies can make legislators behave more recklessly
 
--   this type of moral hazard is more common with *ex ante* judicial review [@ward2019judicial]
+-   in theory, this type of moral hazard is greater with *ex ante* judicial review [@ward2019judicial]
 
 ::: notes
-French Constitutional Council is the archetype of the ex ante review effect on legislative recklessness
+French Constitutional Council is the classic example of ex ante review
 
 legislators promising unconstitutional policies can make it harder for voters to make good decisions
 :::
@@ -185,7 +187,7 @@ legislators promising unconstitutional policies can make it harder for voters to
 | the uneasy case | review adds a veto point against rights violations, at some democratic cost | @fallon2008core |
 | the case against | where democracy works, legislatures should settle disagreements about rights | @waldron2006core |
 
--   all four are about what courts *should* do; in practice, appointments mean the US Supreme Court is rarely out of line with lawmaking majorities for long [@dahl1957decisionmaking]
+-   all four are about what courts *should* do, but in practice appointments mean the US Supreme Court is rarely out of line with lawmaking majorities for long [@dahl1957decisionmaking]
 
 # Judicial power and independence
 
@@ -199,9 +201,9 @@ legislators promising unconstitutional policies can make it harder for voters to
 
 -   following @staton2011judicial, we can usefully identify two pillars of judicial power:
 
-    -   **autonomy** – or independence in a strict sense – or the extent to which judges' decisions reflect their true preferences as opposed to someone else's
+    -   **autonomy** (independence in a strict sense) is the extent to which judges' decisions reflect their true preferences rather than someone else's
 
-    -   **effectiveness** – or compliance – or the extent to which courts can compel actors to comply with adverse decisions
+    -   **effectiveness** is the extent to which courts can compel actors to comply with adverse decisions
 
 ## Concept of judicial power
 
@@ -211,7 +213,7 @@ legislators promising unconstitutional policies can make it harder for voters to
 | **High Autonomy** | Powerful Court         | Ignorable Court       |
 | **Low Autonomy**  | Puppet Court           | Joke Court            |
 
-: The two dimensions of judicial power
+: The two dimensions of judicial power (adapted from @staton2011judicial)
 
 ## Judicial power in comparative perspective
 
@@ -223,7 +225,7 @@ vdemdata::plot_indicator("v2x_jucon") +
   scale_y_continuous(limits = c(0.25,0.75)) +
   labs(y = "Judicial Power",
        title = "Judicial Power",
-       subtitle = "V-Dem index 'judicial constraints on the executive'")
+       subtitle = "V-Dem index 'judicial constraints on the executive', unweighted average across countries")
 ```
 
 ## Judicial power in comparative perspective
@@ -243,15 +245,15 @@ vdemdata::plot_indicator("v2x_jucon",
 
 ## How can courts increase their power?
 
--   new courts consolidate power by not antagonizing the government for an initial period
+-   new courts consolidate power by not antagonizing the government for an initial period [@epstein2001role]
 
 -   expand jurisdiction through broad interpretation of access rules and legal domains
 
--   a common strategy is to first create the power-expanding principle without applying it in the initial case to mitigate costs of compliance (*Marbury*)
+-   one strategy is to create a power-expanding principle without applying it in the initial case to avoid retaliation (*Marbury*) [@knight1996struggle]
 
 ## What makes judges autonomous?
 
--   **judicial independence** is the single most important attribute associated with modern judiciaries
+-   **judicial independence** is widely seen as a core attribute of modern judiciaries
 
 -   yet there is disagreement on the precise content of this concept
 
@@ -283,16 +285,18 @@ vdemdata::plot_indicator("v2x_jucon",
 
     -   **de jure** measures code formal guarantees such as tenure and removal rules, so they are easy to compare but may not reflect practice
 
-    -   **de facto** measures rely on expert surveys (V-Dem), human rights reports (CIRI) or court rulings, so they are closer to practice but more subjective
+    -   **de facto** measures rely on expert surveys (V-Dem), human rights reports (CIRIGHTS) or court rulings, so they are closer to practice but more subjective
 
     -   **latent** measures combine many imperfect indicators into a single estimate [@linzer2015global]
 
--   different measures often disagree with each other [@riosfigueroa2014evaluation]
+-   de jure measures barely track de facto ones, which mostly agree with each other [@riosfigueroa2014evaluation]
 
--   court rulings are a misleading indicator
+## Measuring judicial independence {.smaller}
+
+-   court rulings can be a misleading indicator [@riosfigueroa2014evaluation]
 
     -   a court that never rules against the government may be captured, or it may never have been asked to
 
-    -   a government that expects to lose in court may not legislate in the first place
+    -   a government that expects to lose may restrain its legislation in advance [@stonesweet2000governing]
 
 ## References

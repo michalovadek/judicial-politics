@@ -30,7 +30,7 @@ weeks:
   - num: "08"
     title: "How the Public Perceives Courts"
     mandatory: [gibson2017reconsidering, bartels2013ideological, gandur2025trust]
-    optional: [gibson1998legitimacy, caldeira1992etiology, garoupa2020public, krehbiel2021public, bartels2020does, demicheli2024public, hemrajani2026trust, castilloortiz2026citizens, acheampong2025assessing]
+    optional: [gibson1998legitimacy, caldeira1992etiology, garoupa2021public, krehbiel2021public, bartels2020does, demicheli2024public, hemrajani2026trust, castilloortiz2026citizens, acheampong2025assessing]
   - num: "09"
     title: "The Impact of Judicial Decisions"
     mandatory: [sternberg2022legitimacyconferring, casas2024judicial, martinsen2015judicial]
