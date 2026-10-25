@@ -43,7 +43,7 @@ source("utils/globals.R")
 
 ![Ideology of Democratic and Republican State Supreme Court Justices [@gibson2022judging]](img/dem-con-state-scs-ideo.png)
 
-:::.notes
+::: notes
 ideology estimated from campaign-contribution datasets (Bonica)
 :::
 
@@ -321,7 +321,7 @@ German Constitutional Court, Judgment of the Second Senate of 5 May 2020 (2 BvR 
 
     -  many countries (e.g. the UK) use laypersons to decide court cases, either alone or in collaboration with professional judges
 
-## The Condorcet jury theorem
+## The Condorcet jury theorem {.smaller}
 
 -   @condorcet1785essai: a majority is more likely right than any one member, if
 
