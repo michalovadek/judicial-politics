@@ -23,7 +23,7 @@ source("utils/globals.R")
 
 -   this week we look at
 
-    -   where judicial preferences come from
+    -   some diverse sources of judicial preferences
 
     -   panels, the judicial hierarchy and juries
 
@@ -42,6 +42,10 @@ source("utils/globals.R")
 ## Variation in judicial preferences
 
 ![Ideology of Democratic and Republican State Supreme Court Justices [@gibson2022judging]](img/dem-con-state-scs-ideo.png)
+
+:::.notes
+ideology estimated from campaign-contribution datasets (Bonica)
+:::
 
 ## In-group bias
 
@@ -99,21 +103,19 @@ source("utils/globals.R")
 
 ## Chair or median? {.smaller}
 
--   Swiss Federal Administrative Court, 1,739 asylum appeals in 2007, panels of three drawn from about 30 judges elected by parliament under an informal rule of party proportionality, no published votes or dissents [@hangartner2025inferring]
+-   often we do not observe the dynamics behind panel decisions
 
--   the model infers judges' preferences from panel outcomes and lets the data pick the **aggregation rule**: majority (median judge decisive), unanimity or chair-as-dictator
+-   key question: how influential is the panel's opinion-writer/chair?
 
--   best fit is a mixture of chair rule and majority rule, with the chair, who drafts the decision, decisive in about 45% of cases
+    -   reviewing / challenging the chair is costly for the other panel members
 
--   preferred grant rates run from 4.8% (Swiss People's Party) to 20.3% (Social Democrats); at least 8.4% of appeals would have gone the other way with a different panel
-
--   partisanship explains the disparities, deference to the chair the departures from majority rule – attitudinal and strategic accounts both apply
+    -   @hangartner2025inferring show that in about half of Swiss Federal Administrative Court asylum cases, the panel defers to the chair (majority rule applies otherwise)
 
 ## Panel effects {.smaller}
 
--   on US appeals panels, judges vote more ideologically when both colleagues share their appointing party (**amplification**) [@sunstein2004ideological]
+-   on US appeals panels, judges vote more ideologically when both colleagues share their appointing party [@sunstein2004ideological]
 
--   and less ideologically when both colleagues were appointed by the other party (**dampening**)
+-   and less ideologically when both colleagues were appointed by the other party
 
 -   on the DC Circuit, majorities with one judge from the other party followed doctrine more often [@cross1998judicial]
 
@@ -131,7 +133,7 @@ source("utils/globals.R")
 
     -   their composition can be more or less permanent and stable
 
-    -   but at the CJEU, small chambers can make the application of EU law less consistent [@fjelstul2023how]
+    -   but small chambers are likely make the application of law less consistent [@fjelstul2023how]
 
 ## Case assignment
 
@@ -147,7 +149,7 @@ source("utils/globals.R")
 
 ## Role of clerks
 
--   judges do not work alone – they are assisted by law clerks
+-   judges do not work alone – they are assisted by **law clerks**
 
     -   at SCOTUS, clerks' ideology shifts justices' votes, especially in close and high-profile cases [@bonica2019legal]
 
@@ -155,7 +157,7 @@ source("utils/globals.R")
 
 -   judges, similar to politicians, have different styles
 
-    -   some are more willing to trust and delegate work than others
+    -   e.g. some are more willing to trust and delegate work than others
 
 # Hierarchy
 
@@ -167,7 +169,7 @@ source("utils/globals.R")
 
 ## Judicial hierarchy {.smaller}
 
--   virtually all judiciaries around the world are organized hierarchically
+-   virtually all judiciaries around the world are organized **hierarchically**
 
 -   three "layers" are typical
 
@@ -180,8 +182,6 @@ source("utils/globals.R")
 -   peak courts = courts of final instance
 
     -   no more appeals possible
-
-    -   of special significance in some jurisdictions (e.g. US Supreme Court)
 
 -   in many systems there are multiple hierarchies
 
@@ -199,7 +199,7 @@ source("utils/globals.R")
 
     -   at the top, ideology has the strongest influence on judges' decisions [@zorn2010ideological]
 
--   @goto2026career presents evidence of judicial pandering in Indian courts
+-   @goto2026career presents evidence of judicial **pandering** in Indian courts
 
     -   high court chief justices influence which district judges are promoted to the high court
 
@@ -209,9 +209,9 @@ source("utils/globals.R")
 
 -   discipline in the judicial hierarchy is maintained through two mechanisms:
 
-    -   precedents or rules created by higher courts to be followed by lower courts
+    -   **precedents** or rules created by higher courts to be followed by lower courts
 
-    -   oversight by higher courts or the threat of reversing lower court decisions
+    -   oversight by higher courts or the threat of **reversing** lower court decisions
 
 -   even jurisdictions which do not formally subscribe to *stare decisis* usually employ precedents
 
@@ -227,7 +227,7 @@ source("utils/globals.R")
 
     -   upper courts correct their "errors"
 
--   in the 'reversed' account, lower courts make their own doctrines [@carrubba2012rule]
+-   in the '**reversed**' account, lower courts make their own doctrines [@carrubba2012rule]
 
     -   they have a first-mover advantage and are closer to case facts
 
@@ -241,7 +241,7 @@ source("utils/globals.R")
 
     -   =\> upper courts need to decide which decisions are worth auditing
 
--   upper courts care about lower courts' dispositions and rules [@carrubba2012rule]
+-   upper courts care about lower courts' **dispositions** *and* **rules** [@carrubba2012rule]
 
     -   lower courts choose rules to avoid review
 
@@ -253,7 +253,7 @@ source("utils/globals.R")
 
 ## Fire alarms
 
--   appeal courts pick up on signals ("fire alarms" / whistleblowing) about whether a decision is worth reviewing [@beim2014whistleblowing]
+-   appeal courts pick up on **signals** ("fire alarms" / whistleblowing) about whether a decision is worth reviewing [@beim2014whistleblowing]
 
     -   litigants filing appeals
 
@@ -277,13 +277,15 @@ if the whistle is blown too often, it tells the upper court less, so the threat 
 
 -   interpersonal contacts between lower and appeal judges dampen the effect of ideological distance [@nelson2022how]
 
-    -   when the two judges share a courthouse, ideology barely affects reversal
+    -   when two judges share a courthouse, ideology barely affects reversal
 
 ## The effect of reversal
 
 -   trial judges in Norway who had their ruling overturned on appeal shift their behaviour in the corresponding direction [@bhuller2025feedback]
+
     -   "Following a decision reversal, trial judges who receive a sentence increase have almost 40 percentage points higher probability of incarcerating in the next case, compared to judges receiving a sentence affirmance"
-    -   judges do not merely "learn" from reversals but overreact to them
+
+    -   judges do not merely "learn" from reversals but **overreact** to them
 
 ## Hierarchy in the EU
 
@@ -311,17 +313,13 @@ German Constitutional Court, Judgment of the Second Senate of 5 May 2020 (2 BvR 
 
 # Juries
 
-## Who decides besides judges? {.smaller}
+## Who decides besides judges?
 
-| system | who decides | how chosen | decision rule |
-|------------------------|---------------------------|----------------|-------------------------|
-| jury (US, UK, Canada) | 6-15 citizens decide facts, the judge the law | at random from public lists | unanimity or a large majority |
-| mixed tribunal (Germany, France, Sweden) | lay judges vote with professionals | by councils, parties or lot | majority, often qualified |
-| lay judges (Japan, since 2009) | 6 citizens and 3 judges on serious crimes | at random | majority incl. a judge and a lay judge |
-| lay magistrates (England and Wales) | volunteers on less serious crime | appointed | majority |
-| professionals only (Netherlands) | judges | | |
+-   there is a variety of jury and lay-judge systems around the world
 
--   civil juries are rare outside the US; most of Europe uses lay judges rather than juries
+    -  the English jury model is the most well-known with members of the public collectively deciding on the accused's guilt
+
+    -  many countries (e.g. the UK) use laypersons to decide court cases, either alone or in collaboration with professional judges
 
 ## The Condorcet jury theorem
 
@@ -331,7 +329,7 @@ German Constitutional Court, Judgment of the Second Senate of 5 May 2020 (2 BvR 
 
     -   **independence**: each member decides for themselves
 
--   the larger the group, the more likely the majority is right
+-   the larger the group, the more likely the majority is right (and vice versa)
 
     -   with jurors each right 60% of the time, a majority of 3 is right 65%, of 11 75%, of 51 93%
 
@@ -341,15 +339,13 @@ German Constitutional Court, Judgment of the Second Senate of 5 May 2020 (2 BvR 
 
 -   competence varies between jurors
 
--   votes are not independent: jurors deliberate first
+-   votes are not independent -- jurors deliberate first
 
-    -   the informed persuade, or the confident dominate
+    -   persuasion and domination effects
 
-    -   in **group polarization**, deliberation pushes groups further in the direction members already leaned [@schkade2000deliberating]
+    -   deliberation pushes groups further in the direction members already leaned (group polarization) [@schkade2000deliberating]
 
     -   the majority on the first ballot predicts the verdict in about nine juries in ten [@kalven1966american]
-
--   group decisions depend on who is in the room
 
 ## Who is in the room matters {.smaller}
 
@@ -365,7 +361,7 @@ German Constitutional Court, Judgment of the Second Senate of 5 May 2020 (2 BvR 
 
 ## Deliberation and history {.smaller}
 
--   jury deliberations are secret in most systems, so research relies mostly on mock juries
+-   jury deliberations are secret in most systems, which complicates doing research
 
     -   racially mixed mock juries deliberated longer, discussed more of the facts and made fewer factual errors than all-white juries [@sommers2006racial]
 
