@@ -21,7 +21,9 @@ source("utils/globals.R")
 
 ## Assessment {.smaller}
 
--   the deadline and submission instructions are on the module's **Moodle** page
+-   the deadline and submission instructions will be on the module's **Moodle** page
+
+    -   draft deadline: **15 December 2026**
 
 -   what **theory** do you want to contribute to with your empirical analysis?
 
