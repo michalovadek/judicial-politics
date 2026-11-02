@@ -256,17 +256,11 @@ As an example, a 10-year-old boy whose school bus was always late filed a handwr
 
 -   so legal expertise may matter more than money, at least in Germany
 
-## Mobilizing the law from the right {.smaller}
+## Mobilizing the law from the right
 
 -   the literature grew up around progressive movements, but conservatives litigate too [@escoffier2026legal]
 
--   Colombian conservatives fought LGBT rights in Congress and the streets until 2007, then in the Constitutional Court once its rulings threatened them
-
-    -   legal **threats**, not only opportunities, trigger mobilization [@lehoucq2021legal]
-
--   a 2026 special issue maps right-wing legal mobilization in Egypt, Tunisia, Sweden and Chile [@escoffier2026legal]
-
-    -   right-wing actors use criminal law, constitutional freedoms and procedure against the rights of others
+-   Colombian conservatives fought LGBT rights in Congress and the streets until 2007, then in the Constitutional Court once its rulings threatened them [@lehoucq2021legal]
 
 -   is this backlash, or simply mobilization by the other side?
 
@@ -359,23 +353,5 @@ role of US SG somewhat similar to role of the Commission in the EU system - also
 ## Who wins in international courts?
 
 ![Source: @hermansen2025leveling](img/ecj-litigants.png)
-
-## Why might plaintiffs win half the time? {.smaller}
-
--   a simple model predicts that plaintiffs win about half of the cases that reach trial
-
-    -   in practice plaintiffs often win far less, but closer to half when the model's assumptions hold [@kessler1996explaining]
-
--   @priest1984selection argue that cases settle when both sides agree on the likely outcome
-
-    -   only the close calls reach trial
-
-    -   so trial outcomes say little about how the law treats plaintiffs in general
-
--   observed litigation is a **selected sample** of disputes, selected by the parties' expectations
-
-    -   win rates are not bias rates
-
-## What kinds of questions make it to court, and who brings them?
 
 ## References

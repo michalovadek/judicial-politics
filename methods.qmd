@@ -82,13 +82,19 @@ Frandsen, Brigham, Lars Lefgren, and Emily Leslie. "Judging judge fixed effects.
 
 Chyn, Eric, Brigham Frandsen, and Emily Leslie. "Examiner and judge designs in economics: A practitioner's guide." *Journal of Economic Literature* 63, no. 2 (2025): 401-439.
 
-## Qualitative methods
-
-Gerring, John. "Qualitative methods." *Annual Review of Political Science* 20, no. 1 (2017): 15-36.
+## Mixed methods
 
 Humphreys, Macartan, and Alan M. Jacobs. *Integrated Inferences: Causal Models for Qualitative and Mixed-Method Research*. Cambridge University Press, 2023.
 
+Lieberman, Evan S. "Nested analysis as a mixed-method strategy for comparative research." *American Political Science Review* 99, no. 3 (2005): 435-452.
+
 Rohlfing, Ingo, and Christina Isabel Zuber. "Check your truth conditions! Clarifying the relationship between theories of causation and social science methods for causal inference." *Sociological Methods & Research* 50, no. 4 (2021): 1623-1659.
+
+Humphreys, Macartan, and Alan M. Jacobs. "Mixing methods: A Bayesian approach." *American Political Science Review* 109, no. 4 (2015): 653-673.
+
+## Qualitative methods
+
+Gerring, John. "Qualitative methods." *Annual Review of Political Science* 20, no. 1 (2017): 15-36.
 
 Collins, Caitlyn, Megan Tobias Neely, and Shamus Khan. "“Which cases do I need?” Constructing cases and observations in qualitative research." *Annual Review of Sociology* 50 (2024): 21-40.
 
@@ -113,3 +119,5 @@ Tarrow, Sidney. "The strategy of paired comparison: Toward a theory of practice.
 Gerring, John. "What is a case study and what is it good for?." *American Political Science Review* 98, no. 2 (2004): 341-354.
 
 Seawright, Jason, and John Gerring. "Case selection techniques in case study research: A menu of qualitative and quantitative options." *Political research quarterly* 61, no. 2 (2008): 294-308.
+
+Beach, Derek, and Rasmus Brun Pedersen. "Selecting appropriate cases when tracing causal mechanisms." *Sociological Methods & Research* 47, no. 4 (2018): 837-871.
