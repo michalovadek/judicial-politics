@@ -6,8 +6,6 @@ Under what conditions do individuals and interest groups resort to litigation an
 
 {{< include _readings/week05.md >}}
 
-<!--
 ## Lecture slides
 
 [Week 5](lectures/05-legal-mobilization.html)
--->
